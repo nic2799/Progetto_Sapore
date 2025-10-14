@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: iiwa_description
+    relative_path: urdf/dual_iiwa_robot.urdf
+  srdf:
+    relative_path: config/dual_iiwa_robot.srdf
+  package_settings:
+    author_name: ""
+    author_email: ""
+    generated_timestamp: 1760169110

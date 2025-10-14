@@ -1,0 +1,13 @@
+/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/CMakeFiles/uninstall.dir
+/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/CMakeFiles/nodes_uninstall.dir
+/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/CMakeFiles/task.dir
+/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/CMakeFiles/jtraj_node.dir
+/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/CMakeFiles/jtraj_left_node.dir
+/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/CMakeFiles/jtraj_right_node.dir
+/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/CMakeFiles/test.dir
+/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/CMakeFiles/edit_cache.dir
+/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/CMakeFiles/rebuild_cache.dir
+/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/CMakeFiles/list_install_components.dir
+/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/CMakeFiles/install.dir
+/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/CMakeFiles/install/local.dir
+/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/CMakeFiles/install/strip.dir

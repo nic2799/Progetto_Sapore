@@ -1,0 +1,152 @@
+[0.021s] Invoking command in '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces -- -j8 -l8
+[0.114s] [  2%] Built target interfaces__rosidl_generator_type_description
+[0.134s] [  2%] Built target ament_cmake_python_copy_interfaces
+[0.155s] [  5%] Built target interfaces__cpp
+[0.169s] [ 20%] Built target interfaces__rosidl_generator_c
+[0.238s] [ 29%] Built target interfaces__rosidl_typesupport_introspection_c
+[0.243s] [ 38%] Built target interfaces__rosidl_typesupport_cpp
+[0.254s] [ 47%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[0.258s] [ 55%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[0.263s] [ 64%] Built target interfaces__rosidl_typesupport_c
+[0.267s] [ 73%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[0.308s] [ 73%] Built target interfaces
+[0.355s] [ 76%] Built target interfaces__py
+[0.396s] [ 82%] Built target interfaces__rosidl_generator_py
+[0.437s] [ 88%] Built target interfaces_s__rosidl_typesupport_c
+[0.438s] [ 94%] Built target interfaces_s__rosidl_typesupport_fastrtps_c
+[0.444s] [100%] Built target interfaces_s__rosidl_typesupport_introspection_c
+[0.697s] running egg_info
+[0.743s] writing interfaces.egg-info/PKG-INFO
+[0.744s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[0.744s] writing top-level names to interfaces.egg-info/top_level.txt
+[0.909s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[0.910s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[0.960s] [100%] Built target ament_cmake_python_build_interfaces_egg
+[0.980s] Invoked command in '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces -- -j8 -l8
+[0.982s] Invoking command in '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces
+[0.997s] -- Install configuration: ""
+[0.997s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[0.998s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/action/Jtraj.json
+[0.998s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces
+[0.998s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/msg
+[0.998s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.998s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action
+[0.998s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail
+[0.999s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__description.c
+[0.999s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__functions.c
+[0.999s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__struct.h
+[0.999s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__type_support.h
+[0.999s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__functions.h
+[1.000s] -- Installing: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__type_support.c
+[1.000s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/jtraj.h
+[1.000s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/environment/library_path.sh
+[1.000s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/environment/library_path.dsv
+[1.000s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[1.001s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces
+[1.001s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/msg
+[1.001s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.001s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action
+[1.001s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail
+[1.001s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__rosidl_typesupport_fastrtps_c.h
+[1.002s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[1.002s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces
+[1.002s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/msg
+[1.002s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.002s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action
+[1.002s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail
+[1.003s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__rosidl_typesupport_introspection_c.h
+[1.003s] -- Installing: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__type_support.c
+[1.003s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[1.003s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[1.003s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces
+[1.003s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/msg
+[1.004s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.004s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action
+[1.004s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/jtraj.hpp
+[1.004s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail
+[1.004s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__type_support.hpp
+[1.005s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__builder.hpp
+[1.005s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__traits.hpp
+[1.005s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__struct.hpp
+[1.005s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces
+[1.005s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/msg
+[1.005s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.006s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action
+[1.006s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail
+[1.006s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__rosidl_typesupport_fastrtps_cpp.hpp
+[1.006s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail/dds_fastrtps
+[1.006s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.007s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces
+[1.007s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action
+[1.007s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail
+[1.007s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__rosidl_typesupport_introspection_cpp.hpp
+[1.007s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__type_support.cpp
+[1.007s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[1.008s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[1.008s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/environment/pythonpath.sh
+[1.008s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[1.008s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info
+[1.008s] -- Installing: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.008s] -- Installing: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.008s] -- Installing: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[1.009s] -- Installing: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[1.009s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces
+[1.009s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[1.009s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py
+[1.009s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so
+[1.009s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so
+[1.009s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces/action
+[1.010s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces/action/__init__.py
+[1.010s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces/action/_jtraj_s.c
+[1.010s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces/action/_jtraj.py
+[1.010s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.010s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so
+[1.010s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.082s] Listing '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces'...
+[1.083s] Listing '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces/action'...
+[1.093s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so
+[1.094s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so
+[1.094s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so
+[1.095s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[1.095s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/action/Jtraj.idl
+[1.096s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/action/Jtraj.action
+[1.096s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[1.096s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[1.096s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[1.097s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[1.097s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/environment/path.sh
+[1.097s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/environment/path.dsv
+[1.097s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/local_setup.bash
+[1.097s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/local_setup.sh
+[1.097s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/local_setup.zsh
+[1.098s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/local_setup.dsv
+[1.098s] -- Installing: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/package.dsv
+[1.098s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[1.098s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[1.098s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.098s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.099s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.099s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.099s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.099s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[1.099s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.100s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[1.100s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.100s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.100s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.100s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.100s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[1.100s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.101s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[1.101s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.101s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[1.101s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.101s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.101s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.102s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.102s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.102s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.102s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[1.102s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[1.102s] -- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/share/interfaces/package.xml
+[1.104s] Invoked command in '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces

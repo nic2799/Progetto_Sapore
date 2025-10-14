@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "interfaces/action/Jtraj_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "interfaces/action/Jtraj_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "interfaces/action/Jtraj_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "interfaces/action/Jtraj_GetResult_Response",
+      "hash_string": "RIHS01_5a5ba9dbffe6972d7a62e375a2b0df82b8c3a034118f610a6f68bde5834127e8"
+    },
+    {
+      "type_name": "interfaces/action/Jtraj_Result",
+      "hash_string": "RIHS01_a2c71c33af0db37b2913630a963c32b8f94d545da63f90d73dc9cffe46a1ecd4"
+    }
+  ]
+}

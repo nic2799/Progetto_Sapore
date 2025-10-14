@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- Dual IIWA Robot Configuration -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="dual_iiwa_robot">
+
+    <!-- Include the dual IIWA robot URDF -->
+    <xacro:include filename="$(find iiwa_description)/urdf/dual_iiwa_robot.urdf.xacro" />
+
+</robot>
