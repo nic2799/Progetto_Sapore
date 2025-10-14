@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="scene_environment">
+
+  <!-- Include the scene obstacles -->
+  <xacro:include filename="$(find iiwa_description)/urdf/scene_obstacles.urdf.xacro" />
+
+  <!-- Base/World link for the environment -->
+  <link name="world"/>
+
+  <!-- Include scene obstacles -->
+  <xacro:scene_obstacles parent="world"/>
+
+</robot>
