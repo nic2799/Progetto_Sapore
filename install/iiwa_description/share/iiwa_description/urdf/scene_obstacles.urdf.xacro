@@ -215,7 +215,7 @@
     <!-- Floor -->
     <link name="floor">
       <visual>
-        <origin xyz="1.0 0.5 0" rpy="${floor_roll} ${floor_pitch} ${floor_yaw}"/>
+        <origin xyz="0.0 0.0 0" rpy="${floor_roll} ${floor_pitch} ${floor_yaw}"/>
         <geometry>
           <mesh filename="file://$(find iiwa_description)/meshes/obstacles/Pavimento1.stl" scale ="0.001 0.001 0.001"/>
         </geometry>
@@ -237,7 +237,7 @@
     <joint name="world_to_floor" type="fixed">
       <parent link="${parent}"/>
       <child link="floor"/>
-      <origin xyz="-2.25 -1.0 0.0" rpy="0 0 0"/>
+      <origin xyz="-1.25 -0.5 0.0" rpy="0 0 0"/>
     </joint>
 
   </xacro:macro>

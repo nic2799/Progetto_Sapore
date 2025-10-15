@@ -1,6 +1,5 @@
 /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_description/share/iiwa_description/urdf/scene_obstacles.urdf.xacro
 /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_description/share/iiwa_description/urdf/dual_iiwa_left.ros2_control.xacro
-/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_description/share/iiwa_description/urdf/dual_iiwa_robot.urdf
 /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_description/share/iiwa_description/urdf/iiwa_arm.urdf.xacro
 /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_description/share/iiwa_description/urdf/dual_iiwa_robot.urdf.xacro
 /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_description/share/iiwa_description/urdf/iiwa_arm_tcp.urdf.xacro

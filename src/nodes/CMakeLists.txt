@@ -15,6 +15,9 @@ find_package(geometry_msgs REQUIRED)#per obs forse inutili anche quelli di segui
 find_package(visualization_msgs REQUIRED)#per obs
 find_package(tf2_ros REQUIRED)#per obs
 find_package(tf2 REQUIRED)
+find_package(moveit_ros_planning_interface REQUIRED)
+find_package(moveit_msgs REQUIRED)#per obs
+find_package(geometry_msgs REQUIRED)#per obs forse inutili anche quelli di seguito
 
 add_executable(task src/task.cpp)
 ament_target_dependencies(task 
@@ -49,6 +52,13 @@ ament_target_dependencies(jtraj_right_node
   sensor_msgs 
   interfaces
 )
+add_executable(test_Reach src/test_Reachability.cpp)
+ament_target_dependencies(test_Reach 
+  rclcpp 
+  rclcpp_action
+  moveit_ros_planning_interface
+  geometry_msgs
+  )
 
 
 install(TARGETS
@@ -56,9 +66,15 @@ install(TARGETS
   jtraj_left_node
   jtraj_right_node
   task
+  test_Reach
   
   DESTINATION lib/${PROJECT_NAME}
 )
+
+install(DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4d7b12226581ee0a0d3a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nodes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "jtraj_left_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jtraj_left_node-da030dd65ebc22aade40.json",
+					"name" : "jtraj_left_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jtraj_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jtraj_node-ac7a106a9d1df7b24f85.json",
+					"name" : "jtraj_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jtraj_right_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jtraj_right_node-c688dcccfff8c3c3520e.json",
+					"name" : "jtraj_right_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nodes_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nodes_uninstall-f4449163cf2ca8e38912.json",
+					"name" : "nodes_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task-57c14ed9a551c1fcace1.json",
+					"name" : "task",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_Reach::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_Reach-d8716cf98882ff7f9460.json",
+					"name" : "test_Reach",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2f2099008995308f3d72.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes",
+		"source" : "/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

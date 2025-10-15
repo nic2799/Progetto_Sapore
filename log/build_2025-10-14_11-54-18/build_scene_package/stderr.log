@@ -1,0 +1,9 @@
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:190:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’
+  190 | int [01;31m[Kmain[m[K(int argc, char** argv)
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:181:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’ previously defined here
+  181 | int [01;36m[Kmain[m[K(int argc, char** argv)
+      |     [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/build_scene.dir/build.make:76: CMakeFiles/build_scene.dir/src/build_scene.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/build_scene.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

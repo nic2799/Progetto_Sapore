@@ -67,6 +67,7 @@ all: CMakeFiles/task.dir/all
 all: CMakeFiles/jtraj_node.dir/all
 all: CMakeFiles/jtraj_left_node.dir/all
 all: CMakeFiles/jtraj_right_node.dir/all
+all: CMakeFiles/test_Reach.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -80,6 +81,7 @@ clean: CMakeFiles/task.dir/clean
 clean: CMakeFiles/jtraj_node.dir/clean
 clean: CMakeFiles/jtraj_left_node.dir/clean
 clean: CMakeFiles/jtraj_right_node.dir/clean
+clean: CMakeFiles/test_Reach.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -237,6 +239,32 @@ jtraj_right_node: CMakeFiles/jtraj_right_node.dir/rule
 CMakeFiles/jtraj_right_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jtraj_right_node.dir/build.make CMakeFiles/jtraj_right_node.dir/clean
 .PHONY : CMakeFiles/jtraj_right_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_Reach.dir
+
+# All Build rule for target.
+CMakeFiles/test_Reach.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Reach.dir/build.make CMakeFiles/test_Reach.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Reach.dir/build.make CMakeFiles/test_Reach.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/CMakeFiles --progress-num=9,10 "Built target test_Reach"
+.PHONY : CMakeFiles/test_Reach.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_Reach.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_Reach.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/CMakeFiles 0
+.PHONY : CMakeFiles/test_Reach.dir/rule
+
+# Convenience name for target.
+test_Reach: CMakeFiles/test_Reach.dir/rule
+.PHONY : test_Reach
+
+# clean rule for target.
+CMakeFiles/test_Reach.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_Reach.dir/build.make CMakeFiles/test_Reach.dir/clean
+.PHONY : CMakeFiles/test_Reach.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

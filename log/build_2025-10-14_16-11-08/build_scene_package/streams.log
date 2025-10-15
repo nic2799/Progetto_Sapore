@@ -1,0 +1,28 @@
+[0.035s] Invoking command in '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/build_scene_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/build_scene_package -- -j8 -l8
+[0.208s] [ 50%] [32mBuilding CXX object CMakeFiles/build_scene.dir/src/build_scene.cpp.o[0m
+[6.845s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:177:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[6.845s]   177 | }
+[6.845s]       |  [01;31m[K^[m[K
+[6.846s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:14:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[6.846s]    14 | [01;36m[K{[m[K
+[6.846s]       | [01;36m[K^[m[K
+[6.884s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:[m[K In constructor ‘[01m[KBuildSceneNode::[01;32m[KBuildSceneNode[m[K()[m[K’:
+[6.884s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:19:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene_publisher_[m[K’ was not declared in this scope
+[6.884s]    19 |         [01;31m[Kplanning_scene_publisher_[m[K = this->create_publisher<moveit_msgs::msg::PlanningScene>(
+[6.885s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.903s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[6.904s]    23 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[6.904s]       |         [01;31m[K^~~~~~[m[K
+[6.904s]       |         [32m[Ktimer_t[m[K
+[6.948s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:[m[K In member function ‘[01m[Kvoid BuildSceneNode::[01;32m[KpublishScene[m[K()[m[K’:
+[6.949s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:150:42:[m[K [01;31m[Kerror: [m[K‘[01m[KloadMesh[m[K’ was not declared in this scope
+[6.949s]   150 |         shape_msgs::msg::Mesh mesh_msg = [01;31m[KloadMesh[m[K(mesh_path);
+[6.949s]       |                                          [01;31m[K^~~~~~~~[m[K
+[6.970s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:[m[K At global scope:
+[6.970s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:177:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[6.970s]   177 | }
+[6.971s]       |  [01;31m[K^[m[K
+[9.322s] gmake[2]: *** [CMakeFiles/build_scene.dir/build.make:76: CMakeFiles/build_scene.dir/src/build_scene.cpp.o] Error 1
+[9.323s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/build_scene.dir/all] Error 2
+[9.323s] gmake: *** [Makefile:146: all] Error 2
+[9.328s] Invoked command in '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/build_scene_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/build_scene_package -- -j8 -l8

@@ -1,0 +1,54 @@
+[0.032s] Invoking command in '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/build_scene_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/build_scene_package -- -j8 -l8
+[0.088s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.712s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.771s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.794s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.822s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.858s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.002s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.006s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.208s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.462s] -- Found moveit_msgs: 2.6.0 (/opt/ros/jazzy/share/moveit_msgs/cmake)
+[2.185s] -- Found tf2: 0.36.11 (/opt/ros/jazzy/share/tf2/cmake)
+[2.194s] -- Found tf2_geometry_msgs: 0.36.11 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[2.202s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.205s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.392s] -- Found geometric_shapes: 2.3.2 (/opt/ros/jazzy/share/geometric_shapes/cmake)
+[2.731s] -- Configuring done (2.7s)
+[2.769s] -- Generating done (0.0s)
+[2.782s] -- Build files have been written to: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/build_scene_package
+[2.878s] [ 50%] [32mBuilding CXX object CMakeFiles/build_scene.dir/src/build_scene.cpp.o[0m
+[8.650s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:[m[K In member function ‘[01m[Kshape_msgs::msg::Mesh BuildSceneNode::[01;32m[KloadMesh[m[K(const std::string&)[m[K’:
+[8.651s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kshapes[m[K’ has not been declared
+[8.651s]    33 |     [01;31m[Kshapes[m[K::Shape* shape = shapes::createMeshFromResource(resource_path);
+[8.651s]       |     [01;31m[K^~~~~~[m[K
+[8.665s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:33:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kshape[m[K’ was not declared in this scope; did you mean ‘[01m[Kunshare[m[K’?
+[8.665s]    33 |     shapes::Shape* [01;31m[Kshape[m[K = shapes::createMeshFromResource(resource_path);
+[8.666s]       |                    [01;31m[K^~~~~[m[K
+[8.666s]       |                    [32m[Kunshare[m[K
+[8.666s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:33:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kshapes[m[K’ has not been declared
+[8.667s]    33 |     shapes::Shape* shape = [01;31m[Kshapes[m[K::createMeshFromResource(resource_path);
+[8.667s]       |                            [01;31m[K^~~~~~[m[K
+[8.667s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kshapes[m[K’ has not been declared
+[8.667s]    38 |     [01;31m[Kshapes[m[K::ShapeMsg mesh_msg_tmp;
+[8.667s]       |     [01;31m[K^~~~~~[m[K
+[8.668s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:39:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kshapes[m[K’ has not been declared
+[8.668s]    39 |     [01;31m[Kshapes[m[K::constructMsgFromShape(shape, mesh_msg_tmp);
+[8.668s]       |     [01;31m[K^~~~~~[m[K
+[8.684s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:39:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kmesh_msg_tmp[m[K’ was not declared in this scope; did you mean ‘[01m[Kmesh_msg[m[K’?
+[8.684s]    39 |     shapes::constructMsgFromShape(shape, [01;31m[Kmesh_msg_tmp[m[K);
+[8.685s]       |                                          [01;31m[K^~~~~~~~~~~~[m[K
+[8.685s]       |                                          [32m[Kmesh_msg[m[K
+[8.685s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:40:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kboost[m[K’ has not been declared
+[8.685s]    40 |     mesh_msg = [01;31m[Kboost[m[K::get<shape_msgs::msg::Mesh>(mesh_msg_tmp);
+[8.686s]       |                [01;31m[K^~~~~[m[K
+[8.686s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:40:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[8.686s]    40 |     mesh_msg = boost::get<shape_msgs::msg::Mesh[01;31m[K>[m[K(mesh_msg_tmp);
+[8.686s]       |                                                [01;31m[K^[m[K
+[8.687s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:41:5:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[K<type error>[m[K’ argument given to ‘[01m[Kdelete[m[K’, expected pointer
+[8.687s]    41 |     [01;31m[Kdelete shape[m[K;
+[8.687s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[11.815s] gmake[2]: *** [CMakeFiles/build_scene.dir/build.make:76: CMakeFiles/build_scene.dir/src/build_scene.cpp.o] Error 1
+[11.815s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/build_scene.dir/all] Error 2
+[11.816s] gmake: *** [Makefile:146: all] Error 2
+[11.821s] Invoked command in '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/build_scene_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/build_scene_package -- -j8 -l8
