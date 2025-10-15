@@ -1,0 +1,42 @@
+obstacles:
+  - name: "frigorifero"
+    cad: "package://iiwa_description/meshes/obstacles/Frigorifero.stl"
+    pose:
+      position: [1.87, 2.0, 0.04]
+      rpy: [1.57, 0, 3.14]
+
+  - name: "Roboqbo"
+    cad: "package://iiwa_description/meshes/obstacles/Roboqbo.stl"
+    pose:
+      position: [-1.60, -0.32, 0.07]
+      rpy: [1.57, 0.0, 0.0]
+
+  - name: "Rastrelliera"
+    cad: "package://iiwa_description/meshes/obstacles/Rastrelliera.stl"
+    pose:
+      position: [-0.28, -0.11, 0.84]
+      rpy: [0.0, 0.0, 3.14]
+
+  - name: "Trasportatore1"
+    cad: "package://iiwa_description/meshes/obstacles/Trasportatore1.stl"
+    pose:
+      position: [-0.83, -1.905, 0.84]
+      rpy: [1.57, 3.14, 0.0]
+
+  - name: "Tavolo_inox"
+    cad: "package://iiwa_description/meshes/obstacles/Tavolo_inox.stl"
+    pose:
+      position: [0.0, 0.41, 0.84]
+      rpy: [1.57, 3.14, -1.57]
+
+  - name: "Tavolo_inox2"
+    cad: "package://iiwa_description/meshes/obstacles/Tavolo_inox2.stl"
+    pose:
+      position: [-0.675, 1.26, 0.84]
+      rpy: [1.57, 3.14, 1.57]
+
+  - name: "floor"
+    cad: "package://iiwa_description/meshes/obstacles/Pavimento1.stl"
+    pose:
+      position: [-1.25, -0.5, 0.0]
+      rpy: [1.5708, 0.0, 1.57]
