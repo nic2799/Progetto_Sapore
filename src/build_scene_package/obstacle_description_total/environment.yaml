@@ -1,0 +1,5 @@
+obstacle:
+  name: "CellaSapore"
+  mesh: "package://iiwa_description/meshes/CellaSapore2.stl" # deve essere cambiato il nome della mesh in CellaSapore.stl 
+  position: [-0.75, -3.90, 0.0]
+  orientation_rpy: [1.57, 0, 3.14]

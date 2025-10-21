@@ -1,0 +1,221 @@
+[0.019s] Invoking command in '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes': CMAKE_PREFIX_PATH=/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_config_moveit_config:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_config:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_description:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/build_scene_package:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/nodes:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/interfaces:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/iiwa_config_moveit_config:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/iiwa_config:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/iiwa_description:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes -- -j8 -l8
+[0.126s] [ 16%] Built target task
+[0.136s] [ 33%] Built target jtraj_node
+[0.148s] [ 50%] Built target jtraj_left_node
+[0.156s] [ 66%] Built target jtraj_right_node
+[0.201s] [ 75%] [32mBuilding CXX object CMakeFiles/Reach.dir/src/test_reach.cpp.o[0m
+[0.207s] [ 83%] [32mBuilding CXX object CMakeFiles/test_Reach.dir/src/test_Reachability.cpp.o[0m
+[4.734s] In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:6[m[K:
+[4.734s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[4.735s]    51 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[4.735s]       |                                                                       [01;36m[K^[m[K
+[4.735s] 
+[4.810s] In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:6[m[K:
+[4.810s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[4.810s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[4.810s]       |                                                                             [01;36m[K^[m[K
+[6.870s] In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:7[m[K:
+[6.870s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[6.870s]    50 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[6.870s]       |                                                                       [01;36m[K^[m[K
+[6.870s] 
+[6.885s] In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:8[m[K:
+[6.885s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[6.885s]    50 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[6.886s]       |                                                                       [01;36m[K^[m[K
+[6.886s] 
+[6.934s] In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:7[m[K:
+[6.934s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[6.934s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[6.935s]       |                                                                             [01;36m[K^[m[K
+[6.949s] In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:8[m[K:
+[6.949s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[6.949s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[6.949s]       |                                                                             [01;36m[K^[m[K
+[8.273s] In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:9[m[K:
+[8.273s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[8.273s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[8.273s]       |                                                                             [01;36m[K^[m[K
+[8.273s] In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:10[m[K:
+[8.274s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[8.274s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[8.274s]       |                                                                             [01;36m[K^[m[K
+[8.274s] In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:11[m[K:
+[8.274s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[8.274s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[8.274s]       |                                                                             [01;36m[K^[m[K
+[8.290s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityNodes::[01;32m[KrunReachabilityTest[m[K()[m[K’:
+[8.290s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:114:34:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::_orientation_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’} and ‘[01m[Ktf2::Quaternion[m[K’)
+[8.290s]   114 |                 pose.orientation=[01;31m[Kquaternion[m[K;
+[8.290s]       |                                  [01;31m[K^~~~~~~~~~[m[K
+[8.291s] In file included from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:25[m[K,
+[8.291s]                  from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[8.291s]                  from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp:39[m[K,
+[8.291s]                  from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model_group.hpp:42[m[K,
+[8.291s]                  from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp:45[m[K,
+[8.291s]                  from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:40[m[K,
+[8.291s]                  from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:41[m[K,
+[8.291s]                  from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:52[m[K:
+[8.291s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Quaternion_<std::allocator<void> >& geometry_msgs::msg::Quaternion_<std::allocator<void> >::[01;32m[Koperator=[m[K(const geometry_msgs::msg::Quaternion_<std::allocator<void> >&)[m[K’
+[8.292s]    35 | struct [01;36m[KQuaternion_[m[K
+[8.292s]       |        [01;36m[K^~~~~~~~~~~[m[K
+[8.292s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Quaternion[m[K’ to ‘[01m[Kconst geometry_msgs::msg::Quaternion_<std::allocator<void> >&[m[K’
+[8.292s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Quaternion_<std::allocator<void> >& geometry_msgs::msg::Quaternion_<std::allocator<void> >::[01;32m[Koperator=[m[K(geometry_msgs::msg::Quaternion_<std::allocator<void> >&&)[m[K’
+[8.293s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Quaternion[m[K’ to ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >&&[m[K’
+[8.293s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:[m[K In lambda function:
+[8.293s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:124:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kjmg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.293s]   124 |                                              [01;35m[Kconst moveit::core::JointModelGroup* jmg[m[K,
+[8.293s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[8.294s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:125:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kik_solution[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.294s]   125 |                                              [01;35m[Kconst double* ik_solution[m[K) {
+[8.294s]       |                                              [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[8.294s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityNodes::[01;32m[KrunReachabilityTest[m[K()[m[K’:
+[8.294s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:134:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*&, geometry_msgs::msg::Pose&, int, double, ReachabilityNodes::runReachabilityTest()::<lambda(moveit::core::RobotState*, const moveit::core::JointModelGroup*, const double*)>&)[m[K’
+[8.294s]   134 |                 found_ik = [01;31m[Krobot_state.setFromIK([m[K
+[8.294s]       |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~^[m[K
+[8.295s]   135 | [01;31m[K                    joint_model_group, pose, 100, 0.1, validity_callback)[m[K;
+[8.295s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.295s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:930:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::[01;32m[KsetFromIK[m[K(const moveit::core::JointModelGroup*, const geometry_msgs::msg::Pose&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)[m[K’
+[8.295s]   930 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const geometry_msgs::msg::Pose& pose, double timeout = 0.0,
+[8.295s]       |        [01;36m[K^~~~~~~~~[m[K
+[8.295s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:931:54:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst moveit::core::GroupStateValidityCallbackFn&[m[K’ {aka ‘[01m[Kconst std::function<bool(moveit::core::RobotState*, const moveit::core::JointModelGroup*, const double*)>&[m[K’}
+[8.295s]   931 |                  [01;36m[Kconst GroupStateValidityCallbackFn& constraint = GroupStateValidityCallbackFn()[m[K,
+[8.296s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.296s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:942:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::[01;32m[KsetFromIK[m[K(const moveit::core::JointModelGroup*, const geometry_msgs::msg::Pose&, const std::string&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)[m[K’
+[8.296s]   942 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const geometry_msgs::msg::Pose& pose, const std::string& tip,
+[8.296s]       |        [01;36m[K^~~~~~~~~[m[K
+[8.296s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:942:105:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+[8.296s]   942 |   bool setFromIK(const JointModelGroup* group, const geometry_msgs::msg::Pose& pose, [01;36m[Kconst std::string& tip[m[K,
+[8.296s]       |                                                                                      [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[8.297s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:953:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::[01;32m[KsetFromIK[m[K(const moveit::core::JointModelGroup*, const Eigen::Isometry3d&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)[m[K’
+[8.297s]   953 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, double timeout = 0.0,
+[8.297s]       |        [01;36m[K^~~~~~~~~[m[K
+[8.297s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:953:73:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Eigen::Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+[8.297s]   953 |   bool setFromIK(const JointModelGroup* group, [01;36m[Kconst Eigen::Isometry3d& pose[m[K, double timeout = 0.0,
+[8.297s]       |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.297s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:964:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::[01;32m[KsetFromIK[m[K(const moveit::core::JointModelGroup*, const Eigen::Isometry3d&, const std::string&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)[m[K’
+[8.297s]   964 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, const std::string& tip,
+[8.298s]       |        [01;36m[K^~~~~~~~~[m[K
+[8.298s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:964:73:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Eigen::Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+[8.298s]   964 |   bool setFromIK(const JointModelGroup* group, [01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& tip,
+[8.298s]       |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.298s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:977:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::[01;32m[KsetFromIK[m[K(const moveit::core::JointModelGroup*, const Eigen::Isometry3d&, const std::string&, const std::vector<double, std::allocator<double> >&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)[m[K’
+[8.298s]   977 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, const std::string& tip,
+[8.298s]       |        [01;36m[K^~~~~~~~~[m[K
+[8.298s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:977:73:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Eigen::Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+[8.299s]   977 |   bool setFromIK(const JointModelGroup* group, [01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& tip,
+[8.299s]       |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.299s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:992:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::[01;32m[KsetFromIK[m[K(const moveit::core::JointModelGroup*, const EigenSTL::vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)[m[K’
+[8.299s]   992 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const EigenSTL::vector_Isometry3d& poses,
+[8.299s]       |        [01;36m[K^~~~~~~~~[m[K
+[8.299s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:992:83:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst EigenSTL::vector_Isometry3d&[m[K’ {aka ‘[01m[Kconst std::vector<Eigen::Transform<double, 3, 1>, Eigen::aligned_allocator<Eigen::Transform<double, 3, 1> > >&[m[K’}
+[8.299s]   992 |   bool setFromIK(const JointModelGroup* group, [01;36m[Kconst EigenSTL::vector_Isometry3d& poses[m[K,
+[8.300s]       |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[8.300s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:1008:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::[01;32m[KsetFromIK[m[K(const moveit::core::JointModelGroup*, const EigenSTL::vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&, const std::vector<std::vector<double, std::allocator<double> > >&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)[m[K’
+[8.300s]  1008 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const EigenSTL::vector_Isometry3d& poses,
+[8.300s]       |        [01;36m[K^~~~~~~~~[m[K
+[8.300s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:1008:83:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst EigenSTL::vector_Isometry3d&[m[K’ {aka ‘[01m[Kconst std::vector<Eigen::Transform<double, 3, 1>, Eigen::aligned_allocator<Eigen::Transform<double, 3, 1> > >&[m[K’}
+[8.300s]  1008 |   bool setFromIK(const JointModelGroup* group, [01;36m[Kconst EigenSTL::vector_Isometry3d& poses[m[K,
+[8.300s]       |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[8.300s] In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:9[m[K:
+[8.301s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[8.301s]    50 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[8.301s]       |                                                                       [01;36m[K^[m[K
+[8.301s] 
+[8.301s] In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:10[m[K:
+[8.301s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[8.301s]    51 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[8.301s]       |                                                                       [01;36m[K^[m[K
+[8.302s] 
+[8.302s] In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:11[m[K:
+[8.302s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[8.302s]    50 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[8.302s]       |                                                                       [01;36m[K^[m[K
+[8.302s] 
+[8.312s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityNodes::[01;32m[KrunReachabilityTest[m[K()[m[K’:
+[8.312s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:114:34:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::_orientation_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’} and ‘[01m[Ktf2::Quaternion[m[K’)
+[8.312s]   114 |                 pose.orientation=[01;31m[Kquaternion[m[K;
+[8.313s]       |                                  [01;31m[K^~~~~~~~~~[m[K
+[8.313s] In file included from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:25[m[K,
+[8.313s]                  from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[8.313s]                  from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp:39[m[K,
+[8.313s]                  from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model_group.hpp:42[m[K,
+[8.313s]                  from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp:45[m[K,
+[8.313s]                  from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:40[m[K,
+[8.313s]                  from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:41[m[K,
+[8.314s]                  from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:52[m[K:
+[8.314s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Quaternion_<std::allocator<void> >& geometry_msgs::msg::Quaternion_<std::allocator<void> >::[01;32m[Koperator=[m[K(const geometry_msgs::msg::Quaternion_<std::allocator<void> >&)[m[K’
+[8.314s]    35 | struct [01;36m[KQuaternion_[m[K
+[8.314s]       |        [01;36m[K^~~~~~~~~~~[m[K
+[8.314s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Quaternion[m[K’ to ‘[01m[Kconst geometry_msgs::msg::Quaternion_<std::allocator<void> >&[m[K’
+[8.314s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Quaternion_<std::allocator<void> >& geometry_msgs::msg::Quaternion_<std::allocator<void> >::[01;32m[Koperator=[m[K(geometry_msgs::msg::Quaternion_<std::allocator<void> >&&)[m[K’
+[8.314s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ktf2::Quaternion[m[K’ to ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >&&[m[K’
+[8.315s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:[m[K In lambda function:
+[8.315s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:124:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kjmg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.315s]   124 |                               [01;35m[Kconst moveit::core::JointModelGroup* jmg[m[K,
+[8.315s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[8.315s] 
+[8.315s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:125:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kik_solution[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.315s]   125 |                                              [01;35m[Kconst double* ik_solution[m[K) {
+[8.315s]       |                                              [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[8.316s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityNodes::[01;32m[KrunReachabilityTest[m[K()[m[K’:
+[8.316s] [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:134:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*&, geometry_msgs::msg::Pose&, int, double, ReachabilityNodes::runReachabilityTest()::<lambda(moveit::core::RobotState*, const moveit::core::JointModelGroup*, const double*)>&)[m[K’
+[8.316s]   134 |                 found_ik = [01;31m[Krobot_state.setFromIK([m[K
+[8.316s]       |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~^[m[K
+[8.316s]   135 | [01;31m[K                    joint_model_group, pose, 100, 0.1, validity_callback)[m[K;
+[8.316s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.316s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:930:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::[01;32m[KsetFromIK[m[K(const moveit::core::JointModelGroup*, const geometry_msgs::msg::Pose&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)[m[K’
+[8.316s]   930 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const geometry_msgs::msg::Pose& pose, double timeout = 0.0,
+[8.317s]       |        [01;36m[K^~~~~~~~~[m[K
+[8.317s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:931:54:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst moveit::core::GroupStateValidityCallbackFn&[m[K’ {aka ‘[01m[Kconst std::function<bool(moveit::core::RobotState*, const moveit::core::JointModelGroup*, const double*)>&[m[K’}
+[8.317s]   931 |                  [01;36m[Kconst GroupStateValidityCallbackFn& constraint = GroupStateValidityCallbackFn()[m[K,
+[8.317s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.317s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:942:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::[01;32m[KsetFromIK[m[K(const moveit::core::JointModelGroup*, const geometry_msgs::msg::Pose&, const std::string&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)[m[K’
+[8.317s]   942 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const geometry_msgs::msg::Pose& pose, const std::string& tip,
+[8.317s]       |        [01;36m[K^~~~~~~~~[m[K
+[8.317s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:942:105:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+[8.318s]   942 | p* group, const geometry_msgs::msg::Pose& pose, [01;36m[Kconst std::string& tip[m[K,
+[8.318s]       |                                                 [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[8.318s] 
+[8.318s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:953:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::[01;32m[KsetFromIK[m[K(const moveit::core::JointModelGroup*, const Eigen::Isometry3d&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)[m[K’
+[8.318s]   953 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, double timeout = 0.0,
+[8.318s]       |        [01;36m[K^~~~~~~~~[m[K
+[8.318s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:953:73:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Eigen::Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+[8.318s]   953 | omIK(const JointModelGroup* group, [01;36m[Kconst Eigen::Isometry3d& pose[m[K, double timeout = 0.0,
+[8.319s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.319s] 
+[8.319s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:964:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::[01;32m[KsetFromIK[m[K(const moveit::core::JointModelGroup*, const Eigen::Isometry3d&, const std::string&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)[m[K’
+[8.319s]   964 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, const std::string& tip,
+[8.319s]       |        [01;36m[K^~~~~~~~~[m[K
+[8.319s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:964:73:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Eigen::Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+[8.319s]   964 | omIK(const JointModelGroup* group, [01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& tip,
+[8.320s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.320s] 
+[8.320s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:977:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::[01;32m[KsetFromIK[m[K(const moveit::core::JointModelGroup*, const Eigen::Isometry3d&, const std::string&, const std::vector<double, std::allocator<double> >&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)[m[K’
+[8.320s]   977 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, const std::string& tip,
+[8.320s]       |        [01;36m[K^~~~~~~~~[m[K
+[8.320s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:977:73:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Eigen::Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+[8.320s]   977 | omIK(const JointModelGroup* group, [01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& tip,
+[8.321s]       |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.321s] 
+[8.321s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:992:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::[01;32m[KsetFromIK[m[K(const moveit::core::JointModelGroup*, const EigenSTL::vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)[m[K’
+[8.321s]   992 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const EigenSTL::vector_Isometry3d& poses,
+[8.321s]       |        [01;36m[K^~~~~~~~~[m[K
+[8.321s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:992:83:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst EigenSTL::vector_Isometry3d&[m[K’ {aka ‘[01m[Kconst std::vector<Eigen::Transform<double, 3, 1>, Eigen::aligned_allocator<Eigen::Transform<double, 3, 1> > >&[m[K’}
+[8.321s]   992 | const JointModelGroup* group, [01;36m[Kconst EigenSTL::vector_Isometry3d& poses[m[K,
+[8.321s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[8.321s] 
+[8.322s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:1008:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::core::RobotState::[01;32m[KsetFromIK[m[K(const moveit::core::JointModelGroup*, const EigenSTL::vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&, const std::vector<std::vector<double, std::allocator<double> > >&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)[m[K’
+[8.322s]  1008 |   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const EigenSTL::vector_Isometry3d& poses,
+[8.322s]       |        [01;36m[K^~~~~~~~~[m[K
+[8.322s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:1008:83:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst EigenSTL::vector_Isometry3d&[m[K’ {aka ‘[01m[Kconst std::vector<Eigen::Transform<double, 3, 1>, Eigen::aligned_allocator<Eigen::Transform<double, 3, 1> > >&[m[K’}
+[8.322s]  1008 | const JointModelGroup* group, [01;36m[Kconst EigenSTL::vector_Isometry3d& poses[m[K,
+[8.322s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[8.322s] 
+[12.594s] gmake[2]: *** [CMakeFiles/Reach.dir/build.make:76: CMakeFiles/Reach.dir/src/test_reach.cpp.o] Error 1
+[12.594s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/Reach.dir/all] Error 2
+[12.594s] gmake[1]: *** Waiting for unfinished jobs....
+[12.603s] gmake[2]: *** [CMakeFiles/test_Reach.dir/build.make:76: CMakeFiles/test_Reach.dir/src/test_Reachability.cpp.o] Error 1
+[12.603s] gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/test_Reach.dir/all] Error 2
+[12.604s] gmake: *** [Makefile:146: all] Error 2
+[12.606s] Invoked command in '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes' returned '2': CMAKE_PREFIX_PATH=/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_config_moveit_config:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_config:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_description:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/build_scene_package:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/nodes:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/interfaces:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/iiwa_config_moveit_config:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/iiwa_config:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/iiwa_description:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes -- -j8 -l8

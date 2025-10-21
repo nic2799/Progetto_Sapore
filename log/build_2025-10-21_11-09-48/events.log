@@ -1,0 +1,320 @@
+[0.000000] (-) TimerEvent: {}
+[0.000901] (-) JobUnselected: {'identifier': 'build_scene_package'}
+[0.001413] (-) JobUnselected: {'identifier': 'iiwa_config_moveit_config'}
+[0.001484] (-) JobUnselected: {'identifier': 'iiwa_description'}
+[0.001652] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.001692] (nodes) JobQueued: {'identifier': 'nodes', 'dependencies': OrderedDict({'interfaces': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces'})}
+[0.001743] (nodes) JobStarted: {'identifier': 'nodes'}
+[0.027430] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'cmake'}
+[0.029317] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'build'}
+[0.030912] (nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes', '--', '-j8', '-l8'], 'cwd': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicola', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nicola', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/nicola/.nvm/versions/node/v20.19.5/bin', 'NVM_INC': '/home/nicola/.nvm/versions/node/v20.19.5/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1851', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5245e75237eeda9b5ca97a5968f737ac', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/nicola/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nicola', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nicola', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nicola/.nvm/versions/node/v20.19.5/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/nicola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nicola/.local/bin:/home/nicola/.local/bin:/home/nicola/RoboDK/bin:/usr/local/MATLAB/R2024b/bin', 'SESSION_MANAGER': 'local/randezvous:@/tmp/.ICE-unix/1851,unix/randezvous:/tmp/.ICE-unix/1851', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a9657c72_64c3_4266_94b6_fd6ad0a5ba59', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.9N5KE3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.147', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5245e75237eeda9b5ca97a5968f737ac', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099564] (-) TimerEvent: {}
+[0.168666] (nodes) StdoutLine: {'line': b'[ 20%] Built target task\n'}
+[0.178885] (nodes) StdoutLine: {'line': b'[ 40%] Built target jtraj_left_node\n'}
+[0.180259] (nodes) StdoutLine: {'line': b'[ 60%] Built target jtraj_node\n'}
+[0.182022] (nodes) StdoutLine: {'line': b'[ 80%] Built target jtraj_right_node\n'}
+[0.199682] (-) TimerEvent: {}
+[0.254184] (nodes) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/Reach.dir/src/test_reach.cpp.o\x1b[0m\n'}
+[0.299862] (-) TimerEvent: {}
+[0.400300] (-) TimerEvent: {}
+[0.500761] (-) TimerEvent: {}
+[0.601230] (-) TimerEvent: {}
+[0.701659] (-) TimerEvent: {}
+[0.802153] (-) TimerEvent: {}
+[0.902623] (-) TimerEvent: {}
+[1.003045] (-) TimerEvent: {}
+[1.103560] (-) TimerEvent: {}
+[1.204020] (-) TimerEvent: {}
+[1.304527] (-) TimerEvent: {}
+[1.405002] (-) TimerEvent: {}
+[1.505526] (-) TimerEvent: {}
+[1.605963] (-) TimerEvent: {}
+[1.706452] (-) TimerEvent: {}
+[1.806891] (-) TimerEvent: {}
+[1.907414] (-) TimerEvent: {}
+[2.007896] (-) TimerEvent: {}
+[2.108843] (-) TimerEvent: {}
+[2.209312] (-) TimerEvent: {}
+[2.309910] (-) TimerEvent: {}
+[2.410412] (-) TimerEvent: {}
+[2.510912] (-) TimerEvent: {}
+[2.611421] (-) TimerEvent: {}
+[2.711952] (-) TimerEvent: {}
+[2.812489] (-) TimerEvent: {}
+[2.912970] (-) TimerEvent: {}
+[3.013426] (-) TimerEvent: {}
+[3.113949] (-) TimerEvent: {}
+[3.214407] (-) TimerEvent: {}
+[3.314889] (-) TimerEvent: {}
+[3.415328] (-) TimerEvent: {}
+[3.515734] (-) TimerEvent: {}
+[3.616148] (-) TimerEvent: {}
+[3.716612] (-) TimerEvent: {}
+[3.817014] (-) TimerEvent: {}
+[3.917488] (-) TimerEvent: {}
+[4.017953] (-) TimerEvent: {}
+[4.118381] (-) TimerEvent: {}
+[4.218806] (-) TimerEvent: {}
+[4.319213] (-) TimerEvent: {}
+[4.419640] (-) TimerEvent: {}
+[4.520064] (-) TimerEvent: {}
+[4.620517] (-) TimerEvent: {}
+[4.721010] (-) TimerEvent: {}
+[4.821566] (-) TimerEvent: {}
+[4.922109] (-) TimerEvent: {}
+[5.022659] (-) TimerEvent: {}
+[5.123243] (-) TimerEvent: {}
+[5.223841] (-) TimerEvent: {}
+[5.324296] (-) TimerEvent: {}
+[5.424803] (-) TimerEvent: {}
+[5.525249] (-) TimerEvent: {}
+[5.625686] (-) TimerEvent: {}
+[5.726268] (-) TimerEvent: {}
+[5.826898] (-) TimerEvent: {}
+[5.927415] (-) TimerEvent: {}
+[6.027936] (-) TimerEvent: {}
+[6.128450] (-) TimerEvent: {}
+[6.228943] (-) TimerEvent: {}
+[6.329472] (-) TimerEvent: {}
+[6.429955] (-) TimerEvent: {}
+[6.530418] (-) TimerEvent: {}
+[6.630859] (-) TimerEvent: {}
+[6.731352] (-) TimerEvent: {}
+[6.831840] (-) TimerEvent: {}
+[6.932250] (-) TimerEvent: {}
+[7.032652] (-) TimerEvent: {}
+[7.133050] (-) TimerEvent: {}
+[7.233552] (-) TimerEvent: {}
+[7.333958] (-) TimerEvent: {}
+[7.434362] (-) TimerEvent: {}
+[7.534878] (-) TimerEvent: {}
+[7.635376] (-) TimerEvent: {}
+[7.735833] (-) TimerEvent: {}
+[7.836335] (-) TimerEvent: {}
+[7.936858] (-) TimerEvent: {}
+[8.037294] (-) TimerEvent: {}
+[8.137827] (-) TimerEvent: {}
+[8.238349] (-) TimerEvent: {}
+[8.338859] (-) TimerEvent: {}
+[8.439427] (-) TimerEvent: {}
+[8.540041] (-) TimerEvent: {}
+[8.640631] (-) TimerEvent: {}
+[8.741194] (-) TimerEvent: {}
+[8.841679] (-) TimerEvent: {}
+[8.942166] (-) TimerEvent: {}
+[9.042764] (-) TimerEvent: {}
+[9.143261] (-) TimerEvent: {}
+[9.243796] (-) TimerEvent: {}
+[9.344308] (-) TimerEvent: {}
+[9.444822] (-) TimerEvent: {}
+[9.545303] (-) TimerEvent: {}
+[9.645725] (-) TimerEvent: {}
+[9.746273] (-) TimerEvent: {}
+[9.846708] (-) TimerEvent: {}
+[9.947140] (-) TimerEvent: {}
+[10.047577] (-) TimerEvent: {}
+[10.148089] (-) TimerEvent: {}
+[10.248617] (-) TimerEvent: {}
+[10.349177] (-) TimerEvent: {}
+[10.449682] (-) TimerEvent: {}
+[10.550224] (-) TimerEvent: {}
+[10.650717] (-) TimerEvent: {}
+[10.751193] (-) TimerEvent: {}
+[10.851659] (-) TimerEvent: {}
+[10.952101] (-) TimerEvent: {}
+[11.052596] (-) TimerEvent: {}
+[11.153066] (-) TimerEvent: {}
+[11.253561] (-) TimerEvent: {}
+[11.354076] (-) TimerEvent: {}
+[11.454552] (-) TimerEvent: {}
+[11.555011] (-) TimerEvent: {}
+[11.655567] (-) TimerEvent: {}
+[11.756077] (-) TimerEvent: {}
+[11.856642] (-) TimerEvent: {}
+[11.957154] (-) TimerEvent: {}
+[12.057705] (-) TimerEvent: {}
+[12.158151] (-) TimerEvent: {}
+[12.258640] (-) TimerEvent: {}
+[12.359207] (-) TimerEvent: {}
+[12.459825] (-) TimerEvent: {}
+[12.560395] (-) TimerEvent: {}
+[12.660875] (-) TimerEvent: {}
+[12.761332] (-) TimerEvent: {}
+[12.861929] (-) TimerEvent: {}
+[12.962409] (-) TimerEvent: {}
+[13.063075] (-) TimerEvent: {}
+[13.163535] (-) TimerEvent: {}
+[13.264361] (-) TimerEvent: {}
+[13.364862] (-) TimerEvent: {}
+[13.465361] (-) TimerEvent: {}
+[13.565817] (-) TimerEvent: {}
+[13.666262] (-) TimerEvent: {}
+[13.766686] (-) TimerEvent: {}
+[13.867093] (-) TimerEvent: {}
+[13.967512] (-) TimerEvent: {}
+[14.068019] (-) TimerEvent: {}
+[14.168561] (-) TimerEvent: {}
+[14.269069] (-) TimerEvent: {}
+[14.369570] (-) TimerEvent: {}
+[14.470125] (-) TimerEvent: {}
+[14.570713] (-) TimerEvent: {}
+[14.671316] (-) TimerEvent: {}
+[14.771895] (-) TimerEvent: {}
+[14.853764] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ReachabilityNodes::\x1b[01;32m\x1b[KrunReachabilityTest\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.854294] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:121:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmoveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*&, geometry_msgs::msg::Pose&, int, double, ReachabilityNodes::runReachabilityTest()::<lambda(moveit::core::RobotState*, const moveit::core::JointModelGroup*, const double*)>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.854624] (nodes) StderrLine: {'line': b'  121 |                         bool found_ik = \x1b[01;31m\x1b[Krobot_state.setFromIK(\x1b[m\x1b[K\n'}
+[14.855789] (nodes) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[14.856085] (nodes) StderrLine: {'line': b'  122 | \x1b[01;31m\x1b[K                        joint_model_group,\x1b[m\x1b[K\n'}
+[14.856357] (nodes) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                    \n'}
+[14.856656] (nodes) StderrLine: {'line': b'  123 | \x1b[01;31m\x1b[K                        pose,\x1b[m\x1b[K\n'}
+[14.856939] (nodes) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K                                 \n'}
+[14.857227] (nodes) StderrLine: {'line': b'  124 | \x1b[01;31m\x1b[K                         10,    // tenta 10 configurazioni diverse\x1b[m\x1b[K\n'}
+[14.857529] (nodes) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.857806] (nodes) StderrLine: {'line': b'  125 | \x1b[01;31m\x1b[K                           0.2,   // 200ms di timeout totale\x1b[m\x1b[K\n'}
+[14.858095] (nodes) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \n'}
+[14.858380] (nodes) StderrLine: {'line': b'  126 | \x1b[01;31m\x1b[K                [this](moveit::core::RobotState* state,\x1b[m\x1b[K\n'}
+[14.858671] (nodes) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K       \n'}
+[14.858954] (nodes) StderrLine: {'line': b'  127 | \x1b[01;31m\x1b[K                   const moveit::core::JointModelGroup* jmg,\x1b[m\x1b[K\n'}
+[14.859223] (nodes) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \n'}
+[14.859500] (nodes) StderrLine: {'line': b'  128 | \x1b[01;31m\x1b[K                   const double* ik_solution) {\x1b[m\x1b[K\n'}
+[14.859752] (nodes) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K               \n'}
+[14.859996] (nodes) StderrLine: {'line': b'  129 | \x1b[01;31m\x1b[K                   state->setJointGroupPositions(jmg, ik_solution);\x1b[m\x1b[K\n'}
+[14.860270] (nodes) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.860527] (nodes) StderrLine: {'line': b'  130 | \x1b[01;31m\x1b[K                   RCLCPP_DEBUG(this->get_logger(), "Verifica collisione per soluzione IK %s",\x1b[m\x1b[K\n'}
+[14.860796] (nodes) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.861103] (nodes) StderrLine: {'line': b'  131 | \x1b[01;31m\x1b[K                                jmg->getName().c_str());\x1b[m\x1b[K\n'}
+[14.861386] (nodes) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K      \n'}
+[14.861693] (nodes) StderrLine: {'line': b'  132 | \x1b[01;31m\x1b[K                  return !planning_scene_->isStateColliding(*state, jmg->getName());\x1b[m\x1b[K\n'}
+[14.861970] (nodes) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.862235] (nodes) StderrLine: {'line': b'  133 | \x1b[01;31m\x1b[K    })\x1b[m\x1b[K;\n'}
+[14.862555] (nodes) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~\x1b[m\x1b[K                                                        \n'}
+[14.862820] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:41\x1b[m\x1b[K,\n'}
+[14.863099] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:6\x1b[m\x1b[K:\n'}
+[14.863378] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:930:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool moveit::core::RobotState::\x1b[01;32m\x1b[KsetFromIK\x1b[m\x1b[K(const moveit::core::JointModelGroup*, const geometry_msgs::msg::Pose&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.863706] (nodes) StderrLine: {'line': b'  930 |   bool \x1b[01;36m\x1b[KsetFromIK\x1b[m\x1b[K(const JointModelGroup* group, const geometry_msgs::msg::Pose& pose, double timeout = 0.0,\n'}
+[14.864022] (nodes) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[14.864296] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:931:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 4 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst moveit::core::GroupStateValidityCallbackFn&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<bool(moveit::core::RobotState*, const moveit::core::JointModelGroup*, const double*)>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[14.864609] (nodes) StderrLine: {'line': b'  931 |                  \x1b[01;36m\x1b[Kconst GroupStateValidityCallbackFn& constraint = GroupStateValidityCallbackFn()\x1b[m\x1b[K,\n'}
+[14.864857] (nodes) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.865101] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:942:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool moveit::core::RobotState::\x1b[01;32m\x1b[KsetFromIK\x1b[m\x1b[K(const moveit::core::JointModelGroup*, const geometry_msgs::msg::Pose&, const std::string&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.865366] (nodes) StderrLine: {'line': b'  942 |   bool \x1b[01;36m\x1b[KsetFromIK\x1b[m\x1b[K(const JointModelGroup* group, const geometry_msgs::msg::Pose& pose, const std::string& tip,\n'}
+[14.865634] (nodes) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[14.865873] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:942:105:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 3 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[14.866127] (nodes) StderrLine: {'line': b'  942 | p* group, const geometry_msgs::msg::Pose& pose, \x1b[01;36m\x1b[Kconst std::string& tip\x1b[m\x1b[K,\n'}
+[14.866364] (nodes) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[14.866636] (nodes) StderrLine: {'line': b'\n'}
+[14.866906] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:953:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool moveit::core::RobotState::\x1b[01;32m\x1b[KsetFromIK\x1b[m\x1b[K(const moveit::core::JointModelGroup*, const Eigen::Isometry3d&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.867199] (nodes) StderrLine: {'line': b'  953 |   bool \x1b[01;36m\x1b[KsetFromIK\x1b[m\x1b[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, double timeout = 0.0,\n'}
+[14.867473] (nodes) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[14.867724] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:953:73:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::Isometry3d&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::Transform<double, 3, 1>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[14.867998] (nodes) StderrLine: {'line': b'  953 | omIK(const JointModelGroup* group, \x1b[01;36m\x1b[Kconst Eigen::Isometry3d& pose\x1b[m\x1b[K, double timeout = 0.0,\n'}
+[14.868254] (nodes) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[14.868516] (nodes) StderrLine: {'line': b'\n'}
+[14.868772] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:964:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool moveit::core::RobotState::\x1b[01;32m\x1b[KsetFromIK\x1b[m\x1b[K(const moveit::core::JointModelGroup*, const Eigen::Isometry3d&, const std::string&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.869055] (nodes) StderrLine: {'line': b'  964 |   bool \x1b[01;36m\x1b[KsetFromIK\x1b[m\x1b[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, const std::string& tip,\n'}
+[14.869305] (nodes) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[14.869576] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:964:73:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::Isometry3d&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::Transform<double, 3, 1>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[14.869859] (nodes) StderrLine: {'line': b'  964 | omIK(const JointModelGroup* group, \x1b[01;36m\x1b[Kconst Eigen::Isometry3d& pose\x1b[m\x1b[K, const std::string& tip,\n'}
+[14.870100] (nodes) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[14.870374] (nodes) StderrLine: {'line': b'\n'}
+[14.870625] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:977:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool moveit::core::RobotState::\x1b[01;32m\x1b[KsetFromIK\x1b[m\x1b[K(const moveit::core::JointModelGroup*, const Eigen::Isometry3d&, const std::string&, const std::vector<double, std::allocator<double> >&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.870930] (nodes) StderrLine: {'line': b'  977 |   bool \x1b[01;36m\x1b[KsetFromIK\x1b[m\x1b[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, const std::string& tip,\n'}
+[14.871192] (nodes) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[14.871451] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:977:73:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::Isometry3d&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::Transform<double, 3, 1>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[14.871743] (nodes) StderrLine: {'line': b'  977 | omIK(const JointModelGroup* group, \x1b[01;36m\x1b[Kconst Eigen::Isometry3d& pose\x1b[m\x1b[K, const std::string& tip,\n'}
+[14.871994] (-) TimerEvent: {}
+[14.872227] (nodes) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[14.872522] (nodes) StderrLine: {'line': b'\n'}
+[14.872785] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:992:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool moveit::core::RobotState::\x1b[01;32m\x1b[KsetFromIK\x1b[m\x1b[K(const moveit::core::JointModelGroup*, const EigenSTL::vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.873078] (nodes) StderrLine: {'line': b'  992 |   bool \x1b[01;36m\x1b[KsetFromIK\x1b[m\x1b[K(const JointModelGroup* group, const EigenSTL::vector_Isometry3d& poses,\n'}
+[14.873359] (nodes) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[14.873648] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:992:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst EigenSTL::vector_Isometry3d&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Eigen::Transform<double, 3, 1>, Eigen::aligned_allocator<Eigen::Transform<double, 3, 1> > >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[14.873980] (nodes) StderrLine: {'line': b'  992 | const JointModelGroup* group, \x1b[01;36m\x1b[Kconst EigenSTL::vector_Isometry3d& poses\x1b[m\x1b[K,\n'}
+[14.874259] (nodes) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.874556] (nodes) StderrLine: {'line': b'\n'}
+[14.874844] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:1008:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool moveit::core::RobotState::\x1b[01;32m\x1b[KsetFromIK\x1b[m\x1b[K(const moveit::core::JointModelGroup*, const EigenSTL::vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&, const std::vector<std::vector<double, std::allocator<double> > >&, double, const moveit::core::GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&, const kinematics::KinematicsBase::IKCostFn&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.875146] (nodes) StderrLine: {'line': b' 1008 |   bool \x1b[01;36m\x1b[KsetFromIK\x1b[m\x1b[K(const JointModelGroup* group, const EigenSTL::vector_Isometry3d& poses,\n'}
+[14.875455] (nodes) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[14.875725] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:1008:83:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst EigenSTL::vector_Isometry3d&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<Eigen::Transform<double, 3, 1>, Eigen::aligned_allocator<Eigen::Transform<double, 3, 1> > >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[14.876000] (nodes) StderrLine: {'line': b' 1008 | const JointModelGroup* group, \x1b[01;36m\x1b[Kconst EigenSTL::vector_Isometry3d& poses\x1b[m\x1b[K,\n'}
+[14.876272] (nodes) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[14.876593] (nodes) StderrLine: {'line': b'\n'}
+[14.972236] (-) TimerEvent: {}
+[15.072853] (-) TimerEvent: {}
+[15.173401] (-) TimerEvent: {}
+[15.273956] (-) TimerEvent: {}
+[15.374516] (-) TimerEvent: {}
+[15.475120] (-) TimerEvent: {}
+[15.575775] (-) TimerEvent: {}
+[15.676342] (-) TimerEvent: {}
+[15.776907] (-) TimerEvent: {}
+[15.877540] (-) TimerEvent: {}
+[15.978100] (-) TimerEvent: {}
+[16.078617] (-) TimerEvent: {}
+[16.179093] (-) TimerEvent: {}
+[16.279590] (-) TimerEvent: {}
+[16.380151] (-) TimerEvent: {}
+[16.480648] (-) TimerEvent: {}
+[16.581195] (-) TimerEvent: {}
+[16.681769] (-) TimerEvent: {}
+[16.782376] (-) TimerEvent: {}
+[16.883037] (-) TimerEvent: {}
+[16.983643] (-) TimerEvent: {}
+[17.084206] (-) TimerEvent: {}
+[17.184635] (-) TimerEvent: {}
+[17.285074] (-) TimerEvent: {}
+[17.385606] (-) TimerEvent: {}
+[17.486096] (-) TimerEvent: {}
+[17.586705] (-) TimerEvent: {}
+[17.687231] (-) TimerEvent: {}
+[17.787843] (-) TimerEvent: {}
+[17.888323] (-) TimerEvent: {}
+[17.988777] (-) TimerEvent: {}
+[18.089228] (-) TimerEvent: {}
+[18.189726] (-) TimerEvent: {}
+[18.290145] (-) TimerEvent: {}
+[18.390655] (-) TimerEvent: {}
+[18.491160] (-) TimerEvent: {}
+[18.591608] (-) TimerEvent: {}
+[18.692059] (-) TimerEvent: {}
+[18.792572] (-) TimerEvent: {}
+[18.892999] (-) TimerEvent: {}
+[18.993530] (-) TimerEvent: {}
+[19.094047] (-) TimerEvent: {}
+[19.194566] (-) TimerEvent: {}
+[19.295023] (-) TimerEvent: {}
+[19.395574] (-) TimerEvent: {}
+[19.496123] (-) TimerEvent: {}
+[19.596586] (-) TimerEvent: {}
+[19.697094] (-) TimerEvent: {}
+[19.797523] (-) TimerEvent: {}
+[19.897924] (-) TimerEvent: {}
+[19.998351] (-) TimerEvent: {}
+[20.098870] (-) TimerEvent: {}
+[20.199319] (-) TimerEvent: {}
+[20.299804] (-) TimerEvent: {}
+[20.400913] (-) TimerEvent: {}
+[20.501475] (-) TimerEvent: {}
+[20.602008] (-) TimerEvent: {}
+[20.702573] (-) TimerEvent: {}
+[20.803000] (-) TimerEvent: {}
+[20.903453] (-) TimerEvent: {}
+[21.004078] (-) TimerEvent: {}
+[21.104563] (-) TimerEvent: {}
+[21.205044] (-) TimerEvent: {}
+[21.305559] (-) TimerEvent: {}
+[21.406707] (-) TimerEvent: {}
+[21.507277] (-) TimerEvent: {}
+[21.607765] (-) TimerEvent: {}
+[21.708220] (-) TimerEvent: {}
+[21.808815] (-) TimerEvent: {}
+[21.909400] (-) TimerEvent: {}
+[22.010544] (-) TimerEvent: {}
+[22.111140] (-) TimerEvent: {}
+[22.211660] (-) TimerEvent: {}
+[22.244784] (nodes) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/Reach.dir/build.make:76: CMakeFiles/Reach.dir/src/test_reach.cpp.o] Error 1\n'}
+[22.245521] (nodes) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/Reach.dir/all] Error 2\n'}
+[22.246045] (nodes) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[22.250477] (nodes) CommandEnded: {'returncode': 2}
+[22.277002] (nodes) JobEnded: {'identifier': 'nodes', 'rc': 2}
+[22.287818] (-) EventReactorShutdown: {}

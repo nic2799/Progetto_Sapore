@@ -198,19 +198,6 @@ build_scene_package_uninstall/fast:
 .PHONY : build_scene_package_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named build_scene
-
-# Build rule for target.
-build_scene: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 build_scene
-.PHONY : build_scene
-
-# fast build rule for target.
-build_scene/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_scene.dir/build.make CMakeFiles/build_scene.dir/build
-.PHONY : build_scene/fast
-
-#=============================================================================
 # Target rules for targets named build_scene_simple
 
 # Build rule for target.
@@ -223,29 +210,42 @@ build_scene_simple/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_scene_simple.dir/build.make CMakeFiles/build_scene_simple.dir/build
 .PHONY : build_scene_simple/fast
 
-src/build_scene.o: src/build_scene.cpp.o
-.PHONY : src/build_scene.o
+#=============================================================================
+# Target rules for targets named build_scene_mesh
+
+# Build rule for target.
+build_scene_mesh: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 build_scene_mesh
+.PHONY : build_scene_mesh
+
+# fast build rule for target.
+build_scene_mesh/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_scene_mesh.dir/build.make CMakeFiles/build_scene_mesh.dir/build
+.PHONY : build_scene_mesh/fast
+
+src/build_scene_mesh.o: src/build_scene_mesh.cpp.o
+.PHONY : src/build_scene_mesh.o
 
 # target to build an object file
-src/build_scene.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_scene.dir/build.make CMakeFiles/build_scene.dir/src/build_scene.cpp.o
-.PHONY : src/build_scene.cpp.o
+src/build_scene_mesh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_scene_mesh.dir/build.make CMakeFiles/build_scene_mesh.dir/src/build_scene_mesh.cpp.o
+.PHONY : src/build_scene_mesh.cpp.o
 
-src/build_scene.i: src/build_scene.cpp.i
-.PHONY : src/build_scene.i
+src/build_scene_mesh.i: src/build_scene_mesh.cpp.i
+.PHONY : src/build_scene_mesh.i
 
 # target to preprocess a source file
-src/build_scene.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_scene.dir/build.make CMakeFiles/build_scene.dir/src/build_scene.cpp.i
-.PHONY : src/build_scene.cpp.i
+src/build_scene_mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_scene_mesh.dir/build.make CMakeFiles/build_scene_mesh.dir/src/build_scene_mesh.cpp.i
+.PHONY : src/build_scene_mesh.cpp.i
 
-src/build_scene.s: src/build_scene.cpp.s
-.PHONY : src/build_scene.s
+src/build_scene_mesh.s: src/build_scene_mesh.cpp.s
+.PHONY : src/build_scene_mesh.s
 
 # target to generate assembly for a file
-src/build_scene.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_scene.dir/build.make CMakeFiles/build_scene.dir/src/build_scene.cpp.s
-.PHONY : src/build_scene.cpp.s
+src/build_scene_mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_scene_mesh.dir/build.make CMakeFiles/build_scene_mesh.dir/src/build_scene_mesh.cpp.s
+.PHONY : src/build_scene_mesh.cpp.s
 
 src/build_scene_simple.o: src/build_scene_simple.cpp.o
 .PHONY : src/build_scene_simple.o
@@ -286,11 +286,11 @@ help:
 	@echo "... test"
 	@echo "... build_scene_package_uninstall"
 	@echo "... uninstall"
-	@echo "... build_scene"
+	@echo "... build_scene_mesh"
 	@echo "... build_scene_simple"
-	@echo "... src/build_scene.o"
-	@echo "... src/build_scene.i"
-	@echo "... src/build_scene.s"
+	@echo "... src/build_scene_mesh.o"
+	@echo "... src/build_scene_mesh.i"
+	@echo "... src/build_scene_mesh.s"
 	@echo "... src/build_scene_simple.o"
 	@echo "... src/build_scene_simple.i"
 	@echo "... src/build_scene_simple.s"

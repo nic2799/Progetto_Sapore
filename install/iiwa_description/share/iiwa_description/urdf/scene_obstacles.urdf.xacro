@@ -63,7 +63,33 @@
   <joint name="world_to_frigorifero" type="fixed">
     <parent link="${parent}"/>
     <child link="frigorifero"/>
-    <origin xyz="1.87 2.0 0.0" rpy="0 0 0"/>
+    <origin xyz="1.87 2.62 0.0" rpy="0 0 0"/>
+  </joint>
+  <link name="Congelatore">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.57 0 3.14"/>
+      <geometry>
+        <mesh filename="file://$(find iiwa_description)/meshes/obstacles/Congelatore.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="table_color"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.57 0 3.14"/>
+      <geometry>
+        <mesh filename="file://$(find iiwa_description)/meshes/obstacles/Congelatore.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0" rpy="1.57 0 3.14"/>
+      <mass value="30.0"/>
+      <inertia ixx="5.0" ixy="0.0" ixz="0.0" iyy="5.0" iyz="0.0" izz="5.0"/>
+    </inertial>
+  </link>
+
+  <joint name="world_to_Congelatore" type="fixed">
+    <parent link="${parent}"/>
+    <child link="Congelatore"/>
+    <origin xyz="1.87 1.85 0.0" rpy="0 0 0"/>
   </joint>
 
   <link name="Roboqbo">
@@ -90,7 +116,7 @@
   <joint name="world_to_Roboqbo" type="fixed">
     <parent link="${parent}"/>
     <child link="Roboqbo"/>
-    <origin xyz="-1.60 -0.32 0.0" rpy="0 0 0"/>
+    <origin xyz="-1.60 -0.32 0.07" rpy="0 0 0"/>
   </joint>
 
     <link name="Rastrelliera">
@@ -117,8 +143,41 @@
   <joint name="world_to_Rastrelliera" type="fixed">
     <parent link="${parent}"/>
     <child link="Rastrelliera"/>
-    <origin xyz="-0.28 -0.11 0.86" rpy="0 0 0"/>
+    <origin xyz="-0.26 -0.11 0.86" rpy="0 0 0"/>
   </joint>
+
+ <link name="Deimpilatore_piatti">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.57 3.14 0"/>
+      <geometry>
+        <mesh filename="file://$(find iiwa_description)/meshes/obstacles/Deimpilatore_piatti.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="table_color"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.57 3.14 0"/>
+      <geometry>
+        <mesh filename="file://$(find iiwa_description)/meshes/obstacles/Deimpilatore_piatti.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0" rpy="1.57 3.14 0"/>
+      <mass value="30.0"/>
+      <inertia ixx="5.0" ixy="0.0" ixz="0.0" iyy="5.0" iyz="0.0" izz="5.0"/>
+    </inertial>
+  </link>
+  <joint name="world_to_Deimpilatore_piatti" type="fixed">
+    <parent link="${parent}"/>
+    <child link="Deimpilatore_piatti"/>
+    <origin xyz="-0.20 -1.08 1.80" rpy="0 0 0"/>
+  </joint>
+
+
+
+
+
+
+
     
      <link name="Trasportatore1">
     <visual>
@@ -174,7 +233,7 @@
   <joint name="world_to_Tavolo_inox" type="fixed">
     <parent link="${parent}"/>
     <child link="Tavolo_inox"/>
-    <origin xyz="0.0 0.41 0.842" rpy="0 0 0"/>
+    <origin xyz="0.02 0.41 0.842" rpy="0 0 0"/>
   </joint>
     
 
@@ -205,7 +264,7 @@
   <joint name="world_to_Tavolo_inox2" type="fixed">
     <parent link="${parent}"/>
     <child link="Tavolo_inox2"/>
-    <origin xyz="-0.675 1.26 0.842" rpy="0 0 0"/>
+    <origin xyz="-0.680 1.24 0.842" rpy="0 0 0"/>
   </joint>
     
 

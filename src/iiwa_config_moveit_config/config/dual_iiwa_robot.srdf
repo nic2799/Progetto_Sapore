@@ -5,10 +5,10 @@
     <!--  GRUPPO: BRACCIO SINISTRO -->
     <!-- ========================= -->
    <group name="left_arm">
-     <chain base_link="left_shoulder_mount" tip_link="left_link_7"/>
+     <chain base_link="left_shoulder_mount" tip_link="left_tcp"/>
   </group>
   <group name="right_arm">
-    <chain base_link="right_shoulder_mount" tip_link="right_link_7"/>
+    <chain base_link="right_shoulder_mount" tip_link="right_tcp"/>
   </group>
     <group name="left_arm">
         <joint name="left_joint_a1"/>
@@ -18,6 +18,9 @@
         <joint name="left_joint_a5"/>
         <joint name="left_joint_a6"/>
         <joint name="left_joint_a7"/>
+        <joint name="left_link7_to_tool0"/>
+        <joint name="left_tool0_to_hand"/>
+        <joint name="left_hand_to_tcp"/>
     </group>
     <group name="right_arm">
         <joint name="right_joint_a1"/>
@@ -27,6 +30,11 @@
         <joint name="right_joint_a5"/>
         <joint name="right_joint_a6"/>
         <joint name="right_joint_a7"/>
+        <joint name="right_link7_to_tool0"/>
+                <joint name="right_tool0_to_hand"/>
+                        <joint name="right_hand_to_tcp"/>
+
+
     </group>
     <group name="both_arms" combine_mode="and">
         <group name="left_arm"/>
@@ -58,6 +66,9 @@
         <joint name="left_joint_a5" value="0"/>
         <joint name="left_joint_a6" value="0"/>
         <joint name="left_joint_a7" value="0"/>
+        <joint name="left_link7_to_tool0" value="0"/>   
+        <joint name="left_tool0_to_hand" value="0"/>
+        <joint name="left_hand_to_tcp" value="0"/>
     </group_state>
     
     <!-- Posizione home per braccio destro -->
@@ -114,15 +125,19 @@
     <!-- torso_base link removed as it doesn't exist in URDF -->
     
     <!-- Disable collisions between end effector parts if they exist -->
-    <disable_collisions link1="left_link_7" link2="left_tcp" reason="Adjacent"/>
-    <disable_collisions link1="right_link_7" link2="right_tcp" reason="Adjacent"/>
-    <disable_collisions link1="left_tcp" link2="left_finger_left" reason="Adjacent"/>
-    <disable_collisions link1="left_tcp" link2="left_finger_right" reason="Adjacent"/>
-    <disable_collisions link1="right_tcp" link2="right_finger_left" reason="Adjacent"/>
-    <disable_collisions link1="right_tcp" link2="right_finger_right" reason="Adjacent"/>
-    
+    <disable_collisions link1="left_link_7" link2="left_hand" reason="Adjacent"/>
+    <disable_collisions link1="right_link_7" link2="right_hand" reason="Adjacent"/>
+    <disable_collisions link1="left_hand" link2="left_finger_left" reason="Adjacent"/>
+    <disable_collisions link1="left_hand" link2="left_finger_right" reason="Adjacent"/>
+    <disable_collisions link1="right_hand" link2="right_finger_left" reason="Adjacent"/>
+    <disable_collisions link1="right_hand" link2="right_finger_right" reason="Adjacent"/>
+       <disable_collisions link1="left_tool0" link2="left_hand" reason="Adjacent"/>
+       <disable_collisions link1="left_hand" link2="left_tcp" reason="Adjacent"/>
+           <disable_collisions link1="right_tool0" link2="right_hand" reason="Adjacent"/>
+         <disable_collisions link1="left_hand" link2="left_finger_left" reason="Adjacent"/>
+             <disable_collisions link1="left_hand" link2="left_finger_right" reason="Adjacent"/>
+
     <!-- Disable collisions between fingers themselves -->
-    <disable_collisions link1="left_finger_left" link2="left_finger_right" reason="Never"/>
     <disable_collisions link1="right_finger_left" link2="right_finger_right" reason="Never"/>
     
     <!-- Disable some distant link collisions that don't make sense -->

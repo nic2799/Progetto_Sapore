@@ -1,39 +1,44 @@
 from launch import LaunchDescription
+from launch.actions import TimerAction
 from launch_ros.actions import Node
 from moveit_configs_utils import MoveItConfigsBuilder
-from launch_ros.parameter_descriptions import ParameterFile
+from launch_ros.parameter_descriptions import ParameterValue
 from ament_index_python.packages import get_package_share_directory
 from pathlib import Path
-from launch_ros.parameter_descriptions import ParameterValue
 import xacro
 
 def generate_launch_description():
 
-    # Ottieni il percorso della cartella urdf del pacchetto uclv_aipr_panda_sim
-    urdf_path = Path(get_package_share_directory('iiwa_description')) / "urdf" / "dual_iiwa_robot.urdf.xacro"#non so a quanto serva
+    # Percorso del file URDF
+    urdf_path = Path(
+        get_package_share_directory("iiwa_description")
+    ) / "urdf" / "dual_iiwa_robot.urdf.xacro"
 
-    # Crea la configurazione MoveIt
+    # Costruisci la configurazione di MoveIt
     moveit_config = MoveItConfigsBuilder("iiwa_config").to_moveit_configs()
 
-    # Sostituisci il parametro robot_description
-   
+    # Leggi e processa il file XACRO per ottenere l’URDF completo
     robot_description_content = xacro.process_file(str(urdf_path)).toxml()
-    moveit_config.robot_description = {"robot_description": ParameterValue(robot_description_content, value_type=str)}
+    robot_description = {"robot_description": ParameterValue(robot_description_content, value_type=str)}
+
+
+
+    # Nodo Reachability (il tuo)
+    reachability_node = Node(
+        package="nodes",
+        executable="Reach",
+        output="screen",
+        parameters=[
+            robot_description,
+            moveit_config.robot_description_semantic,
+            moveit_config.robot_description_kinematics,
+        ],
+    )
+
+    # Aspetta 5 secondi prima di lanciare il Reachability node
+    delayed_reachability_node = TimerAction(period=5.0, actions=[reachability_node])
+
     return LaunchDescription([
-     
         
-        Node(
-            package="nodes",
-            executable="test_Reach",
-            output="screen",
-            parameters=[
-                moveit_config.robot_description,
-                moveit_config.robot_description_semantic,
-                moveit_config.robot_description_kinematics,
-            ],
-
-
-        )
-
-
+        delayed_reachability_node,
     ])

@@ -1,0 +1,21 @@
+[0.035s] Invoking command in '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces -- -j8 -l8
+[0.143s] [  2%] Built target interfaces__rosidl_generator_type_description
+[0.187s] [  2%] Built target ament_cmake_python_copy_interfaces
+[0.203s] [  5%] Built target interfaces__cpp
+[0.206s] [ 20%] Built target interfaces__rosidl_generator_c
+[0.283s] [ 29%] Built target interfaces__rosidl_typesupport_cpp
+[0.309s] [ 38%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[0.320s] [ 47%] Built target interfaces__rosidl_typesupport_c
+[0.325s] [ 55%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[0.328s] [ 64%] Built target interfaces__rosidl_typesupport_introspection_c
+[0.335s] [ 73%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[0.395s] [ 73%] Built target interfaces
+[0.453s] [ 76%] Built target interfaces__py
+[0.519s] [ 82%] Built target interfaces__rosidl_generator_py
+[0.578s] [ 94%] Built target interfaces_s__rosidl_typesupport_c
+[0.578s] [ 94%] Built target interfaces_s__rosidl_typesupport_fastrtps_c
+[0.580s] [100%] Built target interfaces_s__rosidl_typesupport_introspection_c
+[0.899s] running egg_info
+[0.948s] writing interfaces.egg-info/PKG-INFO
+[0.949s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[0.949s] writing top-level names to interfaces.egg-info/top_level.txt

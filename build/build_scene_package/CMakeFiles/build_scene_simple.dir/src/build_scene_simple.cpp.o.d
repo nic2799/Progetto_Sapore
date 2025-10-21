@@ -1562,4 +1562,6 @@ CMakeFiles/build_scene_simple.dir/src/build_scene_simple.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
  /opt/ros/jazzy/include/tf2/tf2/LinearMath/MinMax.hpp \
  /opt/ros/jazzy/include/tf2/tf2/visibility_control.h \
- /opt/ros/jazzy/include/tf2/tf2/LinearMath/QuadWord.hpp
+ /opt/ros/jazzy/include/tf2/tf2/LinearMath/QuadWord.hpp \
+ /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+ /opt/ros/jazzy/include/ament_index_cpp/ament_index_cpp/visibility_control.h

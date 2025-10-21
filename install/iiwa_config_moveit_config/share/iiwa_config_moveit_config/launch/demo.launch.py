@@ -9,9 +9,11 @@ from moveit_configs_utils import MoveItConfigsBuilder
 def generate_launch_description():
 
     moveit_config = (
-        MoveItConfigsBuilder("iiwa", package_name="iiwa_config")
+        MoveItConfigsBuilder("iiwa", package_name="iiwa_config_moveit_config")
         .robot_description(file_path="config/urdf/dual_iiwa_robot.urdf.xacro")
         .robot_description_semantic(file_path="config/dual_iiwa_robot.srdf")
+
+
         .trajectory_execution(file_path="config/controller_moveit.yaml")
         .joint_limits(file_path="config/joint_limits.yaml")#
         .planning_pipelines(pipelines=["ompl"])
@@ -28,7 +30,7 @@ def generate_launch_description():
 
     # RViz
     rviz_config = os.path.join(
-        get_package_share_directory("iiwa_config"),
+        get_package_share_directory("iiwa_config_moveit_config"),
         "launch/moveit.rviz",
     )
     rviz_node = Node(
@@ -55,7 +57,7 @@ def generate_launch_description():
 
     # ros2_control using FakeSystem as hardware
     ros2_controllers_path = os.path.join(
-        get_package_share_directory("iiwa_config"),
+        get_package_share_directory("iiwa_config_moveit_config"),
         "config/",
         "ros2_controllers.yaml",
     )

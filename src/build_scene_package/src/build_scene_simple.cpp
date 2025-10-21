@@ -9,6 +9,7 @@
 #include <yaml-cpp/yaml.h>
 #include <iostream>
 #include <tf2/LinearMath/Quaternion.h>
+#include <ament_index_cpp/get_package_share_directory.hpp>
 
 class MeshSceneNode : public rclcpp::Node
 {
@@ -17,10 +18,9 @@ public:
     {
         // Inizializzo il PlanningSceneInterface
         planning_scene_interface_ = std::make_shared<moveit::planning_interface::PlanningSceneInterface>();
-
+        /*Classe moveit che fornisce un'interfaccia per interagire con la scena di pianificazione in ROS. scena di pianificazione: è una rappresentazione dello stato del mondo che include robot*/
         // Chiamo il metodo per inserire la mesh
         SearchObstacles();
-        printCollisionObjectPoses();
     }
 
 private:
@@ -29,13 +29,14 @@ private:
     void SearchObstacles(){
         RCLCPP_INFO(this->get_logger(), "Inserimento mesh nella scena attraverso lo YAML...");
         // Carico il file YAML
-         YAML::Node config = YAML::LoadFile("/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/obstacle_descritpion/environment.yaml");
-
+    std::string package_share_dir = ament_index_cpp::get_package_share_directory("build_scene_package");
+    std::string yaml_path = package_share_dir + "/obstacle_descritpion/environment.yaml";
+    YAML::Node config = YAML::LoadFile(yaml_path);  
      
-         for (const auto& obstacle : config["obstacles"]) {
-            std::string mesh_resource = obstacle["cad"].as<std::string>();
-            std::string id = obstacle["name"].as<std::string>();
-            geometry_msgs::msg::Pose pose;
+         for (const auto& obstacle : config["obstacles"]) {//iteriamo sugli ostacoli definiti nel file yaml
+            std::string mesh_resource = obstacle["cad"].as<std::string>();//percorso della mesh
+            std::string id = obstacle["name"].as<std::string>();//Nome identificativo dell'ostacolo
+            geometry_msgs::msg::Pose pose;//inizializziamo la pose
             // Posizione
             auto position = obstacle["pose"]["position"];
             pose.position.x = position[0].as<double>();
@@ -47,6 +48,7 @@ private:
             double roll = rpy[0].as<double>();
             double pitch = rpy[1].as<double>();
             double yaw = rpy[2].as<double>();
+            //Effettuiamo la conversione rpy -> quaternion
             tf2::Quaternion q;
             q.setRPY(roll, pitch, yaw);
             pose.orientation.x = q.x();
@@ -57,71 +59,34 @@ private:
             pose.orientation.x, pose.orientation.y, pose.orientation.z, pose.orientation.w);
 
 
-            insertMeshObstacle(mesh_resource, pose, id);
+            insertMeshObstacle(mesh_resource, pose, id);//metodo che inserisce la mesh nella scena
         }
         
 
 
     }
-    void printCollisionObjectPoses()
-{
-    // Legge tutti gli oggetti collision presenti nella scena
-    auto objects = planning_scene_interface_->getObjects();
-    if (objects.empty())
-    {
-        RCLCPP_INFO(this->get_logger(), "Nessun CollisionObject presente nella scena.");
-        return;
-    }
-
-    for (const auto& pair : objects)
-    {
-        const auto& id = pair.first;
-        const auto& obj = pair.second;
-
-        RCLCPP_INFO(this->get_logger(), "CollisionObject id: %s", id.c_str());
-
-        for (size_t i = 0; i < obj.mesh_poses.size(); ++i)
-        {
-            const auto& p = obj.mesh_poses[i];
-            RCLCPP_INFO(this->get_logger(),
-                        "Mesh %zu: position=(%.3f, %.3f, %.3f) orientation=(x=%.3f, y=%.3f, z=%.3f, w=%.3f)",
-                        i,
-                        p.position.x, p.position.y, p.position.z,
-                        p.orientation.x, p.orientation.y, p.orientation.z, p.orientation.w);
-        }
-
-        for (size_t i = 0; i < obj.primitive_poses.size(); ++i)
-        {
-            const auto& p = obj.primitive_poses[i];
-            RCLCPP_INFO(this->get_logger(),
-                        "Primitive %zu: position=(%.3f, %.3f, %.3f) orientation=(x=%.3f, y=%.3f, z=%.3f, w=%.3f)",
-                        i,
-                        p.position.x, p.position.y, p.position.z,
-                        p.orientation.x, p.orientation.y, p.orientation.z, p.orientation.w);
-        }
-    }
-}
+    
 
 
     void insertMeshObstacle(std::string mesh_resources, geometry_msgs::msg::Pose pose,std::string id)
     {
         // Definisco la pose dell'oggetto
         geometry_msgs::msg::Pose pose_temp;
-        pose_temp.orientation = pose.orientation;
+        pose_temp.orientation = pose.orientation;//quaternion
         pose_temp.position.x = pose.position.x;
         pose_temp.position.y = pose.position.y;
         pose_temp.position.z = pose.position.z;
-        const std::string frame_id = "world";
+        const std::string frame_id = "world";//riferimento con cui viene inserito l'oggetto
         std::string mesh_resource = mesh_resources; // Percorso della mesh
        
 
         // Creo il CollisionObject con la mesh
         moveit_msgs::msg::CollisionObject collision_object = createMeshCollisionObject(
             frame_id,           
-            id,                              // frame_id                            // id
-            mesh_resource, // percorso mesh
+            id,                            
+            mesh_resource, 
             pose_temp,
-            0.001                                           // scala da mm a metri
+            0.001// scala da mm a metri, poiche file STL è in mm 
         );
 
         // Applico l'oggetto alla scena
@@ -142,7 +107,10 @@ private:
         collision_object.id = id;
 
         // Carico la mesh
-        shapes::Mesh* m = shapes::createMeshFromResource(mesh_resource);
+/*Carica mesh e la converte in un oggetto di tipo shapes::Mesh utilizzata per moveit
+questa rappresentazione contiene vertici e facce della mesh, che possono essere usati per
+calcolo della collisione*/
+        shapes::Mesh* m = shapes::createMeshFromResource(mesh_resource);//puntatore a oggetto Shapes::mesh->(contiene: vertici e facce della mesh)
         if (!m)
         {
             RCLCPP_ERROR(this->get_logger(), "Errore nel caricamento della mesh: %s", mesh_resource.c_str());
@@ -152,19 +120,19 @@ private:
         // Scala manuale dei vertici
         for (unsigned int i = 0; i < m->vertex_count; ++i)
         {
-            m->vertices[3*i+0] *= scale;
-            m->vertices[3*i+1] *= scale;
-            m->vertices[3*i+2] *= scale;
+            m->vertices[3*i+0] *= scale;//struttura è m->vertices = {x1, y1, z1, x2, y2, z2, x3, y3, z3};  
+            m->vertices[3*i+1] *= scale;//dunque si accede alle coordinate x,y,z di ogni vertice sommando 0 o 1 o 2 a 3*i(che serve per spostarsi tra i vertici)
+            m->vertices[3*i+2] *= scale;//infine moltiplichiamo per la scala
         }
 
         // Conversione in shape_msgs::msg::Mesh
         shape_msgs::msg::Mesh mesh_msg;
-        shapes::ShapeMsg mesh_msg_tmp;
+        shapes::ShapeMsg mesh_msg_tmp;//serve come contenitore temporaneo per convertire shapes::Mesh in shape_msgs::msg::Mesh
         shapes::constructMsgFromShape(m, mesh_msg_tmp);
         mesh_msg = boost::get<shape_msgs::msg::Mesh>(mesh_msg_tmp);
 
         collision_object.meshes.push_back(mesh_msg);
-        collision_object.mesh_poses.push_back(pose);
+        collision_object.mesh_poses.push_back(pose);//assegno posa dell'ostacolo
         //PLOTTIAMO GLI ORIENTAMENTI
             RCLCPP_INFO(this->get_logger(), "Orientamento caricamento mesh: x=%f y=%f z=%f w=%f",
             pose.orientation.x, pose.orientation.y, pose.orientation.z, pose.orientation.w);

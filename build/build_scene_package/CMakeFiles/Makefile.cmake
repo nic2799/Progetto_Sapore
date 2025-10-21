@@ -1327,6 +1327,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/build_scene_package_uninstall.dir/DependInfo.cmake"
-  "CMakeFiles/build_scene.dir/DependInfo.cmake"
   "CMakeFiles/build_scene_simple.dir/DependInfo.cmake"
+  "CMakeFiles/build_scene_mesh.dir/DependInfo.cmake"
   )

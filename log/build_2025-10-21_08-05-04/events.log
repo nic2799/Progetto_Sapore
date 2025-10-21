@@ -1,0 +1,327 @@
+[0.000000] (-) TimerEvent: {}
+[0.001221] (-) JobUnselected: {'identifier': 'build_scene_package'}
+[0.001745] (-) JobUnselected: {'identifier': 'iiwa_config_moveit_config'}
+[0.001854] (-) JobUnselected: {'identifier': 'iiwa_description'}
+[0.001919] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.002501] (nodes) JobQueued: {'identifier': 'nodes', 'dependencies': OrderedDict({'interfaces': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces'})}
+[0.002603] (nodes) JobStarted: {'identifier': 'nodes'}
+[0.031978] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'cmake'}
+[0.034628] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'build'}
+[0.037054] (nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes', '--', '-j8', '-l8'], 'cwd': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicola', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nicola', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/nicola/.nvm/versions/node/v20.19.5/bin', 'NVM_INC': '/home/nicola/.nvm/versions/node/v20.19.5/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1975', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=47f7bb9c5c1076e324a0910a68f720ed', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/nicola/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nicola', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nicola', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nicola/.nvm/versions/node/v20.19.5/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/nicola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nicola/.local/bin:/home/nicola/.local/bin:/home/nicola/RoboDK/bin:/usr/local/MATLAB/R2024b/bin', 'SESSION_MANAGER': 'local/randezvous:@/tmp/.ICE-unix/1975,unix/randezvous:/tmp/.ICE-unix/1975', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/321c3731_248a_4e3f_aa1e_d2535838f38e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FJ4ME3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_config_moveit_config:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_config:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_description:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/build_scene_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=47f7bb9c5c1076e324a0910a68f720ed', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_config_moveit_config:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_config:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_description:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099146] (-) TimerEvent: {}
+[0.203081] (-) TimerEvent: {}
+[0.259175] (nodes) StdoutLine: {'line': b'[ 20%] Built target jtraj_right_node\n'}
+[0.280450] (nodes) StdoutLine: {'line': b'[ 40%] Built target jtraj_left_node\n'}
+[0.283795] (nodes) StdoutLine: {'line': b'[ 60%] Built target task\n'}
+[0.292349] (nodes) StdoutLine: {'line': b'[ 80%] Built target jtraj_node\n'}
+[0.303883] (-) TimerEvent: {}
+[0.410044] (-) TimerEvent: {}
+[0.455247] (nodes) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/Reach.dir/src/test_reach.cpp.o\x1b[0m\n'}
+[0.510570] (-) TimerEvent: {}
+[0.611273] (-) TimerEvent: {}
+[0.711955] (-) TimerEvent: {}
+[0.812343] (-) TimerEvent: {}
+[0.912771] (-) TimerEvent: {}
+[1.013275] (-) TimerEvent: {}
+[1.113734] (-) TimerEvent: {}
+[1.214152] (-) TimerEvent: {}
+[1.314615] (-) TimerEvent: {}
+[1.415061] (-) TimerEvent: {}
+[1.515524] (-) TimerEvent: {}
+[1.616040] (-) TimerEvent: {}
+[1.716445] (-) TimerEvent: {}
+[1.816912] (-) TimerEvent: {}
+[1.917362] (-) TimerEvent: {}
+[2.017822] (-) TimerEvent: {}
+[2.118278] (-) TimerEvent: {}
+[2.218685] (-) TimerEvent: {}
+[2.319147] (-) TimerEvent: {}
+[2.419650] (-) TimerEvent: {}
+[2.520142] (-) TimerEvent: {}
+[2.620645] (-) TimerEvent: {}
+[2.721146] (-) TimerEvent: {}
+[2.821600] (-) TimerEvent: {}
+[2.922048] (-) TimerEvent: {}
+[3.022465] (-) TimerEvent: {}
+[3.122915] (-) TimerEvent: {}
+[3.223445] (-) TimerEvent: {}
+[3.323814] (-) TimerEvent: {}
+[3.424303] (-) TimerEvent: {}
+[3.524803] (-) TimerEvent: {}
+[3.625211] (-) TimerEvent: {}
+[3.725605] (-) TimerEvent: {}
+[3.826068] (-) TimerEvent: {}
+[3.926602] (-) TimerEvent: {}
+[4.027203] (-) TimerEvent: {}
+[4.127668] (-) TimerEvent: {}
+[4.228278] (-) TimerEvent: {}
+[4.328834] (-) TimerEvent: {}
+[4.429336] (-) TimerEvent: {}
+[4.530029] (-) TimerEvent: {}
+[4.630551] (-) TimerEvent: {}
+[4.731058] (-) TimerEvent: {}
+[4.831537] (-) TimerEvent: {}
+[4.932185] (-) TimerEvent: {}
+[5.032657] (-) TimerEvent: {}
+[5.133070] (-) TimerEvent: {}
+[5.233420] (-) TimerEvent: {}
+[5.333824] (-) TimerEvent: {}
+[5.434261] (-) TimerEvent: {}
+[5.534686] (-) TimerEvent: {}
+[5.635139] (-) TimerEvent: {}
+[5.735552] (-) TimerEvent: {}
+[5.835971] (-) TimerEvent: {}
+[5.936390] (-) TimerEvent: {}
+[6.036825] (-) TimerEvent: {}
+[6.137255] (-) TimerEvent: {}
+[6.237762] (-) TimerEvent: {}
+[6.338175] (-) TimerEvent: {}
+[6.438592] (-) TimerEvent: {}
+[6.539079] (-) TimerEvent: {}
+[6.639503] (-) TimerEvent: {}
+[6.739948] (-) TimerEvent: {}
+[6.840402] (-) TimerEvent: {}
+[6.940849] (-) TimerEvent: {}
+[7.041267] (-) TimerEvent: {}
+[7.141685] (-) TimerEvent: {}
+[7.242156] (-) TimerEvent: {}
+[7.342604] (-) TimerEvent: {}
+[7.443079] (-) TimerEvent: {}
+[7.543573] (-) TimerEvent: {}
+[7.644034] (-) TimerEvent: {}
+[7.744445] (-) TimerEvent: {}
+[7.844812] (-) TimerEvent: {}
+[7.945231] (-) TimerEvent: {}
+[8.045642] (-) TimerEvent: {}
+[8.146073] (-) TimerEvent: {}
+[8.246503] (-) TimerEvent: {}
+[8.346932] (-) TimerEvent: {}
+[8.447372] (-) TimerEvent: {}
+[8.547908] (-) TimerEvent: {}
+[8.648353] (-) TimerEvent: {}
+[8.748853] (-) TimerEvent: {}
+[8.849275] (-) TimerEvent: {}
+[8.949699] (-) TimerEvent: {}
+[9.050155] (-) TimerEvent: {}
+[9.150612] (-) TimerEvent: {}
+[9.251052] (-) TimerEvent: {}
+[9.351459] (-) TimerEvent: {}
+[9.451810] (-) TimerEvent: {}
+[9.552293] (-) TimerEvent: {}
+[9.652821] (-) TimerEvent: {}
+[9.753318] (-) TimerEvent: {}
+[9.853829] (-) TimerEvent: {}
+[9.954309] (-) TimerEvent: {}
+[10.054790] (-) TimerEvent: {}
+[10.155229] (-) TimerEvent: {}
+[10.255690] (-) TimerEvent: {}
+[10.356156] (-) TimerEvent: {}
+[10.456586] (-) TimerEvent: {}
+[10.557026] (-) TimerEvent: {}
+[10.657508] (-) TimerEvent: {}
+[10.757978] (-) TimerEvent: {}
+[10.858462] (-) TimerEvent: {}
+[10.958993] (-) TimerEvent: {}
+[11.059483] (-) TimerEvent: {}
+[11.159960] (-) TimerEvent: {}
+[11.260442] (-) TimerEvent: {}
+[11.360968] (-) TimerEvent: {}
+[11.461404] (-) TimerEvent: {}
+[11.561921] (-) TimerEvent: {}
+[11.662346] (-) TimerEvent: {}
+[11.762782] (-) TimerEvent: {}
+[11.863313] (-) TimerEvent: {}
+[11.963770] (-) TimerEvent: {}
+[12.064214] (-) TimerEvent: {}
+[12.164605] (-) TimerEvent: {}
+[12.265050] (-) TimerEvent: {}
+[12.365496] (-) TimerEvent: {}
+[12.465943] (-) TimerEvent: {}
+[12.566508] (-) TimerEvent: {}
+[12.666991] (-) TimerEvent: {}
+[12.767450] (-) TimerEvent: {}
+[12.867973] (-) TimerEvent: {}
+[12.968475] (-) TimerEvent: {}
+[13.068990] (-) TimerEvent: {}
+[13.169558] (-) TimerEvent: {}
+[13.270132] (-) TimerEvent: {}
+[13.370773] (-) TimerEvent: {}
+[13.471395] (-) TimerEvent: {}
+[13.571922] (-) TimerEvent: {}
+[13.672402] (-) TimerEvent: {}
+[13.773314] (-) TimerEvent: {}
+[13.873716] (-) TimerEvent: {}
+[13.974253] (-) TimerEvent: {}
+[14.074700] (-) TimerEvent: {}
+[14.175145] (-) TimerEvent: {}
+[14.275535] (-) TimerEvent: {}
+[14.375991] (-) TimerEvent: {}
+[14.476411] (-) TimerEvent: {}
+[14.576796] (-) TimerEvent: {}
+[14.677223] (-) TimerEvent: {}
+[14.777714] (-) TimerEvent: {}
+[14.878312] (-) TimerEvent: {}
+[14.978779] (-) TimerEvent: {}
+[15.079338] (-) TimerEvent: {}
+[15.179816] (-) TimerEvent: {}
+[15.280293] (-) TimerEvent: {}
+[15.380886] (-) TimerEvent: {}
+[15.481354] (-) TimerEvent: {}
+[15.581811] (-) TimerEvent: {}
+[15.682303] (-) TimerEvent: {}
+[15.782807] (-) TimerEvent: {}
+[15.883344] (-) TimerEvent: {}
+[15.983813] (-) TimerEvent: {}
+[16.084209] (-) TimerEvent: {}
+[16.184650] (-) TimerEvent: {}
+[16.285140] (-) TimerEvent: {}
+[16.385571] (-) TimerEvent: {}
+[16.486009] (-) TimerEvent: {}
+[16.586444] (-) TimerEvent: {}
+[16.686951] (-) TimerEvent: {}
+[16.787639] (-) TimerEvent: {}
+[16.888311] (-) TimerEvent: {}
+[16.988895] (-) TimerEvent: {}
+[17.089438] (-) TimerEvent: {}
+[17.189828] (-) TimerEvent: {}
+[17.290245] (-) TimerEvent: {}
+[17.390638] (-) TimerEvent: {}
+[17.491072] (-) TimerEvent: {}
+[17.591464] (-) TimerEvent: {}
+[17.691913] (-) TimerEvent: {}
+[17.792371] (-) TimerEvent: {}
+[17.892787] (-) TimerEvent: {}
+[17.993188] (-) TimerEvent: {}
+[18.093634] (-) TimerEvent: {}
+[18.194083] (-) TimerEvent: {}
+[18.294561] (-) TimerEvent: {}
+[18.395068] (-) TimerEvent: {}
+[18.495604] (-) TimerEvent: {}
+[18.596062] (-) TimerEvent: {}
+[18.696488] (-) TimerEvent: {}
+[18.796920] (-) TimerEvent: {}
+[18.897448] (-) TimerEvent: {}
+[18.997960] (-) TimerEvent: {}
+[19.098544] (-) TimerEvent: {}
+[19.199103] (-) TimerEvent: {}
+[19.299609] (-) TimerEvent: {}
+[19.400121] (-) TimerEvent: {}
+[19.500624] (-) TimerEvent: {}
+[19.601112] (-) TimerEvent: {}
+[19.701558] (-) TimerEvent: {}
+[19.801997] (-) TimerEvent: {}
+[19.902436] (-) TimerEvent: {}
+[20.002914] (-) TimerEvent: {}
+[20.103340] (-) TimerEvent: {}
+[20.203783] (-) TimerEvent: {}
+[20.304198] (-) TimerEvent: {}
+[20.404640] (-) TimerEvent: {}
+[20.505099] (-) TimerEvent: {}
+[20.605544] (-) TimerEvent: {}
+[20.706010] (-) TimerEvent: {}
+[20.806419] (-) TimerEvent: {}
+[20.906843] (-) TimerEvent: {}
+[21.007276] (-) TimerEvent: {}
+[21.107712] (-) TimerEvent: {}
+[21.208242] (-) TimerEvent: {}
+[21.308699] (-) TimerEvent: {}
+[21.409260] (-) TimerEvent: {}
+[21.509744] (-) TimerEvent: {}
+[21.610167] (-) TimerEvent: {}
+[21.710609] (-) TimerEvent: {}
+[21.811133] (-) TimerEvent: {}
+[21.911638] (-) TimerEvent: {}
+[22.012092] (-) TimerEvent: {}
+[22.112525] (-) TimerEvent: {}
+[22.212968] (-) TimerEvent: {}
+[22.313411] (-) TimerEvent: {}
+[22.413841] (-) TimerEvent: {}
+[22.514365] (-) TimerEvent: {}
+[22.614853] (-) TimerEvent: {}
+[22.715404] (-) TimerEvent: {}
+[22.816032] (-) TimerEvent: {}
+[22.916805] (-) TimerEvent: {}
+[23.017367] (-) TimerEvent: {}
+[23.117885] (-) TimerEvent: {}
+[23.218343] (-) TimerEvent: {}
+[23.318852] (-) TimerEvent: {}
+[23.419339] (-) TimerEvent: {}
+[23.519861] (-) TimerEvent: {}
+[23.620403] (-) TimerEvent: {}
+[23.720850] (-) TimerEvent: {}
+[23.821257] (-) TimerEvent: {}
+[23.921665] (-) TimerEvent: {}
+[24.022062] (-) TimerEvent: {}
+[24.122500] (-) TimerEvent: {}
+[24.222910] (-) TimerEvent: {}
+[24.323329] (-) TimerEvent: {}
+[24.423773] (-) TimerEvent: {}
+[24.524145] (-) TimerEvent: {}
+[24.624530] (-) TimerEvent: {}
+[24.724940] (-) TimerEvent: {}
+[24.825413] (-) TimerEvent: {}
+[24.925925] (-) TimerEvent: {}
+[25.026473] (-) TimerEvent: {}
+[25.126892] (-) TimerEvent: {}
+[25.227275] (-) TimerEvent: {}
+[25.327623] (-) TimerEvent: {}
+[25.428004] (-) TimerEvent: {}
+[25.528392] (-) TimerEvent: {}
+[25.628807] (-) TimerEvent: {}
+[25.729230] (-) TimerEvent: {}
+[25.829679] (-) TimerEvent: {}
+[25.930108] (-) TimerEvent: {}
+[26.030473] (-) TimerEvent: {}
+[26.130994] (-) TimerEvent: {}
+[26.231400] (-) TimerEvent: {}
+[26.331843] (-) TimerEvent: {}
+[26.432286] (-) TimerEvent: {}
+[26.532653] (-) TimerEvent: {}
+[26.633049] (-) TimerEvent: {}
+[26.733562] (-) TimerEvent: {}
+[26.834000] (-) TimerEvent: {}
+[26.934434] (-) TimerEvent: {}
+[27.034931] (-) TimerEvent: {}
+[27.040647] (nodes) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable Reach\x1b[0m\n'}
+[27.135078] (-) TimerEvent: {}
+[27.235503] (-) TimerEvent: {}
+[27.335941] (-) TimerEvent: {}
+[27.436346] (-) TimerEvent: {}
+[27.536869] (-) TimerEvent: {}
+[27.637362] (-) TimerEvent: {}
+[27.737815] (-) TimerEvent: {}
+[27.838277] (-) TimerEvent: {}
+[27.938693] (-) TimerEvent: {}
+[28.039378] (-) TimerEvent: {}
+[28.139929] (-) TimerEvent: {}
+[28.170400] (nodes) StdoutLine: {'line': b'[100%] Built target Reach\n'}
+[28.194132] (nodes) CommandEnded: {'returncode': 0}
+[28.196029] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'install'}
+[28.215394] (nodes) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes'], 'cwd': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicola', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nicola', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/nicola/.nvm/versions/node/v20.19.5/bin', 'NVM_INC': '/home/nicola/.nvm/versions/node/v20.19.5/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1975', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=47f7bb9c5c1076e324a0910a68f720ed', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/nicola/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nicola', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nicola', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nicola/.nvm/versions/node/v20.19.5/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/nicola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nicola/.local/bin:/home/nicola/.local/bin:/home/nicola/RoboDK/bin:/usr/local/MATLAB/R2024b/bin', 'SESSION_MANAGER': 'local/randezvous:@/tmp/.ICE-unix/1975,unix/randezvous:/tmp/.ICE-unix/1975', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/321c3731_248a_4e3f_aa1e_d2535838f38e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FJ4ME3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_config_moveit_config:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_config:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_description:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/build_scene_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=47f7bb9c5c1076e324a0910a68f720ed', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_config_moveit_config:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_config:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_description:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[28.233031] (nodes) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.234381] (nodes) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[28.235280] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/lib/nodes/jtraj_node\n'}
+[28.235625] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/lib/nodes/jtraj_left_node\n'}
+[28.236131] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/lib/nodes/jtraj_right_node\n'}
+[28.236463] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/lib/nodes/task\n'}
+[28.236871] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/lib/nodes/Reach\n'}
+[28.238955] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/launch/launch.py\n'}
+[28.239576] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/ament_index/resource_index/package_run_dependencies/nodes\n'}
+[28.239998] (-) TimerEvent: {}
+[28.240234] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/ament_index/resource_index/parent_prefix_path/nodes\n'}
+[28.240760] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/environment/ament_prefix_path.sh\n'}
+[28.241355] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/environment/ament_prefix_path.dsv\n'}
+[28.241884] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/environment/path.sh\n'}
+[28.242459] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/environment/path.dsv\n'}
+[28.243268] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/local_setup.bash\n'}
+[28.243777] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/local_setup.sh\n'}
+[28.244371] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/local_setup.zsh\n'}
+[28.244970] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/local_setup.dsv\n'}
+[28.245385] (nodes) StdoutLine: {'line': b'-- Symlinking: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/package.dsv\n'}
+[28.263097] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/ament_index/resource_index/packages/nodes\n'}
+[28.263637] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/cmake/nodesConfig.cmake\n'}
+[28.263999] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/cmake/nodesConfig-version.cmake\n'}
+[28.264378] (nodes) StdoutLine: {'line': b'-- Up-to-date symlink: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/package.xml\n'}
+[28.267627] (nodes) CommandEnded: {'returncode': 0}
+[28.314633] (nodes) JobEnded: {'identifier': 'nodes', 'rc': 0}
+[28.316339] (-) EventReactorShutdown: {}

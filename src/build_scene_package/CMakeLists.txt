@@ -23,10 +23,10 @@ find_package(shape_msgs REQUIRED)
 find_package(ament_index_cpp REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
 find_package(yaml-cpp REQUIRED)
+find_package(ament_index_cpp REQUIRED)
 
 
-# Add executable
-add_executable(build_scene src/build_scene.cpp)
+
 # Add executable per box semplice
 add_executable(build_scene_simple src/build_scene_simple.cpp)
 
@@ -40,7 +40,10 @@ ament_target_dependencies(build_scene_simple
   moveit_ros_planning_interface
   yaml-cpp
   tf2
+  ament_index_cpp
 )
+
+
 
 # Install build_scene_simple
 install(TARGETS
@@ -48,31 +51,36 @@ install(TARGETS
   DESTINATION lib/${PROJECT_NAME}
 )
 
-# Specify dependencies
-ament_target_dependencies(build_scene
+
+
+
+target_link_libraries(build_scene_simple ${YAML_CPP_LIBRARIES})
+
+
+
+# Add executable per caricamento mesh
+add_executable(build_scene_mesh src/build_scene_mesh.cpp)
+
+# Dipendenze per build_scene_mesh
+ament_target_dependencies(build_scene_mesh
   rclcpp
   moveit_msgs
   geometry_msgs
   shape_msgs
-  ament_index_cpp
+  geometric_shapes
+  moveit_ros_planning_interface
   yaml-cpp
   tf2
-  tf2_geometry_msgs
-  tf2_ros
-  geometric_shapes
-  shape_msgs
+  ament_index_cpp
 )
 
-# Link yaml-cpp
-target_link_libraries(build_scene ${YAML_CPP_LIBRARIES})
-
-target_link_libraries(build_scene_simple ${YAML_CPP_LIBRARIES})
-
-# Install executable
+# Install build_scene_mesh
 install(TARGETS
-  build_scene
+  build_scene_mesh
   DESTINATION lib/${PROJECT_NAME}
 )
+
+target_link_libraries(build_scene_mesh ${YAML_CPP_LIBRARIES})
 
 # Install configuration files
 install(DIRECTORY

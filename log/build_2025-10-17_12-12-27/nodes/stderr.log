@@ -1,0 +1,15 @@
+In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:5[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityNode::[01;32m[KinitializeMoveGroup[m[K()[m[K’:
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_[m[K’ was not declared in this scope
+   16 |         [01;31m[Kmove_group_[m[K = std::make_shared<moveit::planning_interface::MoveGroupInterface>(
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityNode::[01;32m[KcheckReachability[m[K(double, double, double)[m[K’:
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:29:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_[m[K’ was not declared in this scope
+   29 |         [01;31m[Kmove_group_[m[K->setPoseTarget(pose);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/test_Reach.dir/build.make:76: CMakeFiles/test_Reach.dir/src/test_Reachability.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/test_Reach.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

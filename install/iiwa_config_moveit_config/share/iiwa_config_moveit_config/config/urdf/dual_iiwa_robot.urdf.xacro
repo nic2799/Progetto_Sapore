@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="dual_iiwa_robot">
 
-  <xacro:include filename="$(find iiwa_config)/config/urdf/dual_iiwa_robot.ros2_control.xacro" />
+  <xacro:include filename="$(find iiwa_config_moveit_config)/config/urdf/dual_iiwa_robot.ros2_control.xacro" />
   <xacro:include filename="$(find iiwa_description)/urdf/iiwa_arm_tcp.urdf.xacro" />
    
 
@@ -9,29 +9,24 @@
   <!-- Add ros2_control for dual arms -->
  <xacro:dual_iiwa_ros2_control name="iiwa" />
  
-
-
-
-
-
   <material name="gray">
-    <color rgba="0.5 0.5 0.5 1.0"/>
+    <color rgba="0.5 0.5 0.5 1"/>
   </material>
 
   <!-- Properties for the torso/base dimensions -->
   <xacro:property name="torso_width" value="0.30" />  <!-- 60cm wide -->
   <xacro:property name="torso_depth" value="0.30" />  <!-- 30cm deep -->
-  <xacro:property name="torso_height" value="1.0" /> <!-- 40cm high -->
-  <xacro:property name="shoulder_offset" value="0.15" /> <!-- Distance from center to shoulders -->
+  <xacro:property name="torso_height" value="0.92" /> <!-- 40cm high -->
+  <xacro:property name="shoulder_offset" value="0.176" /> <!-- Distance from center to shoulders -->
 
   <!-- Global robot translation: change these to move the whole robot in the world -->
   <xacro:property name="robot_x" value="-0.90" />
   <xacro:property name="robot_y" value="-0.43" />
-  <xacro:property name="robot_z" value="0.0" />
+  <xacro:property name="robot_z" value="0.462" />
 
   <!-- Materials -->
   <material name="torso_color">
-    <color rgba="0.7 0.7 0.8 0.5"/>
+    <color rgba="0.7 0.7 0.8 1"/>
   </material>
   
   <material name="mount_color">
@@ -48,20 +43,20 @@
   <!-- Torso/Base link -->
   <link name="torso_base">
     <visual>
-      <origin xyz="0 0 ${torso_height/2}" rpy="0 0 0"/>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
       <geometry>
-        <box size="${torso_depth} ${torso_width} ${torso_height}"/>
+      <mesh filename="file://$(find iiwa_description)/meshes/Busto.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="torso_color"/>
     </visual>
     <collision>
-      <origin xyz="0 0 ${torso_height/2}" rpy="0 0 0"/>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
       <geometry>
-        <box size="${torso_depth} ${torso_width} ${torso_height}"/>
+      <mesh filename="file://$(find iiwa_description)/meshes/Busto.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
     <inertial>
-      <origin xyz="0 0 ${torso_height/2}" rpy="0 0 0"/>
+      <origin xyz="0 0 0" rpy="1.57 0 0"/>
       <mass value="50.0"/>
       <inertia ixx="4.0" ixy="0.0" ixz="0.0" iyy="3.0" iyz="0.0" izz="2.0"/>
     </inertial>
@@ -79,16 +74,14 @@
   <link name="left_shoulder_mount">
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry>
-        <cylinder radius="0.05" length="0.1"/>
-      </geometry>
+     
       <material name="mount_color"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry>
-        <cylinder radius="0.05" length="0.1"/>
-      </geometry>
+            <material name="mount_color"/>
+
+
     </collision>
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -100,16 +93,12 @@
   <link name="right_shoulder_mount">
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry>
-        <cylinder radius="0.05" length="0.1"/>
-      </geometry>
+     
       <material name="mount_color"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry>
-        <cylinder radius="0.05" length="0.1"/>
-      </geometry>
+      <material name="mount_color"/>
     </collision>
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -122,7 +111,7 @@
     <parent link="torso_base"/>
     <child link="left_shoulder_mount"/>
     <!-- Left shoulder: ruotato di 90 gradi attorno Y per essere orizzontale, poi 90 attorno Z per puntare a sinistra -->
-    <origin xyz="0 ${shoulder_offset} ${torso_height}" rpy="0 ${pi/2 - 11.3*pi/180} ${pi/2}"/>
+    <origin xyz="0 ${shoulder_offset} 0.402" rpy="0 ${pi/2 - 11.3*pi/180} ${pi/2}"/>
   </joint>
 
   <!-- Joint connecting torso to right shoulder mount -->
@@ -130,7 +119,7 @@
     <parent link="torso_base"/>
     <child link="right_shoulder_mount"/>
     <!-- Right shoulder: ruotato di 90 gradi attorno Y per essere orizzontale, poi -90 attorno Z per puntare a destra -->
-    <origin xyz="0 ${-shoulder_offset} ${torso_height}" rpy="0 ${pi/2 - 11.3*pi/180} ${-pi/2}"/>
+    <origin xyz="0 ${-shoulder_offset} 0.402" rpy="0 ${pi/2 - 11.3*pi/180} ${-pi/2}"/>
   </joint>
 
   <!-- Left IIWA arm -->
