@@ -1,7 +1,0 @@
-[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene_mesh.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kgeometric_shapes/shape_operations.hpp: No such file or directory
-    3 | #include [01;31m[K<geometric_shapes/shape_operations.hpp>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/build_scene_mesh.dir/build.make:76: CMakeFiles/build_scene_mesh.dir/src/build_scene_mesh.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/build_scene_mesh.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

@@ -1,8 +1,0 @@
-[ 50%] [32mBuilding CXX object CMakeFiles/build_scene.dir/src/build_scene.cpp.o[0m
-[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:[m[K In member function ‘[01m[Kvoid BuildSceneNode::[01;32m[KpublishScene[m[K()[m[K’:
-[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/src/build_scene.cpp:127:25:[m[K [01;31m[Kerror: [m[K‘[01m[KconstructMsgFromMesh[m[K’ is not a member of ‘[01m[Kshapes[m[K’
-  127 |                 shapes::[01;31m[KconstructMsgFromMesh[m[K(mesh, mesh_msg);
-      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/build_scene.dir/build.make:76: CMakeFiles/build_scene.dir/src/build_scene.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/build_scene.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

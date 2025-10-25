@@ -262,6 +262,32 @@ Reach/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reach.dir/build.make CMakeFiles/Reach.dir/build
 .PHONY : Reach/fast
 
+#=============================================================================
+# Target rules for targets named Raggiungibilita
+
+# Build rule for target.
+Raggiungibilita: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Raggiungibilita
+.PHONY : Raggiungibilita
+
+# fast build rule for target.
+Raggiungibilita/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raggiungibilita.dir/build.make CMakeFiles/Raggiungibilita.dir/build
+.PHONY : Raggiungibilita/fast
+
+#=============================================================================
+# Target rules for targets named test_reach
+
+# Build rule for target.
+test_reach: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_reach
+.PHONY : test_reach
+
+# fast build rule for target.
+test_reach/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_reach.dir/build.make CMakeFiles/test_reach.dir/build
+.PHONY : test_reach/fast
+
 src/Jtraj.o: src/Jtraj.cpp.o
 .PHONY : src/Jtraj.o
 
@@ -334,6 +360,30 @@ src/JtrajRight.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/jtraj_right_node.dir/build.make CMakeFiles/jtraj_right_node.dir/src/JtrajRight.cpp.s
 .PHONY : src/JtrajRight.cpp.s
 
+src/Reach.o: src/Reach.cpp.o
+.PHONY : src/Reach.o
+
+# target to build an object file
+src/Reach.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raggiungibilita.dir/build.make CMakeFiles/Raggiungibilita.dir/src/Reach.cpp.o
+.PHONY : src/Reach.cpp.o
+
+src/Reach.i: src/Reach.cpp.i
+.PHONY : src/Reach.i
+
+# target to preprocess a source file
+src/Reach.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raggiungibilita.dir/build.make CMakeFiles/Raggiungibilita.dir/src/Reach.cpp.i
+.PHONY : src/Reach.cpp.i
+
+src/Reach.s: src/Reach.cpp.s
+.PHONY : src/Reach.s
+
+# target to generate assembly for a file
+src/Reach.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raggiungibilita.dir/build.make CMakeFiles/Raggiungibilita.dir/src/Reach.cpp.s
+.PHONY : src/Reach.cpp.s
+
 src/task.o: src/task.cpp.o
 .PHONY : src/task.o
 
@@ -357,6 +407,30 @@ src/task.s: src/task.cpp.s
 src/task.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/task.cpp.s
 .PHONY : src/task.cpp.s
+
+src/test_Reachability.o: src/test_Reachability.cpp.o
+.PHONY : src/test_Reachability.o
+
+# target to build an object file
+src/test_Reachability.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_reach.dir/build.make CMakeFiles/test_reach.dir/src/test_Reachability.cpp.o
+.PHONY : src/test_Reachability.cpp.o
+
+src/test_Reachability.i: src/test_Reachability.cpp.i
+.PHONY : src/test_Reachability.i
+
+# target to preprocess a source file
+src/test_Reachability.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_reach.dir/build.make CMakeFiles/test_reach.dir/src/test_Reachability.cpp.i
+.PHONY : src/test_Reachability.cpp.i
+
+src/test_Reachability.s: src/test_Reachability.cpp.s
+.PHONY : src/test_Reachability.s
+
+# target to generate assembly for a file
+src/test_Reachability.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_reach.dir/build.make CMakeFiles/test_reach.dir/src/test_Reachability.cpp.s
+.PHONY : src/test_Reachability.cpp.s
 
 src/test_reach.o: src/test_reach.cpp.o
 .PHONY : src/test_reach.o
@@ -397,11 +471,13 @@ help:
 	@echo "... test"
 	@echo "... nodes_uninstall"
 	@echo "... uninstall"
+	@echo "... Raggiungibilita"
 	@echo "... Reach"
 	@echo "... jtraj_left_node"
 	@echo "... jtraj_node"
 	@echo "... jtraj_right_node"
 	@echo "... task"
+	@echo "... test_reach"
 	@echo "... src/Jtraj.o"
 	@echo "... src/Jtraj.i"
 	@echo "... src/Jtraj.s"
@@ -411,9 +487,15 @@ help:
 	@echo "... src/JtrajRight.o"
 	@echo "... src/JtrajRight.i"
 	@echo "... src/JtrajRight.s"
+	@echo "... src/Reach.o"
+	@echo "... src/Reach.i"
+	@echo "... src/Reach.s"
 	@echo "... src/task.o"
 	@echo "... src/task.i"
 	@echo "... src/task.s"
+	@echo "... src/test_Reachability.o"
+	@echo "... src/test_Reachability.i"
+	@echo "... src/test_Reachability.s"
 	@echo "... src/test_reach.o"
 	@echo "... src/test_reach.i"
 	@echo "... src/test_reach.s"

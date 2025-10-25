@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.000229] (-) JobUnselected: {'identifier': 'build_scene_package'}
+[0.000253] (-) JobUnselected: {'identifier': 'iiwa_config_moveit_config'}
+[0.000266] (-) JobUnselected: {'identifier': 'iiwa_description'}
+[0.000276] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000287] (nodes) JobQueued: {'identifier': 'nodes', 'dependencies': OrderedDict({'interfaces': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces'})}
+[0.000490] (nodes) JobStarted: {'identifier': 'nodes'}
+[0.012211] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'cmake'}
+[0.013511] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'build'}
+[0.014561] (nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes', '--', '-j8', '-l8'], 'cwd': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicola', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nicola', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/nicola/.nvm/versions/node/v20.19.5/bin', 'NVM_INC': '/home/nicola/.nvm/versions/node/v20.19.5/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1835', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2160d3d402acbfba1fbbaa4668f8dd06', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/nicola/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install:/home/nicola/Desktop/Esercitazione_airp/IIWA/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nicola', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nicola', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nicola/.nvm/versions/node/v20.19.5/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/nicola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nicola/.local/bin:/home/nicola/.local/bin:/home/nicola/RoboDK/bin:/usr/local/MATLAB/R2024b/bin', 'SESSION_MANAGER': 'local/randezvous:@/tmp/.ICE-unix/1835,unix/randezvous:/tmp/.ICE-unix/1835', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/27f4f927_dde4_4956_8731_8cfba9030990', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.XXG1E3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_config_moveit_config:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_description:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/build_scene_package:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/nodes:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/interfaces:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/iiwa_config_moveit_config:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/iiwa_description:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/build_scene_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2160d3d402acbfba1fbbaa4668f8dd06', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_config_moveit_config:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_description:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/build_scene_package:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/nodes:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/interfaces:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/iiwa_config_moveit_config:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/iiwa_description:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.069019] (nodes) StdoutLine: {'line': b'[ 16%] Built target jtraj_right_node\n'}
+[0.069231] (nodes) StdoutLine: {'line': b'[ 66%] Built target task\n'}
+[0.069296] (nodes) StdoutLine: {'line': b'[ 66%] Built target jtraj_node\n'}
+[0.069348] (nodes) StdoutLine: {'line': b'[ 66%] Built target jtraj_left_node\n'}
+[0.076515] (nodes) StdoutLine: {'line': b'[ 83%] Built target test_reach\n'}
+[0.088032] (nodes) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/Reach.dir/src/test_reach.cpp.o\x1b[0m\n'}
+[0.099849] (-) TimerEvent: {}
+[0.200073] (-) TimerEvent: {}
+[0.300346] (-) TimerEvent: {}
+[0.400591] (-) TimerEvent: {}
+[0.500863] (-) TimerEvent: {}
+[0.601120] (-) TimerEvent: {}
+[0.701387] (-) TimerEvent: {}
+[0.801669] (-) TimerEvent: {}
+[0.901910] (-) TimerEvent: {}
+[1.002221] (-) TimerEvent: {}
+[1.102499] (-) TimerEvent: {}
+[1.202786] (-) TimerEvent: {}
+[1.303033] (-) TimerEvent: {}
+[1.403266] (-) TimerEvent: {}
+[1.503487] (-) TimerEvent: {}
+[1.603742] (-) TimerEvent: {}
+[1.704032] (-) TimerEvent: {}
+[1.804355] (-) TimerEvent: {}
+[1.904630] (-) TimerEvent: {}
+[2.004852] (-) TimerEvent: {}
+[2.105124] (-) TimerEvent: {}
+[2.205366] (-) TimerEvent: {}
+[2.305579] (-) TimerEvent: {}
+[2.405821] (-) TimerEvent: {}
+[2.506077] (-) TimerEvent: {}
+[2.606350] (-) TimerEvent: {}
+[2.706641] (-) TimerEvent: {}
+[2.806900] (-) TimerEvent: {}
+[2.896382] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:9\x1b[m\x1b[K:\n'}
+[2.896599] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.896665] (nodes) StderrLine: {'line': b'   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[2.896734] (nodes) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.906991] (-) TimerEvent: {}
+[3.007214] (-) TimerEvent: {}
+[3.107439] (-) TimerEvent: {}
+[3.207681] (-) TimerEvent: {}
+[3.308014] (-) TimerEvent: {}
+[3.408303] (-) TimerEvent: {}
+[3.508545] (-) TimerEvent: {}
+[3.608784] (-) TimerEvent: {}
+[3.708992] (-) TimerEvent: {}
+[3.809256] (-) TimerEvent: {}
+[3.909497] (-) TimerEvent: {}
+[4.009774] (-) TimerEvent: {}
+[4.110023] (-) TimerEvent: {}
+[4.210328] (-) TimerEvent: {}
+[4.310542] (-) TimerEvent: {}
+[4.410783] (-) TimerEvent: {}
+[4.511002] (-) TimerEvent: {}
+[4.611233] (-) TimerEvent: {}
+[4.711472] (-) TimerEvent: {}
+[4.811776] (-) TimerEvent: {}
+[4.813061] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:10\x1b[m\x1b[K:\n'}
+[4.813374] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.h:50:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.813483] (nodes) StderrLine: {'line': b'   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[4.813567] (nodes) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.813650] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:11\x1b[m\x1b[K:\n'}
+[4.813734] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.h:50:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.813821] (nodes) StderrLine: {'line': b'   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[4.813906] (nodes) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.813998] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:12\x1b[m\x1b[K:\n'}
+[4.814084] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.814185] (nodes) StderrLine: {'line': b'   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[4.814284] (nodes) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.814388] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:13\x1b[m\x1b[K:\n'}
+[4.814483] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.h:50:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.814576] (nodes) StderrLine: {'line': b'   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[4.814672] (nodes) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.911889] (-) TimerEvent: {}
+[5.012143] (-) TimerEvent: {}
+[5.112380] (-) TimerEvent: {}
+[5.212647] (-) TimerEvent: {}
+[5.312885] (-) TimerEvent: {}
+[5.413242] (-) TimerEvent: {}
+[5.513529] (-) TimerEvent: {}
+[5.613839] (-) TimerEvent: {}
+[5.714234] (-) TimerEvent: {}
+[5.814629] (-) TimerEvent: {}
+[5.914879] (-) TimerEvent: {}
+[6.015255] (-) TimerEvent: {}
+[6.115519] (-) TimerEvent: {}
+[6.215817] (-) TimerEvent: {}
+[6.316129] (-) TimerEvent: {}
+[6.416499] (-) TimerEvent: {}
+[6.516821] (-) TimerEvent: {}
+[6.617138] (-) TimerEvent: {}
+[6.717453] (-) TimerEvent: {}
+[6.817752] (-) TimerEvent: {}
+[6.918091] (-) TimerEvent: {}
+[7.018377] (-) TimerEvent: {}
+[7.118673] (-) TimerEvent: {}
+[7.218976] (-) TimerEvent: {}
+[7.325017] (-) TimerEvent: {}
+[7.425352] (-) TimerEvent: {}
+[7.525635] (-) TimerEvent: {}
+[7.625935] (-) TimerEvent: {}
+[7.726238] (-) TimerEvent: {}
+[7.826518] (-) TimerEvent: {}
+[7.926786] (-) TimerEvent: {}
+[8.027087] (-) TimerEvent: {}
+[8.127362] (-) TimerEvent: {}
+[8.227696] (-) TimerEvent: {}
+[8.327963] (-) TimerEvent: {}
+[8.428232] (-) TimerEvent: {}
+[8.528549] (-) TimerEvent: {}
+[8.628832] (-) TimerEvent: {}
+[8.729087] (-) TimerEvent: {}
+[8.829373] (-) TimerEvent: {}
+[8.929614] (-) TimerEvent: {}
+[9.029871] (-) TimerEvent: {}
+[9.130151] (-) TimerEvent: {}
+[9.230442] (-) TimerEvent: {}
+[9.330756] (-) TimerEvent: {}
+[9.431034] (-) TimerEvent: {}
+[9.531298] (-) TimerEvent: {}
+[9.549707] (nodes) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable Reach\x1b[0m\n'}
+[9.631389] (-) TimerEvent: {}
+[9.731618] (-) TimerEvent: {}
+[9.831854] (-) TimerEvent: {}
+[9.932156] (-) TimerEvent: {}
+[9.980044] (nodes) StdoutLine: {'line': b'[100%] Built target Reach\n'}
+[9.991922] (nodes) CommandEnded: {'returncode': 0}
+[9.992624] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'install'}
+[10.000301] (nodes) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes'], 'cwd': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicola', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nicola', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/nicola/.nvm/versions/node/v20.19.5/bin', 'NVM_INC': '/home/nicola/.nvm/versions/node/v20.19.5/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1835', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2160d3d402acbfba1fbbaa4668f8dd06', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/nicola/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install:/home/nicola/Desktop/Esercitazione_airp/IIWA/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nicola', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nicola', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nicola/.nvm/versions/node/v20.19.5/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/nicola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nicola/.local/bin:/home/nicola/.local/bin:/home/nicola/RoboDK/bin:/usr/local/MATLAB/R2024b/bin', 'SESSION_MANAGER': 'local/randezvous:@/tmp/.ICE-unix/1835,unix/randezvous:/tmp/.ICE-unix/1835', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/27f4f927_dde4_4956_8731_8cfba9030990', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.XXG1E3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_config_moveit_config:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_description:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/build_scene_package:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/nodes:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/interfaces:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/iiwa_config_moveit_config:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/iiwa_description:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/build_scene_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2160d3d402acbfba1fbbaa4668f8dd06', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_config_moveit_config:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_description:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/build_scene_package:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/nodes:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/interfaces:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/iiwa_config_moveit_config:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/iiwa_description:/home/nicola/Desktop/Esercitazione_airp/IIWA/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.007101] (nodes) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.007267] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/lib/nodes/test_reach\n'}
+[10.007403] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/lib/nodes/jtraj_node\n'}
+[10.007572] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/lib/nodes/jtraj_left_node\n'}
+[10.007745] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/lib/nodes/jtraj_right_node\n'}
+[10.007912] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/lib/nodes/task\n'}
+[10.008130] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/lib/nodes/test_reach\n'}
+[10.008301] (nodes) StdoutLine: {'line': b'-- Installing: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/lib/nodes/Reach\n'}
+[10.010184] (nodes) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/lib/nodes/Reach" to ""\n'}
+[10.010317] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/launch\n'}
+[10.010376] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/launch/launch.py\n'}
+[10.010433] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/ament_index/resource_index/package_run_dependencies/nodes\n'}
+[10.010489] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/ament_index/resource_index/parent_prefix_path/nodes\n'}
+[10.010790] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/environment/ament_prefix_path.sh\n'}
+[10.010856] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/environment/ament_prefix_path.dsv\n'}
+[10.010915] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/environment/path.sh\n'}
+[10.010978] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/environment/path.dsv\n'}
+[10.011025] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/local_setup.bash\n'}
+[10.011069] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/local_setup.sh\n'}
+[10.011113] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/local_setup.zsh\n'}
+[10.011160] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/local_setup.dsv\n'}
+[10.011207] (nodes) StdoutLine: {'line': b'-- Installing: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/package.dsv\n'}
+[10.011252] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/ament_index/resource_index/packages/nodes\n'}
+[10.011305] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/cmake/nodesConfig.cmake\n'}
+[10.011352] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/cmake/nodesConfig-version.cmake\n'}
+[10.011399] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes/share/nodes/package.xml\n'}
+[10.012079] (nodes) CommandEnded: {'returncode': 0}
+[10.022844] (nodes) JobEnded: {'identifier': 'nodes', 'rc': 0}
+[10.023523] (-) EventReactorShutdown: {}

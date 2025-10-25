@@ -1,0 +1,7 @@
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityIKNode::[01;32m[KgenerateGrid[m[K(double, double, double, double, double, double)[m[K’:
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:41:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kconvert[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+   41 |         tf2::[01;31m[Kconvert[m[K(quaternion, ros_quaternion); // Conversio
+      |              [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Reach.dir/build.make:76: CMakeFiles/Reach.dir/src/test_reach.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/Reach.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

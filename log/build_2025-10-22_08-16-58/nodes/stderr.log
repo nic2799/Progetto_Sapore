@@ -1,0 +1,41 @@
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:172:20:[m[K [01;31m[Kerror: [m[K‘[01m[KGetPositionIK[m[K’ was not declared in this scope
+  172 |     rclcpp::Client<[01;31m[KGetPositionIK[m[K>::SharedPtr client_;
+      |                    [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:172:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  172 |     rclcpp::Client<GetPositionIK[01;31m[K>[m[K::SharedPtr client_;
+      |                                 [01;31m[K^[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:172:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  172 |     rclcpp::Client<GetPositionIK>::[01;31m[KSharedPtr[m[K client_;
+      |                                    [01;31m[K^~~~~~~~~[m[K
+      |                                             [32m[K;[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:172:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ does not name a type
+  172 |     rclcpp::Client<GetPositionIK>::SharedPtr [01;31m[Kclient_[m[K;
+      |                                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:[m[K In constructor ‘[01m[KReachabilityNodes::[01;32m[KReachabilityNodes[m[K()[m[K’:
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   25 |         [01;31m[Kclient_[m[K = this->create_client<GetPositionIK>("/compute_ik");
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:25:39:[m[K [01;31m[Kerror: [m[K‘[01m[KGetPositionIK[m[K’ was not declared in this scope
+   25 |         client_ = this->create_client<[01;31m[KGetPositionIK[m[K>("/compute_ik");
+      |                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:25:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KReachabilityNodes::create_client<<expression error> >(const char [12])[m[K’
+   25 |         client_ = [01;31m[Kthis->create_client<GetPositionIK>("/compute_ik")[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  271 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:285:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  285 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:285:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:25:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |         client_ = [01;31m[Kthis->create_client<GetPositionIK>("/compute_ik")[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Reach.dir/build.make:76: CMakeFiles/Reach.dir/src/test_reach.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/Reach.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

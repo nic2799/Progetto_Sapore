@@ -23,6 +23,10 @@ find_package(geometry_msgs REQUIRED)#per obs forse inutili anche quelli di segui
 find_package(Eigen3 REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
 add_executable(task src/task.cpp)
+find_package(geometry_msgs REQUIRED)
+find_package(moveit_msgs REQUIRED)
+find_package(control_msgs REQUIRED)
+
 ament_target_dependencies(task 
   rclcpp 
   rclcpp_action 
@@ -68,7 +72,33 @@ ament_target_dependencies(Reach
   tf2_geometry_msgs
   tf2_eigen
   Eigen3
+  control_msgs
   )
+
+add_executable(Raggiungibilita src/Reach.cpp)
+ament_target_dependencies(Raggiungibilita 
+  rclcpp 
+  rclcpp_action
+  moveit_ros_planning_interface
+  geometry_msgs
+  visualization_msgs
+  tf2_ros
+  tf2
+  tf2_geometry_msgs
+  tf2_eigen
+  Eigen3
+  control_msgs
+  )
+
+add_executable(test_reach src/test_Reachability.cpp)
+ament_target_dependencies(test_reach rclcpp geometry_msgs moveit_msgs     tf2_ros
+  tf2
+  tf2_geometry_msgs
+  tf2_eigen
+  moveit_ros_planning_interface
+  
+  )
+install(TARGETS test_reach DESTINATION lib/${PROJECT_NAME})
 
 
 install(TARGETS
@@ -76,9 +106,10 @@ install(TARGETS
   jtraj_left_node
   jtraj_right_node
   task
-  
+  test_reach
   Reach
-  
+  Raggiungibilita
+
   DESTINATION lib/${PROJECT_NAME}
 )
 

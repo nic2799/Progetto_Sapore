@@ -310,8 +310,11 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "jtraj_node" "jtraj_left_node" "jtraj_right_node" "task" "Reach" "DESTINATION" "lib/nodes")
+# install("TARGETS" "test_reach" "DESTINATION" "lib/nodes")
 include("/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "jtraj_node" "jtraj_left_node" "jtraj_right_node" "task" "test_reach" "Reach" "Raggiungibilita" "DESTINATION" "lib/nodes")
+include("/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/nodes")
 ament_cmake_symlink_install_directory("/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes" DIRECTORY "launch" "DESTINATION" "share/nodes")

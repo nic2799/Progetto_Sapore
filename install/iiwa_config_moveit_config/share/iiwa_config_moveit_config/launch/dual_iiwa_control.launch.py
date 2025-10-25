@@ -1,12 +1,1 @@
-from launch import LaunchDescription
-from launch_ros.actions import Node
-
-def generate_launch_description():
-    return LaunchDescription([
-        Node(
-            package='controller_manager',
-            executable='ros2_control_node',
-            parameters=['/iiwa_config/config/ros2_controllers.yaml'],
-            output='screen'
-        )
-    ])
+/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/iiwa_config_moveit_config/launch/dual_iiwa_control.launch.py

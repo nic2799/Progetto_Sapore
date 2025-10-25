@@ -1,243 +1,221 @@
 #include <rclcpp/rclcpp.hpp>
-#include <memory>
-#include <string>
-#include <thread>
-
-#include <moveit/move_group_interface/move_group_interface.h>
-#include <moveit/planning_scene_interface/planning_scene_interface.h>
-#include <moveit/planning_scene_monitor/planning_scene_monitor.h>
-#include <moveit/planning_scene/planning_scene.h>
-#include <moveit/robot_state/robot_state.h>
-#include <moveit/robot_model_loader/robot_model_loader.h>
-
-#include <geometry_msgs/msg/pose.hpp>
+#include <moveit_msgs/srv/get_position_ik.hpp>
+#include <geometry_msgs/msg/pose_stamped.hpp>
 #include <visualization_msgs/msg/marker_array.hpp>
 
-class ReachabilityNodes : public rclcpp::Node
+#include <tf2/LinearMath/Quaternion.h>
+#include <tf2_geometry_msgs/tf2_geometry_msgs.hpp>
+
+#include <moveit/planning_scene_monitor/planning_scene_monitor.h>
+#include <moveit/planning_scene/planning_scene.h>
+#include <moveit/robot_model_loader/robot_model_loader.h>
+#include <moveit/robot_state/robot_state.h>
+#include <moveit/collision_detection/collision_common.h>
+
+using moveit_msgs::srv::GetPositionIK;
+using namespace std::chrono_literals;
+
+class ReachabilityIKNode : public rclcpp::Node
 {
 public:
-    ReachabilityNodes()
-        : Node("reachability_node")
+    ReachabilityIKNode() : Node("reachability_ik_node")
     {
+        // ---- CLIENT PER /compute_ik ----
+        client_ = this->create_client<GetPositionIK>("/compute_ik");
+        RCLCPP_INFO(this->get_logger(), "Attendo servizio /compute_ik...");
+        client_->wait_for_service();
+        RCLCPP_INFO(this->get_logger(), "Servizio /compute_ik disponibile!");
+
+        // ---- PUBLISHER PER RVIZ ----
         marker_pub_ = this->create_publisher<visualization_msgs::msg::MarkerArray>(
             "visualization_marker_array", 10);
-
-        RCLCPP_INFO(this->get_logger(), "Nodo Reachability creato (inizializzazione differita).");
     }
 
-    bool initialize(const std::string &planning_group = "left_arm", const std::string &reference_frame = "world")
+    // Metodo pubblico per avviare la generazione della griglia e il test
+    void start()
     {
-        try
+        auto tavolo = generateGrid(-0.25, -0.24, -1.0, -0.2, 0.2, 1.8, 0, 3.14/2, 0.0, 0.1);
+        RCLCPP_INFO(this->get_logger(), "Avvio test di raggiungibilità...");
+        testReachability(tavolo, "right_arm");
+    }
+
+private:
+    // --- Genera griglia 3D ---
+    std::vector<geometry_msgs::msg::PoseStamped> generateGrid(double xmin, double xmax, double ymin, double ymax,
+                                                              double zmin, double zmax, double roll, double pitch, double yaw, double step)
+    {
+        tf2::Quaternion quaternion;
+        quaternion.setRPY(roll, pitch, yaw);
+        geometry_msgs::msg::Quaternion ros_quaternion;
+        tf2::convert(quaternion, ros_quaternion);
+
+        std::vector<geometry_msgs::msg::PoseStamped> grid_points;
+        for (double x = xmin; x <= xmax; x += step)
         {
-            // Crea MoveGroupInterface
-            move_group_ = std::make_shared<moveit::planning_interface::MoveGroupInterface>(
-                shared_from_this(), planning_group);
-            move_group_->setPoseReferenceFrame(reference_frame);
-            move_group_->setEndEffectorLink("left_tcp");
-
-
-            // Avvia il monitor dello stato del robot (importantissimo)
-            move_group_->startStateMonitor();
-
-            // Crea PlanningSceneMonitor
-            planning_scene_monitor_ = std::make_shared<planning_scene_monitor::PlanningSceneMonitor>(
-                shared_from_this(), "robot_description");
-
-            if (!planning_scene_monitor_->getPlanningScene())
+            for (double y = ymin; y <= ymax; y += step)
             {
-                RCLCPP_ERROR(this->get_logger(), "Errore: impossibile inizializzare il PlanningSceneMonitor (planning scene vuota).");
-                return false;
+                for (double z = zmin; z <= zmax; z += step)
+                {
+                    geometry_msgs::msg::PoseStamped pose;
+                    pose.header.frame_id = "world";
+                    pose.pose.position.x = x;
+                    pose.pose.position.y = y;
+                    pose.pose.position.z = z;
+                    pose.pose.orientation = ros_quaternion;
+                    grid_points.push_back(pose);
+                }
+            }
+        }
+
+        RCLCPP_INFO(this->get_logger(), "Generati %zu punti nella griglia.", grid_points.size());
+        return grid_points;
+    }
+
+    // --- Testa ogni punto e controlla IK + collisioni ---
+    void testReachability(const std::vector<geometry_msgs::msg::PoseStamped> &grid_points, const std::string &group_name)
+    {
+        visualization_msgs::msg::MarkerArray markers;
+        int id = 0;
+
+        // --- Inizializzo la Planning Scene Monitor ---
+       planning_scene_monitor::PlanningSceneMonitorPtr psm =
+    std::make_shared<planning_scene_monitor::PlanningSceneMonitor>(this->shared_from_this(), "robot_description");
+
+        if (!psm->getPlanningScene())
+        {
+            RCLCPP_ERROR(this->get_logger(), "Errore: impossibile creare PlanningSceneMonitor. robot_description mancante?");
+            return;
+        }
+
+        psm->startSceneMonitor();
+                psm->requestPlanningSceneState("get_planning_scene");//chiede esplicitamente l'aggiornamento della scena di
+        psm->startWorldGeometryMonitor();
+        psm->startStateMonitor();
+
+        // attendo un po’ che arrivi la scena
+        rclcpp::sleep_for(500ms);
+        auto planning_scene = psm->getPlanningScene();
+
+        for (const auto &pose : grid_points)
+        {
+            // Prima richiesta IK (con avoid_collisions = true)
+            auto req = std::make_shared<GetPositionIK::Request>();
+            req->ik_request.group_name = group_name;
+            req->ik_request.pose_stamped = pose;
+            req->ik_request.ik_link_name = "right_tcp";
+            req->ik_request.avoid_collisions = true;
+            req->ik_request.timeout.sec = 1;
+
+            auto future = client_->async_send_request(req);
+            if (rclcpp::spin_until_future_complete(this->get_node_base_interface(), future) !=
+                rclcpp::FutureReturnCode::SUCCESS)
+            {
+                RCLCPP_WARN(this->get_logger(), "Timeout per richiesta IK.");
+                continue;
             }
 
-            // Avvia i monitor
-            planning_scene_monitor_->startSceneMonitor();
-            planning_scene_monitor_->startWorldGeometryMonitor();
-            planning_scene_monitor_->startStateMonitor();
+            auto response = future.get();
+            bool reachable = (response->error_code.val == moveit_msgs::msg::MoveItErrorCodes::SUCCESS);
 
-            planning_scene_ = planning_scene_monitor_->getPlanningScene();
+            RCLCPP_INFO(this->get_logger(), "IK response code = %d", response->error_code.val);
 
-            RCLCPP_INFO(this->get_logger(), "MoveGroup e PlanningSceneMonitor inizializzati correttamente.");
-            return true;
-        }
-        catch (const std::exception &e)
-        {
-            RCLCPP_ERROR(this->get_logger(), "Eccezione in initialize(): %s", e.what());
-            return false;
-        }
-    }
+            // Se fallisce, proviamo senza collision avoidance
+            sensor_msgs::msg::JointState candidate_js;
+            bool have_candidate = false;
 
-   void runReachabilityTest()
-{
-    double x_min = -1.0, x_max = -0.25;
-    double y_min = -1.0, y_max = 2.0;
-    double z_min = 0.0, z_max = 1.78;
-    double step  = 0.25;
-
-    if (!move_group_)
-    {
-        RCLCPP_ERROR(this->get_logger(), "move_group_ non inizializzato. Chiamare initialize() prima.");
-        return;
-    }
-
-    auto current_state_ptr = move_group_->getCurrentState();
-    if (!current_state_ptr)
-    {
-        RCLCPP_ERROR(this->get_logger(), "Impossibile ottenere current state dal MoveGroup.");
-        return;
-    }
-
-    const moveit::core::JointModelGroup* joint_model_group =
-        current_state_ptr->getJointModelGroup(move_group_->getName());
-
-    if (!joint_model_group)
-    {
-        RCLCPP_ERROR(this->get_logger(), "Impossibile ottenere JointModelGroup per '%s'.",
-                     move_group_->getName().c_str());
-        return;
-    }
-
-    int marker_id = 0;
-
-    for (double x = x_min; x <= x_max; x += step)
-    {
-        for (double y = y_min; y <= y_max; y += step)
-        {
-            for (double z = z_min; z <= z_max; z += step)
+            if (!reachable)
             {
-                geometry_msgs::msg::Pose pose;
-                pose.position.x = x;
-                pose.position.y = y;
-                pose.position.z = z;
-                pose.orientation.w = 1.0; // placeholder
+                RCLCPP_WARN(this->get_logger(), "IK (avoid_collisions=true) fallita, provo con avoid_collisions=false...");
+                auto req2 = std::make_shared<GetPositionIK::Request>(*req);
+                req2->ik_request.avoid_collisions = false;
 
-                moveit::core::RobotState robot_state = *move_group_->getCurrentState();
-
-                bool found_ik = false;
-                bool in_collision = false;
-                bool success = false;
-
-                // callback per fermare la ricerca IK appena trova una soluzione valida
-                auto validity_callback = [&](moveit::core::RobotState* state,
-                                             const moveit::core::JointModelGroup* jmg,
-                                             const double* ik_solution) {
-                    // aggiorna pianificazione per verificare collisioni
-                    planning_scene_monitor_->updateFrameTransforms();
-                    auto scene = planning_scene_monitor_->getPlanningScene();
-                    if (!scene) return false;
-                    return !scene->isStateColliding(*state, move_group_->getName());
-                };
-
-                // Tenta più volte orientamenti diversi (MoveIt genera orientazioni random)
-                found_ik = robot_state.setFromIK(
-                    joint_model_group, pose, 100, 0.1, validity_callback);
-
-                if (!found_ik)
+                auto future2 = client_->async_send_request(req2);
+                if (rclcpp::spin_until_future_complete(this->get_node_base_interface(), future2) ==
+                    rclcpp::FutureReturnCode::SUCCESS)
                 {
-                    RCLCPP_DEBUG(this->get_logger(),
-                                 "IK fallita per punto x=%.2f y=%.2f z=%.2f", x, y, z);
-                }
-                else
-                {
-                    planning_scene_monitor_->updateFrameTransforms();
-                    auto scene = planning_scene_monitor_->getPlanningScene();
-
-                    if (!scene)
+                    auto resp2 = future2.get();
+                    if (resp2->error_code.val == moveit_msgs::msg::MoveItErrorCodes::SUCCESS)
                     {
-                        RCLCPP_ERROR(this->get_logger(), "PlanningScene non disponibile.");
+                        candidate_js = resp2->solution.joint_state;
+                        have_candidate = !candidate_js.position.empty();
+                        RCLCPP_INFO(this->get_logger(), "IK (avoid_collisions=false) SII ESISTE UNA SOLUZIONE IK ANCHE SE È IN COLLISIONE.");
+                       
                     }
                     else
                     {
-                        in_collision = scene->isStateColliding(robot_state, move_group_->getName());
-                        if (!in_collision)
-                        {
-                            move_group_->setPoseTarget(pose);
-                            moveit::planning_interface::MoveGroupInterface::Plan plan;
-                            success = (move_group_->plan(plan) == moveit::core::MoveItErrorCode::SUCCESS);
-                        }
+                        RCLCPP_INFO(this->get_logger(), "Anche avoid_collisions=false non ha trovato soluzione.");
                     }
                 }
-
-                // ROSSO: non raggiungibile
-                if (!found_ik || in_collision)
-                    addVisualMarker(pose, marker_id++, 1.0, 0.0, 0.0);
-                // BLU: raggiungibile ma non pianificabile
-                else if (!success)
-                    addVisualMarker(pose, marker_id++, 0.0, 0.0, 1.0);
-                // VERDE: tutto ok
-                else
-                    addVisualMarker(pose, marker_id++, 0.0, 1.0, 0.0);
             }
+
+            // Prepara stato robot per collision check
+            moveit::core::RobotState current_state = planning_scene->getCurrentState();
+
+            if (have_candidate)
+            {
+                current_state.setVariablePositions(candidate_js.name, candidate_js.position);
+                current_state.update();
+            }
+
+            // Configura collision check
+            collision_detection::CollisionRequest collision_request;
+            collision_request.contacts = true;
+            collision_request.max_contacts = 100;
+            collision_request.max_contacts_per_pair = 5;
+            collision_request.group_name = group_name;
+            
+            
+
+            collision_detection::CollisionResult collision_result;
+            planning_scene->checkCollision(collision_request, collision_result, current_state);
+
+            if (collision_result.collision)
+            {
+                RCLCPP_WARN(this->get_logger(), "Collisione rilevata!");
+                for (const auto &entry : collision_result.contacts)
+                {
+                    RCLCPP_INFO(this->get_logger(),
+                                " - Link '%s' collide con '%s' (%zu contatti)",
+                                entry.first.first.c_str(), entry.first.second.c_str(), entry.second.size());
+                }
+            }
+            else
+            {
+                RCLCPP_INFO(this->get_logger(), "Nessuna collisione rilevata.");
+            }
+
+            // --- Marker per RViz ---
+            visualization_msgs::msg::Marker marker;
+            marker.header.frame_id = pose.header.frame_id;
+            marker.header.stamp = this->now();
+            marker.id = id++;
+            marker.type = visualization_msgs::msg::Marker::SPHERE;
+            marker.action = visualization_msgs::msg::Marker::ADD;
+            marker.scale.x = marker.scale.y = marker.scale.z = 0.05;
+            marker.pose = pose.pose;
+            marker.color.a = 1.0;
+            marker.color.r = reachable ? 0.0 : 1.0;
+            marker.color.g = reachable ? 1.0 : 0.0;
+            marker.color.b = 0.0;
+            markers.markers.push_back(marker);
+            marker_pub_->publish(markers);
         }
+
+        RCLCPP_INFO(this->get_logger(), "Pubblicati %zu marker su RViz.", markers.markers.size());
     }
 
-    RCLCPP_INFO(this->get_logger(), "Test raggiungibilità completato!");
-}
-
-private:
-    std::shared_ptr<moveit::planning_interface::MoveGroupInterface> move_group_;
-    std::shared_ptr<planning_scene_monitor::PlanningSceneMonitor> planning_scene_monitor_;
-    planning_scene::PlanningScenePtr planning_scene_;
+    // --- Membri ---
+    rclcpp::Client<GetPositionIK>::SharedPtr client_;
     rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr marker_pub_;
-
-    void addVisualMarker(const geometry_msgs::msg::Pose& pose, int id,
-                         double r, double g, double b)
-    {
-        visualization_msgs::msg::MarkerArray marker_array;
-        visualization_msgs::msg::Marker marker;
-
-        marker.header.frame_id = "world";
-        marker.header.stamp = this->now();
-        marker.ns = "reachability";
-        marker.id = id;
-        marker.type = visualization_msgs::msg::Marker::SPHERE;
-        marker.action = visualization_msgs::msg::Marker::ADD;
-
-        marker.pose = pose;
-
-        marker.scale.x = 0.05;
-        marker.scale.y = 0.05;
-        marker.scale.z = 0.05;
-
-        marker.color.r = r;
-        marker.color.g = g;
-        marker.color.b = b;
-        marker.color.a = 1.0;
-
-        marker_array.markers.push_back(marker);
-        marker_pub_->publish(marker_array);
-    }
 };
 
-int main(int argc, char** argv)
+// --- MAIN ---
+int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
-
-    // Crea il nodo
-    auto node = std::make_shared<ReachabilityNodes>();
-
-    // Crea un executor separato
-    rclcpp::executors::SingleThreadedExecutor executor;
-    executor.add_node(node);
-
-    // Lancia l’executor in un thread separato
-    std::thread executor_thread([&executor]() {
-        executor.spin();
-    });
-
-    // Inizializza MoveGroup e PlanningSceneMonitor
-    if (!node->initialize("left_arm", "world"))
-    {
-        RCLCPP_ERROR(rclcpp::get_logger("reachability_main"), "Inizializzazione fallita. Esco.");
-        rclcpp::shutdown();
-        executor_thread.join();
-        return 1;
-    }
-
-    // Esegui il test di raggiungibilità
-    node->runReachabilityTest();
-
-    // Chiudi tutto
+    auto node = std::make_shared<ReachabilityIKNode>();
+    node->start();
+    rclcpp::spin(node);
     rclcpp::shutdown();
-    executor_thread.join();
     return 0;
 }

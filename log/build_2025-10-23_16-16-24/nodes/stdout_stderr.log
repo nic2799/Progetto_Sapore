@@ -1,0 +1,129 @@
+[ 50%] Built target task
+[ 50%] Built target jtraj_right_node
+[ 50%] Built target jtraj_left_node
+[ 66%] Built target jtraj_node
+[ 83%] Built target test_reach
+[ 91%] [32mBuilding CXX object CMakeFiles/Reach.dir/src/test_reach.cpp.o[0m
+In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:9[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:10[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:11[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:12[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:13[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:214:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_request[m[K’ does not name a type
+  214 |             [01;31m[Kcollision_request[m[K.contacts = true;
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:215:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_request[m[K’ does not name a type
+  215 |             [01;31m[Kcollision_request[m[K.max_contacts = 100;
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:216:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_request[m[K’ does not name a type
+  216 |             [01;31m[Kcollision_request[m[K.max_contacts_per_pair = 5;
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:217:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision_request[m[K’ does not name a type
+  217 |             [01;31m[Kcollision_request[m[K.group_name = group_name; // opzionale: limita il controllo al gruppo?
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:220:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene[m[K’ does not name a type
+  220 |             [01;31m[Kplanning_scene[m[K->checkCollision(collision_request, collision_result, current_state);
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:222:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+  222 |             [01;31m[Kif[m[K (collision_result.collision)
+      |             [01;31m[K^~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:232:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+  232 |             [01;31m[Kelse[m[K
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:239:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker[m[K’ does not name a type
+  239 |             [01;31m[Kmarker[m[K.header.frame_id = pose.header.frame_id;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:240:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker[m[K’ does not name a type
+  240 |             [01;31m[Kmarker[m[K.header.stamp = this->now();
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:241:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker[m[K’ does not name a type
+  241 |             [01;31m[Kmarker[m[K.id = id++;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:242:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker[m[K’ does not name a type
+  242 |             [01;31m[Kmarker[m[K.type = visualization_msgs::msg::Marker::SPHERE;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:243:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker[m[K’ does not name a type
+  243 |             [01;31m[Kmarker[m[K.action = visualization_msgs::msg::Marker::ADD;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:244:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker[m[K’ does not name a type
+  244 |             [01;31m[Kmarker[m[K.scale.x = marker.scale.y = marker.scale.z = 0.05;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:245:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker[m[K’ does not name a type
+  245 |             [01;31m[Kmarker[m[K.pose = pose.pose;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:246:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker[m[K’ does not name a type
+  246 |             [01;31m[Kmarker[m[K.color.a = 1.0;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:247:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker[m[K’ does not name a type
+  247 |             [01;31m[Kmarker[m[K.color.r = reachable ? 0.0 : 1.0;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:248:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker[m[K’ does not name a type
+  248 |             [01;31m[Kmarker[m[K.color.g = reachable ? 1.0 : 0.0;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:249:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker[m[K’ does not name a type
+  249 |             [01;31m[Kmarker[m[K.color.b = 0.0;
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:250:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarkers[m[K’ does not name a type
+  250 |             [01;31m[Kmarkers[m[K.markers.push_back(marker);
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:251:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ does not name a type
+  251 |             [01;31m[Kmarker_pub_[m[K->publish(markers);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:252:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  252 |         }
+      |          [01;31m[K^[m[K
+      |          [32m[K;[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:[m[K In constructor ‘[01m[KReachabilityIKNode::[01;32m[KReachabilityIKNode[m[K()[m[K’:
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+   26 |         [01;31m[Kclient_[m[K = this->create_client<GetPositionIK>("/compute_ik");
+      |         [01;31m[K^~~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:32:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+   32 |         [01;31m[Kmarker_pub_[m[K = this->create_publisher<visualization_msgs::msg::MarkerArray>(
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityIKNode::[01;32m[KtestReachability[m[K(const std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&, const std::string&)[m[K’:
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:118:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+  118 |             auto future = [01;31m[Kclient_[m[K->async_send_request(req);
+      |                           [01;31m[K^~~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:207:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kjmg[m[K’ was not declared in this scope
+  207 |                     current_state.setJointGroupPositions([01;31m[Kjmg[m[K, group_positions);
+      |                                                          [01;31m[K^~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:207:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_positions[m[K’ was not declared in this scope
+  207 |                     current_state.setJointGroupPositions(jmg, [01;31m[Kgroup_positions[m[K);
+      |                                                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:80:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   80 |         int [01;35m[Kid[m[K = 0;
+      |             [01;35m[K^~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:1[m[K:
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:[m[K At global scope:
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:254:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  254 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Pubblicati %zu marker su RViz.", markers.markers.size());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:254:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  254 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Pubblicati %zu marker su RViz.", markers.markers.size());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:255:5:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  255 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:260:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  260 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/Reach.dir/build.make:76: CMakeFiles/Reach.dir/src/test_reach.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/Reach.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

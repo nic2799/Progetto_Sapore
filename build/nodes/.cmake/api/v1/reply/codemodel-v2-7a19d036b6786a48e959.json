@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-00166dcc5976709e1afe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nodes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Raggiungibilita::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Raggiungibilita-d3f98aa0fa1397778eee.json",
+					"name" : "Raggiungibilita",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Reach::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Reach-771b4df7a7d0457df82b.json",
+					"name" : "Reach",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jtraj_left_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jtraj_left_node-281cf75aee9d420862b3.json",
+					"name" : "jtraj_left_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jtraj_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jtraj_node-c1a7aa969465f7fc0e5d.json",
+					"name" : "jtraj_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jtraj_right_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jtraj_right_node-5f59df624f53f7990938.json",
+					"name" : "jtraj_right_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nodes_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nodes_uninstall-f4449163cf2ca8e38912.json",
+					"name" : "nodes_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task-45979c121d6e030e5d48.json",
+					"name" : "task",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_reach::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_reach-208514baf14ddcf82a97.json",
+					"name" : "test_reach",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2f2099008995308f3d72.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes",
+		"source" : "/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

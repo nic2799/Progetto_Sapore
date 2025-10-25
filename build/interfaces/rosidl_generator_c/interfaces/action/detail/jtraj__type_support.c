@@ -6,8 +6,8 @@
 
 #include "interfaces/action/detail/jtraj__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "interfaces/action/detail/jtraj__type_support.h"
 #include "interfaces/action/detail/jtraj__functions.h"
+#include "interfaces/action/detail/jtraj__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

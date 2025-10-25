@@ -1,8 +1,0 @@
-[0.032s] Invoking command in '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/build_scene_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/build_scene_package -- -j8 -l8
-[0.074s] [31mCMake Error at CMakeLists.txt:5 (ament_target_dependencies):
-[0.074s]   Unknown CMake command "ament_target_dependencies".
-[0.075s] 
-[0.075s] [0m
-[0.075s] -- Configuring incomplete, errors occurred!
-[0.078s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
-[0.082s] Invoked command in '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/build_scene_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/build_scene_package -- -j8 -l8

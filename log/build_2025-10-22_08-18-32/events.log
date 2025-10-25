@@ -1,0 +1,300 @@
+[0.000000] (-) TimerEvent: {}
+[0.001125] (-) JobUnselected: {'identifier': 'build_scene_package'}
+[0.001501] (-) JobUnselected: {'identifier': 'iiwa_config_moveit_config'}
+[0.001561] (-) JobUnselected: {'identifier': 'iiwa_description'}
+[0.001606] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.001651] (nodes) JobQueued: {'identifier': 'nodes', 'dependencies': OrderedDict({'interfaces': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces'})}
+[0.001718] (nodes) JobStarted: {'identifier': 'nodes'}
+[0.029390] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'cmake'}
+[0.032115] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'build'}
+[0.034894] (nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes', '--', '-j8', '-l8'], 'cwd': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicola', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nicola', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/nicola/.nvm/versions/node/v20.19.5/bin', 'NVM_INC': '/home/nicola/.nvm/versions/node/v20.19.5/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1918', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d19c4048bb7c6e9e05d0bf9668f87441', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/nicola/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nicola', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nicola', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nicola/.nvm/versions/node/v20.19.5/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/nicola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nicola/.local/bin:/home/nicola/.local/bin:/home/nicola/RoboDK/bin:/usr/local/MATLAB/R2024b/bin', 'SESSION_MANAGER': 'local/randezvous:@/tmp/.ICE-unix/1918,unix/randezvous:/tmp/.ICE-unix/1918', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f5b518a5_7c80_4fab_a7fa_aaa312ab32dd', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.A8VSE3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.123', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_config_moveit_config:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_description:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/build_scene_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d19c4048bb7c6e9e05d0bf9668f87441', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/interfaces:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/nodes:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_config_moveit_config:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/iiwa_description:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099520] (-) TimerEvent: {}
+[0.202135] (-) TimerEvent: {}
+[0.229191] (nodes) StdoutLine: {'line': b'[ 16%] Built target jtraj_right_node\n'}
+[0.232105] (nodes) StdoutLine: {'line': b'[ 33%] Built target jtraj_node\n'}
+[0.244099] (nodes) StdoutLine: {'line': b'[ 50%] Built target task\n'}
+[0.256825] (nodes) StdoutLine: {'line': b'[ 66%] Built target jtraj_left_node\n'}
+[0.285681] (nodes) StdoutLine: {'line': b'[ 83%] Built target test_reach\n'}
+[0.302275] (-) TimerEvent: {}
+[0.319387] (nodes) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/Reach.dir/src/test_reach.cpp.o\x1b[0m\n'}
+[0.402444] (-) TimerEvent: {}
+[0.503066] (-) TimerEvent: {}
+[0.603600] (-) TimerEvent: {}
+[0.704197] (-) TimerEvent: {}
+[0.804784] (-) TimerEvent: {}
+[0.905341] (-) TimerEvent: {}
+[1.005892] (-) TimerEvent: {}
+[1.106464] (-) TimerEvent: {}
+[1.207006] (-) TimerEvent: {}
+[1.307529] (-) TimerEvent: {}
+[1.408060] (-) TimerEvent: {}
+[1.508591] (-) TimerEvent: {}
+[1.609112] (-) TimerEvent: {}
+[1.709702] (-) TimerEvent: {}
+[1.810266] (-) TimerEvent: {}
+[1.910802] (-) TimerEvent: {}
+[2.011454] (-) TimerEvent: {}
+[2.112042] (-) TimerEvent: {}
+[2.212609] (-) TimerEvent: {}
+[2.313066] (-) TimerEvent: {}
+[2.413538] (-) TimerEvent: {}
+[2.514155] (-) TimerEvent: {}
+[2.614691] (-) TimerEvent: {}
+[2.715242] (-) TimerEvent: {}
+[2.815740] (-) TimerEvent: {}
+[2.916225] (-) TimerEvent: {}
+[3.016661] (-) TimerEvent: {}
+[3.117090] (-) TimerEvent: {}
+[3.217575] (-) TimerEvent: {}
+[3.318077] (-) TimerEvent: {}
+[3.418545] (-) TimerEvent: {}
+[3.519284] (-) TimerEvent: {}
+[3.619897] (-) TimerEvent: {}
+[3.720813] (-) TimerEvent: {}
+[3.821385] (-) TimerEvent: {}
+[3.921933] (-) TimerEvent: {}
+[4.022555] (-) TimerEvent: {}
+[4.123064] (-) TimerEvent: {}
+[4.223612] (-) TimerEvent: {}
+[4.324153] (-) TimerEvent: {}
+[4.424583] (-) TimerEvent: {}
+[4.525077] (-) TimerEvent: {}
+[4.625549] (-) TimerEvent: {}
+[4.726048] (-) TimerEvent: {}
+[4.826489] (-) TimerEvent: {}
+[4.927046] (-) TimerEvent: {}
+[5.027511] (-) TimerEvent: {}
+[5.128061] (-) TimerEvent: {}
+[5.228578] (-) TimerEvent: {}
+[5.329028] (-) TimerEvent: {}
+[5.429570] (-) TimerEvent: {}
+[5.530070] (-) TimerEvent: {}
+[5.630475] (-) TimerEvent: {}
+[5.730900] (-) TimerEvent: {}
+[5.831397] (-) TimerEvent: {}
+[5.931945] (-) TimerEvent: {}
+[6.032588] (-) TimerEvent: {}
+[6.133164] (-) TimerEvent: {}
+[6.233662] (-) TimerEvent: {}
+[6.334289] (-) TimerEvent: {}
+[6.434865] (-) TimerEvent: {}
+[6.535379] (-) TimerEvent: {}
+[6.635817] (-) TimerEvent: {}
+[6.736348] (-) TimerEvent: {}
+[6.836787] (-) TimerEvent: {}
+[6.937249] (-) TimerEvent: {}
+[7.037713] (-) TimerEvent: {}
+[7.138282] (-) TimerEvent: {}
+[7.238718] (-) TimerEvent: {}
+[7.340082] (-) TimerEvent: {}
+[7.442071] (-) TimerEvent: {}
+[7.542644] (-) TimerEvent: {}
+[7.643531] (-) TimerEvent: {}
+[7.744442] (-) TimerEvent: {}
+[7.845085] (-) TimerEvent: {}
+[7.945635] (-) TimerEvent: {}
+[8.046164] (-) TimerEvent: {}
+[8.146565] (-) TimerEvent: {}
+[8.247076] (-) TimerEvent: {}
+[8.351138] (-) TimerEvent: {}
+[8.451722] (-) TimerEvent: {}
+[8.552384] (-) TimerEvent: {}
+[8.655149] (-) TimerEvent: {}
+[8.755685] (-) TimerEvent: {}
+[8.856347] (-) TimerEvent: {}
+[8.956891] (-) TimerEvent: {}
+[9.057529] (-) TimerEvent: {}
+[9.158050] (-) TimerEvent: {}
+[9.258622] (-) TimerEvent: {}
+[9.359195] (-) TimerEvent: {}
+[9.459730] (-) TimerEvent: {}
+[9.560254] (-) TimerEvent: {}
+[9.660778] (-) TimerEvent: {}
+[9.761350] (-) TimerEvent: {}
+[9.861909] (-) TimerEvent: {}
+[9.962472] (-) TimerEvent: {}
+[10.062997] (-) TimerEvent: {}
+[10.163577] (-) TimerEvent: {}
+[10.264013] (-) TimerEvent: {}
+[10.364474] (-) TimerEvent: {}
+[10.465050] (-) TimerEvent: {}
+[10.565587] (-) TimerEvent: {}
+[10.666138] (-) TimerEvent: {}
+[10.766717] (-) TimerEvent: {}
+[10.867269] (-) TimerEvent: {}
+[10.967806] (-) TimerEvent: {}
+[11.068377] (-) TimerEvent: {}
+[11.168914] (-) TimerEvent: {}
+[11.269525] (-) TimerEvent: {}
+[11.370049] (-) TimerEvent: {}
+[11.470505] (-) TimerEvent: {}
+[11.571093] (-) TimerEvent: {}
+[11.671681] (-) TimerEvent: {}
+[11.772335] (-) TimerEvent: {}
+[11.872792] (-) TimerEvent: {}
+[11.973324] (-) TimerEvent: {}
+[12.073881] (-) TimerEvent: {}
+[12.174385] (-) TimerEvent: {}
+[12.274806] (-) TimerEvent: {}
+[12.375226] (-) TimerEvent: {}
+[12.475644] (-) TimerEvent: {}
+[12.576182] (-) TimerEvent: {}
+[12.676620] (-) TimerEvent: {}
+[12.777065] (-) TimerEvent: {}
+[12.877500] (-) TimerEvent: {}
+[12.977932] (-) TimerEvent: {}
+[13.078373] (-) TimerEvent: {}
+[13.178830] (-) TimerEvent: {}
+[13.279424] (-) TimerEvent: {}
+[13.380045] (-) TimerEvent: {}
+[13.480548] (-) TimerEvent: {}
+[13.581185] (-) TimerEvent: {}
+[13.681674] (-) TimerEvent: {}
+[13.782079] (-) TimerEvent: {}
+[13.882515] (-) TimerEvent: {}
+[13.983034] (-) TimerEvent: {}
+[14.083629] (-) TimerEvent: {}
+[14.184258] (-) TimerEvent: {}
+[14.284900] (-) TimerEvent: {}
+[14.385379] (-) TimerEvent: {}
+[14.485796] (-) TimerEvent: {}
+[14.586281] (-) TimerEvent: {}
+[14.686693] (-) TimerEvent: {}
+[14.787151] (-) TimerEvent: {}
+[14.887566] (-) TimerEvent: {}
+[14.988009] (-) TimerEvent: {}
+[15.088430] (-) TimerEvent: {}
+[15.188848] (-) TimerEvent: {}
+[15.289296] (-) TimerEvent: {}
+[15.389732] (-) TimerEvent: {}
+[15.490188] (-) TimerEvent: {}
+[15.590618] (-) TimerEvent: {}
+[15.691036] (-) TimerEvent: {}
+[15.791469] (-) TimerEvent: {}
+[15.891951] (-) TimerEvent: {}
+[15.992466] (-) TimerEvent: {}
+[16.092914] (-) TimerEvent: {}
+[16.128656] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:20:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kusing-declaration for non-member at class scope\n'}
+[16.129140] (nodes) StderrLine: {'line': b'   20 |     using moveit_msgs::srv::\x1b[01;31m\x1b[KGetPositionIK\x1b[m\x1b[K;\n'}
+[16.129336] (nodes) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.162366] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:175:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGetPositionIK\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[16.162703] (nodes) StderrLine: {'line': b'  175 |     rclcpp::Client<\x1b[01;31m\x1b[KGetPositionIK\x1b[m\x1b[K>::SharedPtr client_;\n'}
+[16.162872] (nodes) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.163059] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:175:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[16.163213] (nodes) StderrLine: {'line': b'  175 |     rclcpp::Client<GetPositionIK\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr client_;\n'}
+[16.163418] (nodes) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[16.163596] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:175:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[16.163817] (nodes) StderrLine: {'line': b'  175 |     rclcpp::Client<GetPositionIK>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K client_;\n'}
+[16.164015] (nodes) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[16.164169] (nodes) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[16.168859] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:175:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[16.169241] (nodes) StderrLine: {'line': b'  175 |     rclcpp::Client<GetPositionIK>::SharedPtr \x1b[01;31m\x1b[Kclient_\x1b[m\x1b[K;\n'}
+[16.169563] (nodes) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[16.193075] (-) TimerEvent: {}
+[16.212859] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KReachabilityNodes::\x1b[01;32m\x1b[KReachabilityNodes\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.213250] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:28:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[16.213558] (nodes) StderrLine: {'line': b'   28 |         \x1b[01;31m\x1b[Kclient_\x1b[m\x1b[K = this->create_client<GetPositionIK>("/compute_ik");\n'}
+[16.213846] (nodes) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[16.246605] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:28:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGetPositionIK\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[16.247087] (nodes) StderrLine: {'line': b'   28 |         client_ = this->create_client<\x1b[01;31m\x1b[KGetPositionIK\x1b[m\x1b[K>("/compute_ik");\n'}
+[16.247256] (nodes) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.247409] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:28:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KReachabilityNodes::create_client<<expression error> >(const char [12])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.247567] (nodes) StderrLine: {'line': b'   28 |         client_ = \x1b[01;31m\x1b[Kthis->create_client<GetPositionIK>("/compute_ik")\x1b[m\x1b[K;\n'}
+[16.247719] (nodes) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.247864] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[16.248026] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[16.248169] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[16.248312] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:1\x1b[m\x1b[K:\n'}
+[16.248480] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::\x1b[01;32m\x1b[Kcreate_client\x1b[m\x1b[K(const std::string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.248639] (nodes) StderrLine: {'line': b'  271 |   \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[16.248783] (nodes) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.248928] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[16.249102] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:285:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::\x1b[01;32m\x1b[Kcreate_client\x1b[m\x1b[K(const std::string&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.249247] (nodes) StderrLine: {'line': b'  285 |   \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[16.249391] (nodes) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.249534] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:285:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[16.249677] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:28:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[16.249822] (nodes) StderrLine: {'line': b'   28 |         client_ = \x1b[01;31m\x1b[Kthis->create_client<GetPositionIK>("/compute_ik")\x1b[m\x1b[K;\n'}
+[16.249984] (nodes) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.293223] (-) TimerEvent: {}
+[16.393764] (-) TimerEvent: {}
+[16.494208] (-) TimerEvent: {}
+[16.594668] (-) TimerEvent: {}
+[16.695338] (-) TimerEvent: {}
+[16.795932] (-) TimerEvent: {}
+[16.896396] (-) TimerEvent: {}
+[16.996844] (-) TimerEvent: {}
+[17.097270] (-) TimerEvent: {}
+[17.197713] (-) TimerEvent: {}
+[17.298184] (-) TimerEvent: {}
+[17.398642] (-) TimerEvent: {}
+[17.499157] (-) TimerEvent: {}
+[17.599566] (-) TimerEvent: {}
+[17.700050] (-) TimerEvent: {}
+[17.800508] (-) TimerEvent: {}
+[17.901078] (-) TimerEvent: {}
+[18.001503] (-) TimerEvent: {}
+[18.102026] (-) TimerEvent: {}
+[18.202446] (-) TimerEvent: {}
+[18.302942] (-) TimerEvent: {}
+[18.403406] (-) TimerEvent: {}
+[18.503919] (-) TimerEvent: {}
+[18.604368] (-) TimerEvent: {}
+[18.704822] (-) TimerEvent: {}
+[18.805275] (-) TimerEvent: {}
+[18.905708] (-) TimerEvent: {}
+[19.006147] (-) TimerEvent: {}
+[19.106605] (-) TimerEvent: {}
+[19.207066] (-) TimerEvent: {}
+[19.307538] (-) TimerEvent: {}
+[19.408081] (-) TimerEvent: {}
+[19.508639] (-) TimerEvent: {}
+[19.609152] (-) TimerEvent: {}
+[19.709649] (-) TimerEvent: {}
+[19.810250] (-) TimerEvent: {}
+[19.910779] (-) TimerEvent: {}
+[20.011295] (-) TimerEvent: {}
+[20.111759] (-) TimerEvent: {}
+[20.212371] (-) TimerEvent: {}
+[20.312854] (-) TimerEvent: {}
+[20.413443] (-) TimerEvent: {}
+[20.513985] (-) TimerEvent: {}
+[20.614405] (-) TimerEvent: {}
+[20.714863] (-) TimerEvent: {}
+[20.815329] (-) TimerEvent: {}
+[20.915755] (-) TimerEvent: {}
+[21.016169] (-) TimerEvent: {}
+[21.116595] (-) TimerEvent: {}
+[21.217051] (-) TimerEvent: {}
+[21.317495] (-) TimerEvent: {}
+[21.417919] (-) TimerEvent: {}
+[21.518375] (-) TimerEvent: {}
+[21.618814] (-) TimerEvent: {}
+[21.719271] (-) TimerEvent: {}
+[21.819733] (-) TimerEvent: {}
+[21.920165] (-) TimerEvent: {}
+[22.020702] (-) TimerEvent: {}
+[22.121220] (-) TimerEvent: {}
+[22.221677] (-) TimerEvent: {}
+[22.322123] (-) TimerEvent: {}
+[22.422544] (-) TimerEvent: {}
+[22.523090] (-) TimerEvent: {}
+[22.623649] (-) TimerEvent: {}
+[22.724264] (-) TimerEvent: {}
+[22.824775] (-) TimerEvent: {}
+[22.925192] (-) TimerEvent: {}
+[23.025597] (-) TimerEvent: {}
+[23.126022] (-) TimerEvent: {}
+[23.226447] (-) TimerEvent: {}
+[23.327010] (-) TimerEvent: {}
+[23.427500] (-) TimerEvent: {}
+[23.527967] (-) TimerEvent: {}
+[23.628420] (-) TimerEvent: {}
+[23.728972] (-) TimerEvent: {}
+[23.829392] (-) TimerEvent: {}
+[23.879449] (nodes) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/Reach.dir/build.make:76: CMakeFiles/Reach.dir/src/test_reach.cpp.o] Error 1\n'}
+[23.879921] (nodes) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/Reach.dir/all] Error 2\n'}
+[23.880443] (nodes) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[23.884859] (nodes) CommandEnded: {'returncode': 2}
+[23.907896] (nodes) JobEnded: {'identifier': 'nodes', 'rc': 2}
+[23.918889] (-) EventReactorShutdown: {}

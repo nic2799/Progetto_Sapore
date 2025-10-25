@@ -1,6 +1,1 @@
-float64[] qf
-float64 tf
----
-bool success
----
-float64[] q_now
+/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/interfaces/action/Jtraj.action

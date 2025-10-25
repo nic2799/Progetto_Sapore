@@ -1,10 +1,1 @@
-moveit_setup_assistant_config:
-  urdf:
-    package: iiwa_description
-    relative_path: urdf/dual_iiwa_robot.urdf
-  srdf:
-    relative_path: config/dual_iiwa_robot.srdf
-  package_settings:
-    author_name: ""
-    author_email: ""
-    generated_timestamp: 1760169110
+/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/iiwa_config_moveit_config/.setup_assistant

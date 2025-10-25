@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:74 (file):
-  file INSTALL cannot find
-  "/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/build_scene_package/meshes":
-  No such file or directory.
-
-[0m

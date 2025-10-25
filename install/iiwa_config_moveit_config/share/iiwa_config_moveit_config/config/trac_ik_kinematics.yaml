@@ -1,8 +1,1 @@
-right_arm:
-  kinematics_solver: trac_ik_kinematics_plugin/TRAC_IKKinematicsPlugin
-  kinematics_solver_timeout: 0.5  # Assicurati che sia un valore non troppo basso
-  kinematics_solver_search_resolution: 0.005
-left_arm:
-  kinematics_solver: trac_ik_kinematics_plugin/TRAC_IKKinematicsPlugin
-  kinematics_solver_timeout: 0.5
-  kinematics_solver_search_resolution: 0.005
+/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/iiwa_config_moveit_config/config/trac_ik_kinematics.yaml

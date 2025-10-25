@@ -1,0 +1,38 @@
+In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:9[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:10[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:11[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:12[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityIKNode::[01;32m[KtestReachability[m[K(const std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&, const std::string&)[m[K’:
+[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:79:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krobot_model_loader::RobotModelLoader::RobotModelLoader(const char [18])[m[K’
+   79 |     robot_model_loader::RobotModelLoader robot_model_loader("robot_description"[01;31m[K)[m[K;
+      |                                                                                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.h:51[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.hpp:82:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krobot_model_loader::RobotModelLoader::[01;32m[KRobotModelLoader[m[K(const rclcpp::Node::SharedPtr&, const std::string&, bool)[m[K’
+   82 |   [01;36m[KRobotModelLoader[m[K(const rclcpp::Node::SharedPtr& node, const std::string& robot_description,
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.hpp:82:3:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.hpp:80:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krobot_model_loader::RobotModelLoader::[01;32m[KRobotModelLoader[m[K(const rclcpp::Node::SharedPtr&, const Options&)[m[K’
+   80 |   [01;36m[KRobotModelLoader[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt = Options());
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.hpp:80:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [18][m[K’ to ‘[01m[Kconst rclcpp::Node::SharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<rclcpp::Node>&[m[K’}
+   80 |   RobotModelLoader([01;36m[Kconst rclcpp::Node::SharedPtr& node[m[K, const Options& opt = Options());
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.hpp:49:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krobot_model_loader::RobotModelLoader::[01;32m[KRobotModelLoader[m[K(const robot_model_loader::RobotModelLoader&)[m[K’
+   49 | class [01;36m[KRobotModelLoader[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.hpp:49:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [18][m[K’ to ‘[01m[Kconst robot_model_loader::RobotModelLoader&[m[K’
+gmake[2]: *** [CMakeFiles/Reach.dir/build.make:76: CMakeFiles/Reach.dir/src/test_reach.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/Reach.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

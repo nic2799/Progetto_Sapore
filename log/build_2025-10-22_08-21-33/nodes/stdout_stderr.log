@@ -1,0 +1,9 @@
+[ 16%] Built target task
+[ 33%] Built target jtraj_node
+[ 50%] Built target jtraj_left_node
+[ 66%] Built target jtraj_right_node
+[ 83%] Built target test_reach
+[ 91%] [32mBuilding CXX object CMakeFiles/Reach.dir/src/test_reach.cpp.o[0m
+gmake[2]: *** [CMakeFiles/Reach.dir/build.make:76: CMakeFiles/Reach.dir/src/test_reach.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/Reach.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
