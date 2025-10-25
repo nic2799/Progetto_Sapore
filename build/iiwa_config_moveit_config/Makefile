@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/iiwa_config_moveit_config
+CMAKE_SOURCE_DIR = /home/nicola/Desktop/Progetto_Sapore/src/iiwa_config_moveit_config
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/iiwa_config_moveit_config
+CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/iiwa_config_moveit_config
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/iiwa_config_moveit_config/CMakeFiles /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/iiwa_config_moveit_config//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/iiwa_config_moveit_config/CMakeFiles /home/nicola/Desktop/Progetto_Sapore/build/iiwa_config_moveit_config//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/iiwa_config_moveit_config/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/iiwa_config_moveit_config/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/interfaces
+CMAKE_SOURCE_DIR = /home/nicola/Desktop/Progetto_Sapore/src/interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces
+CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/interfaces
 
 # Utility rule file for interfaces.
 
@@ -66,7 +66,7 @@ include CMakeFiles/interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/interfaces.dir/progress.make
 
-CMakeFiles/interfaces: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/interfaces/action/Jtraj.action
+CMakeFiles/interfaces: /home/nicola/Desktop/Progetto_Sapore/src/interfaces/action/Jtraj.action
 CMakeFiles/interfaces: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/interfaces: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
 CMakeFiles/interfaces: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
@@ -118,6 +118,6 @@ CMakeFiles/interfaces.dir/clean:
 .PHONY : CMakeFiles/interfaces.dir/clean
 
 CMakeFiles/interfaces.dir/depend:
-	cd /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/interfaces /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/interfaces /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/CMakeFiles/interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nicola/Desktop/Progetto_Sapore/build/interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/Desktop/Progetto_Sapore/src/interfaces /home/nicola/Desktop/Progetto_Sapore/src/interfaces /home/nicola/Desktop/Progetto_Sapore/build/interfaces /home/nicola/Desktop/Progetto_Sapore/build/interfaces /home/nicola/Desktop/Progetto_Sapore/build/interfaces/CMakeFiles/interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/interfaces.dir/depend
 

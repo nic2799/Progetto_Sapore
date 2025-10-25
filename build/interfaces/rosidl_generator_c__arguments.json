@@ -1,12 +1,12 @@
 {
   "package_name": "interfaces",
-  "output_dir": "/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/rosidl_generator_c/interfaces",
+  "output_dir": "/home/nicola/Desktop/Progetto_Sapore/build/interfaces/rosidl_generator_c/interfaces",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/rosidl_adapter/interfaces:action/Jtraj.idl"
+    "/home/nicola/Desktop/Progetto_Sapore/build/interfaces/rosidl_adapter/interfaces:action/Jtraj.idl"
   ],
   "ros_interface_files": [
-    "/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/interfaces/action/Jtraj.action"
+    "/home/nicola/Desktop/Progetto_Sapore/src/interfaces/action/Jtraj.action"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
@@ -100,7 +100,7 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/rosidl_adapter/interfaces/action/Jtraj.idl",
+    "/home/nicola/Desktop/Progetto_Sapore/build/interfaces/rosidl_adapter/interfaces/action/Jtraj.idl",
     "/opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl",
@@ -173,6 +173,6 @@
     "/opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl"
   ],
   "type_description_tuples": [
-    "action/Jtraj.idl:/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/rosidl_generator_type_description/interfaces/action/Jtraj.json"
+    "action/Jtraj.idl:/home/nicola/Desktop/Progetto_Sapore/build/interfaces/rosidl_generator_type_description/interfaces/action/Jtraj.json"
   ]
 }

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/interfaces
+CMAKE_SOURCE_DIR = /home/nicola/Desktop/Progetto_Sapore/src/interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces
+CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/interfaces
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/CMakeFiles /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/interfaces/CMakeFiles /home/nicola/Desktop/Progetto_Sapore/build/interfaces//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/interfaces/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -328,17 +328,17 @@ interfaces__rosidl_typesupport_cpp/fast:
 .PHONY : interfaces__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_interfaces
+# Target rules for targets named ament_cmake_python_copy_interfaces
 
 # Build rule for target.
-ament_cmake_python_symlink_interfaces: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_interfaces
-.PHONY : ament_cmake_python_symlink_interfaces
+ament_cmake_python_copy_interfaces: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_interfaces
+.PHONY : ament_cmake_python_copy_interfaces
 
 # fast build rule for target.
-ament_cmake_python_symlink_interfaces/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_interfaces.dir/build.make CMakeFiles/ament_cmake_python_symlink_interfaces.dir/build
-.PHONY : ament_cmake_python_symlink_interfaces/fast
+ament_cmake_python_copy_interfaces/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_interfaces.dir/build.make CMakeFiles/ament_cmake_python_copy_interfaces.dir/build
+.PHONY : ament_cmake_python_copy_interfaces/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_interfaces_egg
@@ -415,7 +415,7 @@ interfaces__py: cmake_check_build_system
 
 # fast build rule for target.
 interfaces__py/fast:
-	$(MAKE) $(MAKESILENT) -f /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/build.make /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/build.make /home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/build
 .PHONY : interfaces__py/fast
 
 rosidl_generator_c/interfaces/action/detail/jtraj__description.o: rosidl_generator_c/interfaces/action/detail/jtraj__description.c.o
@@ -744,7 +744,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_interfaces_egg"
-	@echo "... ament_cmake_python_symlink_interfaces"
+	@echo "... ament_cmake_python_copy_interfaces"
 	@echo "... interfaces"
 	@echo "... interfaces__cpp"
 	@echo "... interfaces__py"

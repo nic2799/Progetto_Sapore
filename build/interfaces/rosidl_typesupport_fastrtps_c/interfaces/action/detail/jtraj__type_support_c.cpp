@@ -76,6 +76,16 @@ bool cdr_deserialize_interfaces__action__Jtraj_Goal(
     uint32_t cdrSize;
     cdr >> cdrSize;
     size_t size = static_cast<size_t>(cdrSize);
+
+    // Check there are at least 'size' remaining bytes in the CDR stream before resizing
+    auto old_state = cdr.get_state();
+    bool correct_size = cdr.jump(size);
+    cdr.set_state(old_state);
+    if (!correct_size) {
+      fprintf(stderr, "sequence size exceeds remaining buffer\n");
+      return false;
+    }
+
     if (ros_message->qf.data) {
       rosidl_runtime_c__double__Sequence__fini(&ros_message->qf);
     }
@@ -757,6 +767,16 @@ bool cdr_deserialize_interfaces__action__Jtraj_Feedback(
     uint32_t cdrSize;
     cdr >> cdrSize;
     size_t size = static_cast<size_t>(cdrSize);
+
+    // Check there are at least 'size' remaining bytes in the CDR stream before resizing
+    auto old_state = cdr.get_state();
+    bool correct_size = cdr.jump(size);
+    cdr.set_state(old_state);
+    if (!correct_size) {
+      fprintf(stderr, "sequence size exceeds remaining buffer\n");
+      return false;
+    }
+
     if (ros_message->q_now.data) {
       rosidl_runtime_c__double__Sequence__fini(&ros_message->q_now);
     }
@@ -2093,6 +2113,16 @@ bool cdr_deserialize_interfaces__action__Jtraj_SendGoal_Event(
     uint32_t cdrSize;
     cdr >> cdrSize;
     size_t size = static_cast<size_t>(cdrSize);
+
+    // Check there are at least 'size' remaining bytes in the CDR stream before resizing
+    auto old_state = cdr.get_state();
+    bool correct_size = cdr.jump(size);
+    cdr.set_state(old_state);
+    if (!correct_size) {
+      fprintf(stderr, "sequence size exceeds remaining buffer\n");
+      return false;
+    }
+
     if (ros_message->request.data) {
       interfaces__action__Jtraj_SendGoal_Request__Sequence__fini(&ros_message->request);
     }
@@ -2111,6 +2141,16 @@ bool cdr_deserialize_interfaces__action__Jtraj_SendGoal_Event(
     uint32_t cdrSize;
     cdr >> cdrSize;
     size_t size = static_cast<size_t>(cdrSize);
+
+    // Check there are at least 'size' remaining bytes in the CDR stream before resizing
+    auto old_state = cdr.get_state();
+    bool correct_size = cdr.jump(size);
+    cdr.set_state(old_state);
+    if (!correct_size) {
+      fprintf(stderr, "sequence size exceeds remaining buffer\n");
+      return false;
+    }
+
     if (ros_message->response.data) {
       interfaces__action__Jtraj_SendGoal_Response__Sequence__fini(&ros_message->response);
     }
@@ -3555,6 +3595,16 @@ bool cdr_deserialize_interfaces__action__Jtraj_GetResult_Event(
     uint32_t cdrSize;
     cdr >> cdrSize;
     size_t size = static_cast<size_t>(cdrSize);
+
+    // Check there are at least 'size' remaining bytes in the CDR stream before resizing
+    auto old_state = cdr.get_state();
+    bool correct_size = cdr.jump(size);
+    cdr.set_state(old_state);
+    if (!correct_size) {
+      fprintf(stderr, "sequence size exceeds remaining buffer\n");
+      return false;
+    }
+
     if (ros_message->request.data) {
       interfaces__action__Jtraj_GetResult_Request__Sequence__fini(&ros_message->request);
     }
@@ -3573,6 +3623,16 @@ bool cdr_deserialize_interfaces__action__Jtraj_GetResult_Event(
     uint32_t cdrSize;
     cdr >> cdrSize;
     size_t size = static_cast<size_t>(cdrSize);
+
+    // Check there are at least 'size' remaining bytes in the CDR stream before resizing
+    auto old_state = cdr.get_state();
+    bool correct_size = cdr.jump(size);
+    cdr.set_state(old_state);
+    if (!correct_size) {
+      fprintf(stderr, "sequence size exceeds remaining buffer\n");
+      return false;
+    }
+
     if (ros_message->response.data) {
       interfaces__action__Jtraj_GetResult_Response__Sequence__fini(&ros_message->response);
     }

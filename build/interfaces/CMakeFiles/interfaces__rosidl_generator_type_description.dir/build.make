@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/interfaces
+CMAKE_SOURCE_DIR = /home/nicola/Desktop/Progetto_Sapore/src/interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces
+CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/interfaces
 
 # Utility rule file for interfaces__rosidl_generator_type_description.
 
@@ -71,8 +71,8 @@ CMakeFiles/interfaces__rosidl_generator_type_description: rosidl_generator_type_
 rosidl_generator_type_description/interfaces/action/Jtraj.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/interfaces/action/Jtraj.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/interfaces/action/Jtraj.json: rosidl_adapter/interfaces/action/Jtraj.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/rosidl_generator_type_description__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
+	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/nicola/Desktop/Progetto_Sapore/build/interfaces/rosidl_generator_type_description__arguments.json
 
 interfaces__rosidl_generator_type_description: CMakeFiles/interfaces__rosidl_generator_type_description
 interfaces__rosidl_generator_type_description: rosidl_generator_type_description/interfaces/action/Jtraj.json
@@ -88,6 +88,6 @@ CMakeFiles/interfaces__rosidl_generator_type_description.dir/clean:
 .PHONY : CMakeFiles/interfaces__rosidl_generator_type_description.dir/clean
 
 CMakeFiles/interfaces__rosidl_generator_type_description.dir/depend:
-	cd /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/interfaces /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/interfaces /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/CMakeFiles/interfaces__rosidl_generator_type_description.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nicola/Desktop/Progetto_Sapore/build/interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/Desktop/Progetto_Sapore/src/interfaces /home/nicola/Desktop/Progetto_Sapore/src/interfaces /home/nicola/Desktop/Progetto_Sapore/build/interfaces /home/nicola/Desktop/Progetto_Sapore/build/interfaces /home/nicola/Desktop/Progetto_Sapore/build/interfaces/CMakeFiles/interfaces__rosidl_generator_type_description.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/interfaces__rosidl_generator_type_description.dir/depend
 

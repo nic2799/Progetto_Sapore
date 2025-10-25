@@ -1,7 +1,0 @@
-[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_Reachability.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/planning_scene_monitor/planning_scene_monitor.h: No such file or directory
-    4 | #include [01;31m[K<moveit/planning_scene_monitor/planning_scene_monitor.h>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/test_reach.dir/build.make:76: CMakeFiles/test_reach.dir/src/test_Reachability.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/test_reach.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

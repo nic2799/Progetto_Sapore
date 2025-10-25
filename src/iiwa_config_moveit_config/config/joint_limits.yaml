@@ -43,6 +43,17 @@ joint_limits:
     max_velocity: 2.3559999999999999
     has_acceleration_limits: true
     max_acceleration: 5.0
+  left_hand_to_finger_left:
+    has_velocity_limits: true
+    max_velocity: 0.1
+    has_acceleration_limits: true
+    max_acceleration: 1.0
+  left_hand_to_finger_right:
+    has_velocity_limits: true
+    max_velocity: 0.1
+    has_acceleration_limits: true
+    max_acceleration: 1.0
+
 
   right_joint_a1:
     has_velocity_limits: true
@@ -79,3 +90,13 @@ joint_limits:
     max_velocity: 2.3559999999999999
     has_acceleration_limits: true
     max_acceleration: 5.0
+  right_hand_to_finger_left:
+    has_velocity_limits: true
+    max_velocity: 0.1
+    has_acceleration_limits: true
+    max_acceleration: 1.0
+  right_hand_to_finger_right:
+    has_velocity_limits: true
+    max_velocity: 0.1
+    has_acceleration_limits: true
+    max_acceleration: 1.0

@@ -1,1 +1,4 @@
-/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/rosidl_cmake/rosidl_cmake-extras.cmake
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(interfaces_IDL_FILES "action/Jtraj.idl")
+set(interfaces_INTERFACE_FILES "action/Jtraj.action")

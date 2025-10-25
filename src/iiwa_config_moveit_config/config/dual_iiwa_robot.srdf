@@ -4,12 +4,7 @@
     <!-- ========================= -->
     <!--  GRUPPO: BRACCIO SINISTRO -->
     <!-- ========================= -->
-   <group name="left_arm">
-     <chain base_link="left_shoulder_mount" tip_link="left_tcp"/>
-  </group>
-  <group name="right_arm">
-    <chain base_link="right_shoulder_mount" tip_link="right_tcp"/>
-  </group>
+  
     <group name="left_arm">
         <joint name="left_joint_a1"/>
         <joint name="left_joint_a2"/>
@@ -18,9 +13,9 @@
         <joint name="left_joint_a5"/>
         <joint name="left_joint_a6"/>
         <joint name="left_joint_a7"/>
-        <joint name="left_link7_to_tool0"/>
-        <joint name="left_tool0_to_hand"/>
         <joint name="left_hand_to_tcp"/>
+        
+
     </group>
     <group name="right_arm">
         <joint name="right_joint_a1"/>
@@ -30,12 +25,28 @@
         <joint name="right_joint_a5"/>
         <joint name="right_joint_a6"/>
         <joint name="right_joint_a7"/>
-        <joint name="right_link7_to_tool0"/>
-                <joint name="right_tool0_to_hand"/>
-                        <joint name="right_hand_to_tcp"/>
-
+        <joint name="right_hand_to_tcp"/>
+   
+       
 
     </group>
+
+    <group name="left_hand">
+        <link name="left_hand"/>
+        <link name="left_finger_left"/>
+        <link name="left_finger_right"/>
+        <joint name="left_hand_to_finger_left"/>
+    </group>
+    <group name="right_hand">
+        <link name="right_hand"/>
+        <link name="right_finger_left"/>
+        <link name="right_finger_right"/>
+        <joint name="right_hand_to_finger_left"/>
+    </group>
+
+
+
+
     <group name="both_arms" combine_mode="and">
         <group name="left_arm"/>
         <group name="right_arm"/>
@@ -66,11 +77,9 @@
         <joint name="left_joint_a5" value="0"/>
         <joint name="left_joint_a6" value="0"/>
         <joint name="left_joint_a7" value="0"/>
-        <joint name="left_link7_to_tool0" value="0"/>   
-        <joint name="left_tool0_to_hand" value="0"/>
-        <joint name="left_hand_to_tcp" value="0"/>
+   
     </group_state>
-    
+
     <!-- Posizione home per braccio destro -->
     <group_state name="right_home" group="right_arm">
         <joint name="right_joint_a1" value="0"/>
@@ -80,10 +89,13 @@
         <joint name="right_joint_a5" value="0"/>
         <joint name="right_joint_a6" value="0"/>
         <joint name="right_joint_a7" value="0"/>
+  
     </group_state>
+
+
+
+
     
-
-
     <!-- ========================= -->
     <!-- COLLISIONI DISABILITATE -->
     <!-- (per evitare che MoveIt veda il braccio destro come ostacolo fisso) -->

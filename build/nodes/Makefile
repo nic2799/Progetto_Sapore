@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes
+CMAKE_SOURCE_DIR = /home/nicola/Desktop/Progetto_Sapore/src/nodes
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes
+CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/nodes
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/CMakeFiles /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles /home/nicola/Desktop/Progetto_Sapore/build/nodes//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/nodes/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -198,58 +198,6 @@ nodes_uninstall/fast:
 .PHONY : nodes_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named task
-
-# Build rule for target.
-task: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task
-.PHONY : task
-
-# fast build rule for target.
-task/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/build
-.PHONY : task/fast
-
-#=============================================================================
-# Target rules for targets named jtraj_node
-
-# Build rule for target.
-jtraj_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 jtraj_node
-.PHONY : jtraj_node
-
-# fast build rule for target.
-jtraj_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jtraj_node.dir/build.make CMakeFiles/jtraj_node.dir/build
-.PHONY : jtraj_node/fast
-
-#=============================================================================
-# Target rules for targets named jtraj_left_node
-
-# Build rule for target.
-jtraj_left_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 jtraj_left_node
-.PHONY : jtraj_left_node
-
-# fast build rule for target.
-jtraj_left_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jtraj_left_node.dir/build.make CMakeFiles/jtraj_left_node.dir/build
-.PHONY : jtraj_left_node/fast
-
-#=============================================================================
-# Target rules for targets named jtraj_right_node
-
-# Build rule for target.
-jtraj_right_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 jtraj_right_node
-.PHONY : jtraj_right_node
-
-# fast build rule for target.
-jtraj_right_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jtraj_right_node.dir/build.make CMakeFiles/jtraj_right_node.dir/build
-.PHONY : jtraj_right_node/fast
-
-#=============================================================================
 # Target rules for targets named Reach
 
 # Build rule for target.
@@ -288,78 +236,6 @@ test_reach/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_reach.dir/build.make CMakeFiles/test_reach.dir/build
 .PHONY : test_reach/fast
 
-src/Jtraj.o: src/Jtraj.cpp.o
-.PHONY : src/Jtraj.o
-
-# target to build an object file
-src/Jtraj.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jtraj_node.dir/build.make CMakeFiles/jtraj_node.dir/src/Jtraj.cpp.o
-.PHONY : src/Jtraj.cpp.o
-
-src/Jtraj.i: src/Jtraj.cpp.i
-.PHONY : src/Jtraj.i
-
-# target to preprocess a source file
-src/Jtraj.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jtraj_node.dir/build.make CMakeFiles/jtraj_node.dir/src/Jtraj.cpp.i
-.PHONY : src/Jtraj.cpp.i
-
-src/Jtraj.s: src/Jtraj.cpp.s
-.PHONY : src/Jtraj.s
-
-# target to generate assembly for a file
-src/Jtraj.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jtraj_node.dir/build.make CMakeFiles/jtraj_node.dir/src/Jtraj.cpp.s
-.PHONY : src/Jtraj.cpp.s
-
-src/JtrajLeft.o: src/JtrajLeft.cpp.o
-.PHONY : src/JtrajLeft.o
-
-# target to build an object file
-src/JtrajLeft.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jtraj_left_node.dir/build.make CMakeFiles/jtraj_left_node.dir/src/JtrajLeft.cpp.o
-.PHONY : src/JtrajLeft.cpp.o
-
-src/JtrajLeft.i: src/JtrajLeft.cpp.i
-.PHONY : src/JtrajLeft.i
-
-# target to preprocess a source file
-src/JtrajLeft.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jtraj_left_node.dir/build.make CMakeFiles/jtraj_left_node.dir/src/JtrajLeft.cpp.i
-.PHONY : src/JtrajLeft.cpp.i
-
-src/JtrajLeft.s: src/JtrajLeft.cpp.s
-.PHONY : src/JtrajLeft.s
-
-# target to generate assembly for a file
-src/JtrajLeft.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jtraj_left_node.dir/build.make CMakeFiles/jtraj_left_node.dir/src/JtrajLeft.cpp.s
-.PHONY : src/JtrajLeft.cpp.s
-
-src/JtrajRight.o: src/JtrajRight.cpp.o
-.PHONY : src/JtrajRight.o
-
-# target to build an object file
-src/JtrajRight.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jtraj_right_node.dir/build.make CMakeFiles/jtraj_right_node.dir/src/JtrajRight.cpp.o
-.PHONY : src/JtrajRight.cpp.o
-
-src/JtrajRight.i: src/JtrajRight.cpp.i
-.PHONY : src/JtrajRight.i
-
-# target to preprocess a source file
-src/JtrajRight.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jtraj_right_node.dir/build.make CMakeFiles/jtraj_right_node.dir/src/JtrajRight.cpp.i
-.PHONY : src/JtrajRight.cpp.i
-
-src/JtrajRight.s: src/JtrajRight.cpp.s
-.PHONY : src/JtrajRight.s
-
-# target to generate assembly for a file
-src/JtrajRight.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/jtraj_right_node.dir/build.make CMakeFiles/jtraj_right_node.dir/src/JtrajRight.cpp.s
-.PHONY : src/JtrajRight.cpp.s
-
 src/Reach.o: src/Reach.cpp.o
 .PHONY : src/Reach.o
 
@@ -383,30 +259,6 @@ src/Reach.s: src/Reach.cpp.s
 src/Reach.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raggiungibilita.dir/build.make CMakeFiles/Raggiungibilita.dir/src/Reach.cpp.s
 .PHONY : src/Reach.cpp.s
-
-src/task.o: src/task.cpp.o
-.PHONY : src/task.o
-
-# target to build an object file
-src/task.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/task.cpp.o
-.PHONY : src/task.cpp.o
-
-src/task.i: src/task.cpp.i
-.PHONY : src/task.i
-
-# target to preprocess a source file
-src/task.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/task.cpp.i
-.PHONY : src/task.cpp.i
-
-src/task.s: src/task.cpp.s
-.PHONY : src/task.s
-
-# target to generate assembly for a file
-src/task.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/task.cpp.s
-.PHONY : src/task.cpp.s
 
 src/test_Reachability.o: src/test_Reachability.cpp.o
 .PHONY : src/test_Reachability.o
@@ -473,26 +325,10 @@ help:
 	@echo "... uninstall"
 	@echo "... Raggiungibilita"
 	@echo "... Reach"
-	@echo "... jtraj_left_node"
-	@echo "... jtraj_node"
-	@echo "... jtraj_right_node"
-	@echo "... task"
 	@echo "... test_reach"
-	@echo "... src/Jtraj.o"
-	@echo "... src/Jtraj.i"
-	@echo "... src/Jtraj.s"
-	@echo "... src/JtrajLeft.o"
-	@echo "... src/JtrajLeft.i"
-	@echo "... src/JtrajLeft.s"
-	@echo "... src/JtrajRight.o"
-	@echo "... src/JtrajRight.i"
-	@echo "... src/JtrajRight.s"
 	@echo "... src/Reach.o"
 	@echo "... src/Reach.i"
 	@echo "... src/Reach.s"
-	@echo "... src/task.o"
-	@echo "... src/task.i"
-	@echo "... src/task.s"
 	@echo "... src/test_Reachability.o"
 	@echo "... src/test_Reachability.i"
 	@echo "... src/test_Reachability.s"

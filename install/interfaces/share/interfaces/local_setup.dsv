@@ -1,1 +1,4 @@
-/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/ament_cmake_environment_hooks/local_setup.dsv
+source;share/interfaces/environment/ament_prefix_path.sh
+source;share/interfaces/environment/library_path.sh
+source;share/interfaces/environment/path.sh
+source;share/interfaces/environment/pythonpath.sh

@@ -1,6 +1,0 @@
-[ 16%] Built target jtraj_node
-[ 33%] Built target jtraj_right_node
-[ 50%] Built target task
-[ 66%] Built target jtraj_left_node
-[ 75%] [32mBuilding CXX object CMakeFiles/test_reach.dir/src/test_Reachability.cpp.o[0m
-[ 91%] Built target Reach

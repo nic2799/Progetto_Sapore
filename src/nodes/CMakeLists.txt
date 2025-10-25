@@ -22,43 +22,11 @@ find_package(moveit_msgs REQUIRED)#per obs
 find_package(geometry_msgs REQUIRED)#per obs forse inutili anche quelli di seguito
 find_package(Eigen3 REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
-add_executable(task src/task.cpp)
 find_package(geometry_msgs REQUIRED)
 find_package(moveit_msgs REQUIRED)
 find_package(control_msgs REQUIRED)
 
-ament_target_dependencies(task 
-  rclcpp 
-  rclcpp_action 
-  sensor_msgs 
-  interfaces
-)
-# Original Jtraj node
-add_executable(jtraj_node src/Jtraj.cpp)
-ament_target_dependencies(jtraj_node 
-  rclcpp 
-  rclcpp_action 
-  sensor_msgs 
-  interfaces
-)
 
-# Left arm Jtraj node
-add_executable(jtraj_left_node src/JtrajLeft.cpp)
-ament_target_dependencies(jtraj_left_node 
-  rclcpp 
-  rclcpp_action 
-  sensor_msgs 
-  interfaces
-)
-
-# Right arm Jtraj node
-add_executable(jtraj_right_node src/JtrajRight.cpp)
-ament_target_dependencies(jtraj_right_node 
-  rclcpp 
-  rclcpp_action 
-  sensor_msgs 
-  interfaces
-)
 
 add_executable(Reach src/test_reach.cpp)
 ament_target_dependencies(Reach 
@@ -102,10 +70,7 @@ install(TARGETS test_reach DESTINATION lib/${PROJECT_NAME})
 
 
 install(TARGETS
-  jtraj_node
-  jtraj_left_node
-  jtraj_right_node
-  task
+
   test_reach
   Reach
   Raggiungibilita

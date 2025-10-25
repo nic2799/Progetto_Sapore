@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c"
-  "/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c"
-  "/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/rosidl_generator_py/interfaces/action/__init__.py"
-  "/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/rosidl_generator_py/interfaces/action/_jtraj.py"
-  "/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/rosidl_generator_py/interfaces/action/_jtraj_s.c"
+  "/home/nicola/Desktop/Progetto_Sapore/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c"
+  "/home/nicola/Desktop/Progetto_Sapore/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/nicola/Desktop/Progetto_Sapore/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c"
+  "/home/nicola/Desktop/Progetto_Sapore/build/interfaces/rosidl_generator_py/interfaces/action/__init__.py"
+  "/home/nicola/Desktop/Progetto_Sapore/build/interfaces/rosidl_generator_py/interfaces/action/_jtraj.py"
+  "/home/nicola/Desktop/Progetto_Sapore/build/interfaces/rosidl_generator_py/interfaces/action/_jtraj_s.c"
   "CMakeFiles/interfaces__py"
 )
 

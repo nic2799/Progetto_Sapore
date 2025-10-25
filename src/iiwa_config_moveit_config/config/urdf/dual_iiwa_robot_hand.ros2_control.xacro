@@ -1,0 +1,47 @@
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="dual_iiwa_hand_ros2_control" params="name:=dual_iiwa_hand">
+    
+    <!-- Left hand ros2_control system -->
+    <ros2_control name="left_${name}" type="system">
+      <hardware>
+        <plugin>mock_components/GenericSystem</plugin>
+      </hardware>
+      
+      <joint name="left_hand_to_finger_left">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value" value="0.0"/>
+        </state_interface>
+        <state_interface name="velocity">
+          <param name="initial_value" value="0.0"/>
+        </state_interface>
+      </joint>
+
+      <joint name="left_hand_to_finger_right">
+        <mimic joint="left_hand_to_finger_left"/>
+      </joint>
+    </ros2_control>
+
+    <!-- Right hand ros2_control system -->
+    <ros2_control name="right_${name}" type="system">
+      <hardware>
+        <plugin>mock_components/GenericSystem</plugin>
+      </hardware>
+      
+      <joint name="right_hand_to_finger_left">
+        <command_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value" value="0.0"/>
+        </state_interface>
+        <state_interface name="velocity">
+          <param name="initial_value" value="0.0"/>
+        </state_interface>
+      </joint>
+
+      <joint name="right_hand_to_finger_right">
+        <mimic joint="right_hand_to_finger_left"/>
+      </joint>
+    </ros2_control>
+  </xacro:macro>
+</robot>

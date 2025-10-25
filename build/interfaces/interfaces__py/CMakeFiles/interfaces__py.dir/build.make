@@ -53,25 +53,25 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/interfaces
+CMAKE_SOURCE_DIR = /home/nicola/Desktop/Progetto_Sapore/src/interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces
+CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/interfaces
 
 # Utility rule file for interfaces__py.
 
 # Include any custom commands dependencies for this target.
-include /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/compiler_depend.make
+include /home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/compiler_depend.make
 
 # Include the progress variables for this target.
-include /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/progress.make
+include /home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/progress.make
 
-/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
-/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
-/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/action/_jtraj.py
-/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/action/__init__.py
-/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/action/_jtraj_s.c
+/home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+/home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+/home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+/home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/action/_jtraj.py
+/home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/action/__init__.py
+/home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/action/_jtraj_s.c
 
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -157,8 +157,8 @@ rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c:
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/UInt8.idl
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/nicola/Desktop/Progetto_Sapore/build/interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
@@ -175,25 +175,25 @@ rosidl_generator_py/interfaces/action/__init__.py: rosidl_generator_py/interface
 rosidl_generator_py/interfaces/action/_jtraj_s.c: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/action/_jtraj_s.c
 
-interfaces__py: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py
+interfaces__py: /home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py
 interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
 interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 interfaces__py: rosidl_generator_py/interfaces/action/__init__.py
 interfaces__py: rosidl_generator_py/interfaces/action/_jtraj.py
 interfaces__py: rosidl_generator_py/interfaces/action/_jtraj_s.c
-interfaces__py: /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/build.make
+interfaces__py: /home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/build.make
 .PHONY : interfaces__py
 
 # Rule to build all files generated by this target.
-/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/build: interfaces__py
-.PHONY : /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/build
+/home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/build: interfaces__py
+.PHONY : /home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/build
 
-/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/clean:
-	cd /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/interfaces__py.dir/cmake_clean.cmake
-.PHONY : /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/clean
+/home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/clean:
+	cd /home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/interfaces__py.dir/cmake_clean.cmake
+.PHONY : /home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/clean
 
-/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/depend:
-	cd /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/interfaces /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/DependInfo.cmake "--color=$(COLOR)"
-.PHONY : /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/depend
+/home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/depend:
+	cd /home/nicola/Desktop/Progetto_Sapore/build/interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/Desktop/Progetto_Sapore/src/interfaces /home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py /home/nicola/Desktop/Progetto_Sapore/build/interfaces /home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py /home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/DependInfo.cmake "--color=$(COLOR)"
+.PHONY : /home/nicola/Desktop/Progetto_Sapore/build/interfaces/interfaces__py/CMakeFiles/interfaces__py.dir/depend
 

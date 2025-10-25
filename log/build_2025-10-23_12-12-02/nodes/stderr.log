@@ -1,7 +1,0 @@
-[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/test_reach.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/collision_detection/collision_robot.h: No such file or directory
-   13 | #include [01;31m[K<moveit/collision_detection/collision_robot.h>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/Reach.dir/build.make:76: CMakeFiles/Reach.dir/src/test_reach.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/Reach.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

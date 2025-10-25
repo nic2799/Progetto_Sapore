@@ -1,7 +1,0 @@
-[01m[K/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/nodes/src/task.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmoveit_msgs/srv/get_position_ik.hpp: No such file or directory
-    2 | #include [01;31m[K<moveit_msgs/srv/get_position_ik.hpp>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/task.dir/build.make:76: CMakeFiles/task.dir/src/task.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:147: CMakeFiles/task.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

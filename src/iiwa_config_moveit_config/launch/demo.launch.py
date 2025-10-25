@@ -14,7 +14,7 @@ def generate_launch_description():
         .robot_description_semantic(file_path="config/dual_iiwa_robot.srdf")
 
 
-        .trajectory_execution(file_path="config/controller_moveit.yaml")
+        .trajectory_execution(file_path="config/gripper_moveit_controllers.yaml")
         .joint_limits(file_path="config/joint_limits.yaml")#
         .planning_pipelines(pipelines=["ompl"])
         .to_moveit_configs()
@@ -78,6 +78,8 @@ def generate_launch_description():
         "joint_state_broadcaster",
         "left_arm_controller",
         "right_arm_controller",
+        "left_hand_controller",
+        "right_hand_controller",
     ]:
         load_controllers += [
             ExecuteProcess(

@@ -1,8 +1,8 @@
 {
   "package_name": "interfaces",
-  "output_dir": "/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/rosidl_generator_type_description/interfaces",
+  "output_dir": "/home/nicola/Desktop/Progetto_Sapore/build/interfaces/rosidl_generator_type_description/interfaces",
   "idl_tuples": [
-    "/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/rosidl_adapter/interfaces:action/Jtraj.idl"
+    "/home/nicola/Desktop/Progetto_Sapore/build/interfaces/rosidl_adapter/interfaces:action/Jtraj.idl"
   ],
   "include_paths": [
     "action_msgs:/opt/ros/jazzy/share/action_msgs",

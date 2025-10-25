@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/interfaces
+CMAKE_SOURCE_DIR = /home/nicola/Desktop/Progetto_Sapore/src/interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces
+CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/interfaces
 
 # Utility rule file for interfaces__cpp.
 
@@ -163,8 +163,8 @@ rosidl_generator_cpp/interfaces/action/jtraj.hpp: /opt/ros/jazzy/share/std_msgs/
 rosidl_generator_cpp/interfaces/action/jtraj.hpp: /opt/ros/jazzy/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_cpp/interfaces/action/jtraj.hpp: /opt/ros/jazzy/share/std_msgs/msg/UInt8.idl
 rosidl_generator_cpp/interfaces/action/jtraj.hpp: /opt/ros/jazzy/share/std_msgs/msg/UInt8MultiArray.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/nicola/Desktop/Progetto_Sapore/build/interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/interfaces/action/detail/jtraj__builder.hpp: rosidl_generator_cpp/interfaces/action/jtraj.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/action/detail/jtraj__builder.hpp
@@ -200,6 +200,6 @@ CMakeFiles/interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/interfaces__cpp.dir/clean
 
 CMakeFiles/interfaces__cpp.dir/depend:
-	cd /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/interfaces /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/interfaces /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/CMakeFiles/interfaces__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nicola/Desktop/Progetto_Sapore/build/interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/Desktop/Progetto_Sapore/src/interfaces /home/nicola/Desktop/Progetto_Sapore/src/interfaces /home/nicola/Desktop/Progetto_Sapore/build/interfaces /home/nicola/Desktop/Progetto_Sapore/build/interfaces /home/nicola/Desktop/Progetto_Sapore/build/interfaces/CMakeFiles/interfaces__cpp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/interfaces__cpp.dir/depend
 

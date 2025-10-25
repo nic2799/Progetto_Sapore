@@ -1,1 +1,13 @@
-/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/iiwa_description/urdf/scene_environment.urdf.xacro
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="scene_environment">
+
+  <!-- Include the scene obstacles -->
+  <xacro:include filename="$(find iiwa_description)/urdf/scene_total_evironment.urdf.xacro" />
+
+  <!-- Base/World link for the environment -->
+  <link name="world"/>
+
+  <!-- Include scene obstacles -->
+  <xacro:scene_total_evironment parent="world"/>
+
+</robot>

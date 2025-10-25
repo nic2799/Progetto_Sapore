@@ -1,0 +1,119 @@
+[0.014s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/iiwa_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nicola/Desktop/Progetto_Sapore/src/iiwa_description -DCMAKE_INSTALL_PREFIX=/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description
+[0.172s] -- The C compiler identification is GNU 13.3.0
+[0.318s] -- The CXX compiler identification is GNU 13.3.0
+[0.338s] -- Detecting C compiler ABI info
+[0.429s] -- Detecting C compiler ABI info - done
+[0.438s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.439s] -- Detecting C compile features
+[0.439s] -- Detecting C compile features - done
+[0.450s] -- Detecting CXX compiler ABI info
+[0.557s] -- Detecting CXX compiler ABI info - done
+[0.566s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.566s] -- Detecting CXX compile features
+[0.567s] -- Detecting CXX compile features - done
+[0.570s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.703s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.823s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[0.827s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.928s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.937s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.937s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.938s] -- Added test 'lint_cmake' to check CMake code style
+[0.939s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.945s] -- Added test 'xmllint' to check XML markup files
+[0.947s] -- Configuring done (0.9s)
+[0.950s] -- Generating done (0.0s)
+[0.952s] -- Build files have been written to: /home/nicola/Desktop/Progetto_Sapore/build/iiwa_description
+[0.957s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/iiwa_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nicola/Desktop/Progetto_Sapore/src/iiwa_description -DCMAKE_INSTALL_PREFIX=/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description
+[0.959s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/iiwa_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/iiwa_description -- -j12 -l12
+[0.998s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/iiwa_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/iiwa_description -- -j12 -l12
+[1.008s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/iiwa_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/iiwa_description
+[1.015s] -- Install configuration: ""
+[1.015s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/urdf
+[1.015s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/urdf/scene_obstacles.urdf.xacro
+[1.015s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/urdf/dual_iiwa_robot.urdf.xacro
+[1.015s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/urdf/scene_total_evironment.urdf.xacro
+[1.015s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/urdf/iiwa_arm.urdf.xacro
+[1.015s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/urdf/iiwa_arm_tcp.urdf.xacro
+[1.016s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/urdf/dual_iiwa_left.ros2_control.xacro
+[1.016s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/urdf/scene_environment.urdf.xacro
+[1.016s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes
+[1.016s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/calf_3dprint.stl
+[1.016s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/schunk_dec.stl
+[1.017s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/Busto.stl
+[1.017s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles
+[1.017s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/QE.stl
+[1.018s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/iiwa 14 R820 - MF Inside elektrisch.stl
+[1.020s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/Lavabo.stl
+[1.021s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/Piatto.stl
+[1.021s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/Tavolo_inox.stl
+[1.021s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/Deimpilatore_piatti.stl
+[1.021s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/Congelatore.stl
+[1.021s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/Trasportatore1.stl
+[1.021s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/piatto_noCoperchio.stl
+[1.021s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/Pavimento1.stl
+[1.022s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/Tavolo_inox2.stl
+[1.022s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/S.A.P.O.R.E_rev1..stl
+[1.041s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/Crossed Arms Man v2.stl
+[1.049s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/Rastrelliera.stl
+[1.050s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/Contenitori.stl
+[1.050s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/Roboqbo.stl
+[1.050s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/PC Gestionale.stl
+[1.050s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/Frigorifero.stl
+[1.051s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/Bilancia.stl
+[1.051s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/obstacles/Monitor.stl
+[1.051s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/finger.stl
+[1.051s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/CellaSapore.stl
+[1.055s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820
+[1.055s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/link_7_2.stl
+[1.062s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision
+[1.062s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_7.stl
+[1.063s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_4.stl
+[1.063s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/base_link.stl
+[1.063s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_2.stl
+[1.063s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_3.stl
+[1.063s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_7_2.stl
+[1.070s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_5.stl
+[1.071s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_6.stl
+[1.071s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_1.stl
+[1.071s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual
+[1.071s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/base_link.dae
+[1.073s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_7.dae
+[1.076s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_4.dae
+[1.076s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_2.dae
+[1.077s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_3.dae
+[1.078s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_5.dae
+[1.078s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_6.dae
+[1.079s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_1.dae
+[1.080s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_7_2.stl
+[1.088s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/flex_fellow_h800
+[1.088s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/flex_fellow_h800/flex_fellow_h800.stl
+[1.091s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/flex_fellow_h800/flex_fellow_h800.dae
+[1.097s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/schunk.stl
+[1.098s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/meshes/CellaSapore2.stl
+[1.102s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/rviz
+[1.102s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/rviz/iiwa.rviz
+[1.102s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/rviz/servo_rviz_config.rviz
+[1.102s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/rviz/moveit.rviz
+[1.103s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/config_urdf
+[1.103s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/config_urdf/dual_iiwa.config.xacro
+[1.103s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/launch
+[1.103s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/launch/dual_iiwa_no_rviz.launch.py
+[1.103s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/launch/dual_iiwa.launch.py
+[1.103s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/launch/view_iiwa.launch.py
+[1.104s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/ament_index/resource_index/package_run_dependencies/iiwa_description
+[1.104s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/ament_index/resource_index/parent_prefix_path/iiwa_description
+[1.104s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/environment/ament_prefix_path.sh
+[1.104s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/environment/ament_prefix_path.dsv
+[1.104s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/environment/path.sh
+[1.104s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/environment/path.dsv
+[1.105s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/local_setup.bash
+[1.105s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/local_setup.sh
+[1.105s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/local_setup.zsh
+[1.105s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/local_setup.dsv
+[1.105s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/package.dsv
+[1.105s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/ament_index/resource_index/packages/iiwa_description
+[1.105s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/cmake/iiwa_descriptionConfig.cmake
+[1.106s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/cmake/iiwa_descriptionConfig-version.cmake
+[1.106s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/iiwa_description/share/iiwa_description/package.xml
+[1.108s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/iiwa_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/iiwa_description

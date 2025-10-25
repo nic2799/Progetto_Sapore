@@ -1,1 +1,95 @@
-/home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/iiwa_config_moveit_config/config/ros2_controllers.yaml
+# Dual-arm ros2_controllers configuration with FakeSystem (for MoveIt demo)
+
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    # Fake hardware interface for simulation
+    hardware:
+      - fake_system
+
+    fake_system:
+      type: fake_components/GenericSystem
+      parameters:
+        joints:
+          - left_joint_a1
+          - left_joint_a2
+          - left_joint_a3
+          - left_joint_a4
+          - left_joint_a5
+          - left_joint_a6
+          - left_joint_a7
+          - left_link7_to_tool0
+          - left_tool0_to_hand
+          - left_hand_to_finger_left
+          - right_joint_a1
+          - right_joint_a2
+          - right_joint_a3
+          - right_joint_a4
+          - right_joint_a5
+          - right_joint_a6
+          - right_joint_a7
+          - right_link7_to_tool0
+          - right_tool0_to_hand
+          - right_hand_to_finger_left
+
+    # Controllers to be loaded
+    left_arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    right_arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    left_hand_controller:
+      type: position_controllers/GripperActionController
+    right_hand_controller:
+      type: position_controllers/GripperActionController
+
+# Left arm controller configuration
+left_arm_controller:
+  ros__parameters:
+    joints:
+      - left_joint_a1
+      - left_joint_a2
+      - left_joint_a3
+      - left_joint_a4
+      - left_joint_a5
+      - left_joint_a6
+      - left_joint_a7
+
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    allow_nonzero_velocity_at_trajectory_end: true
+
+# Right arm controller configuration
+right_arm_controller:
+  ros__parameters:
+    joints:
+      - right_joint_a1
+      - right_joint_a2
+      - right_joint_a3
+      - right_joint_a4
+      - right_joint_a5
+      - right_joint_a6
+      - right_joint_a7
+
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    allow_nonzero_velocity_at_trajectory_end: true
+
+left_hand_controller:
+  ros__parameters:  
+    joint: left_hand_to_finger_left
+
+right_hand_controller:
+  ros__parameters:
+    joint: right_hand_to_finger_left
+  
+    
+

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/interfaces
+CMAKE_SOURCE_DIR = /home/nicola/Desktop/Progetto_Sapore/src/interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces
+CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/interfaces
 
 # Utility rule file for interfaces_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/interfaces_uninstall.dir/compiler_depend.make
 include CMakeFiles/interfaces_uninstall.dir/progress.make
 
 CMakeFiles/interfaces_uninstall:
-	/usr/bin/cmake -P /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/nicola/Desktop/Progetto_Sapore/build/interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 interfaces_uninstall: CMakeFiles/interfaces_uninstall
 interfaces_uninstall: CMakeFiles/interfaces_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/interfaces_uninstall.dir/clean:
 .PHONY : CMakeFiles/interfaces_uninstall.dir/clean
 
 CMakeFiles/interfaces_uninstall.dir/depend:
-	cd /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/interfaces /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/src/interfaces /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces /home/nicola/OneDrive/Magistrale/AIRP/AIPR/ProgrammazionedeiRobot/EsercitazioneairpMio/ros_esercitazione/IIWA/build/interfaces/CMakeFiles/interfaces_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nicola/Desktop/Progetto_Sapore/build/interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/Desktop/Progetto_Sapore/src/interfaces /home/nicola/Desktop/Progetto_Sapore/src/interfaces /home/nicola/Desktop/Progetto_Sapore/build/interfaces /home/nicola/Desktop/Progetto_Sapore/build/interfaces /home/nicola/Desktop/Progetto_Sapore/build/interfaces/CMakeFiles/interfaces_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/interfaces_uninstall.dir/depend
 
