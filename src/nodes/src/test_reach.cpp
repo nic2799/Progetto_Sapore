@@ -11,6 +11,7 @@
 #include <moveit/robot_model_loader/robot_model_loader.h>
 #include <moveit/robot_state/robot_state.h>
 #include <moveit/collision_detection/collision_common.h>
+#include <moveit_msgs/msg/display_robot_state.hpp>
 
 using moveit_msgs::srv::GetPositionIK;
 using namespace std::chrono_literals;
@@ -25,6 +26,8 @@ public:
         RCLCPP_INFO(this->get_logger(), "Attendo servizio /compute_ik...");
         client_->wait_for_service();
         RCLCPP_INFO(this->get_logger(), "Servizio /compute_ik disponibile!");
+        
+        joint_state_pub_ = this->create_publisher<sensor_msgs::msg::JointState>("/joint_states", 10);
 
         marker_pub_ = this->create_publisher<visualization_msgs::msg::MarkerArray>(
             "visualization_marker_array", 10);
@@ -63,6 +66,17 @@ public:
         RCLCPP_INFO(this->get_logger(), "Avvio test di raggiungibilità...");
         testReachability(pedana, group + "arm");
     }
+void resetMarkers()
+{
+    visualization_msgs::msg::MarkerArray delete_msg;
+    visualization_msgs::msg::Marker m;
+    m.action = visualization_msgs::msg::Marker::DELETEALL;
+    delete_msg.markers.push_back(m);
+
+    // Pubblica subito DELETEALL
+    marker_pub_->publish(delete_msg);
+}
+
 
 private:
     double xmin_, xmax_, ymin_, ymax_, zmin_, zmax_,roll_, pitch_,yaw_,step_;
@@ -104,31 +118,30 @@ private:
     {
         visualization_msgs::msg::MarkerArray markers;
         int id = 0;
+        planning_scene_monitor::PlanningSceneMonitorPtr psm = std::make_shared<planning_scene_monitor::PlanningSceneMonitor>(this->shared_from_this(), "robot_description");
 
-        planning_scene_monitor::PlanningSceneMonitorPtr psm =
-            std::make_shared<planning_scene_monitor::PlanningSceneMonitor>(this->shared_from_this(), "robot_description");
+                if (!psm->getPlanningScene())
+                {
+                    RCLCPP_ERROR(this->get_logger(), "Errore: impossibile creare PlanningSceneMonitor.");
+                    return;
+                }
 
-        if (!psm->getPlanningScene())
-        {
-            RCLCPP_ERROR(this->get_logger(), "Errore: impossibile creare PlanningSceneMonitor.");
-            return;
-        }
+                //psm->startSceneMonitor();
+                psm->requestPlanningSceneState("get_planning_scene");
+                //psm->startWorldGeometryMonitor();
+                //psm->startStateMonitor();
+                //rclcpp::sleep_for(500ms);
 
-        //psm->startSceneMonitor();
-        psm->requestPlanningSceneState("get_planning_scene");
-        //psm->startWorldGeometryMonitor();
-        //psm->startStateMonitor();
-        //rclcpp::sleep_for(500ms);
+                auto planning_scene = psm->getPlanningScene();
 
-        auto planning_scene = psm->getPlanningScene();
-
+        
         for (const auto &pose : grid_points)
         {
             auto req = std::make_shared<GetPositionIK::Request>();
             req->ik_request.group_name = group_name;
             req->ik_request.pose_stamped = pose;
-            req->ik_request.ik_link_name = group + "tcp";//probabilmente non serve proviamo a toglierlo
-            req->ik_request.avoid_collisions = true;
+            req->ik_request.ik_link_name = group + "tcp";//left_tcp,right_tcp(group è left_ o right_)
+            req->ik_request.avoid_collisions = true;//PRIMA PROVO CON AVOID COLLISIONS TRUE
             req->ik_request.timeout.sec = 1;
 
             auto future = client_->async_send_request(req);
@@ -192,10 +205,13 @@ private:
                 }
             }
 
-            moveit::core::RobotState current_state = planning_scene->getCurrentState();
+           
 
             if (have_candidate)//SE TROVO POSA RAGGIUNGIBILE IN COLLISIONE
             {
+                
+
+                moveit::core::RobotState current_state = planning_scene->getCurrentState();
                 current_state.setVariablePositions(candidate_js.name, candidate_js.position);
                 current_state.update();
             
@@ -209,8 +225,29 @@ private:
             collision_detection::CollisionResult collision_result;
             planning_scene->checkCollision(collision_request, collision_result, current_state);
 
+
+            //definiamo messaggio per joint states
+            sensor_msgs::msg::JointState js_msg;
+            js_msg.name = candidate_js.name;
+            js_msg.position = candidate_js.position;
+
+          
+            auto start = this->now();
+            rclcpp::Rate rate(50); // 50 Hz
+            while ((this->now() - start).seconds() < 2.0) // 2 secondi
+            {
+                joint_state_pub_->publish(js_msg);
+                rate.sleep();
+}
+
             
-                RCLCPP_WARN(this->get_logger(), "LA COLLISIONE È TRA : ");
+
+            
+
+
+
+
+            RCLCPP_WARN(this->get_logger(), "LA COLLISIONE È TRA : ");
                 for (const auto &entry : collision_result.contacts)
                     RCLCPP_INFO(this->get_logger(), " - Link '%s' collide con '%s' (%zu contatti)",
                                 entry.first.first.c_str(), entry.first.second.c_str(), entry.second.size());
@@ -242,14 +279,21 @@ private:
         RCLCPP_INFO(this->get_logger(), "Pubblicati %zu marker su RViz.", markers.markers.size());
     }
 
+
+
     rclcpp::Client<GetPositionIK>::SharedPtr client_;
     rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr marker_pub_;
+    rclcpp::Publisher<sensor_msgs::msg::JointState>::SharedPtr joint_state_pub_;
 };
 
 int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
     auto node = std::make_shared<ReachabilityIKNode>();
+        // Callback chiamato alla chiusura del nodo
+  
+    node->resetMarkers();
+    
     node->start();
     rclcpp::spin(node);
     rclcpp::shutdown();

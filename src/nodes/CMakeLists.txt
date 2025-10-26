@@ -28,6 +28,7 @@ find_package(control_msgs REQUIRED)
 
 
 
+
 add_executable(Reach src/test_reach.cpp)
 ament_target_dependencies(Reach 
   rclcpp 
@@ -41,6 +42,7 @@ ament_target_dependencies(Reach
   tf2_eigen
   Eigen3
   control_msgs
+  moveit_msgs
   )
 
 add_executable(Raggiungibilita src/Reach.cpp)

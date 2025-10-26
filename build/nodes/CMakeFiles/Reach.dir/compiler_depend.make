@@ -187,6 +187,10 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/display_robot_state__builder.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/display_robot_state__struct.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/display_robot_state__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/display_robot_state__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_constraint__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/joint_limits__builder.hpp \
@@ -233,6 +237,7 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/robot_trajectory__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/display_robot_state.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/joint_limits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
@@ -3383,13 +3388,23 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /usr/include/boost/mpl/lambda.hpp:
 
-/opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:
+/usr/include/boost/mpl/key_type_fwd.hpp:
 
-/usr/include/boost/preprocessor/stringize.hpp:
+/usr/include/boost/mpl/joint_view.hpp:
 
-/usr/include/boost/mpl/list/list0.hpp:
+/usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
 
-/usr/include/boost/cstdint.hpp:
+/usr/include/eigen3/Eigen/src/Core/IndexedView.h:
+
+/usr/include/c++/13/bits/shared_ptr.h:
+
+/usr/include/boost/mpl/iterator_tags.hpp:
+
+/usr/include/boost/mpl/iterator_range.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/boost/mpl/iterator_category.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp:
 
@@ -3430,16 +3445,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/service.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/client.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/Constants.h:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/publisher_factory.hpp:
 
@@ -3526,10 +3531,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/event_callback_type.h:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__type_support.hpp:
 
@@ -3913,11 +3914,15 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
 
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
+/opt/ros/jazzy/include/rcl/rcl/client.h:
 
-/opt/ros/jazzy/include/rcl/rcl/arguments.h:
+/usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
 
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/srv/detail/get_planning_scene__traits.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/util/Constants.h:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_entry__traits.hpp:
 
 /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp:
 
@@ -4015,6 +4020,18 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp:
 
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/srv/detail/save_map__struct.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
+
+/usr/include/c++/13/bits/new_allocator.h:
+
+/usr/include/boost/call_traits.hpp:
+
 /usr/include/boost/preprocessor/tuple/rem.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
@@ -4088,6 +4105,24 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp:
 
 /usr/include/boost/iterator/reverse_iterator.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
+
+/opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:
+
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
+
+/usr/include/boost/mpl/aux_/config/arrays.hpp:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp:
+
+/usr/include/c++/13/bits/functexcept.h:
+
+/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/visibility_control.h:
 
 /opt/ros/jazzy/include/rcutils/rcutils/time.h:
 
@@ -4166,8 +4201,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /usr/include/boost/preprocessor/arithmetic/limits/dec_256.hpp:
 
 /usr/include/boost/mpl/aux_/push_back_impl.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/guard_condition.hpp:
 
@@ -4319,6 +4352,8 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
 
+/usr/include/boost/mpl/aux_/static_cast.hpp:
+
 /usr/include/c++/13/algorithm:
 
 /opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/detail/octomap__struct.hpp:
@@ -4458,24 +4493,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /opt/ros/jazzy/include/tf2_ros/tf2_ros/create_timer_interface.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
-
-/opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/qos.hpp:
-
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
-
-/usr/include/boost/mpl/aux_/config/arrays.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp:
-
-/usr/include/c++/13/bits/functexcept.h:
-
-/opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/visibility_control.h:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_world__traits.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
 
@@ -4663,9 +4680,9 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /usr/include/boost/smart_ptr/detail/yield_k.hpp:
 
-/usr/include/boost/bind/detail/is_same.hpp:
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/display_robot_state__traits.hpp:
 
-/usr/include/boost/mpl/key_type_fwd.hpp:
+/usr/include/boost/bind/detail/is_same.hpp:
 
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h:
 
@@ -4688,6 +4705,8 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp:
 
 /opt/ros/jazzy/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/display_robot_state.hpp:
 
 /usr/include/boost/iterator/iterator_facade.hpp:
 
@@ -4829,10 +4848,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
-/usr/include/boost/preprocessor/enum.hpp:
-
-/opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp:
-
 /usr/include/boost/optional/optional_fwd.hpp:
 
 /opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.h:
@@ -4863,6 +4878,20 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
 
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/srv/detail/save_map__type_support.hpp:
+
+/usr/include/c++/13/ext/string_conversions.h:
+
+/usr/include/boost/type_traits/is_same.hpp:
+
+/usr/include/boost/mp11/detail/mp_count.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp:
+
+/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:
+
 /usr/include/boost/smart_ptr/detail/shared_count.hpp:
 
 /usr/include/boost/core/checked_delete.hpp:
@@ -4875,10 +4904,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h:
 
-/usr/include/c++/13/bits/new_allocator.h:
-
-/usr/include/boost/call_traits.hpp:
-
 /opt/ros/jazzy/include/rmw/rmw/publisher_options.h:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
@@ -4886,6 +4911,8 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp:
 
 /opt/ros/jazzy/include/rmw/rmw/topic_endpoint_info_array.h:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/display_robot_state__struct.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
 
@@ -4957,6 +4984,18 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp:
 
+/usr/include/boost/preprocessor/enum.hpp:
+
+/opt/ros/jazzy/include/moveit_core/moveit/macros/declare_ptr.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/arguments.h:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/srv/detail/get_planning_scene__traits.hpp:
+
+/usr/include/boost/mp11/integral.hpp:
+
 /opt/ros/jazzy/include/urdf/urdf/visibility_control.hpp:
 
 /usr/include/c++/13/cstddef:
@@ -5019,10 +5058,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__traits.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp:
@@ -5064,20 +5099,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /usr/include/boost/mpl/lambda_fwd.hpp:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_constraint__struct.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/network_flow_endpoint.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp:
-
-/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/srv/detail/save_map__type_support.hpp:
-
-/usr/include/c++/13/ext/string_conversions.h:
-
-/usr/include/boost/type_traits/is_same.hpp:
-
-/usr/include/boost/mp11/detail/mp_count.hpp:
 
 /usr/include/octomap/OccupancyOcTreeBase.hxx:
 
@@ -5139,13 +5160,23 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/srv/detail/get_planning_scene__type_support.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
 
-/opt/ros/jazzy/include/octomap_msgs/octomap_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__builder.hpp:
 
-/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
 
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/srv/detail/save_map__struct.hpp:
+/opt/ros/jazzy/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:
+
+/usr/include/boost/preprocessor/stringize.hpp:
+
+/usr/include/boost/mpl/list/list0.hpp:
+
+/usr/include/boost/cstdint.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/event_callback_type.h:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
@@ -5435,6 +5466,8 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp:
 
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/display_robot_state__builder.hpp:
+
 /usr/include/boost/mpl/aux_/numeric_op.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
@@ -5669,6 +5702,8 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /usr/include/boost/parameter/aux_/pack/make_items.hpp:
 
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/display_robot_state__type_support.hpp:
+
 /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__type_support.hpp:
@@ -5864,10 +5899,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /usr/include/eigen3/Eigen/src/Core/BandMatrix.h:
 
 /usr/include/boost/core/detail/sp_thread_yield.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/boost/mpl/iterator_category.hpp:
 
 /usr/include/boost/type_traits/remove_extent.hpp:
 
@@ -6068,8 +6099,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /usr/include/boost/core/bit.hpp:
 
 /usr/include/boost/mp11/detail/mp_rename.hpp:
-
-/usr/include/boost/mp11/integral.hpp:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__type_support.hpp:
 
@@ -6293,8 +6322,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /usr/include/boost/mpl/aux_/size_impl.hpp:
 
-/usr/include/boost/mpl/aux_/static_cast.hpp:
-
 /opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_plugin.hpp:
 
 /usr/include/boost/mpl/aux_/template_arity.hpp:
@@ -6350,15 +6377,3 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /usr/include/boost/mpl/is_sequence.hpp:
 
 /usr/include/boost/mpl/iter_fold.hpp:
-
-/usr/include/boost/mpl/iterator_range.hpp:
-
-/usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
-
-/usr/include/eigen3/Eigen/src/Core/IndexedView.h:
-
-/usr/include/c++/13/bits/shared_ptr.h:
-
-/usr/include/boost/mpl/iterator_tags.hpp:
-
-/usr/include/boost/mpl/joint_view.hpp:
