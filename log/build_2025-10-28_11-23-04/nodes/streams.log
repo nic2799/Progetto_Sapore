@@ -1,0 +1,43 @@
+[0.015s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8
+[0.088s] [ 40%] Built target Reach
+[0.088s] [ 40%] Built target test_reach
+[0.090s] [ 60%] Built target interactive_reach
+[0.092s] [ 80%] Built target Raggiungibilita
+[0.117s] [ 90%] [32mBuilding CXX object CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o[0m
+[3.480s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:7[m[K:
+[3.480s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[3.480s]    50 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[3.480s]       |                                                                       [01;36m[K^[m[K
+[3.480s] 
+[5.896s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:[m[K In lambda function:
+[5.896s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:125:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<rclcpp::Node, __gnu_cxx::_S_atomic, false, false>::element_type = class rclcpp::Node[m[K’ {aka ‘[01m[Kclass rclcpp::Node[m[K’} has no member named ‘[01m[Kclient_[m[K’
+[5.897s]   125 |             self->[01;31m[Kclient_[m[K->async_send_request(req_no_coll, [self, pose, psm, group_name](rclcpp::Client<GetPositionIK>::SharedFuture future2) {
+[5.897s]       |                   [01;31m[K^~~~~~~[m[K
+[6.014s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:[m[K In lambda function:
+[6.014s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:152:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision[m[K’ is not captured
+[6.015s]   152 |                         [01;31m[Kcollision[m[K = true;
+[6.015s]       |                         [01;31m[K^~~~~~~~~[m[K
+[6.015s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:125:88:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[6.015s]   125 | async_send_request(req_no_coll, [self, pose, psm, group_name[01;36m[K][m[K(rclcpp::Client<GetPositionIK>::SharedFuture future2) {
+[6.015s]       |                                                             [01;36m[K^[m[K
+[6.015s] 
+[6.015s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:110:14:[m[K [01;36m[Knote: [m[K‘[01m[Kbool collision[m[K’ declared here
+[6.015s]   110 |         bool [01;36m[Kcollision[m[K = false;
+[6.015s]       |              [01;36m[K^~~~~~~~~[m[K
+[6.016s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:172:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcollision[m[K’ is not captured
+[6.016s]   172 |                 marker.color.b = [01;31m[Kcollision[m[K ? 1.0 : 0.0;
+[6.016s]       |                                  [01;31m[K^~~~~~~~~[m[K
+[6.016s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:125:88:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[6.016s]   125 | async_send_request(req_no_coll, [self, pose, psm, group_name[01;36m[K][m[K(rclcpp::Client<GetPositionIK>::SharedFuture future2) {
+[6.016s]       |                                                             [01;36m[K^[m[K
+[6.016s] 
+[6.016s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:110:14:[m[K [01;36m[Knote: [m[K‘[01m[Kbool collision[m[K’ declared here
+[6.016s]   110 |         bool [01;36m[Kcollision[m[K = false;
+[6.016s]       |              [01;36m[K^~~~~~~~~[m[K
+[6.016s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:174:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<rclcpp::Node, __gnu_cxx::_S_atomic, false, false>::element_type = class rclcpp::Node[m[K’ {aka ‘[01m[Kclass rclcpp::Node[m[K’} has no member named ‘[01m[Kmarker_pub_[m[K’
+[6.016s]   174 |                 self->[01;31m[Kmarker_pub_[m[K->publish(markers);
+[6.016s]       |                       [01;31m[K^~~~~~~~~~~[m[K
+[10.142s] gmake[2]: *** [CMakeFiles/Reac_marker.dir/build.make:76: CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o] Error 1
+[10.142s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/Reac_marker.dir/all] Error 2
+[10.142s] gmake: *** [Makefile:146: all] Error 2
+[10.144s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes' returned '2': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8

@@ -114,6 +114,10 @@ def generate_launch_description():
         arguments=["right_hand_controller", "--controller-manager", "/controller_manager"],
     )
 
+
+  
+
+
     # Ritorna la LaunchDescription
     return LaunchDescription(
         [
@@ -128,5 +132,6 @@ def generate_launch_description():
             right_arm_controller_spawner,
             left_hand_controller_spawner,
             right_hand_controller_spawner,
+         
         ]
     )

@@ -25,6 +25,7 @@ find_package(tf2_geometry_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(moveit_msgs REQUIRED)
 find_package(control_msgs REQUIRED)
+find_package(interactive_markers REQUIRED)
 
 
 
@@ -66,8 +67,45 @@ ament_target_dependencies(test_reach rclcpp geometry_msgs moveit_msgs     tf2_ro
   tf2_geometry_msgs
   tf2_eigen
   moveit_ros_planning_interface
+  moveit_msgs
   
   )
+
+
+
+  add_executable(interactive_reach src/interactive_marker.cpp)
+  ament_target_dependencies(interactive_reach 
+    rclcpp 
+    rclcpp_action
+    moveit_ros_planning_interface
+    geometry_msgs
+    visualization_msgs
+    tf2_ros
+    tf2
+    tf2_geometry_msgs
+    tf2_eigen
+    Eigen3
+    control_msgs
+    interactive_markers
+    )
+
+
+
+  add_executable(Reac_marker src/Reachability_interactive.cpp)
+  ament_target_dependencies(Reac_marker 
+    rclcpp 
+    rclcpp_action
+    moveit_ros_planning_interface
+    geometry_msgs
+    visualization_msgs
+    tf2_ros
+    tf2
+    tf2_geometry_msgs
+    tf2_eigen
+    Eigen3
+    control_msgs
+    interactive_markers
+    )
 install(TARGETS test_reach DESTINATION lib/${PROJECT_NAME})
 
 
@@ -76,6 +114,8 @@ install(TARGETS
   test_reach
   Reach
   Raggiungibilita
+  interactive_reach
+  Reac_marker
 
   DESTINATION lib/${PROJECT_NAME}
 )

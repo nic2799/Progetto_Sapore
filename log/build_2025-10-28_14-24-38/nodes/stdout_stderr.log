@@ -1,0 +1,17 @@
+[ 40%] Built target Raggiungibilita
+[ 40%] Built target interactive_reach
+[ 60%] Built target test_reach
+[ 80%] Built target Reach
+[ 90%] [32mBuilding CXX object CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o[0m
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:9[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityIKNode::[01;32m[KControllerTrajectory[m[K(sensor_msgs::msg::JointState&)[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:90:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing sensor_msgs::msg::JointState = struct sensor_msgs::msg::JointState_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::JointState_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kjoint_state[m[K’; did you mean ‘[01m[KJointState_[m[K’?
+   90 |         point.positions = solution.[01;31m[Kjoint_state[m[K.position;
+      |                                    [01;31m[K^~~~~~~~~~~[m[K
+      |                                    [32m[KJointState_[m[K
+gmake[2]: *** [CMakeFiles/Reac_marker.dir/build.make:76: CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/Reac_marker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

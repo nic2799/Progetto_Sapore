@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/iiwa_config_moveit
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/interactive_marker.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/iiwa_config_moveit_config_uninstall.dir/clean
+clean: CMakeFiles/interactive_marker.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -126,6 +127,32 @@ iiwa_config_moveit_config_uninstall: CMakeFiles/iiwa_config_moveit_config_uninst
 CMakeFiles/iiwa_config_moveit_config_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/iiwa_config_moveit_config_uninstall.dir/build.make CMakeFiles/iiwa_config_moveit_config_uninstall.dir/clean
 .PHONY : CMakeFiles/iiwa_config_moveit_config_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/interactive_marker.dir
+
+# All Build rule for target.
+CMakeFiles/interactive_marker.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interactive_marker.dir/build.make CMakeFiles/interactive_marker.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interactive_marker.dir/build.make CMakeFiles/interactive_marker.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/iiwa_config_moveit_config/CMakeFiles --progress-num=1,2 "Built target interactive_marker"
+.PHONY : CMakeFiles/interactive_marker.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/interactive_marker.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/iiwa_config_moveit_config/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/interactive_marker.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/iiwa_config_moveit_config/CMakeFiles 0
+.PHONY : CMakeFiles/interactive_marker.dir/rule
+
+# Convenience name for target.
+interactive_marker: CMakeFiles/interactive_marker.dir/rule
+.PHONY : interactive_marker
+
+# clean rule for target.
+CMakeFiles/interactive_marker.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interactive_marker.dir/build.make CMakeFiles/interactive_marker.dir/clean
+.PHONY : CMakeFiles/interactive_marker.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

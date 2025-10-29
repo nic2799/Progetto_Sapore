@@ -66,16 +66,16 @@ public:
         RCLCPP_INFO(this->get_logger(), "Avvio test di raggiungibilità...");
         testReachability(pedana, group + "arm");
     }
-void resetMarkers()
-{
-    visualization_msgs::msg::MarkerArray delete_msg;
-    visualization_msgs::msg::Marker m;
-    m.action = visualization_msgs::msg::Marker::DELETEALL;
-    delete_msg.markers.push_back(m);
+    void resetMarkers()//serve per resettare all'avvio i marker
+    {
+        visualization_msgs::msg::MarkerArray delete_msg;
+        visualization_msgs::msg::Marker m;
+        m.action = visualization_msgs::msg::Marker::DELETEALL;
+        delete_msg.markers.push_back(m);
 
-    // Pubblica subito DELETEALL
-    marker_pub_->publish(delete_msg);
-}
+        // Pubblica subito DELETEALL
+        marker_pub_->publish(delete_msg);
+    }
 
 
 private:
@@ -161,7 +161,7 @@ private:
 
             if (!reachable)
             {
-                RCLCPP_INFO(this->get_logger(), "iL PUNTO PUO ESSERE O NON RAGGIUNGIBILE O IN COLLISIONE. PROVO A CERCARE UNA SOLUZIONE SENZA EVITARE LE COLLISIONI.");
+                RCLCPP_INFO(this->get_logger(), "iL PUNTO PUO ESSERE O NON RAGGIUNGIBILE O IN COLLISIONE. SETTIAMO AVOID_COLLISIONS=FALSE E RITENTIAMO.");
                 auto req2 = std::make_shared<GetPositionIK::Request>(*req);
                 req2->ik_request.avoid_collisions = false;
 
@@ -207,7 +207,7 @@ private:
 
            
 
-            if (have_candidate)//SE TROVO POSA RAGGIUNGIBILE IN COLLISIONE
+            if (have_candidate)//SE TROVO POSA RAGGIUNGIBILE E QUINDI IN COLLISIONE
             {
                 
 
@@ -232,20 +232,10 @@ private:
             js_msg.position = candidate_js.position;
 
           
-            auto start = this->now();
-            rclcpp::Rate rate(50); // 50 Hz
-            while ((this->now() - start).seconds() < 2.0) // 2 secondi
-            {
+            //auto start = this->now();
+           
                 joint_state_pub_->publish(js_msg);
-                rate.sleep();
-}
-
             
-
-            
-
-
-
 
             RCLCPP_WARN(this->get_logger(), "LA COLLISIONE È TRA : ");
                 for (const auto &entry : collision_result.contacts)

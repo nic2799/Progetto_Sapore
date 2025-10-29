@@ -19,66 +19,26 @@ def generate_launch_description():
     # Nodo Reachability per la pedana
     reachability_node_tavolo = Node(
         package="nodes",
-        executable="Reach",
+        executable="Reac_marker",
         name="reachability_tavolo", 
         output="screen",
         parameters=[
             robot_description,
             moveit_config.robot_description_semantic,
             moveit_config.robot_description_kinematics,
-            {
-                "group_name": "right_",
-                "xmin": -1.05, "xmax": -0.78,
-                "ymin": -2.90, "ymax": -1.30,
-                "zmin": 0.85,  "zmax": 1.0,
-                "roll": 1.57, "pitch": 1.57, "yaw": 0.0,
-                "step": 0.1,
-            },
+            
         ],
     )
-
-    # Nodo Reachability per il tavolo
-    reachability_node_rastrelliera = Node(
+    Interactive_Marker_Node = Node(
         package="nodes",
-        executable="Reach",
-        name="reachability_rastrelliera",  
+        executable="interactive_reach",
+        name="interactive_marker_server",
         output="screen",
-        parameters=[
-            robot_description,
-            moveit_config.robot_description_semantic,
-            moveit_config.robot_description_kinematics,
-            {
-                "group_name": "right_",
-                "xmin": -0.25, "xmax": -0.24,
-                "ymin": -1.0,  "ymax": -0.2,
-                "zmin": 0.2,   "zmax": 1.8,
-                "roll": 0.0, "pitch": 1.57, "yaw": 0.0,
-                "step": 0.1,
-            },
-        ],
     )
 
-    reachability_node_rastrelliera = Node(
-        package="nodes",
-        executable="Reach",
-        name="reachability_robobq",  
-        output="screen",
-        parameters=[
-            robot_description,
-            moveit_config.robot_description_semantic,
-            moveit_config.robot_description_kinematics,
-            {
-                "group_name": "right_",
-                "xmin": -1.5, "xmax": -1.0,
-                "ymin": 0.0,  "ymax": -2.0,
-                "zmin": 0.2,   "zmax": 0.7,
-                "roll": 0.0, "pitch": 1.57, "yaw": 0.0,
-                "step": 0.1,
-            },
-        ],
-    )
-
+    
     return LaunchDescription([
         reachability_node_tavolo,
-        reachability_node_rastrelliera,
+        Interactive_Marker_Node,
+      
     ])

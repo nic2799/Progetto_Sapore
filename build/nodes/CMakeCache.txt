@@ -520,6 +520,9 @@ geometric_shapes_DIR:PATH=/opt/ros/jazzy/share/geometric_shapes/cmake
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/opt/ros/jazzy/share/geometry_msgs/cmake
 
+//The directory containing a CMake configuration file for interactive_markers.
+interactive_markers_DIR:PATH=/opt/ros/jazzy/share/interactive_markers/cmake
+
 //The directory containing a CMake configuration file for interfaces.
 interfaces_DIR:PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake
 

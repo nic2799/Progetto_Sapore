@@ -1,0 +1,33 @@
+[0.010s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8
+[0.072s] [ 20%] Built target interactive_reach
+[0.072s] [ 40%] Built target Raggiungibilita
+[0.080s] [ 60%] Built target test_reach
+[0.086s] [ 80%] Built target Reach
+[0.101s] [ 90%] [32mBuilding CXX object CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o[0m
+[3.225s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:7[m[K:
+[3.225s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[3.225s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[3.225s]       |                                                                             [01;36m[K^[m[K
+[5.457s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:[m[K In lambda function:
+[5.457s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:135:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_name[m[K’ is not captured
+[5.457s]   135 |       if (response_no_coll->solution.joint_state.name[i].find([01;31m[Kgroup_name[m[K) != std::string::npos)
+[5.457s]       |                                                               [01;31m[K^~~~~~~~~~[m[K
+[5.457s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:106:65:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[5.457s]   106 |     client_->async_send_request(req, [this, pose, planning_scene[01;36m[K][m[K(rclcpp::Client<GetPositionIK>::SharedFuture future) {
+[5.457s]       |                                                                 [01;36m[K^[m[K
+[5.458s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:94:91:[m[K [01;36m[Knote: [m[K‘[01m[Kconst std::string& group_name[m[K’ declared here
+[5.458s]    94 |     void testReachability(const geometry_msgs::msg::PoseStamped &pose, [01;36m[Kconst std::string &group_name[m[K)
+[5.458s]       |                                                                        [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[5.458s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:144:12:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kmoveit::core::RobotState[m[K’
+[5.458s]   144 | robot_state[01;31m[K->[m[KsetVariablePositions(joint_positions);
+[5.458s]       |            [01;31m[K^~[m[K
+[5.478s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:144:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_positions[m[K’ was not declared in this scope
+[5.479s]   144 | robot_state->setVariablePositions([01;31m[Kjoint_positions[m[K);
+[5.479s]       |                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.479s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:147:33:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Kmoveit::core::RobotState[m[K’)
+[5.479s]   147 | planning_scene->setCurrentState([01;31m[K*robot_state[m[K);
+[5.479s]       |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[6.215s] gmake[2]: *** [CMakeFiles/Reac_marker.dir/build.make:76: CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o] Interrupt
+[6.215s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/Reac_marker.dir/all] Interrupt
+[6.215s] gmake: *** [Makefile:146: all] Interrupt
+[6.259s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes' returned '-2': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8

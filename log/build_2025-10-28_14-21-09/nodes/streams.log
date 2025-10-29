@@ -1,0 +1,22 @@
+[0.016s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes': AMENT_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8
+[0.104s] [ 20%] Built target interactive_reach
+[0.104s] [ 40%] Built target Raggiungibilita
+[0.120s] [ 80%] Built target Reach
+[0.120s] [ 80%] Built target test_reach
+[0.149s] [ 90%] [32mBuilding CXX object CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o[0m
+[4.489s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:9[m[K:
+[4.489s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[4.489s]    50 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[4.489s]       |                                                                       [01;36m[K^[m[K
+[4.489s] 
+[7.476s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:77:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit_msgs::srv::GetPositionIK_Response::solution[m[K’ is not a type
+[7.476s]    77 |     void ControllerTrajectory([01;31m[Kmoveit_msgs[m[K::srv::GetPositionIK_Response::solution solution)
+[7.476s]       |                               [01;31m[K^~~~~~~~~~~[m[K
+[7.546s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityIKNode::[01;32m[KControllerTrajectory[m[K(int)[m[K’:
+[7.547s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:92:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kjoint_state[m[K’ in ‘[01m[Ksolution[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[7.547s]    92 |         point.positions = solution.[01;31m[Kjoint_state[m[K.position;
+[7.547s]       |                                    [01;31m[K^~~~~~~~~~~[m[K
+[13.358s] gmake[2]: *** [CMakeFiles/Reac_marker.dir/build.make:76: CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o] Error 1
+[13.358s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/Reac_marker.dir/all] Error 2
+[13.359s] gmake: *** [Makefile:146: all] Error 2
+[13.361s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes' returned '2': AMENT_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8
