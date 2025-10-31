@@ -26,6 +26,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(moveit_msgs REQUIRED)
 find_package(control_msgs REQUIRED)
 find_package(interactive_markers REQUIRED)
+find_package(std_msgs REQUIRED)
 
 
 
@@ -44,6 +45,7 @@ ament_target_dependencies(Reach
   Eigen3
   control_msgs
   moveit_msgs
+  std_msgs
   )
 
 add_executable(Raggiungibilita src/Reach.cpp)

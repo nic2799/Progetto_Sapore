@@ -16,11 +16,52 @@ def generate_launch_description():
     robot_description_content = xacro.process_file(str(urdf_path)).toxml()
     robot_description = {"robot_description": ParameterValue(robot_description_content, value_type=str)}
 
-    # Nodo Reachability per la pedana
-    reachability_node_tavolo = Node(
+#     # Nodo Reachability per la pedana
+#     reachability_node_tavolo = Node(
+#         package="nodes",
+#         executable="Reach",
+#         name="reachability_tavolo", 
+#         output="screen",
+#         parameters=[
+#             robot_description,
+#             moveit_config.robot_description_semantic,
+#             moveit_config.robot_description_kinematics,
+#             {
+#                 "group_name": "right_",
+#                 "xmin": -1.05, "xmax": -0.78,
+#                 "ymin": -2.90, "ymax": -1.30,
+#                 "zmin": 0.85,  "zmax": 1.0,
+#                 "roll": 1.57, "pitch": 1.57, "yaw": 0.0,
+#                 "step": 0.1,
+#             },
+#         ],
+#     )
+
+#   #  Nodo Reachability per il tavolo
+#     reachability_node_rastrelliera = Node(
+#         package="nodes",
+#         executable="Reach",
+#         name="reachability_rastrelliera",  
+#         output="screen",
+#         parameters=[
+#             robot_description,
+#             moveit_config.robot_description_semantic,
+#             moveit_config.robot_description_kinematics,
+#             {
+#                 "group_name": "right_",
+#                 "xmin": -0.25, "xmax": -0.24,
+#                 "ymin": -1.0,  "ymax": -0.2,
+#                 "zmin": 0.2,   "zmax": 1.8,
+#                 "roll": 0.0, "pitch": 1.57, "yaw": 0.0,
+#                 "step": 0.1,
+#             },
+#         ],
+#     )
+
+    reachability_node_bimby_right = Node(
         package="nodes",
         executable="Reach",
-        name="reachability_tavolo", 
+        name="reachability_Bimby_right",  
         output="screen",
         parameters=[
             robot_description,
@@ -28,31 +69,50 @@ def generate_launch_description():
             moveit_config.robot_description_kinematics,
             {
                 "group_name": "right_",
-                "xmin": -1.05, "xmax": -0.78,
-                "ymin": -2.90, "ymax": -1.30,
-                "zmin": 0.85,  "zmax": 1.0,
-                "roll": 1.57, "pitch": 1.57, "yaw": 0.0,
+                "xmin": -1.8, "xmax": -1.0,
+                "ymin": -1.7,  "ymax": -0.9,
+                "zmin": 0.65,   "zmax": 1.0,
+                "roll": 1.57, "pitch": 1.57, "yaw": -0.78,
                 "step": 0.1,
             },
         ],
     )
 
-    # Nodo Reachability per il tavolo
-    reachability_node_rastrelliera = Node(
+    reachability_node_Bimby_left = Node(
         package="nodes",
         executable="Reach",
-        name="reachability_rastrelliera",  
+        name="reachability_Bimby_left",  
         output="screen",
         parameters=[
             robot_description,
             moveit_config.robot_description_semantic,
             moveit_config.robot_description_kinematics,
             {
-                "group_name": "right_",
-                "xmin": -0.25, "xmax": -0.24,
-                "ymin": -1.0,  "ymax": -0.2,
-                "zmin": 0.2,   "zmax": 1.8,
-                "roll": 0.0, "pitch": 1.57, "yaw": 0.0,
+                "group_name": "left_",
+                "xmin": -1.55, "xmax": -1.0,
+                "ymin": 0.20,  "ymax": 1.0,
+                "zmin": 0.65,   "zmax": 1.0,
+                "roll": 0.0, "pitch": 1.57, "yaw": 2.36,
+                "step": 0.1,
+            },
+        ],
+    )
+
+    reachability_node_Bimby_center = Node(
+        package="nodes",
+        executable="Reach",
+        name="reachability_Bimby_center",  
+        output="screen",
+        parameters=[
+            robot_description,
+            moveit_config.robot_description_semantic,
+            moveit_config.robot_description_kinematics,
+            {
+                "group_name": "left_",
+                "xmin": -1.55, "xmax": -1.0,
+                "ymin": -0.70,  "ymax": 0.10,
+                "zmin": 0.65,   "zmax": 1.0,
+                "roll": 0.0, "pitch": 1.57, "yaw": -1.57,
                 "step": 0.1,
             },
         ],
@@ -61,6 +121,9 @@ def generate_launch_description():
 
 
     return LaunchDescription([
-        reachability_node_tavolo,
-        reachability_node_rastrelliera,
+        #reachability_node_tavolo,
+        #reachability_node_rastrelliera,
+        reachability_node_bimby_right,
+        reachability_node_Bimby_left,
+        reachability_node_Bimby_center,
     ])

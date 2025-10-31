@@ -2009,4 +2009,7 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: \
  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/display_robot_state__struct.hpp \
  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/display_robot_state__builder.hpp \
  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/display_robot_state__traits.hpp \
- /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/display_robot_state__type_support.hpp
+ /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/display_robot_state__type_support.hpp \
+ /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/object_color.hpp \
+ /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__builder.hpp \
+ /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__type_support.hpp

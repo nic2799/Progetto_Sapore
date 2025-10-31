@@ -7,7 +7,7 @@
 #include <interactive_markers/interactive_marker_server.hpp>
 #include <std_srvs/srv/trigger.hpp>
 #include <moveit/planning_scene_monitor/planning_scene_monitor.h>
-    #include <sensor_msgs/msg/joint_state.hpp> // se non già incluso
+#include <sensor_msgs/msg/joint_state.hpp> // se non già incluso
 
 
 using moveit_msgs::srv::GetPositionIK;
@@ -54,7 +54,7 @@ public:
             this->shared_from_this(), "robot_description");
 
         if (!planning_scene_monitor_->getPlanningScene())
-            throw std::runtime_error("❌ Impossibile inizializzare il PlanningSceneMonitor");
+            throw std::runtime_error("Impossibile inizializzare il PlanningSceneMonitor");
 
         planning_scene_monitor_->requestPlanningSceneState("get_planning_scene");
         RCLCPP_INFO(this->get_logger(), "PlanningSceneMonitor inizializzato correttamente.");

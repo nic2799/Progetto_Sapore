@@ -13,6 +13,10 @@
 #include <moveit/collision_detection/collision_common.h>
 #include <moveit_msgs/msg/display_robot_state.hpp>
 
+#include <moveit_msgs/msg/display_robot_state.hpp>
+#include <moveit_msgs/msg/object_color.hpp> // Ti servirà per definire il colore
+#include <std_msgs/msg/color_rgba.hpp>     // E anche questo
+
 using moveit_msgs::srv::GetPositionIK;
 using namespace std::chrono_literals;
 
@@ -27,10 +31,8 @@ public:
         client_->wait_for_service();
         RCLCPP_INFO(this->get_logger(), "Servizio /compute_ik disponibile!");
         
-        joint_state_pub_ = this->create_publisher<sensor_msgs::msg::JointState>("/joint_states", 10);
-
-        marker_pub_ = this->create_publisher<visualization_msgs::msg::MarkerArray>(
-            "visualization_marker_array", 10);
+        display_state_pub_ = this->create_publisher<moveit_msgs::msg::DisplayRobotState>("/display_robot_state", 10);
+        marker_pub_ = this->create_publisher<visualization_msgs::msg::MarkerArray>("visualization_marker_array", 10);
 
         this->declare_parameter("xmin", -1.0);
         this->declare_parameter("xmax", 1.0);
@@ -62,10 +64,11 @@ public:
     void start()
     {
         //auto tavolo = generateGrid(-0.25, -0.24, -1.0, -0.2, 0.2, 1.8, 0, 3.14/2, 0.0, 0.1);
-        auto pedana = generateGrid(xmin_,xmax_,ymin_,ymax_,zmin_,zmax_,roll_,pitch_,yaw_ , step_);
+        auto ostacolo = generateGrid(xmin_,xmax_,ymin_,ymax_,zmin_,zmax_,roll_,pitch_,yaw_ , step_);
         RCLCPP_INFO(this->get_logger(), "Avvio test di raggiungibilità...");
-        testReachability(pedana, group + "arm");
+        testReachability(ostacolo, group + "arm");
     }
+
     void resetMarkers()//serve per resettare all'avvio i marker
     {
         visualization_msgs::msg::MarkerArray delete_msg;
@@ -77,8 +80,7 @@ public:
         marker_pub_->publish(delete_msg);
     }
 
-
-private:
+    private:
     double xmin_, xmax_, ymin_, ymax_, zmin_, zmax_,roll_, pitch_,yaw_,step_;
     std::string group;
 
@@ -162,10 +164,46 @@ private:
             if (!reachable)
             {
                 RCLCPP_INFO(this->get_logger(), "iL PUNTO PUO ESSERE O NON RAGGIUNGIBILE O IN COLLISIONE. SETTIAMO AVOID_COLLISIONS=FALSE E RITENTIAMO.");
-                auto req2 = std::make_shared<GetPositionIK::Request>(*req);
-                req2->ik_request.avoid_collisions = false;
+                //auto req2 = std::make_shared<GetPositionIK::Request>(*req);
+                //req2->ik_request.avoid_collisions = false;
+                //verifichiamo se è raggiungibile senza considerare le collisioni attraverso robot_state->setfromik()
 
-                auto future2 = client_->async_send_request(req2);
+                moveit::core::RobotState current_state = planning_scene->getCurrentState();
+                const moveit::core::JointModelGroup* joint_model_group =
+                    current_state.getJointModelGroup(group_name);
+                bool found_ik = current_state.setFromIK(
+                    joint_model_group, pose.pose,1);
+                if (found_ik)//dunque il punto è raggiungibile ma in collisione
+                {
+                    // Estraggo i joint states
+                    current_state.copyJointGroupPositions(
+                        joint_model_group, candidate_js.position);
+                    candidate_js.name = joint_model_group->getVariableNames();
+                    have_candidate = true;
+                    RCLCPP_INFO(this->get_logger(), "AVOID_COLLISIONS=FALSE: IL PUNTO È RAGGIUNGIBILE, MA IN COLLISIONE.");
+                    RCLCPP_INFO(this->get_logger(), "LA POSIZIONE DELL'END EFFECTOR CHE È in collisione è: x=%f y=%f z=%f", pose.pose.position.x, pose.pose.position.y, pose.pose.position.z);
+                    RCLCPP_INFO(this->get_logger(), "orientamento in collisione è: ox=%f oy=%f oz=%f ow=%f",
+                                 pose.pose.orientation.x, pose.pose.orientation.y,
+                                 pose.pose.orientation.z, pose.pose.orientation.w);
+                                double r, p, y;
+                                // convertiamo geometry_msgs::msg::Quaternion -> tf2::Quaternion
+                                tf2::Quaternion q;
+                                tf2::fromMsg(pose.pose.orientation, q);
+                                tf2::Matrix3x3(q).getRPY(r, p, y);
+                                RCLCPP_INFO(this->get_logger(), "RPY: roll=%f pitch=%f yaw=%f", r, p, y);
+                }
+               
+
+
+
+
+
+
+
+
+
+
+               /* auto future2 = client_->async_send_request(req2);
                 if (rclcpp::spin_until_future_complete(this->get_node_base_interface(), future2) ==
                     rclcpp::FutureReturnCode::SUCCESS)
                 {
@@ -202,7 +240,7 @@ private:
                                     tf2::Matrix3x3(q).getRPY(r, p, y);
                                     RCLCPP_INFO(this->get_logger(), "RPY: roll=%f pitch=%f yaw=%f", r, p, y);
                     }
-                }
+                }*/
             }
 
            
@@ -224,17 +262,56 @@ private:
 
             collision_detection::CollisionResult collision_result;
             planning_scene->checkCollision(collision_request, collision_result, current_state);
+            // --- INIZIO NUOVA PARTE ---
+
+                // 1. Crea il messaggio DisplayRobotState
+                moveit_msgs::msg::DisplayRobotState display_msg;
+                display_msg.state.joint_state = candidate_js; // Usa i joint_state che hai trovato
+
+                // 2. Definisci il colore per l'evidenziazione
+                std_msgs::msg::ColorRGBA highlight_color;
+                highlight_color.r = 1.0; // Rosso
+                highlight_color.g = 0.0;
+                highlight_color.b = 0.0;
+                highlight_color.a = 0.9; // Quasi opaco
+
+                RCLCPP_WARN(this->get_logger(), "LA COLLISIONE È TRA : ");
+                for (const auto &entry : collision_result.contacts)
+                {
+                    RCLCPP_INFO(this->get_logger(), " - Link '%s' collide con '%s' (%zu contatti)",
+                                entry.first.first.c_str(), entry.first.second.c_str(), entry.second.size());
+                    
+                    // 3. Aggiungi i link da evidenziare
+                    // Controlliamo che il link appartenga al robot e non sia "world" o un ostacolo
+                    if (current_state.getRobotModel()->hasLinkModel(entry.first.first)) {
+                        moveit_msgs::msg::ObjectColor obj_color;
+                        obj_color.id = entry.first.first; // Nome del primo link
+                        obj_color.color = highlight_color;
+                        display_msg.highlight_links.push_back(obj_color);
+                    }
+                    if (current_state.getRobotModel()->hasLinkModel(entry.first.second)) {
+                        moveit_msgs::msg::ObjectColor obj_color;
+                        obj_color.id = entry.first.second; // Nome del secondo link
+                        obj_color.color = highlight_color;
+                        display_msg.highlight_links.push_back(obj_color);
+                    }
+                }
+
+                // 4. Pubblica il messaggio
+                display_state_pub_->publish(display_msg);
+
+                // --- FINE NUOVA PARTE ---
 
 
             //definiamo messaggio per joint states
-            sensor_msgs::msg::JointState js_msg;
-            js_msg.name = candidate_js.name;
-            js_msg.position = candidate_js.position;
+            //sensor_msgs::msg::JointState js_msg;
+            //js_msg.name = candidate_js.name;
+            //js_msg.position = candidate_js.position;
 
           
             //auto start = this->now();
            
-                joint_state_pub_->publish(js_msg);
+              //  joint_state_pub_->publish(js_msg);
             
 
             RCLCPP_WARN(this->get_logger(), "LA COLLISIONE È TRA : ");
@@ -273,7 +350,8 @@ private:
 
     rclcpp::Client<GetPositionIK>::SharedPtr client_;
     rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr marker_pub_;
-    rclcpp::Publisher<sensor_msgs::msg::JointState>::SharedPtr joint_state_pub_;
+    //rclcpp::Publisher<sensor_msgs::msg::JointState>::SharedPtr joint_state_pub_;
+    rclcpp::Publisher<moveit_msgs::msg::DisplayRobotState>::SharedPtr display_state_pub_;
 };
 
 int main(int argc, char **argv)

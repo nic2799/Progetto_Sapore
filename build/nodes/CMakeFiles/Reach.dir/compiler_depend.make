@@ -209,8 +209,10 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/move_it_error_codes__type_support.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__builder.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__traits.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__type_support.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__struct.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
@@ -242,6 +244,7 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_padding.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/link_scale.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp \
+  /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/object_color.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/planning_scene_components.hpp \
   /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/robot_state.hpp \
@@ -3391,11 +3394,19 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /usr/include/boost/mpl/joint_view.hpp:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp:
+/usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
 
-/opt/ros/jazzy/include/rclcpp/rclcpp/typesupport_helpers.hpp:
+/usr/include/eigen3/Eigen/src/Core/IndexedView.h:
 
-/opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h:
+/usr/include/c++/13/bits/shared_ptr.h:
+
+/usr/include/boost/mpl/iterator_tags.hpp:
+
+/usr/include/boost/mpl/iterator_range.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/boost/mpl/iterator_category.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
@@ -3468,8 +3479,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /usr/include/boost/parameter/aux_/tagged_argument_fwd.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_services_interface_traits.hpp:
 
@@ -3681,14 +3690,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
 
-/usr/include/c++/13/string:
-
-/opt/ros/jazzy/include/rcutils/rcutils/types.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
@@ -3712,6 +3713,10 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp:
 
 /opt/ros/jazzy/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp:
+
+/usr/include/c++/13/string:
+
+/opt/ros/jazzy/include/rcutils/rcutils/types.h:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
 
@@ -3947,6 +3952,10 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.hpp:
 
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__type_support.hpp:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
+
 /opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.h:
 
 /opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:
@@ -4017,6 +4026,8 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /usr/include/boost/call_traits.hpp:
 
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/srv/detail/load_map__traits.hpp:
+
 /usr/include/boost/preprocessor/tuple/rem.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
@@ -4034,14 +4045,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /usr/include/boost/preprocessor/logical/not.hpp:
 
 /opt/ros/jazzy/include/rosidl_dynamic_typesupport/rosidl_dynamic_typesupport/dynamic_message_type_support_struct.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/usr/include/c++/13/memory:
-
-/usr/include/boost/signals2/detail/signal_template.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/message_memory_strategy.hpp:
 
@@ -4152,6 +4155,10 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_base.hpp:
 
 /usr/include/boost/mpl/apply_fwd.hpp:
+
+/opt/ros/jazzy/include/rcl_lifecycle/rcl_lifecycle/data_types.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/typesupport_helpers.hpp:
 
 /opt/ros/jazzy/include/random_numbers/random_numbers.h:
 
@@ -4307,22 +4314,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_ik_request__struct.hpp:
 
-/usr/include/octomap/OccupancyOcTreeBase.h:
-
-/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
-
-/opt/ros/jazzy/include/rcl/rcl/log_level.h:
-
-/usr/include/c++/13/bits/uniform_int_dist.h:
-
-/usr/include/boost/type_traits/detail/yes_no_type.hpp:
-
-/usr/include/boost/preprocessor/comparison/equal.hpp:
-
-/usr/include/boost/mpl/list/aux_/preprocessed/plain/list20.hpp:
-
-/opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/generic_subscription.hpp:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp:
@@ -4382,8 +4373,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /usr/include/c++/13/bits/stl_vector.h:
 
 /opt/ros/jazzy/include/urdfdom_headers/urdf_exception/exception.h:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/srv/detail/load_map__traits.hpp:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/orientation_constraint__traits.hpp:
 
@@ -4467,12 +4456,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_result_kind.hpp:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp:
 
 /usr/include/c++/13/bits/basic_string.h:
@@ -4480,6 +4463,12 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /usr/include/boost/function/detail/maybe_include.hpp:
 
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__builder.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_result_kind.hpp:
 
 /usr/include/boost/type_traits/has_trivial_copy.hpp:
 
@@ -4557,6 +4546,20 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h:
 
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
+
+/usr/include/boost/type_traits/integral_constant.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/rmw.h:
+
+/usr/include/eigen3/Eigen/src/plugins/BlockMethods.h:
+
+/usr/include/boost/signals2/trackable.hpp:
+
+/usr/include/boost/mem_fn.hpp:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/srv/detail/load_map__struct.hpp:
+
 /usr/include/boost/type_traits/is_const.hpp:
 
 /opt/ros/jazzy/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp:
@@ -4620,20 +4623,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /usr/include/boost/random/variate_generator.hpp:
 
 /opt/ros/jazzy/include/tracetools/tracetools/visibility_control.hpp:
-
-/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
-
-/usr/include/boost/type_traits/integral_constant.hpp:
-
-/opt/ros/jazzy/include/rmw/rmw/rmw.h:
-
-/usr/include/eigen3/Eigen/src/plugins/BlockMethods.h:
-
-/usr/include/boost/signals2/trackable.hpp:
-
-/usr/include/boost/mem_fn.hpp:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/srv/detail/load_map__struct.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/simple_events_queue.hpp:
 
@@ -4741,11 +4730,33 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /opt/ros/jazzy/include/eigen_stl_containers/eigen_stl_containers/eigen_stl_containers.h:
 
+/usr/include/c++/13/bits/uniform_int_dist.h:
+
+/usr/include/boost/type_traits/detail/yes_no_type.hpp:
+
+/usr/include/boost/preprocessor/comparison/equal.hpp:
+
+/usr/include/boost/mpl/list/aux_/preprocessed/plain/list20.hpp:
+
+/opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h:
+
+/usr/include/octomap/OccupancyOcTreeBase.h:
+
+/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
+
+/opt/ros/jazzy/include/rcl/rcl/log_level.h:
+
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/srv/detail/get_position_ik__struct.hpp:
 
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/allowed_collision_matrix.hpp:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__builder.hpp:
+
+/opt/ros/jazzy/include/rmw/rmw/publisher_options.h:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
 
 /opt/ros/jazzy/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h:
 
@@ -4887,10 +4898,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /opt/ros/jazzy/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h:
 
-/opt/ros/jazzy/include/rmw/rmw/publisher_options.h:
-
-/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
-
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp:
 
 /opt/ros/jazzy/include/rmw/rmw/topic_endpoint_info_array.h:
@@ -4936,10 +4943,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /usr/include/boost/mp11/detail/config.hpp:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene_components__struct.hpp:
-
-/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
-
-/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp:
 
 /usr/include/c++/13/bits/ios_base.h:
 
@@ -5033,6 +5036,12 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /usr/include/boost/limits.hpp:
 
+/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_padding__traits.hpp:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/object_color__type_support.hpp:
+
 /usr/include/c++/13/bits/align.h:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/link_scale__struct.hpp:
@@ -5115,6 +5124,16 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/move_it_error_codes.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/c++/13/memory:
+
+/usr/include/boost/signals2/detail/signal_template.hpp:
+
+/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose__type_support.hpp:
+
+/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/object_color.hpp:
+
 /opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
 
 /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point32__type_support.hpp:
@@ -5140,6 +5159,10 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /usr/include/boost/type_traits/copy_cv.hpp:
 
 /opt/ros/jazzy/include/moveit_msgs/moveit_msgs/srv/detail/get_planning_scene__type_support.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set.hpp:
+
+/opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
 
@@ -5347,9 +5370,9 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /usr/include/boost/mpl/integral_c_tag.hpp:
 
-/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:
+
+/opt/ros/jazzy/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
 
 /opt/ros/jazzy/include/rmw/rmw/subscription_content_filter_options.h:
 
@@ -5879,10 +5902,6 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 
 /usr/include/boost/core/detail/sp_thread_yield.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/boost/mpl/iterator_category.hpp:
-
 /usr/include/boost/type_traits/remove_extent.hpp:
 
 /usr/include/boost/parameter/value_type.hpp:
@@ -6358,13 +6377,3 @@ CMakeFiles/Reach.dir/src/test_reach.cpp.o: /home/nicola/Desktop/Progetto_Sapore/
 /usr/include/boost/mpl/is_sequence.hpp:
 
 /usr/include/boost/mpl/iter_fold.hpp:
-
-/usr/include/boost/mpl/iterator_range.hpp:
-
-/usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
-
-/usr/include/eigen3/Eigen/src/Core/IndexedView.h:
-
-/usr/include/c++/13/bits/shared_ptr.h:
-
-/usr/include/boost/mpl/iterator_tags.hpp:
