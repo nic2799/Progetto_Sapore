@@ -16,8 +16,6 @@ Panels:
       - /Current View1
     Name: Views
     Splitter Ratio: 0.5
-  - Class: rviz_default_plugins/InteractiveMarkers
-    Name: InteractiveMarkers
 Visualization Manager:
   Class: ""
   Displays:

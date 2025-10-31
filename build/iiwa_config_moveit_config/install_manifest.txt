@@ -1,4 +1,3 @@
-/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config/lib/iiwa_config_moveit_config/interactive_marker
 /home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config/share/ament_index/resource_index/package_run_dependencies/iiwa_config_moveit_config
 /home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config/share/ament_index/resource_index/parent_prefix_path/iiwa_config_moveit_config
 /home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config/share/iiwa_config_moveit_config/environment/ament_prefix_path.sh

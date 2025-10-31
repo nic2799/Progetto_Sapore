@@ -1,0 +1,7 @@
+[ 20%] Built target Raggiungibilita
+[ 30%] [32mBuilding CXX object CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/interactive_reach.dir/src/interactive_marker.cpp.o[0m
+[ 60%] Built target Reach
+[ 80%] Built target test_reach
+[ 90%] [32m[1mLinking CXX executable interactive_reach[0m
+[ 90%] Built target interactive_reach

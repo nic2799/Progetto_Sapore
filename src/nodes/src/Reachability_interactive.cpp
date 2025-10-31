@@ -17,12 +17,29 @@ class ReachabilityIKNode : public rclcpp::Node
 public:
     ReachabilityIKNode() : Node("reachability_ik_node") 
     {
+
+     // --- Leggiamo il lato del braccio (right o left) ---
+        this->declare_parameter<std::string>("arm_side", "right");
+        arm_side_ = this->get_parameter("arm_side").as_string();
+
+        // --- Costruiamo i nomi dinamicamente ---
+        group_ = arm_side_ + "_arm";
+        tcp_link_ = arm_side_ + "_tcp";
+        controller_name_ = "/" + arm_side_ + "_arm_controller/follow_joint_trajectory";
+        joint_prefix_ = arm_side_ + "_";
+
+        RCLCPP_INFO(this->get_logger(), "Configurazione braccio: %s", arm_side_.c_str());
+        RCLCPP_INFO(this->get_logger(), "Gruppo MoveIt: %s", group_.c_str());
+        RCLCPP_INFO(this->get_logger(), "TCP link: %s", tcp_link_.c_str());
+        RCLCPP_INFO(this->get_logger(), "Controller: %s", controller_name_.c_str());
+
+
         client_ = this->create_client<GetPositionIK>("/compute_ik");
         RCLCPP_INFO(this->get_logger(), "Attendo servizio /compute_ik...");
         client_->wait_for_service();
         RCLCPP_INFO(this->get_logger(), "Servizio /compute_ik disponibile!");
         traj_client_ = rclcpp_action::create_client<control_msgs::action::FollowJointTrajectory>(
-            this, "/right_arm_controller/follow_joint_trajectory");
+            this, controller_name_);
             if (!traj_client_->wait_for_action_server(std::chrono::seconds(5)))
         {
             RCLCPP_ERROR(this->get_logger(), "Azione FollowJointTrajectory non disponibile!");
@@ -83,9 +100,11 @@ public:
         trajectory_msgs::msg::JointTrajectory traj;
         auto planning_scene = planning_scene_monitor_->getPlanningScene();
         auto current_state = planning_scene->getCurrentState();
-        std::vector<std::string> joint_names =  {"right_joint_a1","right_joint_a2","right_joint_a3","right_joint_a4","right_joint_a5","right_joint_a6","right_joint_a7"};
+        std::vector<std::string> joint_names;
+        for (int i = 1; i <= 7; ++i){joint_names.push_back(joint_prefix_ + "joint_a" + std::to_string(i));}
+
         traj.joint_names = joint_names;
-        RCLCPP_INFO(this->get_logger(), "Joint da muovere:");
+       /* RCLCPP_INFO(this->get_logger(), "Joint da muovere:");
         for (const auto &name : joint_names)
         {
             RCLCPP_INFO(this->get_logger(), " - %s", name.c_str());
@@ -93,7 +112,7 @@ public:
         for(const auto &pos : solution.position)
         {
             RCLCPP_INFO(this->get_logger(), " - Posizione: %f", pos);
-        }
+        }*/
 
         trajectory_msgs::msg::JointTrajectoryPoint point;
         // Aggiungi punti alla traiettoria
@@ -126,6 +145,11 @@ private:
     geometry_msgs::msg::PoseStamped last_pose_;
     bool has_pose_ = false;
     std::string group_;
+
+    std::string arm_side_;
+    std::string tcp_link_;
+    std::string controller_name_;
+    std::string joint_prefix_;
 
    void markerCallback(const visualization_msgs::msg::InteractiveMarkerFeedback::SharedPtr msg)
 {
@@ -162,7 +186,7 @@ private:
         auto req = std::make_shared<GetPositionIK::Request>();
         req->ik_request.group_name = group_name;
         req->ik_request.pose_stamped = pose;
-        req->ik_request.ik_link_name = "right_tcp";
+        req->ik_request.ik_link_name = tcp_link_;
         req->ik_request.avoid_collisions = true;
         req->ik_request.timeout.sec = 1;
 
@@ -177,7 +201,7 @@ private:
             auto req_no_coll = std::make_shared<GetPositionIK::Request>();
             req_no_coll->ik_request.group_name = group_name;
             req_no_coll->ik_request.pose_stamped = pose;
-            req_no_coll->ik_request.ik_link_name = "right_tcp";
+            req_no_coll->ik_request.ik_link_name = tcp_link_;
             req_no_coll->ik_request.avoid_collisions = false;
             req_no_coll->ik_request.timeout.sec = 1;
 
@@ -195,7 +219,7 @@ private:
                 sensor_msgs::msg::JointState candidate_js;
                 for (size_t i = 0; i < response_no_coll->solution.joint_state.name.size(); ++i)
                 {
-                    if (response_no_coll->solution.joint_state.name[i].find("right_") != std::string::npos)
+                    if (response_no_coll->solution.joint_state.name[i].find(arm_side_) != std::string::npos)
                     {
                         candidate_js.name.push_back(response_no_coll->solution.joint_state.name[i]);
                         candidate_js.position.push_back(response_no_coll->solution.joint_state.position[i]);
@@ -216,7 +240,7 @@ private:
                 planning_scene->checkCollision(collision_request, collision_result,robot_state);
                 RCLCPP_INFO(this->get_logger(), "Controllo collisioni eseguito.");
                 if (collision_result.collision){
-                    RCLCPP_WARN(this->get_logger(), "LA COLLISIONE È TRA : ");
+                    RCLCPP_WARN(this->get_logger(), "Posa in collisione!");
                     sensor_msgs::msg::JointState filtered_joint_state;
                     const auto &group_joints = planning_scene->getRobotModel()->getJointModelGroup(group_name)->getVariableNames();
 

@@ -1,0 +1,32 @@
+[0.027s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8
+[0.114s] [ 20%] Built target Raggiungibilita
+[0.121s] [ 30%] [32mBuilding CXX object CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o[0m
+[0.130s] [ 40%] [32mBuilding CXX object CMakeFiles/interactive_reach.dir/src/interactive_marker.cpp.o[0m
+[0.138s] [ 60%] Built target Reach
+[0.141s] [ 80%] Built target test_reach
+[4.705s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:9[m[K:
+[4.705s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[4.705s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[4.705s]       |                                                                             [01;36m[K^[m[K
+[5.108s] [ 90%] [32m[1mLinking CXX executable interactive_reach[0m
+[5.601s] [ 90%] Built target interactive_reach
+[7.170s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityIKNode::[01;32m[KmarkerCallback[m[K(visualization_msgs::msg::InteractiveMarkerFeedback_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.170s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:111:23:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} and ‘[01m[Kstd::__shared_ptr_access<visualization_msgs::msg::InteractiveMarkerFeedback_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kvisualization_msgs::msg::InteractiveMarkerFeedback_<std::allocator<void> >[m[K’})
+[7.170s]   111 |         last_pose_ = *[01;31m[Kmsg[m[K;
+[7.170s]       |                       [01;31m[K^~~[m[K
+[7.170s] In file included from [01m[K/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/visibility_constraint__struct.hpp:24[m[K,
+[7.170s]                  from [01m[K/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp:29[m[K,
+[7.171s]                  from [01m[K/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/msg/detail/position_ik_request__struct.hpp:25[m[K,
+[7.171s]                  from [01m[K/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/srv/detail/get_position_ik__struct.hpp:23[m[K,
+[7.171s]                  from [01m[K/opt/ros/jazzy/include/moveit_msgs/moveit_msgs/srv/get_position_ik.hpp:7[m[K,
+[7.171s]                  from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:4[m[K:
+[7.171s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:41:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >& geometry_msgs::msg::PoseStamped_<std::allocator<void> >::[01;32m[Koperator=[m[K(const geometry_msgs::msg::PoseStamped_<std::allocator<void> >&)[m[K’
+[7.171s]    41 | struct [01;36m[KPoseStamped_[m[K
+[7.171s]       |        [01;36m[K^~~~~~~~~~~~[m[K
+[7.171s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:41:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__shared_ptr_access<visualization_msgs::msg::InteractiveMarkerFeedback_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kvisualization_msgs::msg::InteractiveMarkerFeedback_<std::allocator<void> >[m[K’} to ‘[01m[Kconst geometry_msgs::msg::PoseStamped_<std::allocator<void> >&[m[K’
+[7.171s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:41:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >& geometry_msgs::msg::PoseStamped_<std::allocator<void> >::[01;32m[Koperator=[m[K(geometry_msgs::msg::PoseStamped_<std::allocator<void> >&&)[m[K’
+[7.171s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:41:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__shared_ptr_access<visualization_msgs::msg::InteractiveMarkerFeedback_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kvisualization_msgs::msg::InteractiveMarkerFeedback_<std::allocator<void> >[m[K’} to ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >&&[m[K’
+[10.914s] gmake[2]: *** [CMakeFiles/Reac_marker.dir/build.make:76: CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o] Error 1
+[10.914s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/Reac_marker.dir/all] Error 2
+[10.914s] gmake: *** [Makefile:146: all] Error 2
+[10.916s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes' returned '2': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8
