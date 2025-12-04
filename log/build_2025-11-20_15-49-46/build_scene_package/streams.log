@@ -1,0 +1,52 @@
+[0.192s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package -- -j8 -l8
+[0.821s] [ 33%] Built target build_scene_simple
+[1.002s] [ 66%] Built target visual_mesh_publisher
+[1.225s] [100%] Built target build_scene_mesh
+[1.398s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package -- -j8 -l8
+[1.408s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package
+[1.444s] -- Install configuration: ""
+[1.446s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/lib/build_scene_package/build_scene_simple
+[1.446s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/lib/build_scene_package/build_scene_mesh
+[1.450s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/lib/build_scene_package/visual_mesh_publisher
+[1.451s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/obstacle_descritpion
+[1.451s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/obstacle_descritpion/environment.yaml
+[1.452s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes
+[1.452s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Congelatore.stl
+[1.452s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/piatto_noCoperchio.stl
+[1.452s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Rastrelliera.stl
+[1.453s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Roboqbo_semplificato.stl
+[1.453s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Bilancia.stl
+[1.453s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Monitor.stl
+[1.453s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Deimpilatore_piatti.stl
+[1.454s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Trasportatore1.stl
+[1.454s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/CellaSapore.stl
+[1.454s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Tavolo_inox2.stl
+[1.454s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/S.A.P.O.R.E_rev1..stl
+[1.458s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Frigorifero.stl
+[1.458s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/QE.stl
+[1.459s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Pavimento1.stl
+[1.459s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Contenitori.stl
+[1.459s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Tavolo_inox.stl
+[1.459s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/iiwa 14 R820 - MF Inside elektrisch.stl
+[1.460s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Lavabo.stl
+[1.460s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Crossed Arms Man v2.stl
+[1.460s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/PC Gestionale.stl
+[1.460s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Piatto.stl
+[1.461s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/CellaSapore2.stl
+[1.472s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Roboqbo.stl
+[1.472s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/ament_index/resource_index/package_run_dependencies/build_scene_package
+[1.472s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/ament_index/resource_index/parent_prefix_path/build_scene_package
+[1.473s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/environment/ament_prefix_path.sh
+[1.473s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/environment/ament_prefix_path.dsv
+[1.473s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/environment/path.sh
+[1.483s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/environment/path.dsv
+[1.483s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/local_setup.bash
+[1.484s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/local_setup.sh
+[1.484s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/local_setup.zsh
+[1.484s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/local_setup.dsv
+[1.484s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/package.dsv
+[1.484s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/ament_index/resource_index/packages/build_scene_package
+[1.485s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/cmake/build_scene_packageConfig.cmake
+[1.485s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/cmake/build_scene_packageConfig-version.cmake
+[1.485s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/package.xml
+[1.486s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package

@@ -1,0 +1,8 @@
+source;share/reachability_package/hook/cmake_prefix_path.ps1
+source;share/reachability_package/hook/cmake_prefix_path.dsv
+source;share/reachability_package/hook/cmake_prefix_path.sh
+source;share/reachability_package/local_setup.bash
+source;share/reachability_package/local_setup.dsv
+source;share/reachability_package/local_setup.ps1
+source;share/reachability_package/local_setup.sh
+source;share/reachability_package/local_setup.zsh

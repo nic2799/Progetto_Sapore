@@ -1,0 +1,98 @@
+[0.019s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package -- -j8 -l8
+[0.049s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.329s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.368s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.383s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.396s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.489s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.493s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.574s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.689s] -- Found moveit_msgs: 2.6.0 (/opt/ros/jazzy/share/moveit_msgs/cmake)
+[0.961s] -- Found tf2: 0.36.11 (/opt/ros/jazzy/share/tf2/cmake)
+[0.966s] -- Found tf2_geometry_msgs: 0.36.11 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.970s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.971s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.064s] -- Found geometric_shapes: 2.3.2 (/opt/ros/jazzy/share/geometric_shapes/cmake)
+[1.071s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[1.114s] -- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[1.124s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[1.142s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.171s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.177s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.262s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[1.299s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[1.319s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[1.351s] -- Found graph_msgs: 0.2.0 (/opt/ros/jazzy/share/graph_msgs/cmake)
+[1.464s] -- Configuring done (1.4s)
+[1.522s] -- Generating done (0.0s)
+[1.535s] -- Build files have been written to: /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package
+[1.600s] [ 25%] [32mBuilding CXX object CMakeFiles/build_scene_simple.dir/src/build_scene_simple.cpp.o[0m
+[1.607s] [ 75%] Built target build_scene_mesh
+[4.126s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:2[m[K:
+[4.127s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[4.127s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[4.127s]       |                                                                             [01;36m[K^[m[K
+[6.240s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:[m[K In member function ‘[01m[Kvoid MeshSceneNode::[01;32m[KSearchObstacles[m[K()[m[K’:
+[6.240s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:57:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoMsg(tf2::Quaternion&)[m[K’
+[6.240s]    57 |             pose.orientation = [01;31m[Ktf2::toMsg(q)[m[K;
+[6.240s]       |                                [01;31m[K~~~~~~~~~~^~~[m[K
+[6.240s] In file included from [01m[K/opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer_interface.h:43[m[K,
+[6.240s]                  from [01m[K/opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.h:43[m[K,
+[6.240s]                  from [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+[6.240s]                  from [01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:42[m[K,
+[6.240s]                  from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:13[m[K:
+[6.241s] [01m[K/opt/ros/jazzy/include/tf2/tf2/convert.hpp:129:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class A, class B> B tf2::[01;32m[KtoMsg[m[K(const A&)[m[K’
+[6.241s]   129 | B [01;36m[KtoMsg[m[K(const A & a);
+[6.241s]       |   [01;36m[K^~~~~[m[K
+[6.245s] [01m[K/opt/ros/jazzy/include/tf2/tf2/convert.hpp:129:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.245s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:57:42:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KB[m[K’
+[6.246s]    57 |             pose.orientation = [01;36m[Ktf2::toMsg(q)[m[K;
+[6.246s]       |                                [01;36m[K~~~~~~~~~~^~~[m[K
+[6.246s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:[m[K In member function ‘[01m[Kvoid MeshSceneNode::[01;32m[KinsertMeshObstacle[m[K(const std::string&, const geometry_msgs::msg::Pose&, const std::string&)[m[K’:
+[6.246s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:70:45:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::publishCollisionBlock(const geometry_msgs::msg::Pose&, const std::string&, double, double, double, double)[m[K’
+[6.246s]    70 |         [01;31m[Kvisual_tools_->publishCollisionBlock(pose, id, 0.8, 0.2, 0.2, 1.0)[m[K;
+[6.246s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.246s] [01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:342:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit_visual_tools::MoveItVisualTools::[01;32m[KpublishCollisionBlock[m[K(const geometry_msgs::msg::Pose&, const std::string&, double, const rviz_visual_tools::Colors&)[m[K’
+[6.246s]   342 |   bool [01;36m[KpublishCollisionBlock[m[K(const geometry_msgs::msg::Pose& block_pose, const std::string& block_name = "block",
+[6.246s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.246s] [01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:342:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[7.961s] In file included from [01m[K/usr/include/c++/13/bits/stl_tempbuf.h:61[m[K,
+[7.961s]                  from [01m[K/usr/include/c++/13/memory:66[m[K,
+[7.961s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+[7.961s]                  from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:1[m[K:
+[7.961s] /usr/include/c++/13/bits/stl_construct.h: In instantiation of ‘[01m[Kvoid std::[01;32m[K_Construct[m[K(_Tp*, _Args&& ...) [35m[K[with _Tp = moveit_visual_tools::MoveItVisualTools; _Args = {const char (&)[6]}][m[K[m[K’:
+[7.961s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:661:19:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<void> >::[01;32m[Kconstruct[m[K(allocator_type&, _Up*, _Args&& ...) [35m[K[with _Up = moveit_visual_tools::MoveItVisualTools; _Args = {const char (&)[6]}; allocator_type = std::allocator<void>][m[K[m[K’
+[7.961s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:604:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::[01;32m[K_Sp_counted_ptr_inplace[m[K(_Alloc, _Args&& ...) [35m[K[with _Args = {const char (&)[6]}; _Tp = moveit_visual_tools::MoveItVisualTools; _Alloc = std::allocator<void>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[7.961s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:971:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::[01;32m[K__shared_count[m[K(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [35m[K[with _Tp = moveit_visual_tools::MoveItVisualTools; _Alloc = std::allocator<void>; _Args = {const char (&)[6]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[7.961s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1712:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::[01;32m[K__shared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {const char (&)[6]}; _Tp = moveit_visual_tools::MoveItVisualTools; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[7.961s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:464:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {const char (&)[6]}; _Tp = moveit_visual_tools::MoveItVisualTools][m[K[m[K’
+[7.961s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1009:14:[m[K   required from ‘[01m[Kstd::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...) [35m[K[with _Tp = moveit_visual_tools::MoveItVisualTools; _Args = {const char (&)[6]}; typename enable_if<(! is_array< <template-parameter-1-1> >::value), _Tp>::type = moveit_visual_tools::MoveItVisualTools][m[K[m[K’
+[7.961s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:23:81:[m[K   required from here
+[7.961s] [01m[K/usr/include/c++/13/bits/stl_construct.h:119:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::MoveItVisualTools(const char [6])[m[K’
+[7.961s]   119 |       [01;31m[K::new((void*)__p) _Tp(std::forward<_Args>(__args)...)[m[K;
+[7.962s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.962s] [01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:101:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::[01;32m[KMoveItVisualTools[m[K(const rclcpp::Node::SharedPtr&, const std::string&, const std::string&, moveit::core::RobotModelConstPtr)[m[K’
+[7.962s]   101 |   [01;36m[KMoveItVisualTools[m[K(const rclcpp::Node::SharedPtr& node, const std::string& base_frame,
+[7.962s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.962s] [01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:101:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[7.962s] [01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:92:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::[01;32m[KMoveItVisualTools[m[K(const rclcpp::Node::SharedPtr&, const std::string&, const std::string&, planning_scene_monitor::PlanningSceneMonitorPtr)[m[K’
+[7.962s]    92 |   [01;36m[KMoveItVisualTools[m[K(const rclcpp::Node::SharedPtr& node, const std::string& base_frame, const std::string& marker_topic,
+[7.962s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.962s] [01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:92:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[7.962s] [01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:83:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::[01;32m[KMoveItVisualTools[m[K(const rclcpp::Node::SharedPtr&)[m[K’
+[7.962s]    83 |   [01;36m[KMoveItVisualTools[m[K(const rclcpp::Node::SharedPtr& node);
+[7.962s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.962s] [01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:83:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [6][m[K’ to ‘[01m[Kconst rclcpp::Node::SharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<rclcpp::Node>&[m[K’}
+[7.962s]    83 |   MoveItVisualTools([01;36m[Kconst rclcpp::Node::SharedPtr& node[m[K);
+[7.962s]       |                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[7.962s] [01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:74:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::[01;32m[KMoveItVisualTools[m[K(const moveit_visual_tools::MoveItVisualTools&)[m[K’
+[7.962s]    74 | class [01;36m[KMoveItVisualTools[m[K : public rviz_visual_tools::RvizVisualTools
+[7.962s]       |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.962s] [01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:74:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [6][m[K’ to ‘[01m[Kconst moveit_visual_tools::MoveItVisualTools&[m[K’
+[7.962s] [01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:74:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::[01;32m[KMoveItVisualTools[m[K(moveit_visual_tools::MoveItVisualTools&&)[m[K’
+[7.962s] [01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:74:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [6][m[K’ to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools&&[m[K’
+[8.546s] gmake[2]: *** [CMakeFiles/build_scene_simple.dir/build.make:76: CMakeFiles/build_scene_simple.dir/src/build_scene_simple.cpp.o] Error 1
+[8.547s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/build_scene_simple.dir/all] Error 2
+[8.547s] gmake: *** [Makefile:146: all] Error 2
+[8.549s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package -- -j8 -l8

@@ -42,7 +42,9 @@ def generate_launch_description():
         package="moveit_ros_move_group",
         executable="move_group",
         output="screen",
-        parameters=[moveit_config.to_dict()],
+        parameters=[moveit_config.to_dict(),
+                 #   {"use_sim_time": True},
+        ],
     )
 
     # Nodo RViz
@@ -59,6 +61,8 @@ def generate_launch_description():
             moveit_config.robot_description_kinematics,
             moveit_config.joint_limits
         ],
+        ros_arguments=['--log-level', 'rviz2:=FATAL']
+
     )
 
     # Nodo robot_state_publisher
@@ -79,13 +83,15 @@ def generate_launch_description():
     ros2_control_node = Node(
         package="controller_manager",
         executable="ros2_control_node",
-        parameters=[ros2_controllers_path],
-        name="controller_manager",
-        remappings=[
-            ("/controller_manager/robot_description", "/robot_description"),
+        parameters=[
+            moveit_config.robot_description,
+            #{"use_sim_time": True},
+            {"robot_description": moveit_config.robot_description},
+            ros2_controllers_path
         ],
         output="both",
-    )
+)
+
 
     # Spawner dei controller
     joint_state_broadcaster_spawner = Node(
@@ -120,18 +126,17 @@ def generate_launch_description():
 
     # Ritorna la LaunchDescription
     return LaunchDescription(
-        [
-            rviz_config_arg,  # Dichiarazione dell'argomento
-            rviz_node,
-            ros2_control_hardware_type,
-            robot_state_publisher,
-            move_group_node,
-            ros2_control_node,
-            joint_state_broadcaster_spawner,
-            left_arm_controller_spawner,
-            right_arm_controller_spawner,
-            left_hand_controller_spawner,
-            right_hand_controller_spawner,
-         
-        ]
-    )
+    [
+        rviz_config_arg,
+        ros2_control_hardware_type,
+        robot_state_publisher,
+        ros2_control_node,
+        joint_state_broadcaster_spawner,
+        left_arm_controller_spawner,
+        right_arm_controller_spawner,
+        left_hand_controller_spawner,
+        right_hand_controller_spawner,
+        move_group_node,
+        rviz_node,
+    ]
+)

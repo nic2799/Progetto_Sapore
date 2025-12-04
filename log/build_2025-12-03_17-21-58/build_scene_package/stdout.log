@@ -1,0 +1,3 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/visual_mesh_publisher.dir/src/visual_mesh_publisher.cpp.o[0m
+[ 50%] Built target build_scene_mesh
+[ 83%] Built target build_scene_simple

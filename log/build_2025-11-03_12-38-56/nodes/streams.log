@@ -1,0 +1,63 @@
+[0.012s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8
+[0.078s] [ 20%] Built target interactive_reach
+[0.085s] [ 40%] Built target Raggiungibilita
+[0.090s] [ 70%] Built target Reac_marker
+[0.090s] [ 60%] [32mBuilding CXX object CMakeFiles/Reach.dir/src/test_reach.cpp.o[0m
+[0.092s] [ 90%] Built target test_reach
+[3.387s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:9[m[K:
+[3.387s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[3.387s]    50 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[3.387s]       |                                                                       [01;36m[K^[m[K
+[3.387s] 
+[5.719s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:10[m[K:
+[5.719s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[5.719s]    50 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[5.719s]       |                                                                       [01;36m[K^[m[K
+[5.719s] 
+[5.720s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:11[m[K:
+[5.720s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[5.720s]    50 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[5.720s]       |                                                                       [01;36m[K^[m[K
+[5.720s] 
+[5.720s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:12[m[K:
+[5.720s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[5.720s]    51 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[5.720s]       |                                                                       [01;36m[K^[m[K
+[5.720s] 
+[5.720s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:13[m[K:
+[5.720s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[5.721s]    50 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[5.721s]       |                                                                       [01;36m[K^[m[K
+[5.721s] 
+[11.808s] [100%] [32m[1mLinking CXX executable Reach[0m
+[12.393s] [100%] Built target Reach
+[12.403s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes' returned '0': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8
+[12.411s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/nodes
+[12.418s] -- Install configuration: ""
+[12.418s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/test_reach
+[12.418s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/test_reach
+[12.418s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/Reach
+[12.421s] -- Set non-toolchain portion of runtime path of "/home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/Reach" to ""
+[12.421s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/Raggiungibilita
+[12.422s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/interactive_reach
+[12.422s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/Reac_marker
+[12.422s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/launch
+[12.422s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/launch/grid_points.launch.py
+[12.422s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/launch/grid_points_second.launch.py
+[12.422s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/launch/launch.py
+[12.422s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/ament_index/resource_index/package_run_dependencies/nodes
+[12.423s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/ament_index/resource_index/parent_prefix_path/nodes
+[12.423s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/environment/ament_prefix_path.sh
+[12.423s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/environment/ament_prefix_path.dsv
+[12.423s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/environment/path.sh
+[12.423s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/environment/path.dsv
+[12.423s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/local_setup.bash
+[12.423s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/local_setup.sh
+[12.423s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/local_setup.zsh
+[12.423s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/local_setup.dsv
+[12.423s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/package.dsv
+[12.423s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/ament_index/resource_index/packages/nodes
+[12.423s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/cmake/nodesConfig.cmake
+[12.423s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/cmake/nodesConfig-version.cmake
+[12.423s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/package.xml
+[12.424s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes' returned '0': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/nodes

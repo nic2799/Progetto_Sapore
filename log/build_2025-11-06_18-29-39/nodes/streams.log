@@ -1,0 +1,401 @@
+[0.119s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8
+[0.614s] [ 16%] Built target interactive_reach
+[0.672s] [ 33%] Built target Raggiungibilita
+[0.735s] [ 50%] Built target check_collision
+[0.749s] [ 66%] Built target test_reach
+[0.763s] [ 83%] Built target Reac_marker
+[1.015s] [ 91%] [32mBuilding CXX object CMakeFiles/Reach.dir/src/test_reach.cpp.o[0m
+[17.146s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:9[m[K:
+[17.146s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[17.146s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[17.147s]       |                                                                             [01;36m[K^[m[K
+[26.122s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:10[m[K:
+[26.123s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[26.123s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[26.124s]       |                                                                             [01;36m[K^[m[K
+[26.124s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:11[m[K:
+[26.124s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[26.125s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[26.125s]       |                                                                             [01;36m[K^[m[K
+[26.126s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:12[m[K:
+[26.126s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[26.126s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[26.127s]       |                                                                             [01;36m[K^[m[K
+[26.127s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:13[m[K:
+[26.128s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[26.128s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[26.129s]       |                                                                             [01;36m[K^[m[K
+[26.152s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:15[m[K:
+[26.152s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[26.153s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[26.153s]       |                                                                             [01;36m[K^[m[K
+[27.300s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:23[m[K:
+[27.300s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/conversions.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[27.300s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[27.301s]       |                                                                             [01;36m[K^[m[K
+[27.301s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:24[m[K:
+[27.301s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.h:48:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[27.302s]    48 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[27.302s]       |                                                                             [01;36m[K^[m[K
+[27.303s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:356:6:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+[27.303s]   356 |     }[01;31m[Kelse[m[K{
+[27.303s]       |      [01;31m[K^~~~[m[K
+[27.304s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:463:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[27.304s]   463 | }
+[27.304s]       |  [01;31m[K^[m[K
+[27.305s]       |  [32m[K;[m[K
+[27.337s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K In constructor ‘[01m[KReachabilityIKNode::[01;32m[KReachabilityIKNode[m[K()[m[K’:
+[27.337s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:38:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[27.337s]    38 |         [01;31m[Kclient_[m[K = this->create_client<GetPositionIK>("/compute_ik");
+[27.337s]       |         [01;31m[K^~~~~~~[m[K
+[27.448s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:43:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdisplay_state_pub_[m[K’ was not declared in this scope
+[27.448s]    43 |         [01;31m[Kdisplay_state_pub_[m[K = this->create_publisher<moveit_msgs::msg::DisplayRobotState>("/display_robot_state", 10);
+[27.449s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[27.500s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:44:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[27.501s]    44 |         [01;31m[Kmarker_pub_[m[K = this->create_publisher<visualization_msgs::msg::MarkerArray>("visualization_marker_array", 10);
+[27.501s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[27.574s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:45:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdisplay_traj_pub_[m[K’ was not declared in this scope
+[27.574s]    45 |         [01;31m[Kdisplay_traj_pub_[m[K = this->create_publisher<moveit_msgs::msg::DisplayTrajectory>("/display_planned_path", 10);
+[27.574s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[27.613s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:71:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_[m[K’ was not declared in this scope; did you mean ‘[01m[Kgroup[m[K’?
+[27.613s]    71 |         [01;31m[Kgroup_[m[K = group + "arm";
+[27.614s]       |         [01;31m[K^~~~~~[m[K
+[27.614s]       |         [32m[Kgroup[m[K
+[27.646s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:72:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktcp_link_[m[K’ was not declared in this scope
+[27.646s]    72 |         [01;31m[Ktcp_link_[m[K = group + "tcp";
+[27.646s]       |         [01;31m[K^~~~~~~~~[m[K
+[27.674s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityIKNode::[01;32m[Kstart[m[K()[m[K’:
+[27.674s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:78:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsm[m[K’ was not declared in this scope
+[27.674s]    78 |     [01;31m[Kpsm[m[K = std::make_shared<planning_scene_monitor::PlanningSceneMonitor>(this->shared_from_this(), "robot_description");
+[27.675s]       |     [01;31m[K^~~[m[K
+[27.714s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:79:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_[m[K’ was not declared in this scope
+[27.714s]    79 |     [01;31m[Kmove_group_[m[K = std::make_unique<moveit::planning_interface::MoveGroupInterface>(
+[27.714s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[27.737s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:80:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_[m[K’ was not declared in this scope; did you mean ‘[01m[Kgroup[m[K’?
+[27.737s]    80 |     this->shared_from_this(), [01;31m[Kgroup_[m[K);
+[27.737s]       |                               [01;31m[K^~~~~~[m[K
+[27.737s]       |                               [32m[Kgroup[m[K
+[27.738s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:88:20:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+[27.738s]    88 |     planning_scene [01;31m[K=[m[K psm->getPlanningScene();
+[27.738s]       |                    [01;31m[K^[m[K
+[27.804s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:96:25:[m[K [01;31m[Kerror: [m[K‘[01m[KtestReachability[m[K’ was not declared in this scope
+[27.804s]    96 |         int raggiunto = [01;31m[KtestReachability[m[K(pose, group_);
+[27.804s]       |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[27.847s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:146:17:[m[K [01;31m[Kerror: [m[K‘[01m[KInsertMarker[m[K’ was not declared in this scope; did you mean ‘[01m[KresetMarkers[m[K’?
+[27.848s]   146 |                 [01;31m[KInsertMarker[m[K(pose, 2); // 2 = pouring-OK (colore ciano)
+[27.848s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[27.848s]       |                 [32m[KresetMarkers[m[K
+[27.890s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:150:17:[m[K [01;31m[Kerror: [m[K‘[01m[KInsertMarker[m[K’ was not declared in this scope; did you mean ‘[01m[KresetMarkers[m[K’?
+[27.890s]   150 |                 [01;31m[KInsertMarker[m[K(pose, 1);
+[27.890s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[27.891s]       |                 [32m[KresetMarkers[m[K
+[27.927s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:155:13:[m[K [01;31m[Kerror: [m[K‘[01m[KInsertMarker[m[K’ was not declared in this scope; did you mean ‘[01m[KresetMarkers[m[K’?
+[27.927s]   155 |             [01;31m[KInsertMarker[m[K(pose, final_info);
+[27.927s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[27.927s]       |             [32m[KresetMarkers[m[K
+[27.977s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityIKNode::[01;32m[KresetMarkers[m[K()[m[K’:
+[27.978s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:169:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[27.978s]   169 |         [01;31m[Kmarker_pub_[m[K->publish(delete_msg);
+[27.978s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[27.984s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kbool ReachabilityIKNode::[01;32m[KCheckLinkCollision[m[K(bool, const geometry_msgs::msg::PoseStamped&)[m[K’:
+[27.984s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:227:72:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K->[m[K’ token
+[27.985s]   227 |                 moveit::core::RobotState current_state = planning_scene[01;31m[K->[m[KgetCurrentState();
+[27.985s]       |                                                                        [01;31m[K^~[m[K
+[28.012s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:229:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_[m[K’ was not declared in this scope; did you mean ‘[01m[Kgroup[m[K’?
+[28.013s]   229 |                     current_state.getJointModelGroup([01;31m[Kgroup_[m[K);
+[28.013s]       |                                                      [01;31m[K^~~~~~[m[K
+[28.014s]       |                                                      [32m[Kgroup[m[K
+[28.015s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:258:72:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K->[m[K’ token
+[28.015s]   258 |                 moveit::core::RobotState current_state = planning_scene[01;31m[K->[m[KgetCurrentState();
+[28.015s]       |                                                                        [01;31m[K^~[m[K
+[28.048s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:267:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_[m[K’ was not declared in this scope; did you mean ‘[01m[Kgroup[m[K’?
+[28.049s]   267 |             collision_request.group_name = [01;31m[Kgroup_[m[K;
+[28.050s]       |                                            [01;31m[K^~~~~~[m[K
+[28.050s]       |                                            [32m[Kgroup[m[K
+[28.057s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:270:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K->[m[K’ token
+[28.057s]   270 |             planning_scene[01;31m[K->[m[KcheckCollision(collision_request, collision_result, current_state);
+[28.058s]       |                           [01;31m[K^~[m[K
+[28.367s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:306:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdisplay_state_pub_[m[K’ was not declared in this scope
+[28.368s]   306 |                 [01;31m[Kdisplay_state_pub_[m[K->publish(display_msg);
+[28.368s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[28.407s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kbool ReachabilityIKNode::[01;32m[KtestPlannerPouring[m[K(const geometry_msgs::msg::PoseStamped&, const std::string&, double, double)[m[K’:
+[28.407s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:331:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_[m[K’ was not declared in this scope
+[28.408s]   331 |     [01;31m[Kmove_group_[m[K->setPlannerId("RRTConnectkConfigDefault");
+[28.408s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[28.437s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:333:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ktcp_link_[m[K’ was not declared in this scope
+[28.437s]   333 |     move_group_->setEndEffectorLink([01;31m[Ktcp_link_[m[K);
+[28.437s]       |                                     [01;31m[K^~~~~~~~~[m[K
+[28.440s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:322:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgroup_name[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.440s]   322 |                         [01;35m[Kconst std::string &group_name[m[K,
+[28.441s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[28.441s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:323:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfinal_z_rotation_rad[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.441s]   323 |                         [01;35m[Kdouble final_z_rotation_rad = -120.0 * M_PI / 180.0[m[K,
+[28.442s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[28.442s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:324:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.442s]   324 |                         [01;35m[Kdouble step = 0.01[m[K)
+[28.443s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[28.443s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K At global scope:
+[28.443s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:465:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[28.443s]   465 | [01;31m[Kprivate[m[K:
+[28.444s]       | [01;31m[K^~~~~~~[m[K
+[28.446s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[28.446s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[28.446s]                  from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:1[m[K:
+[28.447s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K debugTrajectoryCollisions[m[K(const moveit_msgs::msg::RobotTrajectory&, const std::string&)[m[K’:
+[28.447s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:544:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.447s]   544 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Traiettoria vuota, impossibile verificare collisioni");
+[28.448s]       |                         [01;31m[K^~~~[m[K
+[28.448s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:544:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.448s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:544:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.448s]   544 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Traiettoria vuota, impossibile verificare collisioni");
+[28.448s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[28.449s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:544:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.449s]   544 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Traiettoria vuota, impossibile verificare collisioni");
+[28.449s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[28.449s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:544:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.449s]   544 |             [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Traiettoria vuota, impossibile verificare collisioni");
+[28.449s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[28.450s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[28.450s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:544:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.450s]   544 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Traiettoria vuota, impossibile verificare collisioni");
+[28.451s]       |                         [01;31m[K^~~~[m[K
+[28.451s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:544:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.451s]   544 |             RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Traiettoria vuota, impossibile verificare collisioni");
+[28.451s]       |                         [01;31m[K^~~~[m[K
+[28.452s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:548:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.452s]   548 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Verifico collisioni su %zu waypoints...",
+[28.452s]       |                     [01;31m[K^~~~[m[K
+[28.452s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:548:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.452s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:548:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.452s]   548 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Verifico collisioni su %zu waypoints...",
+[28.453s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[28.453s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:548:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.453s]   548 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Verifico collisioni su %zu waypoints...",
+[28.453s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[28.454s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:548:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.454s]   548 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Verifico collisioni su %zu waypoints...",
+[28.454s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[28.455s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:548:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.455s]   548 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Verifico collisioni su %zu waypoints...",
+[28.455s]       |                     [01;31m[K^~~~[m[K
+[28.455s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:548:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.455s]   548 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Verifico collisioni su %zu waypoints...",
+[28.456s]       |                     [01;31m[K^~~~[m[K
+[28.477s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:552:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_[m[K’ was not declared in this scope
+[28.477s]   552 |         moveit::core::RobotState state(*[01;31m[Kmove_group_[m[K->getCurrentState());
+[28.478s]       |                                         [01;31m[K^~~~~~~~~~~[m[K
+[28.479s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:574:27:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K->[m[K’ token
+[28.479s]   574 |             planning_scene[01;31m[K->[m[KcheckCollision(req, res, state);
+[28.479s]       |                           [01;31m[K^~[m[K
+[28.480s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:582:34:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.480s]   582 |                     RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(),
+[28.480s]       |                                  [01;31m[K^~~~[m[K
+[28.480s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:582:34:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.481s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:582:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.481s]   582 |                     [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(),
+[28.481s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[28.481s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:582:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.482s]   582 |                     [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(),
+[28.482s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[28.482s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:582:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.482s]   582 |                     [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(),
+[28.482s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[28.483s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:582:34:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.483s]   582 |                     RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(),
+[28.483s]       |                                  [01;31m[K^~~~[m[K
+[28.483s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:582:34:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.484s]   582 |                     RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(),
+[28.484s]       |                                  [01;31m[K^~~~[m[K
+[28.484s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:588:38:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.484s]   588 |                         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(),
+[28.484s]       |                                      [01;31m[K^~~~[m[K
+[28.484s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:588:38:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.485s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:588:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.485s]   588 |                         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(),
+[28.485s]       |                         [01;31m[K^~~~~~~~~~~~[m[K
+[28.485s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:588:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.485s]   588 |                         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(),
+[28.486s]       |                         [01;31m[K^~~~~~~~~~~~[m[K
+[28.486s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:588:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.486s]   588 |                         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(),
+[28.486s]       |                         [01;31m[K^~~~~~~~~~~~[m[K
+[28.486s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:588:38:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.486s]   588 |                         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(),
+[28.487s]       |                                      [01;31m[K^~~~[m[K
+[28.487s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:588:38:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.487s]   588 |                         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(),
+[28.487s]       |                                      [01;31m[K^~~~[m[K
+[28.526s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:613:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kdisplay_state_pub_[m[K’ was not declared in this scope
+[28.527s]   613 |                     [01;31m[Kdisplay_state_pub_[m[K->publish(display_msg);
+[28.527s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[28.528s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:614:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.528s]   614 |                     RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Pubblicata configurazione in collisione su RViz");
+[28.529s]       |                                 [01;31m[K^~~~[m[K
+[28.529s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:614:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.529s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:614:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.530s]   614 |                     [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Pubblicata configurazione in collisione su RViz");
+[28.530s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[28.531s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:614:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.531s]   614 |                     [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Pubblicata configurazione in collisione su RViz");
+[28.531s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[28.532s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:614:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.532s]   614 |                     [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Pubblicata configurazione in collisione su RViz");
+[28.532s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[28.532s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:614:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.533s]   614 |                     RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Pubblicata configurazione in collisione su RViz");
+[28.533s]       |                                 [01;31m[K^~~~[m[K
+[28.533s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:614:33:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.534s]   614 |                     RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Pubblicata configurazione in collisione su RViz");
+[28.534s]       |                                 [01;31m[K^~~~[m[K
+[28.534s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:620:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.535s]   620 |             RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(),
+[28.535s]       |                          [01;31m[K^~~~[m[K
+[28.535s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:620:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.536s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:620:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.536s]   620 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(),
+[28.536s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[28.537s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:620:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.537s]   620 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(),
+[28.537s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[28.537s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:620:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.538s]   620 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(),
+[28.538s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[28.538s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:620:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.539s]   620 |             RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(),
+[28.539s]       |                          [01;31m[K^~~~[m[K
+[28.539s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:620:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.540s]   620 |             RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(),
+[28.540s]       |                          [01;31m[K^~~~[m[K
+[28.540s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:625:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.540s]   625 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "✓ Nessuna collisione trovata nella traiettoria");
+[28.541s]       |                         [01;31m[K^~~~[m[K
+[28.541s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:625:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.541s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:625:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.542s]   625 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "✓ Nessuna collisione trovata nella traiettoria");
+[28.542s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[28.542s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:625:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.543s]   625 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "✓ Nessuna collisione trovata nella traiettoria");
+[28.543s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[28.543s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:625:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.543s]   625 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "✓ Nessuna collisione trovata nella traiettoria");
+[28.544s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[28.544s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:625:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.544s]   625 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "✓ Nessuna collisione trovata nella traiettoria");
+[28.545s]       |                         [01;31m[K^~~~[m[K
+[28.545s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:625:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.545s]   625 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "✓ Nessuna collisione trovata nella traiettoria");
+[28.546s]       |                         [01;31m[K^~~~[m[K
+[28.546s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:553:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjmg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[28.546s]   553 |         const auto* [01;35m[Kjmg[m[K = state.getJointModelGroup(group_name);
+[28.547s]       |                     [01;35m[K^~~[m[K
+[28.547s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K In function ‘[01m[Kint[01;32m[K testReachability[m[K(const geometry_msgs::msg::PoseStamped&, const std::string&)[m[K’:
+[28.547s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:735:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kpsm[m[K’ was not declared in this scope
+[28.548s]   735 | moveit::core::RobotState current_state = [01;31m[Kpsm[m[K->getPlanningScene()->getCurrentState();
+[28.548s]       |                                          [01;31m[K^~~[m[K
+[28.576s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:756:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ktcp_link_[m[K’ was not declared in this scope
+[28.576s]   756 |             req->ik_request.ik_link_name = [01;31m[Ktcp_link_[m[K;//left_tcp,right_tcp(group è left_ o right_)
+[28.577s]       |                                            [01;31m[K^~~~~~~~~[m[K
+[28.594s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:760:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[28.594s]   760 |             auto future = [01;31m[Kclient_[m[K->async_send_request(req);
+[28.595s]       |                           [01;31m[K^~~~~~~[m[K
+[28.596s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:761:52:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.596s]   761 |             if (rclcpp::spin_until_future_complete([01;31m[Kthis[m[K->get_node_base_interface(), future) !=
+[28.596s]       |                                                    [01;31m[K^~~~[m[K
+[28.597s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:764:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.597s]   764 |                 RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Timeout per richiesta IK.");
+[28.598s]       |                             [01;31m[K^~~~[m[K
+[28.598s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:764:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.598s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:764:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.599s]   764 |                 [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Timeout per richiesta IK.");
+[28.599s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[28.599s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:764:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.600s]   764 |                 [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Timeout per richiesta IK.");
+[28.600s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[28.600s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:764:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.601s]   764 |                 [01;31m[KRCLCPP_WARN[m[K(this->get_logger(), "Timeout per richiesta IK.");
+[28.601s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[28.601s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:764:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.602s]   764 |                 RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Timeout per richiesta IK.");
+[28.602s]       |                             [01;31m[K^~~~[m[K
+[28.602s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:764:29:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.602s]   764 |                 RCLCPP_WARN([01;31m[Kthis[m[K->get_logger(), "Timeout per richiesta IK.");
+[28.603s]       |                             [01;31m[K^~~~[m[K
+[28.603s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:769:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.603s]   769 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Per nodo: (%s) IK response code = %d",this->get_name(), response->error_code.val);
+[28.604s]       |                         [01;31m[K^~~~[m[K
+[28.604s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:769:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.604s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:769:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.605s]   769 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Per nodo: (%s) IK response code = %d",this->get_name(), response->error_code.val);
+[28.605s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[28.605s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:769:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.606s]   769 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Per nodo: (%s) IK response code = %d",this->get_name(), response->error_code.val);
+[28.606s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[28.606s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:769:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.606s]   769 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Per nodo: (%s) IK response code = %d",this->get_name(), response->error_code.val);
+[28.607s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[28.607s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:769:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.607s]   769 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Per nodo: (%s) IK response code = %d",this->get_name(), response->error_code.val);
+[28.608s]       |                         [01;31m[K^~~~[m[K
+[28.608s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:769:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.608s]   769 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Per nodo: (%s) IK response code = %d",this->get_name(), response->error_code.val);
+[28.609s]       |                         [01;31m[K^~~~[m[K
+[28.609s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:769:84:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.609s]   769 |             RCLCPP_INFO(this->get_logger(), "Per nodo: (%s) IK response code = %d",[01;31m[Kthis[m[K->get_name(), response->error_code.val);
+[28.609s]       |                                                                                    [01;31m[K^~~~[m[K
+[28.646s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:772:35:[m[K [01;31m[Kerror: [m[K‘[01m[KCheckLinkCollision[m[K’ was not declared in this scope
+[28.646s]   772 |             bool have_candidate = [01;31m[KCheckLinkCollision[m[K(reachable, pose);//se ho una collisione ritorna true
+[28.647s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[28.691s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:775:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdisplay_state_pub_[m[K’ was not declared in this scope
+[28.691s]   775 |             [01;31m[Kdisplay_state_pub_[m[K->publish(display_msg);
+[28.691s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[28.692s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:730:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kall_orientations_reachable[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[28.692s]   730 |         bool [01;35m[Kall_orientations_reachable[m[K = true;
+[28.692s]       |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[28.692s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K InsertMarker[m[K(const geometry_msgs::msg::PoseStamped&, int)[m[K’:
+[28.693s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:794:31:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.693s]   794 |         marker.header.stamp = [01;31m[Kthis[m[K->now();
+[28.693s]       |                               [01;31m[K^~~~[m[K
+[28.708s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:795:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kid[m[K’ was not declared in this scope
+[28.708s]   795 |         marker.id = [01;31m[Kid[m[K++;
+[28.709s]       |                     [01;31m[K^~[m[K
+[28.709s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:829:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.709s]   829 |         marker.ns = [01;31m[Kthis[m[K->get_name();
+[28.709s]       |                     [01;31m[K^~~~[m[K
+[28.734s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:831:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[28.734s]   831 |         [01;31m[Kmarker_pub_[m[K->publish(markers);
+[28.734s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[28.735s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:832:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.735s]   832 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Pubblicato marker (info=%d) su RViz.", info);
+[28.735s]       |                     [01;31m[K^~~~[m[K
+[28.735s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:832:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.735s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:832:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.736s]   832 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Pubblicato marker (info=%d) su RViz.", info);
+[28.736s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[28.736s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:832:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.736s]   832 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Pubblicato marker (info=%d) su RViz.", info);
+[28.736s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[28.736s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:832:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[28.737s]   832 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Pubblicato marker (info=%d) su RViz.", info);
+[28.737s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[28.737s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:832:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.737s]   832 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Pubblicato marker (info=%d) su RViz.", info);
+[28.737s]       |                     [01;31m[K^~~~[m[K
+[28.737s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:832:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[28.738s]   832 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Pubblicato marker (info=%d) su RViz.", info);
+[28.738s]       |                     [01;31m[K^~~~[m[K
+[28.756s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K At global scope:
+[28.757s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:840:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanning_scene::PlanningScenePtr planning_scene[m[K’ redeclared as different kind of entity
+[28.757s]   840 |     planning_scene::PlanningScenePtr [01;31m[Kplanning_scene[m[K;
+[28.757s]       |                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[28.758s] In file included from [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:43[m[K,
+[28.758s]                  from [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:51[m[K:
+[28.758s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp:65:11:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Knamespace planning_scene { }[m[K’
+[28.759s]    65 | namespace [01;36m[Kplanning_scene[m[K
+[28.759s]       |           [01;36m[K^~~~~~~~~~~~~~[m[K
+[28.773s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:849:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[28.773s]   849 | [01;31m[K}[m[K;
+[28.773s]       | [01;31m[K^[m[K
+[39.318s] gmake[2]: *** [CMakeFiles/Reach.dir/build.make:76: CMakeFiles/Reach.dir/src/test_reach.cpp.o] Error 1
+[39.318s] gmake[1]: *** [CMakeFiles/Makefile2:147: CMakeFiles/Reach.dir/all] Error 2
+[39.319s] gmake: *** [Makefile:146: all] Error 2
+[39.324s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes' returned '2': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8

@@ -1,0 +1,55 @@
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:[m[K In constructor ‘[01m[KMeshSceneNode::[01;32m[KMeshSceneNode[m[K()[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:26:97:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kshared_from_this[m[K’ is ambiguous
+   26 |         visual_tools_ = std::make_shared<moveit_visual_tools::MoveItVisualTools>("world", this->[01;31m[Kshared_from_this[m[K());
+      |                                                                                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+                 from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:1[m[K:
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:938:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::[01;32m[Kshared_from_this[m[K() const [35m[K[with _Tp = MeshSceneNode][m[K[m[K’
+  938 |       [01;36m[Kshared_from_this[m[K() const
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:934:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::[01;32m[Kshared_from_this[m[K() [35m[K[with _Tp = MeshSceneNode][m[K[m[K’
+  934 |       [01;36m[Kshared_from_this[m[K()
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:938:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<const _Tp> std::enable_shared_from_this<_Tp>::[01;32m[Kshared_from_this[m[K() const [35m[K[with _Tp = rclcpp::Node][m[K[m[K’
+  938 |       [01;36m[Kshared_from_this[m[K() const
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:934:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kstd::shared_ptr<_Tp> std::enable_shared_from_this<_Tp>::[01;32m[Kshared_from_this[m[K() [35m[K[with _Tp = rclcpp::Node][m[K[m[K’
+  934 |       [01;36m[Kshared_from_this[m[K()
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:[m[K In member function ‘[01m[Kvoid MeshSceneNode::[01;32m[KSearchObstacles[m[K()[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:62:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoMsg(tf2::Quaternion&)[m[K’
+   62 |             pose.orientation = [01;31m[Ktf2::toMsg(q)[m[K;
+      |                                [01;31m[K~~~~~~~~~~^~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer_interface.h:43[m[K,
+                 from [01m[K/opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.h:43[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:42[m[K,
+                 from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:13[m[K:
+[01m[K/opt/ros/jazzy/include/tf2/tf2/convert.hpp:129:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class A, class B> B tf2::[01;32m[KtoMsg[m[K(const A&)[m[K’
+  129 | B [01;36m[KtoMsg[m[K(const A & a);
+      |   [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/jazzy/include/tf2/tf2/convert.hpp:129:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:62:42:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KB[m[K’
+   62 |             pose.orientation = [01;36m[Ktf2::toMsg(q)[m[K;
+      |                                [01;36m[K~~~~~~~~~~^~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:[m[K In member function ‘[01m[Kvoid MeshSceneNode::[01;32m[KinsertMeshObstacle[m[K(const std::string&, const geometry_msgs::msg::Pose&, const std::string&)[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:83:18:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kr[m[K’ in ‘[01m[Kmy_color[m[K’, which is of non-class type ‘[01m[Krviz_visual_tools::Colors[m[K’
+   83 |         my_color.[01;31m[Kr[m[K = 0.8; my_color.g = 0.2; my_color.b = 0.2; my_color.a = 1.0;
+      |                  [01;31m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:83:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kg[m[K’ in ‘[01m[Kmy_color[m[K’, which is of non-class type ‘[01m[Krviz_visual_tools::Colors[m[K’
+   83 |         my_color.r = 0.8; my_color.[01;31m[Kg[m[K = 0.2; my_color.b = 0.2; my_color.a = 1.0;
+      |                                    [01;31m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:83:54:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kb[m[K’ in ‘[01m[Kmy_color[m[K’, which is of non-class type ‘[01m[Krviz_visual_tools::Colors[m[K’
+   83 |         my_color.r = 0.8; my_color.g = 0.2; my_color.[01;31m[Kb[m[K = 0.2; my_color.a = 1.0;
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:83:72:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ka[m[K’ in ‘[01m[Kmy_color[m[K’, which is of non-class type ‘[01m[Krviz_visual_tools::Colors[m[K’
+   83 |         my_color.r = 0.8; my_color.g = 0.2; my_color.b = 0.2; my_color.[01;31m[Ka[m[K = 1.0;
+      |                                                                        [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/build_scene_simple.dir/build.make:76: CMakeFiles/build_scene_simple.dir/src/build_scene_simple.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/build_scene_simple.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

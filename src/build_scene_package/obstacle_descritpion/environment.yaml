@@ -6,21 +6,21 @@ obstacles:
       rpy: [1.57, 0, 3.14]
 
   - name: "Roboqbo"
-    cad: "package://iiwa_description/meshes/obstacles/Roboqbo.stl"
+    cad: "package://iiwa_description/meshes/bounding_obstacle/bounding_primitive_roboqbo2.stl"
     pose:
-      position: [-1.60, -0.32, 0.07]
+      position: [-1.68, -0.32, 0.07]
       rpy: [1.57, 0.0, 0.0]
 
   - name: "Rastrelliera"
-    cad: "package://iiwa_description/meshes/obstacles/Rastrelliera.stl"
+    cad: "package://iiwa_description/meshes/bounding_obstacle/bounding_primitive_Rastrelliere.stl"
     pose:
-      position: [-0.28, -0.11, 0.84]
+      position: [0.05, -0.55, 0.84]
       rpy: [0.0, 0.0, 3.14]
 
   - name: "Trasportatore1"
-    cad: "package://iiwa_description/meshes/obstacles/Trasportatore1.stl"
+    cad: "package://iiwa_description/meshes/bounding_obstacle/bounding_primitive_Trasportatore1.stl"
     pose:
-      position: [-0.83, -1.905, 0.84]
+      position: [-0.83, -2.205, 0.84]
       rpy: [1.57, 3.14, 0.0]
 
   - name: "Tavolo_inox"

@@ -1,0 +1,33 @@
+[0.010s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8
+[0.060s] [ 20%] Built target Raggiungibilita
+[0.061s] [ 40%] Built target interactive_reach
+[0.073s] [ 60%] Built target test_reach
+[0.073s] [ 80%] Built target Reach
+[0.089s] [ 90%] [32mBuilding CXX object CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o[0m
+[3.150s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:9[m[K:
+[3.150s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[3.150s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[3.150s]       |                                                                             [01;36m[K^[m[K
+[5.379s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:[m[K In member function ‘[01m[Kbool ReachabilityIKNode::[01;32m[KCheckLinkCollision[m[K(bool)[m[K’:
+[5.379s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:221:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ was not declared in this scope
+[5.379s]   221 |                     joint_model_group, [01;31m[Kpose[m[K.pose,1);
+[5.379s]       |                                        [01;31m[K^~~~[m[K
+[5.390s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:257:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_name[m[K’ was not declared in this scope; did you mean ‘[01m[Kgroup_[m[K’?
+[5.390s]   257 |             collision_request.group_name = [01;31m[Kgroup_name[m[K;
+[5.390s]       |                                            [01;31m[K^~~~~~~~~~[m[K
+[5.390s]       |                                            [32m[Kgroup_[m[K
+[5.403s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:264:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdisplay_msg[m[K’ was not declared in this scope
+[5.403s]   264 |                 [01;31m[Kdisplay_msg[m[K.state.joint_state = candidate_js; // Usa i joint_state che hai trovato
+[5.403s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[5.415s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityIKNode::[01;32m[KtestReachability[m[K(const geometry_msgs::msg::PoseStamped&, const std::string&)[m[K’:
+[5.415s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:340:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KReachabilityIKNode::CheckLinkCollision(bool&, const geometry_msgs::msg::PoseStamped&)[m[K’
+[5.415s]   340 |            bool have_candidate = [01;31m[KCheckLinkCollision(reachable, pose)[m[K;
+[5.415s]       |                                  [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[5.415s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:207:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool ReachabilityIKNode::[01;32m[KCheckLinkCollision[m[K(bool)[m[K’
+[5.415s]   207 |     bool [01;36m[KCheckLinkCollision[m[K(bool reachable){
+[5.415s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.416s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:207:10:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[9.826s] gmake[2]: *** [CMakeFiles/Reac_marker.dir/build.make:76: CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o] Error 1
+[9.826s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/Reac_marker.dir/all] Error 2
+[9.827s] gmake: *** [Makefile:146: all] Error 2
+[9.828s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes' returned '2': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8

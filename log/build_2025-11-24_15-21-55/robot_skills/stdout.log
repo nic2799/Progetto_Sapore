@@ -1,0 +1,4 @@
+[ 33%] Built target MoveitHelper
+[ 66%] Built target SaveYaml
+[ 83%] [32mBuilding CXX object CMakeFiles/pick_place_server.dir/src/pick_place_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pick_place_server[0m

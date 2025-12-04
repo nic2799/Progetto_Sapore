@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.000231] (-) JobUnselected: {'identifier': 'build_scene_package'}
+[0.000417] (-) JobUnselected: {'identifier': 'iiwa_config_moveit_config'}
+[0.000629] (-) JobUnselected: {'identifier': 'iiwa_description'}
+[0.000730] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000756] (nodes) JobQueued: {'identifier': 'nodes', 'dependencies': OrderedDict({'interfaces': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces'})}
+[0.000781] (nodes) JobStarted: {'identifier': 'nodes'}
+[0.010496] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'cmake'}
+[0.011785] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'build'}
+[0.011840] (nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nicola/Desktop/Progetto_Sapore/build/nodes', '--', '-j8', '-l8'], 'cwd': '/home/nicola/Desktop/Progetto_Sapore/build/nodes', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicola', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nicola', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/nicola/.nvm/versions/node/v20.19.5/bin', 'NVM_INC': '/home/nicola/.nvm/versions/node/v20.19.5/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2025', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b7d0d26b6ba238c6e26dcd0f69085501', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/nicola/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nicola/Desktop/Progetto_Sapore/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nicola', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nicola', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nicola/.nvm/versions/node/v20.19.5/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/nicola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nicola/.local/bin:/home/nicola/.local/bin:/home/nicola/RoboDK/bin:/usr/local/MATLAB/R2024b/bin', 'SESSION_MANAGER': 'local/randezvous:@/tmp/.ICE-unix/2025,unix/randezvous:/tmp/.ICE-unix/2025', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0e7ffbc9_94e6_44e0_a58f_a4a51fd13cdf', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KS75E3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nicola/Desktop/Progetto_Sapore/build/nodes', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b7d0d26b6ba238c6e26dcd0f69085501', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.077409] (nodes) StdoutLine: {'line': b'[ 20%] Built target Raggiungibilita\n'}
+[0.077676] (nodes) StdoutLine: {'line': b'[ 40%] Built target interactive_reach\n'}
+[0.085462] (nodes) StdoutLine: {'line': b'[ 60%] Built target test_reach\n'}
+[0.087370] (nodes) StdoutLine: {'line': b'[ 80%] Built target Reach\n'}
+[0.099870] (-) TimerEvent: {}
+[0.110669] (nodes) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o\x1b[0m\n'}
+[0.199980] (-) TimerEvent: {}
+[0.300227] (-) TimerEvent: {}
+[0.400532] (-) TimerEvent: {}
+[0.500943] (-) TimerEvent: {}
+[0.604339] (-) TimerEvent: {}
+[0.704567] (-) TimerEvent: {}
+[0.804854] (-) TimerEvent: {}
+[0.905138] (-) TimerEvent: {}
+[1.005573] (-) TimerEvent: {}
+[1.105894] (-) TimerEvent: {}
+[1.206219] (-) TimerEvent: {}
+[1.306449] (-) TimerEvent: {}
+[1.406705] (-) TimerEvent: {}
+[1.506995] (-) TimerEvent: {}
+[1.607294] (-) TimerEvent: {}
+[1.707664] (-) TimerEvent: {}
+[1.807956] (-) TimerEvent: {}
+[1.908181] (-) TimerEvent: {}
+[2.008429] (-) TimerEvent: {}
+[2.108722] (-) TimerEvent: {}
+[2.209031] (-) TimerEvent: {}
+[2.309335] (-) TimerEvent: {}
+[2.409627] (-) TimerEvent: {}
+[2.509952] (-) TimerEvent: {}
+[2.610226] (-) TimerEvent: {}
+[2.710478] (-) TimerEvent: {}
+[2.810719] (-) TimerEvent: {}
+[2.910962] (-) TimerEvent: {}
+[3.011219] (-) TimerEvent: {}
+[3.111474] (-) TimerEvent: {}
+[3.211719] (-) TimerEvent: {}
+[3.312036] (-) TimerEvent: {}
+[3.356577] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:9\x1b[m\x1b[K:\n'}
+[3.356783] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.356851] (nodes) StderrLine: {'line': b'   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[3.356921] (nodes) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.412154] (-) TimerEvent: {}
+[3.512418] (-) TimerEvent: {}
+[3.612662] (-) TimerEvent: {}
+[3.713052] (-) TimerEvent: {}
+[3.813365] (-) TimerEvent: {}
+[3.913630] (-) TimerEvent: {}
+[4.013899] (-) TimerEvent: {}
+[4.114257] (-) TimerEvent: {}
+[4.214609] (-) TimerEvent: {}
+[4.314852] (-) TimerEvent: {}
+[4.415124] (-) TimerEvent: {}
+[4.515469] (-) TimerEvent: {}
+[4.615859] (-) TimerEvent: {}
+[4.716214] (-) TimerEvent: {}
+[4.816482] (-) TimerEvent: {}
+[4.916757] (-) TimerEvent: {}
+[5.017004] (-) TimerEvent: {}
+[5.117242] (-) TimerEvent: {}
+[5.217498] (-) TimerEvent: {}
+[5.317730] (-) TimerEvent: {}
+[5.418001] (-) TimerEvent: {}
+[5.518292] (-) TimerEvent: {}
+[5.618576] (-) TimerEvent: {}
+[5.682298] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ReachabilityIKNode::\x1b[01;32m\x1b[KtestReachability\x1b[m\x1b[K(const geometry_msgs::msg::PoseStamped&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.682478] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:317:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kall_orientations_reachable\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.682561] (nodes) StderrLine: {'line': b'  317 |         bool \x1b[01;35m\x1b[Kall_orientations_reachable\x1b[m\x1b[K = true;\n'}
+[5.682618] (nodes) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.718685] (-) TimerEvent: {}
+[5.818944] (-) TimerEvent: {}
+[5.919265] (-) TimerEvent: {}
+[6.019546] (-) TimerEvent: {}
+[6.119835] (-) TimerEvent: {}
+[6.220100] (-) TimerEvent: {}
+[6.320346] (-) TimerEvent: {}
+[6.420650] (-) TimerEvent: {}
+[6.520985] (-) TimerEvent: {}
+[6.621305] (-) TimerEvent: {}
+[6.721646] (-) TimerEvent: {}
+[6.821961] (-) TimerEvent: {}
+[6.922292] (-) TimerEvent: {}
+[7.022667] (-) TimerEvent: {}
+[7.123008] (-) TimerEvent: {}
+[7.223290] (-) TimerEvent: {}
+[7.323555] (-) TimerEvent: {}
+[7.423812] (-) TimerEvent: {}
+[7.524128] (-) TimerEvent: {}
+[7.624459] (-) TimerEvent: {}
+[7.724823] (-) TimerEvent: {}
+[7.825127] (-) TimerEvent: {}
+[7.925464] (-) TimerEvent: {}
+[8.025731] (-) TimerEvent: {}
+[8.125961] (-) TimerEvent: {}
+[8.226311] (-) TimerEvent: {}
+[8.326640] (-) TimerEvent: {}
+[8.426905] (-) TimerEvent: {}
+[8.527196] (-) TimerEvent: {}
+[8.627536] (-) TimerEvent: {}
+[8.727854] (-) TimerEvent: {}
+[8.828238] (-) TimerEvent: {}
+[8.928594] (-) TimerEvent: {}
+[9.028914] (-) TimerEvent: {}
+[9.129245] (-) TimerEvent: {}
+[9.229570] (-) TimerEvent: {}
+[9.329801] (-) TimerEvent: {}
+[9.430056] (-) TimerEvent: {}
+[9.530387] (-) TimerEvent: {}
+[9.630750] (-) TimerEvent: {}
+[9.731086] (-) TimerEvent: {}
+[9.831435] (-) TimerEvent: {}
+[9.931822] (-) TimerEvent: {}
+[10.032127] (-) TimerEvent: {}
+[10.132499] (-) TimerEvent: {}
+[10.232828] (-) TimerEvent: {}
+[10.333087] (-) TimerEvent: {}
+[10.433425] (-) TimerEvent: {}
+[10.533781] (-) TimerEvent: {}
+[10.634102] (-) TimerEvent: {}
+[10.734455] (-) TimerEvent: {}
+[10.834696] (-) TimerEvent: {}
+[10.935032] (-) TimerEvent: {}
+[11.035391] (-) TimerEvent: {}
+[11.135724] (-) TimerEvent: {}
+[11.236065] (-) TimerEvent: {}
+[11.336406] (-) TimerEvent: {}
+[11.436765] (-) TimerEvent: {}
+[11.537137] (-) TimerEvent: {}
+[11.637391] (-) TimerEvent: {}
+[11.737654] (-) TimerEvent: {}
+[11.837874] (-) TimerEvent: {}
+[11.938130] (-) TimerEvent: {}
+[12.038376] (-) TimerEvent: {}
+[12.138628] (-) TimerEvent: {}
+[12.238864] (-) TimerEvent: {}
+[12.339091] (-) TimerEvent: {}
+[12.439409] (-) TimerEvent: {}
+[12.539668] (-) TimerEvent: {}
+[12.639976] (-) TimerEvent: {}
+[12.740307] (-) TimerEvent: {}
+[12.840657] (-) TimerEvent: {}
+[12.940909] (-) TimerEvent: {}
+[13.041182] (-) TimerEvent: {}
+[13.141476] (-) TimerEvent: {}
+[13.241808] (-) TimerEvent: {}
+[13.342092] (-) TimerEvent: {}
+[13.442365] (-) TimerEvent: {}
+[13.542640] (-) TimerEvent: {}
+[13.597975] (nodes) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable Reac_marker\x1b[0m\n'}
+[13.642840] (-) TimerEvent: {}
+[13.743215] (-) TimerEvent: {}
+[13.843547] (-) TimerEvent: {}
+[13.943841] (-) TimerEvent: {}
+[14.044093] (-) TimerEvent: {}
+[14.144350] (-) TimerEvent: {}
+[14.244720] (-) TimerEvent: {}
+[14.276268] (nodes) StdoutLine: {'line': b'[100%] Built target Reac_marker\n'}
+[14.285315] (nodes) CommandEnded: {'returncode': 0}
+[14.285840] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'install'}
+[14.293207] (nodes) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nicola/Desktop/Progetto_Sapore/build/nodes'], 'cwd': '/home/nicola/Desktop/Progetto_Sapore/build/nodes', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicola', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nicola', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/nicola/.nvm/versions/node/v20.19.5/bin', 'NVM_INC': '/home/nicola/.nvm/versions/node/v20.19.5/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2025', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b7d0d26b6ba238c6e26dcd0f69085501', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/nicola/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nicola/Desktop/Progetto_Sapore/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nicola', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nicola', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nicola/.nvm/versions/node/v20.19.5/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/nicola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nicola/.local/bin:/home/nicola/.local/bin:/home/nicola/RoboDK/bin:/usr/local/MATLAB/R2024b/bin', 'SESSION_MANAGER': 'local/randezvous:@/tmp/.ICE-unix/2025,unix/randezvous:/tmp/.ICE-unix/2025', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0e7ffbc9_94e6_44e0_a58f_a4a51fd13cdf', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KS75E3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nicola/Desktop/Progetto_Sapore/build/nodes', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b7d0d26b6ba238c6e26dcd0f69085501', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[14.299811] (nodes) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.300031] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/test_reach\n'}
+[14.300156] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/test_reach\n'}
+[14.300279] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/Reach\n'}
+[14.300421] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/Raggiungibilita\n'}
+[14.300602] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/interactive_reach\n'}
+[14.300768] (nodes) StdoutLine: {'line': b'-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/Reac_marker\n'}
+[14.306792] (nodes) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/Reac_marker" to ""\n'}
+[14.307200] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/launch\n'}
+[14.307777] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/launch/grid_points.launch.py\n'}
+[14.307862] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/launch/grid_points_second.launch.py\n'}
+[14.307934] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/launch/launch.py\n'}
+[14.308001] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/ament_index/resource_index/package_run_dependencies/nodes\n'}
+[14.308065] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/ament_index/resource_index/parent_prefix_path/nodes\n'}
+[14.308133] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/environment/ament_prefix_path.sh\n'}
+[14.308197] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/environment/ament_prefix_path.dsv\n'}
+[14.308260] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/environment/path.sh\n'}
+[14.308322] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/environment/path.dsv\n'}
+[14.308387] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/local_setup.bash\n'}
+[14.308451] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/local_setup.sh\n'}
+[14.308526] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/local_setup.zsh\n'}
+[14.308595] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/local_setup.dsv\n'}
+[14.308669] (nodes) StdoutLine: {'line': b'-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/package.dsv\n'}
+[14.308740] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/ament_index/resource_index/packages/nodes\n'}
+[14.308807] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/cmake/nodesConfig.cmake\n'}
+[14.308876] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/cmake/nodesConfig-version.cmake\n'}
+[14.308974] (nodes) StdoutLine: {'line': b'-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/package.xml\n'}
+[14.309466] (nodes) CommandEnded: {'returncode': 0}
+[14.322381] (nodes) JobEnded: {'identifier': 'nodes', 'rc': 0}
+[14.323087] (-) EventReactorShutdown: {}

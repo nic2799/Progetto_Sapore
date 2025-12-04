@@ -1,0 +1,98 @@
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:9[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:10[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:11[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:12[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:13[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:15[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:23[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/conversions.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:24[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.h:48:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   48 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:1[m[K:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityIKNode::[01;32m[Kstart[m[K()[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:112:37:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  112 |     RCLCPP_INFO(this->get_logger(), [01;35m[K""[m[K);
+      |                                     [01;35m[K^~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:116:37:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  116 |     RCLCPP_INFO(this->get_logger(), [01;35m[K""[m[K);
+      |                                     [01;35m[K^~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kbool ReachabilityIKNode::[01;32m[KtestPlannerPouring[m[K(const geometry_msgs::msg::PoseStamped&, const std::string&, double, double)[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:424:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  424 |         double fraction = [01;35m[Kmove_group_->computeCartesianPath([m[K
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  425 | [01;35m[K            waypoints,[m[K
+      |             [01;35m[K~~~~~~~~~~[m[K                                      
+  426 | [01;35m[K            0.01,  // step size 1cm[m[K
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K                         
+  427 | [01;35m[K            0.0,   // jump_threshold = 0 (disabilita check)[m[K
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K 
+  428 | [01;35m[K            trajectory_msg,[m[K
+      |             [01;35m[K~~~~~~~~~~~~~~~[m[K                                 
+  429 | [01;35m[K            false  // collision_checking = FALSE !!![m[K
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+  430 | [01;35m[K        )[m[K;
+      |         [01;35m[K~[m[K                                                   
+In file included from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:52[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:467:41:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  467 |         RCLCPP_WARN(this->get_logger(), [01;35m[K""[m[K);
+      |                                         [01;35m[K^~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:499:41:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  499 |         RCLCPP_INFO(this->get_logger(), [01;35m[K""[m[K);
+      |                                         [01;35m[K^~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:539:41:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  539 |         RCLCPP_INFO(this->get_logger(), [01;35m[K""[m[K);
+      |                                         [01;35m[K^~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:556:49:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  556 |                 RCLCPP_WARN(this->get_logger(), [01;35m[K""[m[K);
+      |                                                 [01;35m[K^~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:559:49:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  559 |                 RCLCPP_WARN(this->get_logger(), [01;35m[K""[m[K);
+      |                                                 [01;35m[K^~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:592:49:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  592 |                 RCLCPP_WARN(this->get_logger(), [01;35m[K""[m[K);
+      |                                                 [01;35m[K^~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:596:49:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+  596 |                 RCLCPP_WARN(this->get_logger(), [01;35m[K""[m[K);
+      |                                                 [01;35m[K^~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:380:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfinal_z_rotation_rad[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  380 |                         [01;35m[Kdouble final_z_rotation_rad = -120.0 * M_PI / 180.0[m[K,
+      |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:381:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  381 |                         [01;35m[Kdouble step = 0.01[m[K)
+      |                         [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityIKNode::[01;32m[KdebugTrajectoryCollisions[m[K(const moveit_msgs::msg::RobotTrajectory&, const std::string&)[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:826:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjmg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  826 |         const auto* [01;35m[Kjmg[m[K = state.getJointModelGroup(group_name);
+      |                     [01;35m[K^~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kint ReachabilityIKNode::[01;32m[KtestReachability[m[K(const geometry_msgs::msg::PoseStamped&, const std::string&)[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:1043:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kall_orientations_reachable[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1043 |         bool [01;35m[Kall_orientations_reachable[m[K = true;
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

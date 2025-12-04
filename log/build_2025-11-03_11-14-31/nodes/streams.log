@@ -1,0 +1,44 @@
+[0.012s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8
+[0.074s] [ 20%] Built target interactive_reach
+[0.078s] [ 40%] Built target Raggiungibilita
+[0.082s] [ 60%] Built target test_reach
+[0.089s] [ 80%] Built target Reac_marker
+[0.100s] [ 90%] [32mBuilding CXX object CMakeFiles/Reach.dir/src/test_reach.cpp.o[0m
+[3.201s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:9[m[K:
+[3.201s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[3.201s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[3.201s]       |                                                                             [01;36m[K^[m[K
+[5.438s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:10[m[K:
+[5.439s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[5.439s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[5.439s]       |                                                                             [01;36m[K^[m[K
+[5.439s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:11[m[K:
+[5.439s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[5.439s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[5.439s]       |                                                                             [01;36m[K^[m[K
+[5.439s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:12[m[K:
+[5.439s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[5.439s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[5.439s]       |                                                                             [01;36m[K^[m[K
+[5.439s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:13[m[K:
+[5.440s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[5.440s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[5.440s]       |                                                                             [01;36m[K^[m[K
+[5.472s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityIKNode::[01;32m[Kstart[m[K()[m[K’:
+[5.472s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:71:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.472s]    71 |         for (const auto &[01;35m[Kpose[m[K : ostacolo){
+[5.472s]       |                          [01;35m[K^~~~[m[K
+[5.496s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kbool ReachabilityIKNode::[01;32m[KtestReachability[m[K(const std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&, const std::string&)[m[K’:
+[5.496s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:294:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose[m[K’ was not declared in this scope
+[5.496s]   294 |             req->ik_request.pose_stamped = [01;31m[Kpose[m[K;
+[5.496s]       |                                            [01;31m[K^~~~[m[K
+[5.500s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:304:17:[m[K [01;31m[Kerror: [m[Kcontinue statement not within a loop
+[5.500s]   304 |                 [01;31m[Kcontinue[m[K;
+[5.500s]       |                 [01;31m[K^~~~~~~~[m[K
+[5.501s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:283:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgrid_points[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.501s]   283 |     bool testReachability([01;35m[Kconst std::vector<geometry_msgs::msg::PoseStamped> &grid_points[m[K, const std::string &group_name)
+[5.501s]       |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[9.161s] gmake[2]: *** [CMakeFiles/Reach.dir/build.make:76: CMakeFiles/Reach.dir/src/test_reach.cpp.o] Error 1
+[9.161s] gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/Reach.dir/all] Error 2
+[9.161s] gmake: *** [Makefile:146: all] Error 2
+[9.164s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes' returned '2': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8

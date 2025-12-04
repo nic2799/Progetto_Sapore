@@ -1,0 +1,36 @@
+[0.018s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/robot_skills': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/robot_skills -- -j8 -l8
+[0.108s] [ 25%] [32mBuilding CXX object CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o[0m
+[0.971s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/include/SaveYaml.hpp:3[m[K,
+[0.971s]                  from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:2[m[K:
+[0.971s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[0.971s]    51 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[0.971s]       |                                                                       [01;36m[K^[m[K
+[0.971s] 
+[7.155s] [ 50%] [32m[1mLinking CXX static library libSaveYaml.a[0m
+[7.180s] [ 50%] Built target SaveYaml
+[7.226s] [ 75%] [32m[1mLinking CXX executable pick_place_server[0m
+[7.848s] [100%] Built target pick_place_server
+[7.858s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/robot_skills' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/robot_skills -- -j8 -l8
+[7.860s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/robot_skills': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/robot_skills
+[7.867s] -- Install configuration: ""
+[7.867s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/lib/robot_skills/pick_place_server
+[7.872s] -- Set non-toolchain portion of runtime path of "/home/nicola/Desktop/Progetto_Sapore/install/robot_skills/lib/robot_skills/pick_place_server" to ""
+[7.872s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/lib/robot_skills/libSaveYaml.a
+[7.873s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/launch
+[7.873s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/launch/pick_place_demo.launch.py
+[7.873s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/ament_index/resource_index/package_run_dependencies/robot_skills
+[7.873s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/ament_index/resource_index/parent_prefix_path/robot_skills
+[7.873s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/environment/ament_prefix_path.sh
+[7.873s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/environment/ament_prefix_path.dsv
+[7.873s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/environment/path.sh
+[7.874s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/environment/path.dsv
+[7.874s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/local_setup.bash
+[7.874s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/local_setup.sh
+[7.874s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/local_setup.zsh
+[7.874s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/local_setup.dsv
+[7.874s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/package.dsv
+[7.874s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/ament_index/resource_index/packages/robot_skills
+[7.874s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/cmake/robot_skillsConfig.cmake
+[7.874s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/cmake/robot_skillsConfig-version.cmake
+[7.875s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/package.xml
+[7.876s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/robot_skills' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/robot_skills

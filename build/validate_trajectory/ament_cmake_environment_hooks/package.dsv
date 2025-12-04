@@ -1,0 +1,4 @@
+source;share/validate_trajectory/local_setup.bash
+source;share/validate_trajectory/local_setup.dsv
+source;share/validate_trajectory/local_setup.sh
+source;share/validate_trajectory/local_setup.zsh

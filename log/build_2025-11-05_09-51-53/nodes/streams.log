@@ -1,0 +1,94 @@
+[0.019s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8
+[0.097s] [ 20%] Built target interactive_reach
+[0.097s] [ 40%] Built target Raggiungibilita
+[0.113s] [ 60%] Built target test_reach
+[0.120s] [ 80%] Built target Reac_marker
+[0.121s] [ 90%] [32mBuilding CXX object CMakeFiles/Reach.dir/src/test_reach.cpp.o[0m
+[3.603s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:9[m[K:
+[3.603s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[3.603s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[3.603s]       |                                                                             [01;36m[K^[m[K
+[6.285s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:10[m[K:
+[6.285s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[6.285s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[6.285s]       |                                                                             [01;36m[K^[m[K
+[6.285s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:11[m[K:
+[6.285s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[6.285s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[6.285s]       |                                                                             [01;36m[K^[m[K
+[6.285s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:12[m[K:
+[6.286s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[6.286s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[6.286s]       |                                                                             [01;36m[K^[m[K
+[6.286s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:13[m[K:
+[6.286s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[6.286s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[6.286s]       |                                                                             [01;36m[K^[m[K
+[6.292s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:15[m[K:
+[6.292s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[6.292s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[6.292s]       |                                                                             [01;36m[K^[m[K
+[6.662s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:23[m[K:
+[6.662s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/conversions.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[6.663s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[6.663s]       |                                                                             [01;36m[K^[m[K
+[6.663s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:24[m[K:
+[6.663s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.h:48:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[6.663s]    48 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[6.663s]       |                                                                             [01;36m[K^[m[K
+[6.863s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kbool ReachabilityIKNode::[01;32m[KtestPlannerPouring[m[K(const geometry_msgs::msg::PoseStamped&, const std::string&, double, double)[m[K’:
+[6.863s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:403:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.863s]   403 |     double fraction = [01;35m[Kmove_group_->computeCartesianPath([m[K
+[6.863s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[6.863s]   404 | [01;35m[K        waypoints,[m[K
+[6.863s]       |         [01;35m[K~~~~~~~~~~[m[K                                      
+[6.863s]   405 | [01;35m[K        step,           // passo tra waypoints[m[K
+[6.864s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K          
+[6.864s]   406 | [01;35m[K        0.0,            // jump_threshold[m[K
+[6.864s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K               
+[6.864s]   407 | [01;35m[K        trajectory_pour,[m[K
+[6.864s]       |         [01;35m[K~~~~~~~~~~~~~~~~[m[K                                
+[6.864s]   408 | [01;35m[K        true            // avoid_collisions[m[K
+[6.864s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K             
+[6.864s]   409 | [01;35m[K    )[m[K;
+[6.864s]       |     [01;35m[K~[m[K                                                   
+[6.865s] In file included from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:52[m[K:
+[6.865s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.865s]   765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+[6.865s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.875s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kint ReachabilityIKNode::[01;32m[KtestReachability[m[K(const geometry_msgs::msg::PoseStamped&, const std::string&)[m[K’:
+[6.876s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:455:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kall_orientations_reachable[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.876s]   455 |         bool [01;35m[Kall_orientations_reachable[m[K = true;
+[6.876s]       |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.842s] [100%] [32m[1mLinking CXX executable Reach[0m
+[14.517s] [100%] Built target Reach
+[14.527s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes' returned '0': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8
+[14.528s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/nodes
+[14.535s] -- Install configuration: ""
+[14.535s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/test_reach
+[14.535s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/test_reach
+[14.535s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/Reach
+[14.540s] -- Set non-toolchain portion of runtime path of "/home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/Reach" to ""
+[14.540s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/Raggiungibilita
+[14.540s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/interactive_reach
+[14.541s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/Reac_marker
+[14.541s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/launch
+[14.541s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/launch/grid_points.launch.py
+[14.541s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/launch/grid_points_second.launch.py
+[14.541s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/launch/launch.py
+[14.541s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/ament_index/resource_index/package_run_dependencies/nodes
+[14.541s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/ament_index/resource_index/parent_prefix_path/nodes
+[14.541s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/environment/ament_prefix_path.sh
+[14.541s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/environment/ament_prefix_path.dsv
+[14.541s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/environment/path.sh
+[14.541s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/environment/path.dsv
+[14.542s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/local_setup.bash
+[14.542s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/local_setup.sh
+[14.542s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/local_setup.zsh
+[14.542s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/local_setup.dsv
+[14.542s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/package.dsv
+[14.542s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/ament_index/resource_index/packages/nodes
+[14.542s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/cmake/nodesConfig.cmake
+[14.542s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/cmake/nodesConfig-version.cmake
+[14.542s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/package.xml
+[14.545s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes' returned '0': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/nodes

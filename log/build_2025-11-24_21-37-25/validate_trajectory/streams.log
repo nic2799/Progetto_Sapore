@@ -1,0 +1,45 @@
+[0.045s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory -- -j8 -l8
+[0.175s] [ 33%] Built target validate_trajectory_node
+[0.175s] [ 66%] Built target Valid_trajectory_click
+[0.230s] [ 83%] [32mBuilding CXX object CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o[0m
+[3.889s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:2[m[K:
+[3.889s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[3.889s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[3.889s]       |                                                                             [01;36m[K^[m[K
+[6.459s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:3[m[K:
+[6.460s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[6.460s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[6.460s]       |                                                                             [01;36m[K^[m[K
+[6.460s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:4[m[K:
+[6.460s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/conversions.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[6.460s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[6.460s]       |                                                                             [01;36m[K^[m[K
+[12.095s] [100%] [32m[1mLinking CXX executable execute_yaml_trajectories_node[0m
+[12.493s] [100%] Built target execute_yaml_trajectories_node
+[12.504s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory -- -j8 -l8
+[12.505s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory
+[12.511s] -- Install configuration: ""
+[12.512s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/lib/validate_trajectory/validate_trajectory_node
+[12.512s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/lib/validate_trajectory/Valid_trajectory_click
+[12.512s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/lib/validate_trajectory/execute_yaml_trajectories_node
+[12.515s] -- Set non-toolchain portion of runtime path of "/home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/lib/validate_trajectory/execute_yaml_trajectories_node" to ""
+[12.515s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/launch
+[12.515s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/launch/validate_click.launch.py
+[12.515s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/launch/validate_with_moveit.launch.py
+[12.515s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/launch/validate_trajectory.launch.py
+[12.515s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/ament_index/resource_index/package_run_dependencies/validate_trajectory
+[12.515s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/ament_index/resource_index/parent_prefix_path/validate_trajectory
+[12.515s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/ament_prefix_path.sh
+[12.515s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/ament_prefix_path.dsv
+[12.515s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/path.sh
+[12.515s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/path.dsv
+[12.515s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.bash
+[12.515s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.sh
+[12.516s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.zsh
+[12.516s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.dsv
+[12.516s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/package.dsv
+[12.516s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/ament_index/resource_index/packages/validate_trajectory
+[12.516s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/cmake/validate_trajectoryConfig.cmake
+[12.516s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/cmake/validate_trajectoryConfig-version.cmake
+[12.516s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/package.xml
+[12.517s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory

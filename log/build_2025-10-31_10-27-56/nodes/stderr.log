@@ -1,0 +1,65 @@
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:9[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:146:41:[m[K [01;31m[Kerror: [m[K‘[01m[KDisplayRobotState[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’
+  146 |     rclcpp::Publisher<moveit_msgs::msg::[01;31m[KDisplayRobotState[m[K>::SharedPtr display_state_pub_;
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:146:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  146 |     rclcpp::Publisher<moveit_msgs::msg::DisplayRobotState[01;31m[K>[m[K::SharedPtr display_state_pub_;
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:146:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  146 |     rclcpp::Publisher<moveit_msgs::msg::DisplayRobotState>::[01;31m[KSharedPtr[m[K display_state_pub_;
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:146:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kdisplay_state_pub_[m[K’ does not name a type
+  146 |     rclcpp::Publisher<moveit_msgs::msg::DisplayRobotState>::SharedPtr [01;31m[Kdisplay_state_pub_[m[K;
+      |                                                                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:[m[K In constructor ‘[01m[KReachabilityIKNode::[01;32m[KReachabilityIKNode[m[K()[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:67:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdisplay_state_pub_[m[K’ was not declared in this scope
+   67 |         [01;31m[Kdisplay_state_pub_[m[K = this->create_publisher<moveit_msgs::msg::DisplayRobotState>("/display_robot_state", 10);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:67:71:[m[K [01;31m[Kerror: [m[K‘[01m[KDisplayRobotState[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’
+   67 |         display_state_pub_ = this->create_publisher<moveit_msgs::msg::[01;31m[KDisplayRobotState[m[K>("/display_robot_state", 10);
+      |                                                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:67:89:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KReachabilityIKNode::create_publisher<<expression error> >(const char [21], int)[m[K’
+   67 |         display_state_pub_ = [01;31m[Kthis->create_publisher<moveit_msgs::msg::DisplayRobotState>("/display_robot_state", 10)[m[K;
+      |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   73 | [01;36m[KNode[m[K::create_publisher(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:67:89:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   67 |         display_state_pub_ = [01;31m[Kthis->create_publisher<moveit_msgs::msg::DisplayRobotState>("/display_robot_state", 10)[m[K;
+      |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityIKNode::[01;32m[KspinLoop[m[K()[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:92:34:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&[m[K’
+   92 |                 testReachability([01;31m[Klast_pose_[m[K, group_);
+      |                                  [01;31m[K^~~~~~~~~~[m[K
+      |                                  [01;31m[K|[m[K
+      |                                  [01;31m[Kgeometry_msgs::msg::PoseStamped {aka geometry_msgs::msg::PoseStamped_<std::allocator<void> >}[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:183:81:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid ReachabilityIKNode::[01;32m[KtestReachability[m[K(const std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&, const std::string&)[m[K’
+  183 |       void testReachability([01;36m[Kconst std::vector<geometry_msgs::msg::PoseStamped> &grid_points[m[K, const std::string &group_name)
+      |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityIKNode::[01;32m[KtestReachability[m[K(const std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&, const std::string&)[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:209:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup[m[K’ was not declared in this scope; did you mean ‘[01m[Kgroup_[m[K’?
+  209 |             req->ik_request.ik_link_name = [01;31m[Kgroup[m[K + "tcp";//left_tcp,right_tcp(group è left_ o right_)
+      |                                            [01;31m[K^~~~~[m[K
+      |                                            [32m[Kgroup_[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:332:35:[m[K [01;31m[Kerror: [m[K‘[01m[KDisplayRobotState[m[K’ is not a member of ‘[01m[Kmoveit_msgs::msg[m[K’
+  332 |                 moveit_msgs::msg::[01;31m[KDisplayRobotState[m[K display_msg;
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:333:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdisplay_msg[m[K’ was not declared in this scope
+  333 |                 [01;31m[Kdisplay_msg[m[K.state.joint_state = candidate_js; // Usa i joint_state che hai trovato
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:365:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdisplay_state_pub_[m[K’ was not declared in this scope
+  365 |                 [01;31m[Kdisplay_state_pub_[m[K->publish(display_msg);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Reac_marker.dir/build.make:76: CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/Reac_marker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

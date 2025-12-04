@@ -1,0 +1,109 @@
+// File di materiali OGRE per mesh della scena
+// Questo file risolve gli errori "Material does not exist in group General"
+
+// Materiale generico per tutti gli ostacoli
+material ObstacleMaterial
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.5 0.5 0.5 1.0
+            diffuse 0.7 0.7 0.7 1.0
+            specular 0.3 0.3 0.3 1.0 12.5
+            
+            texture_unit
+            {
+                colour_op_ex modulate src_current src_diffuse
+            }
+        }
+    }
+}
+
+// Materiale per frigorifero
+material FrigoriferoMaterial : ObstacleMaterial
+{
+    technique
+    {
+        pass
+        {
+            diffuse 0.9 0.9 0.95 1.0
+        }
+    }
+}
+
+// Materiale per Roboqbo
+material RoboqboMaterial : ObstacleMaterial
+{
+    technique
+    {
+        pass
+        {
+            diffuse 0.8 0.8 0.8 1.0
+        }
+    }
+}
+
+// Materiale per Rastrelliera
+material RastrellieraMaterial : ObstacleMaterial
+{
+    technique
+    {
+        pass
+        {
+            diffuse 0.6 0.6 0.6 1.0
+        }
+    }
+}
+
+// Materiale per Trasportatore
+material TrasportatoreMaterial : ObstacleMaterial
+{
+    technique
+    {
+        pass
+        {
+            diffuse 0.5 0.5 0.5 1.0
+        }
+    }
+}
+
+// Materiale per tavoli
+material TavoloMaterial : ObstacleMaterial
+{
+    technique
+    {
+        pass
+        {
+            diffuse 0.85 0.85 0.85 1.0
+            specular 0.5 0.5 0.5 1.0 20.0
+        }
+    }
+}
+
+// Materiale per pavimento
+material FloorMaterial : ObstacleMaterial
+{
+    technique
+    {
+        pass
+        {
+            diffuse 0.6 0.6 0.6 0.5
+        }
+    }
+}
+
+// Materiale per CellaSapore
+material CellaSaporeMaterial : ObstacleMaterial
+{
+    technique
+    {
+        pass
+        {
+            diffuse 0.7 0.7 0.8 1.0
+        }
+    }
+}
+
+// Materiali generici per Shape348, Shape349, ecc. (generati automaticamente da OGRE)
+// Creiamo un range di materiali per coprire tutti i possibili Shape generati

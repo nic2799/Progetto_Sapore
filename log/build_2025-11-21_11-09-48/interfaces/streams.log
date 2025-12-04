@@ -1,0 +1,152 @@
+[0.081s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/interfaces -- -j8 -l8
+[0.286s] [  2%] Built target interfaces__rosidl_generator_type_description
+[0.320s] [  2%] Built target ament_cmake_python_copy_interfaces
+[0.487s] [  5%] Built target interfaces__cpp
+[0.487s] [ 20%] Built target interfaces__rosidl_generator_c
+[0.593s] [ 29%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[0.639s] [ 38%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[0.640s] [ 47%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[0.640s] [ 55%] Built target interfaces__rosidl_typesupport_cpp
+[0.647s] [ 64%] Built target interfaces__rosidl_typesupport_introspection_c
+[0.647s] [ 73%] Built target interfaces__rosidl_typesupport_c
+[0.713s] [ 73%] Built target interfaces
+[0.791s] [ 76%] Built target interfaces__py
+[0.863s] [ 82%] Built target interfaces__rosidl_generator_py
+[0.891s] running egg_info
+[0.952s] writing interfaces.egg-info/PKG-INFO
+[0.952s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[0.955s] writing top-level names to interfaces.egg-info/top_level.txt
+[0.987s] [ 88%] Built target interfaces_s__rosidl_typesupport_c
+[0.989s] [ 94%] Built target interfaces_s__rosidl_typesupport_fastrtps_c
+[0.989s] [100%] Built target interfaces_s__rosidl_typesupport_introspection_c
+[1.107s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[1.116s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[1.174s] [100%] Built target ament_cmake_python_build_interfaces_egg
+[1.202s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/interfaces -- -j8 -l8
+[1.202s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/interfaces
+[1.230s] -- Install configuration: ""
+[1.230s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[1.231s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/action/Jtraj.json
+[1.231s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces
+[1.231s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/msg
+[1.232s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.232s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action
+[1.232s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail
+[1.232s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__description.c
+[1.232s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__functions.c
+[1.232s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__struct.h
+[1.232s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__type_support.h
+[1.233s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__functions.h
+[1.233s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__type_support.c
+[1.233s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/jtraj.h
+[1.233s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/environment/library_path.sh
+[1.233s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/environment/library_path.dsv
+[1.233s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[1.233s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces
+[1.234s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/msg
+[1.234s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.234s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action
+[1.235s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail
+[1.235s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__rosidl_typesupport_fastrtps_c.h
+[1.235s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[1.235s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces
+[1.236s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/msg
+[1.236s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.236s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action
+[1.236s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail
+[1.236s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__rosidl_typesupport_introspection_c.h
+[1.236s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__type_support.c
+[1.243s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[1.243s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[1.244s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces
+[1.244s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/msg
+[1.244s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.244s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action
+[1.245s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/jtraj.hpp
+[1.245s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail
+[1.245s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__type_support.hpp
+[1.245s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__builder.hpp
+[1.245s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__traits.hpp
+[1.246s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__struct.hpp
+[1.246s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces
+[1.246s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/msg
+[1.246s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.247s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action
+[1.247s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail
+[1.254s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__rosidl_typesupport_fastrtps_cpp.hpp
+[1.254s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail/dds_fastrtps
+[1.254s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.254s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces
+[1.254s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action
+[1.254s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail
+[1.254s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__rosidl_typesupport_introspection_cpp.hpp
+[1.255s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/include/interfaces/interfaces/action/detail/jtraj__type_support.cpp
+[1.255s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[1.255s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[1.255s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/environment/pythonpath.sh
+[1.255s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[1.255s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info
+[1.255s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.255s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.256s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[1.256s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[1.260s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces
+[1.261s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[1.261s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py
+[1.261s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so
+[1.261s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so
+[1.262s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces/action
+[1.262s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces/action/__init__.py
+[1.262s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces/action/_jtraj_s.c
+[1.262s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces/action/_jtraj.py
+[1.262s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.262s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so
+[1.262s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.330s] Listing '/home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces'...
+[1.331s] Listing '/home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces/action'...
+[1.340s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so
+[1.341s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so
+[1.343s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so
+[1.345s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[1.346s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/action/Jtraj.idl
+[1.346s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/action/Jtraj.action
+[1.346s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[1.347s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[1.347s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[1.348s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[1.348s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/environment/path.sh
+[1.350s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/environment/path.dsv
+[1.350s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/local_setup.bash
+[1.351s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/local_setup.sh
+[1.351s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/local_setup.zsh
+[1.351s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/local_setup.dsv
+[1.352s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/package.dsv
+[1.352s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[1.354s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[1.355s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.355s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.355s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.355s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.355s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.355s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[1.359s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.359s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[1.359s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.360s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.360s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.360s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.361s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[1.362s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.362s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[1.363s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.363s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[1.363s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.363s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.364s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.364s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.364s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.364s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.364s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[1.364s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[1.364s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/interfaces/share/interfaces/package.xml
+[1.374s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/interfaces

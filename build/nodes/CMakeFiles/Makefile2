@@ -64,8 +64,6 @@ CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/nodes
 
 # The main recursive "all" target.
 all: CMakeFiles/Reach.dir/all
-all: CMakeFiles/Raggiungibilita.dir/all
-all: CMakeFiles/test_reach.dir/all
 all: CMakeFiles/interactive_reach.dir/all
 all: CMakeFiles/Reac_marker.dir/all
 .PHONY : all
@@ -78,8 +76,6 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/nodes_uninstall.dir/clean
 clean: CMakeFiles/Reach.dir/clean
-clean: CMakeFiles/Raggiungibilita.dir/clean
-clean: CMakeFiles/test_reach.dir/clean
 clean: CMakeFiles/interactive_reach.dir/clean
 clean: CMakeFiles/Reac_marker.dir/clean
 .PHONY : clean
@@ -143,7 +139,7 @@ CMakeFiles/nodes_uninstall.dir/clean:
 CMakeFiles/Reach.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reach.dir/build.make CMakeFiles/Reach.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reach.dir/build.make CMakeFiles/Reach.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles --progress-num=5,6 "Built target Reach"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles --progress-num=3,4 "Built target Reach"
 .PHONY : CMakeFiles/Reach.dir/all
 
 # Build rule for subdir invocation for target.
@@ -163,65 +159,13 @@ CMakeFiles/Reach.dir/clean:
 .PHONY : CMakeFiles/Reach.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Raggiungibilita.dir
-
-# All Build rule for target.
-CMakeFiles/Raggiungibilita.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raggiungibilita.dir/build.make CMakeFiles/Raggiungibilita.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raggiungibilita.dir/build.make CMakeFiles/Raggiungibilita.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles --progress-num=1,2 "Built target Raggiungibilita"
-.PHONY : CMakeFiles/Raggiungibilita.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Raggiungibilita.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Raggiungibilita.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles 0
-.PHONY : CMakeFiles/Raggiungibilita.dir/rule
-
-# Convenience name for target.
-Raggiungibilita: CMakeFiles/Raggiungibilita.dir/rule
-.PHONY : Raggiungibilita
-
-# clean rule for target.
-CMakeFiles/Raggiungibilita.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raggiungibilita.dir/build.make CMakeFiles/Raggiungibilita.dir/clean
-.PHONY : CMakeFiles/Raggiungibilita.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/test_reach.dir
-
-# All Build rule for target.
-CMakeFiles/test_reach.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_reach.dir/build.make CMakeFiles/test_reach.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_reach.dir/build.make CMakeFiles/test_reach.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles --progress-num=9,10 "Built target test_reach"
-.PHONY : CMakeFiles/test_reach.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/test_reach.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_reach.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles 0
-.PHONY : CMakeFiles/test_reach.dir/rule
-
-# Convenience name for target.
-test_reach: CMakeFiles/test_reach.dir/rule
-.PHONY : test_reach
-
-# clean rule for target.
-CMakeFiles/test_reach.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_reach.dir/build.make CMakeFiles/test_reach.dir/clean
-.PHONY : CMakeFiles/test_reach.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/interactive_reach.dir
 
 # All Build rule for target.
 CMakeFiles/interactive_reach.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/interactive_reach.dir/build.make CMakeFiles/interactive_reach.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/interactive_reach.dir/build.make CMakeFiles/interactive_reach.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles --progress-num=7,8 "Built target interactive_reach"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles --progress-num=5,6 "Built target interactive_reach"
 .PHONY : CMakeFiles/interactive_reach.dir/all
 
 # Build rule for subdir invocation for target.
@@ -247,7 +191,7 @@ CMakeFiles/interactive_reach.dir/clean:
 CMakeFiles/Reac_marker.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reac_marker.dir/build.make CMakeFiles/Reac_marker.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Reac_marker.dir/build.make CMakeFiles/Reac_marker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles --progress-num=3,4 "Built target Reac_marker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles --progress-num=1,2 "Built target Reac_marker"
 .PHONY : CMakeFiles/Reac_marker.dir/all
 
 # Build rule for subdir invocation for target.

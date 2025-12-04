@@ -3,7 +3,10 @@ Panels:
     Help Height: 78
     Name: Displays
     Property Tree Widget:
-      Expanded: ~
+      Expanded: 
+            - /InteractiveMarkers1
+          
+
       Splitter Ratio: 0.5
     Tree Height: 416
   - Class: rviz_common/Selection
@@ -364,6 +367,15 @@ Visualization Manager:
         Show Robot Collision: false
         Show Robot Visual: true
       Value: false
+    - Class: rviz_default_plugins/InteractiveMarkers
+      Enable Transparency: true
+      Enabled: true
+      Interactive Markers Namespace: /reachability_marker
+      Name: InteractiveMarkers
+      Show Axes: false
+      Show Descriptions: true
+      Show Visual Aids: false
+      Value: true
     - Acceleration_Scaling_Factor: 0.1
       Class: moveit_rviz_plugin/MotionPlanning
       Enabled: true
@@ -677,6 +689,7 @@ Visualization Manager:
         Show Robot Collision: false
         Show Robot Visual: true
       Value: true
+   
       Velocity_Scaling_Factor: 0.1
   Enabled: true
   Global Options:

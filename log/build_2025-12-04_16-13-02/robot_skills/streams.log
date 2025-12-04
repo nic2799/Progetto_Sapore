@@ -1,0 +1,4 @@
+[0.024s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/robot_skills': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/robot_skills -- -j8 -l8
+[0.139s] [ 33%] Built target MoveitHelper
+[0.143s] [ 66%] Built target SaveYaml
+[0.199s] [100%] Built target pick_place_server

@@ -1,0 +1,9 @@
+[ 33%] Built target MoveitHelper
+[ 50%] [32mBuilding CXX object CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o[0m
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kyaml-cpp/yaml.hpp: No such file or directory
+    3 | #include [01;31m[K<yaml-cpp/yaml.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/SaveYaml.dir/build.make:76: CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/SaveYaml.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,43 @@
+[0.017s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package -- -j8 -l8
+[0.044s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.306s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.335s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.350s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.361s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.378s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.451s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.453s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.537s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.622s] -- Found moveit_msgs: 2.6.0 (/opt/ros/jazzy/share/moveit_msgs/cmake)
+[0.889s] -- Found tf2: 0.36.11 (/opt/ros/jazzy/share/tf2/cmake)
+[0.893s] -- Found tf2_geometry_msgs: 0.36.11 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.898s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.900s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.985s] -- Found geometric_shapes: 2.3.2 (/opt/ros/jazzy/share/geometric_shapes/cmake)
+[0.990s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[1.029s] -- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[1.040s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[1.054s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.074s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.079s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.151s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[1.194s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[1.216s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[1.246s] -- Found graph_msgs: 0.2.0 (/opt/ros/jazzy/share/graph_msgs/cmake)
+[1.363s] -- Configuring done (1.3s)
+[1.404s] -- Generating done (0.0s)
+[1.418s] -- Build files have been written to: /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package
+[1.480s] [ 25%] [32mBuilding CXX object CMakeFiles/build_scene_mesh.dir/src/build_scene_mesh.cpp.o[0m
+[1.492s] [ 50%] [32mBuilding CXX object CMakeFiles/build_scene_simple.dir/src/build_scene_simple.cpp.o[0m
+[2.919s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:12[m[K:
+[2.919s] [01m[K/opt/ros/jazzy/include/moveit_visual_tools/moveit_visual_tools.h:56:10:[m[K [01;31m[Kfatal error: [m[Kgraph_msgs/msg/geometry_graph.hpp: No such file or directory
+[2.919s]    56 | #include [01;31m[K<graph_msgs/msg/geometry_graph.hpp>[m[K
+[2.919s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.919s] compilation terminated.
+[2.924s] gmake[2]: *** [CMakeFiles/build_scene_simple.dir/build.make:76: CMakeFiles/build_scene_simple.dir/src/build_scene_simple.cpp.o] Error 1
+[2.924s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/build_scene_simple.dir/all] Error 2
+[2.924s] gmake[1]: *** Waiting for unfinished jobs....
+[6.986s] [ 75%] [32m[1mLinking CXX executable build_scene_mesh[0m
+[7.216s] [ 75%] Built target build_scene_mesh
+[7.217s] gmake: *** [Makefile:146: all] Error 2
+[7.219s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package -- -j8 -l8

@@ -1,0 +1,63 @@
+[ 20%] Built target interactive_reach
+[ 40%] Built target test_reach
+[ 60%] Built target Raggiungibilita
+[ 80%] Built target Reach
+[ 90%] [32mBuilding CXX object CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o[0m
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:9[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:25[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:26[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/conversions.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:27[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.h:48:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   48 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:[m[K In member function ‘[01m[Kbool ReachabilityIKNode::[01;32m[KtestPlannerPouring[m[K(const geometry_msgs::msg::PoseStamped&, const std::string&, double, double)[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:248:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  248 |     double fraction = [01;35m[Kmove_group_interface->computeCartesianPath([m[K
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  249 | [01;35m[K        waypoints,[m[K
+      |         [01;35m[K~~~~~~~~~~[m[K                                               
+  250 | [01;35m[K        step,           // passo tra waypoints[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                   
+  251 | [01;35m[K        0.0,            // jump_threshold[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                        
+  252 | [01;35m[K        trajectory_pour,[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~[m[K                                         
+  253 | [01;35m[K        true            // avoid_collisions[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                      
+  254 | [01;35m[K    )[m[K;
+      |     [01;35m[K~[m[K                                                            
+In file included from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:52[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:[m[K In member function ‘[01m[Kbool ReachabilityIKNode::[01;32m[KCheckLinkCollision[m[K(bool, const geometry_msgs::msg::PoseStamped&)[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:353:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::core::RobotState::RobotState()[m[K’
+  353 |          moveit::core::RobotState [01;31m[Kcurrent_state[m[K; //= planning_scene->getCurrentState();
+      |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.hpp:40[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:43[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:51[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::core::RobotState::[01;32m[KRobotState[m[K(const moveit::core::RobotState&)[m[K’
+   98 |   [01;36m[KRobotState[m[K(const RobotState& other);
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:98:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:94:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::core::RobotState::[01;32m[KRobotState[m[K(const moveit::core::RobotModelConstPtr&)[m[K’
+   94 |   [01;36m[KRobotState[m[K(const RobotModelConstPtr& robot_model);
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:94:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:[m[K In member function ‘[01m[Kbool ReachabilityIKNode::[01;32m[KtestReachability[m[K(const geometry_msgs::msg::PoseStamped&, const std::string&)[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:453:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kall_orientations_reachable[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  453 |         bool [01;35m[Kall_orientations_reachable[m[K = true;
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Reac_marker.dir/build.make:76: CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/Reac_marker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

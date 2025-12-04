@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9eaa4f53837ab80aa2c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "validate_trajectory",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Valid_trajectory_click::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Valid_trajectory_click-fbab8428513db63d7801.json",
+					"name" : "Valid_trajectory_click",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "execute_yaml_trajectories_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-execute_yaml_trajectories_node-fae5b093f96a41cba844.json",
+					"name" : "execute_yaml_trajectories_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d7a94a165ff11d80fca9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "validate_trajectory_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-validate_trajectory_uninstall-bd911fa7233509f28865.json",
+					"name" : "validate_trajectory_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory",
+		"source" : "/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,43 @@
+[0.014s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8
+[0.103s] [ 20%] Built target interactive_reach
+[0.125s] [ 40%] Built target Raggiungibilita
+[0.132s] [ 60%] Built target test_reach
+[0.136s] [ 80%] Built target Reach
+[0.177s] [ 90%] [32mBuilding CXX object CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o[0m
+[4.773s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:9[m[K:
+[4.773s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[4.773s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[4.773s]       |                                                                             [01;36m[K^[m[K
+[7.633s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityIKNode::[01;32m[KtestReachability[m[K(const geometry_msgs::msg::PoseStamped&, const std::string&)[m[K’:
+[7.633s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:232:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope; did you mean ‘[01m[Kid[m[K’?
+[7.633s]   232 |             for ([01;31m[Ki[m[K=0, i<=response->solution.joint_state.position.size(), i++)
+[7.634s]       |                  [01;31m[K^[m[K
+[7.634s]       |                  [32m[Kid[m[K
+[7.634s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:237:76:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[KJoint_states[m[K’ from ‘[01m[Ksensor_msgs::msg::JointState[m[K’ {aka ‘[01m[Ksensor_msgs::msg::JointState_<std::allocator<void> >[m[K’} to ‘[01m[Kbool[m[K’
+[7.634s]   237 |             sensor_msgs::msg::JointState Joint_states = response->solution.[01;31m[Kjoint_state[m[K;
+[7.634s]       |                                                                            [01;31m[K^~~~~~~~~~~[m[K
+[7.634s]       |                                                                            [01;31m[K|[m[K
+[7.634s]       |                                                                            [01;31m[Ksensor_msgs::msg::JointState {aka sensor_msgs::msg::JointState_<std::allocator<void> >}[m[K
+[7.635s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:238:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kcandidate_js[m[K’
+[7.635s]   238 |             sensor_msgs::msg::JointState [01;31m[Kcandidate_js[m[K;//viene utilizzata caso in cui compute_ik non riesca a trovare una soluzione evitando un eventuale collisione,
+[7.635s]       |                                          [01;31m[K^~~~~~~~~~~~[m[K
+[7.635s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:238:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kcandidate_js[m[K’
+[7.635s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:232:17:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[7.635s]   232 |             for [01;36m[K([m[Ki=0, i<=response->solution.joint_state.position.size(), i++)
+[7.635s]       |                 [01;36m[K^[m[K
+[7.651s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:238:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kcandidate_js[m[K’ was not declared in this scope
+[7.651s]   238 |             sensor_msgs::msg::JointState [01;31m[Kcandidate_js[m[K;//viene utilizzata caso in cui compute_ik non riesca a trovare una soluzione evitando un eventuale collisione,
+[7.651s]       |                                          [01;31m[K^~~~~~~~~~~~[m[K
+[7.669s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:259:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kcandidate_js[m[K’ was not declared in this scope
+[7.669s]   259 |                         joint_model_group, [01;31m[Kcandidate_js[m[K.position);
+[7.669s]       |                                            [01;31m[K^~~~~~~~~~~~[m[K
+[7.686s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:282:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kcandidate_js[m[K’ was not declared in this scope
+[7.686s]   282 |                 current_state.setVariablePositions([01;31m[Kcandidate_js[m[K.name, candidate_js.position);
+[7.686s]       |                                                    [01;31m[K^~~~~~~~~~~~[m[K
+[7.715s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:383:49:[m[K [01;31m[Kerror: [m[K‘[01m[KJoint_states[m[K’ was not declared in this scope
+[7.715s]   383 |                 display_msg.state.joint_state = [01;31m[KJoint_states[m[K; // Usa i joint_state che hai trovato
+[7.715s]       |                                                 [01;31m[K^~~~~~~~~~~~[m[K
+[13.102s] gmake[2]: *** [CMakeFiles/Reac_marker.dir/build.make:76: CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o] Error 1
+[13.102s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/Reac_marker.dir/all] Error 2
+[13.103s] gmake: *** [Makefile:146: all] Error 2
+[13.105s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes' returned '2': CMAKE_PREFIX_PATH=/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8

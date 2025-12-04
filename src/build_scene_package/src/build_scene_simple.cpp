@@ -118,6 +118,7 @@ calcolo della collisione*/
         }
 
         // Scala manuale dei vertici
+    //    if(id!="Roboqbo"){
         for (unsigned int i = 0; i < m->vertex_count; ++i)
         {
             m->vertices[3*i+0] *= scale;//struttura è m->vertices = {x1, y1, z1, x2, y2, z2, x3, y3, z3};  

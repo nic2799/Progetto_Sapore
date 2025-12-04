@@ -1,0 +1,8 @@
+[0.049s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory -- -j8 -l8
+[0.102s] [31mCMake Error at CMakeLists.txt:4 (ament_target_dependencies):
+[0.102s]   Unknown CMake command "ament_target_dependencies".
+[0.102s] 
+[0.102s] [0m
+[0.108s] -- Configuring incomplete, errors occurred!
+[0.114s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.128s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory -- -j8 -l8

@@ -1,0 +1,54 @@
+[0.048s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8
+[0.253s] [ 20%] Built target interactive_reach
+[0.258s] [ 40%] Built target Raggiungibilita
+[0.260s] [ 60%] Built target test_reach
+[0.287s] [ 80%] Built target Reach
+[0.361s] [ 90%] [32mBuilding CXX object CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o[0m
+[5.478s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:9[m[K:
+[5.478s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[5.478s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[5.479s]       |                                                                             [01;36m[K^[m[K
+[8.382s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:25[m[K:
+[8.382s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[8.382s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[8.382s]       |                                                                             [01;36m[K^[m[K
+[8.602s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:26[m[K:
+[8.602s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/conversions.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[8.602s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[8.602s]       |                                                                             [01;36m[K^[m[K
+[8.603s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:27[m[K:
+[8.603s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.h:48:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[8.603s]    48 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[8.603s]       |                                                                             [01;36m[K^[m[K
+[8.691s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:[m[K In member function ‘[01m[Kbool ReachabilityIKNode::[01;32m[KtestPlannerPouring[m[K(const geometry_msgs::msg::PoseStamped&, const std::string&, double, double)[m[K’:
+[8.691s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:248:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Pose_<std::allocator<void> > > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[8.691s]   248 |     double fraction = [01;35m[Kmove_group_interface->computeCartesianPath([m[K
+[8.691s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[8.691s]   249 | [01;35m[K        waypoints,[m[K
+[8.691s]       |         [01;35m[K~~~~~~~~~~[m[K                                               
+[8.691s]   250 | [01;35m[K        step,           // passo tra waypoints[m[K
+[8.691s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                   
+[8.691s]   251 | [01;35m[K        0.0,            // jump_threshold[m[K
+[8.691s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                        
+[8.691s]   252 | [01;35m[K        trajectory_pour,[m[K
+[8.692s]       |         [01;35m[K~~~~~~~~~~~~~~~~[m[K                                         
+[8.692s]   253 | [01;35m[K        true            // avoid_collisions[m[K
+[8.692s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                      
+[8.692s]   254 | [01;35m[K    )[m[K;
+[8.692s]       |     [01;35m[K~[m[K                                                            
+[8.692s] In file included from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:52[m[K:
+[8.692s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.692s]   765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+[8.692s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.717s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:[m[K In member function ‘[01m[Kbool ReachabilityIKNode::[01;32m[KCheckLinkCollision[m[K(bool, const geometry_msgs::msg::PoseStamped&)[m[K’:
+[8.717s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:387:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_state[m[K’ was not declared in this scope
+[8.717s]   387 |             [01;31m[Kcurrent_state[m[K.setVariablePositions(candidate_js.name, candidate_js.position);
+[8.717s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[8.736s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:[m[K In member function ‘[01m[Kbool ReachabilityIKNode::[01;32m[KtestReachability[m[K(const geometry_msgs::msg::PoseStamped&, const std::string&)[m[K’:
+[8.736s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:452:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kall_orientations_reachable[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.736s]   452 |         bool [01;35m[Kall_orientations_reachable[m[K = true;
+[8.736s]       |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.753s] gmake[2]: *** [CMakeFiles/Reac_marker.dir/build.make:76: CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o] Error 1
+[14.753s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/Reac_marker.dir/all] Error 2
+[14.753s] gmake: *** [Makefile:146: all] Error 2
+[14.756s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8

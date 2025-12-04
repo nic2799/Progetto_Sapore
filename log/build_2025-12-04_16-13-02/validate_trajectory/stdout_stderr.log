@@ -1,0 +1,8 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/validate_trajectory_node.dir/src/validate_trajectory_node.cpp.o[0m
+[ 50%] Built target execute_yaml_trajectories_node
+[ 83%] Built target Valid_trajectory_click
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/validate_trajectory_node.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/validate_trajectory_node.dir/build.make:76: CMakeFiles/validate_trajectory_node.dir/src/validate_trajectory_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/validate_trajectory_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

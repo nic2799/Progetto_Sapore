@@ -1,1 +1,1 @@
-rclcpp;moveit_msgs;geometry_msgs;shape_msgs;tf2;tf2_geometry_msgs;tf2_ros;geometric_shapes;ament_index_cpp;yaml-cpp;ament_lint_auto;ament_lint_common
+rclcpp;moveit_msgs;geometry_msgs;shape_msgs;visualization_msgs;tf2;tf2_geometry_msgs;tf2_ros;geometric_shapes;ament_index_cpp;yaml-cpp;ament_lint_auto;ament_lint_common

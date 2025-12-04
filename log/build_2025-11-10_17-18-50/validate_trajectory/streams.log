@@ -1,0 +1,76 @@
+[0.022s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory -- -j8 -l8
+[0.066s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.363s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.412s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.422s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.437s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.455s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.528s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.531s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.618s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.709s] -- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[0.731s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[1.031s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.060s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.068s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.100s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[1.143s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.280s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[1.336s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[1.360s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[1.432s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.556s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.556s] -- Configured cppcheck include dirs: 
+[1.556s] -- Configured cppcheck exclude dirs and/or files: 
+[1.557s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.557s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.557s] -- Added test 'lint_cmake' to check CMake code style
+[1.558s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.559s] -- Added test 'uncrustify' to check C / C++ code style
+[1.559s] -- Configured uncrustify additional arguments: 
+[1.560s] -- Added test 'xmllint' to check XML markup files
+[1.561s] -- Configuring done (1.5s)
+[1.623s] -- Generating done (0.0s)
+[1.633s] -- Build files have been written to: /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory
+[1.690s] [ 25%] [32mBuilding CXX object CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.o[0m
+[1.721s] [ 75%] Built target validate_trajectory_node
+[4.538s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/Valid_trajectory_click.cpp:2[m[K:
+[4.538s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[4.538s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[4.539s]       |                                                                             [01;36m[K^[m[K
+[6.805s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/Valid_trajectory_click.cpp:3[m[K:
+[6.805s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[6.805s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[6.806s]       |                                                                             [01;36m[K^[m[K
+[6.806s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/Valid_trajectory_click.cpp:4[m[K:
+[6.806s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/conversions.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[6.806s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[6.806s]       |                                                                             [01;36m[K^[m[K
+[14.530s] [100%] [32m[1mLinking CXX executable Valid_trajectory_click[0m
+[15.248s] [100%] Built target Valid_trajectory_click
+[15.256s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory -- -j8 -l8
+[15.257s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory
+[15.263s] -- Install configuration: ""
+[15.263s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/lib/validate_trajectory/validate_trajectory_node
+[15.264s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/lib/validate_trajectory/Valid_trajectory_click
+[15.267s] -- Set non-toolchain portion of runtime path of "/home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/lib/validate_trajectory/Valid_trajectory_click" to ""
+[15.267s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/launch
+[15.267s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/launch/validate_click.launch.py
+[15.268s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/launch/validate_with_moveit.launch.py
+[15.268s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/launch/validate_trajectory.launch.py
+[15.268s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/ament_index/resource_index/package_run_dependencies/validate_trajectory
+[15.268s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/ament_index/resource_index/parent_prefix_path/validate_trajectory
+[15.268s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/ament_prefix_path.sh
+[15.268s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/ament_prefix_path.dsv
+[15.268s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/path.sh
+[15.268s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/path.dsv
+[15.268s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.bash
+[15.268s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.sh
+[15.268s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.zsh
+[15.268s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.dsv
+[15.269s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/package.dsv
+[15.269s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/ament_index/resource_index/packages/validate_trajectory
+[15.269s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/cmake/validate_trajectoryConfig.cmake
+[15.269s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/cmake/validate_trajectoryConfig-version.cmake
+[15.269s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/package.xml
+[15.270s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory

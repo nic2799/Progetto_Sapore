@@ -1,8 +1,6 @@
 /home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles/uninstall.dir
 /home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles/nodes_uninstall.dir
 /home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles/Reach.dir
-/home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles/Raggiungibilita.dir
-/home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles/test_reach.dir
 /home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles/interactive_reach.dir
 /home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles/Reac_marker.dir
 /home/nicola/Desktop/Progetto_Sapore/build/nodes/CMakeFiles/test.dir

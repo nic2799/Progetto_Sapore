@@ -1,0 +1,70 @@
+[ 33%] Built target validate_trajectory_node
+[ 66%] Built target Valid_trajectory_click
+[ 83%] [32mBuilding CXX object CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o[0m
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:383:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  383 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:26:57:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   26 | class ExecuteYamlTrajectoriesNode : public rclcpp::Node [01;36m[K{[m[K
+      |                                                         [01;36m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:[m[K In constructor ‘[01m[KExecuteYamlTrajectoriesNode::[01;32m[KExecuteYamlTrajectoriesNode[m[K()[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:73:9:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishTrajectoryMarkers[m[K’ was not declared in this scope
+   73 |         [01;31m[KpublishTrajectoryMarkers[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:[m[K In member function ‘[01m[Kbool ExecuteYamlTrajectoriesNode::[01;32m[KloadTrajectoriesFromYAML[m[K(const std::string&, std::vector<PlanInfo>&)[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:258:17:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+  258 |                 [01;31m[Kpublic[m[K:
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:310:74:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  310 |                                                 const std::string& side) [01;31m[K{[m[K
+      |                                                                          [01;31m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:323:88:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  323 |                                                               const std::string& side) [01;31m[K{[m[K
+      |                                                                                        [01;31m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:352:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_id[m[K’ was not declared in this scope; did you mean ‘[01m[Kmarker[m[K’?
+  352 |             marker.id = [01;31m[Kmarker_id[m[K++;
+      |                         [01;31m[K^~~~~~~~~[m[K
+      |                         [32m[Kmarker[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:358:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_array[m[K’ was not declared in this scope
+  358 |             [01;31m[Kmarker_array[m[K.markers.push_back(marker);
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:365:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_id[m[K’ was not declared in this scope; did you mean ‘[01m[Kmarker[m[K’?
+  365 |             marker.id = [01;31m[Kmarker_id[m[K++;
+      |                         [01;31m[K^~~~~~~~~[m[K
+      |                         [32m[Kmarker[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:371:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_array[m[K’ was not declared in this scope
+  371 |             [01;31m[Kmarker_array[m[K.markers.push_back(marker);
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:373:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_array[m[K’ was not declared in this scope
+  373 |         marker_pub_->publish([01;31m[Kmarker_array[m[K);
+      |                              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:346:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_started_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  346 |             bool [01;35m[Kleft_started_[m[K = false;
+      |                  [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:375:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[Kcatch[m[K’ before ‘[01m[K;[m[K’ token
+  375 | }[01;31m[K;[m[K
+      |  [01;31m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:375:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K;[m[K’ token
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:375:2:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[K;[m[K’ token
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:375:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:375:2:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:375:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:377:33:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  377 | int main(int argc, char** argv) [01;31m[K{[m[K
+      |                                 [01;31m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:383:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  383 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:252:95:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  252 |     bool loadTrajectoriesFromYAML(const std::string& yaml_file, std::vector<PlanInfo>& plans) [01;36m[K{[m[K
+      |                                                                                               [01;36m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:252:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kplans[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  252 |     bool loadTrajectoriesFromYAML(const std::string& yaml_file, [01;35m[Kstd::vector<PlanInfo>& plans[m[K) {
+      |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:[m[K At global scope:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:383:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  383 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/execute_yaml_trajectories_node.dir/build.make:76: CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/execute_yaml_trajectories_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

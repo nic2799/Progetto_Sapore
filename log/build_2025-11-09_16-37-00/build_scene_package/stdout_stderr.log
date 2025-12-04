@@ -1,0 +1,15 @@
+[ 50%] Built target build_scene_mesh
+[ 75%] [32mBuilding CXX object CMakeFiles/build_scene_simple.dir/src/build_scene_simple.cpp.o[0m
+[100%] [32m[1mLinking CXX executable build_scene_simple[0m
+/usr/bin/ld: CMakeFiles/build_scene_simple.dir/src/build_scene_simple.cpp.o: in function `main':
+build_scene_simple.cpp:(.text+0xf5): undefined reference to `rviz_visual_tools::RvizVisualTools::deleteAllMarkers()'
+/usr/bin/ld: build_scene_simple.cpp:(.text+0x10c): undefined reference to `rviz_visual_tools::RvizVisualTools::loadRemoteControl()'
+/usr/bin/ld: CMakeFiles/build_scene_simple.dir/src/build_scene_simple.cpp.o: in function `MeshSceneNode::insertMeshObstacle(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, geometry_msgs::msg::Pose_<std::allocator<void> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+build_scene_simple.cpp:(.text._ZN13MeshSceneNode18insertMeshObstacleERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN13geometry_msgs3msg5Pose_ISaIvEEES7_[_ZN13MeshSceneNode18insertMeshObstacleERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN13geometry_msgs3msg5Pose_ISaIvEEES7_]+0x154): undefined reference to `moveit_visual_tools::MoveItVisualTools::publishCollisionBlock(geometry_msgs::msg::Pose_<std::allocator<void> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, double, rviz_visual_tools::Colors const&)'
+/usr/bin/ld: build_scene_simple.cpp:(.text._ZN13MeshSceneNode18insertMeshObstacleERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN13geometry_msgs3msg5Pose_ISaIvEEES7_[_ZN13MeshSceneNode18insertMeshObstacleERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN13geometry_msgs3msg5Pose_ISaIvEEES7_]+0x171): undefined reference to `rviz_visual_tools::RvizVisualTools::trigger()'
+/usr/bin/ld: CMakeFiles/build_scene_simple.dir/src/build_scene_simple.cpp.o: in function `void std::_Construct<moveit_visual_tools::MoveItVisualTools, std::shared_ptr<MeshSceneNode>&, char const (&) [6], char const (&) [29]>(moveit_visual_tools::MoveItVisualTools*, std::shared_ptr<MeshSceneNode>&, char const (&) [6], char const (&) [29])':
+build_scene_simple.cpp:(.text._ZSt10_ConstructIN19moveit_visual_tools17MoveItVisualToolsEJRSt10shared_ptrI13MeshSceneNodeERA6_KcRA29_S6_EEvPT_DpOT0_[_ZSt10_ConstructIN19moveit_visual_tools17MoveItVisualToolsEJRSt10shared_ptrI13MeshSceneNodeERA6_KcRA29_S6_EEvPT_DpOT0_]+0x11b): undefined reference to `moveit_visual_tools::MoveItVisualTools::MoveItVisualTools(std::shared_ptr<rclcpp::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::shared_ptr<moveit::core::RobotModel const>)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/build_scene_simple.dir/build.make:375: build_scene_simple] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/build_scene_simple.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,12 @@
+/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles/uninstall.dir
+/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles/robot_skills_uninstall.dir
+/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles/SaveYaml.dir
+/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles/MoveitHelper.dir
+/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles/pick_place_server.dir
+/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles/test.dir
+/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles/edit_cache.dir
+/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles/rebuild_cache.dir
+/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles/list_install_components.dir
+/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles/install.dir
+/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles/install/local.dir
+/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles/install/strip.dir

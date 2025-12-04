@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSaveYaml.a CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o
+/usr/bin/ranlib libSaveYaml.a

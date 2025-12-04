@@ -1,0 +1,46 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o[0m
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/include/SaveYaml.hpp:3[m[K,
+                 from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                       [01;36m[K^[m[K
+
+In file included from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp:42[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model_group.hpp:42[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp:45[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:40[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:41[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:52[m[K:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:[m[K In function ‘[01m[Kvoid YAML::[01;32m[KsavePlanToYAML[m[K(const moveit::planning_interface::MoveGroupInterface::Plan&, const geometry_msgs::msg::PoseStamped&, const std::string&, int&, const std::string&)[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:28:13:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger
+   28 |             [01;31m[KRCLCPP_ERROR[m[K("❌ Impossibile aprire file: %s", plans_output_file_.c_str());
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:28:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("\37777777742\37777777635\37777777614 Impossibile aprire file: %s")[m[K’, which is of non-class type ‘[01m[Kconst char [32][m[K’
+   28 |             [01;31m[KRCLCPP_ERROR[m[K("❌ Impossibile aprire file: %s", plans_output_file_.c_str());
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:28:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("\37777777742\37777777635\37777777614 Impossibile aprire file: %s")[m[K’, which is of non-class type ‘[01m[Kconst char [32][m[K’
+   28 |             [01;31m[KRCLCPP_ERROR[m[K("❌ Impossibile aprire file: %s", plans_output_file_.c_str());
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:95:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   95 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "💾 Piano %d salvato (%zu waypoints) in %s",
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:95:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:95:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   95 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "💾 Piano %d salvato (%zu waypoints) in %s",
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:95:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   95 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "💾 Piano %d salvato (%zu waypoints) in %s",
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:95:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   95 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "💾 Piano %d salvato (%zu waypoints) in %s",
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:95:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   95 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "💾 Piano %d salvato (%zu waypoints) in %s",
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:95:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   95 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "💾 Piano %d salvato (%zu waypoints) in %s",
+      |                     [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/SaveYaml.dir/build.make:76: CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/SaveYaml.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

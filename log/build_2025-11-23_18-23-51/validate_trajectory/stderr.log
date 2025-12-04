@@ -1,0 +1,111 @@
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:3[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:4[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/conversions.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:6[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:42:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   42 |     }
+      |      [01;31m[K^[m[K
+      |      [32m[K;[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:[m[K In constructor ‘[01m[KExecuteYamlTrajectoriesNode::[01;32m[KExecuteYamlTrajectoriesNode[m[K()[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaml_file_[m[K’ was not declared in this scope
+   27 |         [01;31m[Kyaml_file_[m[K = this->get_parameter("yaml_file").as_string();
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_name_[m[K’ was not declared in this scope; did you mean ‘[01m[Kgroup_member[m[K’?
+   28 |         [01;31m[Kgroup_name_[m[K = this->get_parameter("group_name").as_string();
+      |         [01;31m[K^~~~~~~~~~~[m[K
+      |         [32m[Kgroup_member[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:29:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+   29 |         [01;31m[Kmarker_pub_[m[K = this->create_publisher<visualization_msgs::msg::MarkerArray>("/visualization_marker_array", 10);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:[m[K In member function ‘[01m[Kvoid ExecuteYamlTrajectoriesNode::[01;32m[KinitMoveGroup[m[K()[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:34:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_[m[K’ was not declared in this scope
+   34 |             [01;31m[Kmove_group_[m[K = std::make_shared<moveit::planning_interface::MoveGroupInterface>(shared_from_this(), group_name_);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:34:112:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_name_[m[K’ was not declared in this scope; did you mean ‘[01m[Kgroup_member[m[K’?
+   34 |             move_group_ = std::make_shared<moveit::planning_interface::MoveGroupInterface>(shared_from_this(), [01;31m[Kgroup_name_[m[K);
+      |                                                                                                                [01;31m[K^~~~~~~~~~~[m[K
+      |                                                                                                                [32m[Kgroup_member[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:35:18:[m[K [01;31m[Kerror: [m[K‘[01m[KloadTrajectoriesFromYAML[m[K’ was not declared in this scope
+   35 |             if (![01;31m[KloadTrajectoriesFromYAML[m[K()) {
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:39:13:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishTrajectoryMarkers[m[K’ was not declared in this scope
+   39 |             [01;31m[KpublishTrajectoryMarkers[m[K();
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:40:13:[m[K [01;31m[Kerror: [m[K‘[01m[KexecuteAllTrajectories[m[K’ was not declared in this scope; did you mean ‘[01m[KExecuteYamlTrajectoriesNode[m[K’?
+   40 |             [01;31m[KexecuteAllTrajectories[m[K();
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[KExecuteYamlTrajectoriesNode[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:[m[K At global scope:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:43:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   43 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:[m[K In function ‘[01m[Kbool[01;32m[K loadTrajectoriesFromYAML[m[K()[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:51:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaml_file_[m[K’ was not declared in this scope
+   51 |         YAML::Node yaml = YAML::LoadFile([01;31m[Kyaml_file_[m[K);
+      |                                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K publishTrajectoryMarkers[m[K()[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:93:35:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   93 |             marker.header.stamp = [01;31m[Kthis[m[K->now();
+      |                                   [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:1[m[K:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K executeAllTrajectories[m[K()[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:113:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  113 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Eseguo trajectory: %s", traj.name.c_str());
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:113:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:113:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  113 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Eseguo trajectory: %s", traj.name.c_str());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:113:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  113 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Eseguo trajectory: %s", traj.name.c_str());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:113:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  113 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Eseguo trajectory: %s", traj.name.c_str());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:113:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  113 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Eseguo trajectory: %s", traj.name.c_str());
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:113:25:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  113 |             RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Eseguo trajectory: %s", traj.name.c_str());
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:118:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  118 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "✅ Tutte le trajectory sono state eseguite!");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:118:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:118:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  118 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "✅ Tutte le trajectory sono state eseguite!");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:118:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  118 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "✅ Tutte le trajectory sono state eseguite!");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:118:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  118 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "✅ Tutte le trajectory sono state eseguite!");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:118:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  118 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "✅ Tutte le trajectory sono state eseguite!");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:118:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+  118 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "✅ Tutte le trajectory sono state eseguite!");
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:[m[K At global scope:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:120:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  120 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/execute_yaml_trajectories_node.dir/build.make:76: CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/execute_yaml_trajectories_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

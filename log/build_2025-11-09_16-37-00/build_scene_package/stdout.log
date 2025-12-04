@@ -1,0 +1,3 @@
+[ 50%] Built target build_scene_mesh
+[ 75%] [32mBuilding CXX object CMakeFiles/build_scene_simple.dir/src/build_scene_simple.cpp.o[0m
+[100%] [32m[1mLinking CXX executable build_scene_simple[0m

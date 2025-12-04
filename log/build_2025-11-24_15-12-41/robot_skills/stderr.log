@@ -1,0 +1,15 @@
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/include/SaveYaml.hpp:3[m[K,
+                 from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K savePlanToYAML[m[K(const moveit::planning_interface::MoveGroupInterface::Plan&, const geometry_msgs::msg::PoseStamped&, const std::string&, int&, const std::string&)[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:29:31:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[KYAML::Node&[m[K’ to an rvalue of type ‘[01m[KYAML::Node[m[K’
+   29 |     auto& plans = root["plans"[01;31m[K][m[K;
+      |                               [01;31m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:62:46:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[KYAML::Node&[m[K’ to an rvalue of type ‘[01m[KYAML::Node[m[K’
+   62 |     auto& trajs = current_plan["trajectories"[01;31m[K][m[K;
+      |                                              [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/SaveYaml.dir/build.make:76: CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/SaveYaml.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -7,12 +7,9 @@
     <xacro:property name="floor_roll" value="1.5708" />
     <xacro:property name="floor_pitch" value="0.0" />
     <xacro:property name="floor_yaw" value="1.57" />
-  <!-- adjust joint z to translate the floor in world coordinates if needed -->
   <xacro:property name="floor_z_offset" value="0.0" />
-  <!-- visual offset: use this to shift the mesh relative to the floor link frame (to center it) -->
   <xacro:property name="floor_visual_xyz" value="-0.5 0 0" />
 
-    <!-- Materials for obstacles  qui vado a inizializzare ostacoli con colori -->
     <material name="table_color">
 <color rgba="0.2 0.2 0.2 1.0"/>
     </material>
@@ -301,4 +298,4 @@
 
   </xacro:macro>
 
-</robot>
+</robot>  <xacro:property name="floor_z_offset" value="0.0" />

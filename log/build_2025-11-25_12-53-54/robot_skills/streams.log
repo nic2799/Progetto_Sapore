@@ -1,0 +1,52 @@
+[0.027s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/robot_skills': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/robot_skills -- -j8 -l8
+[0.165s] [ 33%] Built target MoveitHelper
+[0.171s] [ 66%] Built target SaveYaml
+[0.265s] [ 83%] [32mBuilding CXX object CMakeFiles/pick_place_server.dir/src/pick_place_server.cpp.o[0m
+[2.940s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/include/SaveYaml.hpp:2[m[K,
+[2.941s]                  from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:6[m[K:
+[2.941s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[2.941s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[2.941s]       |                                                                             [01;36m[K^[m[K
+[4.619s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/include/MoveitHelper.hpp:8[m[K,
+[4.619s]                  from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:7[m[K:
+[4.619s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[4.619s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[4.619s]       |                                                                             [01;36m[K^[m[K
+[4.662s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/include/MoveitHelper.hpp:11[m[K:
+[4.662s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.h:48:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[4.662s]    48 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[4.662s]       |                                                                             [01;36m[K^[m[K
+[4.720s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:[m[K In member function ‘[01m[Kbool PickPlaceServer::[01;32m[KexecutePickAndPlace[m[K(const std::string&, const geometry_msgs::msg::Pose&)[m[K’:
+[4.721s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:116:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kapproach_dist[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.721s]   116 |         double [01;35m[Kapproach_dist[m[K = this->get_parameter("approach_distance").as_double();
+[4.721s]       |                [01;35m[K^~~~~~~~~~~~~[m[K
+[4.721s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:117:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klift_dist[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.721s]   117 |         double [01;35m[Klift_dist[m[K = this->get_parameter("lift_distance").as_double();
+[4.721s]       |                [01;35m[K^~~~~~~~~[m[K
+[11.773s] [100%] [32m[1mLinking CXX executable pick_place_server[0m
+[12.660s] [100%] Built target pick_place_server
+[12.671s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/robot_skills' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/robot_skills -- -j8 -l8
+[12.672s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/robot_skills': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/robot_skills
+[12.678s] -- Install configuration: ""
+[12.679s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/lib/robot_skills/pick_place_server
+[12.684s] -- Set non-toolchain portion of runtime path of "/home/nicola/Desktop/Progetto_Sapore/install/robot_skills/lib/robot_skills/pick_place_server" to ""
+[12.684s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/lib/robot_skills/libSaveYaml.a
+[12.684s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/lib/robot_skills/libMoveitHelper.a
+[12.684s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/launch
+[12.685s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/launch/pick_place_demo.launch.py
+[12.685s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/ament_index/resource_index/package_run_dependencies/robot_skills
+[12.685s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/ament_index/resource_index/parent_prefix_path/robot_skills
+[12.685s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/environment/ament_prefix_path.sh
+[12.685s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/environment/ament_prefix_path.dsv
+[12.685s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/environment/path.sh
+[12.686s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/environment/path.dsv
+[12.686s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/local_setup.bash
+[12.686s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/local_setup.sh
+[12.686s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/local_setup.zsh
+[12.686s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/local_setup.dsv
+[12.686s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/package.dsv
+[12.686s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/ament_index/resource_index/packages/robot_skills
+[12.686s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/cmake/robot_skillsConfig.cmake
+[12.687s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/cmake/robot_skillsConfig-version.cmake
+[12.687s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skills/share/robot_skills/package.xml
+[12.689s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/robot_skills' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/robot_skills

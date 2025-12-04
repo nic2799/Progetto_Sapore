@@ -1,0 +1,13 @@
+[ 50%] Built target build_scene_mesh
+[ 75%] [32mBuilding CXX object CMakeFiles/build_scene_simple.dir/src/build_scene_simple.cpp.o[0m
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:[m[K In member function ‘[01m[Kvoid MeshSceneNode::[01;32m[KinsertMeshObstacle[m[K(std::string, geometry_msgs::msg::Pose, std::string)[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/build_scene_package/src/build_scene_simple.cpp:97:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing moveit_msgs::msg::CollisionObject = struct moveit_msgs::msg::CollisionObject_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct moveit_msgs::msg::CollisionObject_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kcolors[m[K’
+   97 |         collision_object.[01;31m[Kcolors[m[K.push_back(color); // Aggiungi il colore
+      |                          [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/build_scene_simple.dir/build.make:76: CMakeFiles/build_scene_simple.dir/src/build_scene_simple.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/build_scene_simple.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

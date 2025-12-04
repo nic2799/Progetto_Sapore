@@ -1,0 +1,83 @@
+[ 20%] Built target Raggiungibilita
+[ 40%] Built target interactive_reach
+[ 60%] Built target test_reach
+[ 80%] Built target Reac_marker
+[ 90%] [32mBuilding CXX object CMakeFiles/Reach.dir/src/test_reach.cpp.o[0m
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:9[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:10[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:11[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:12[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:13[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:15[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:23[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/conversions.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:24[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.h:48:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   48 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kbool ReachabilityIKNode::[01;32m[KtestPlannerPouring[m[K(const geometry_msgs::msg::PoseStamped&, const std::string&, double, double)[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:374:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing geometry_msgs::msg::Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+  374 |     target_pose.[01;31m[Kpose[m[K.orientation = tf2::toMsg(q_target);
+      |                 [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:1[m[K:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:377:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing geometry_msgs::msg::Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+  377 |                 target_pose.[01;31m[Kpose[m[K.orientation.x, target_pose.pose.orientation.y,
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:377:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing geometry_msgs::msg::Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+  377 |                 target_pose.pose.orientation.x, target_pose.[01;31m[Kpose[m[K.orientation.y,
+      |                                                             [01;31m[K^~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:378:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing geometry_msgs::msg::Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+  378 |                 target_pose.[01;31m[Kpose[m[K.orientation.z, target_pose.pose.orientation.w);
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:378:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing geometry_msgs::msg::Pose = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+  378 |                 target_pose.pose.orientation.z, target_pose.[01;31m[Kpose[m[K.orientation.w);
+      |                                                             [01;31m[K^~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:407:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct moveit::planning_interface::MoveGroupInterface::Plan[m[K’ has no member named ‘[01m[Ktrajectory_[m[K’; did you mean ‘[01m[Ktrajectory[m[K’?
+  407 |                 pouring_plan.[01;31m[Ktrajectory_[m[K.joint_trajectory.points.size(),
+      |                              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:408:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct moveit::planning_interface::MoveGroupInterface::Plan[m[K’ has no member named ‘[01m[Ktrajectory_[m[K’; did you mean ‘[01m[Ktrajectory[m[K’?
+  408 |                 pouring_plan.[01;31m[Ktrajectory_[m[K.joint_trajectory.points.empty() ? 0.0 :
+      |                              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:409:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct moveit::planning_interface::MoveGroupInterface::Plan[m[K’ has no member named ‘[01m[Ktrajectory_[m[K’; did you mean ‘[01m[Ktrajectory[m[K’?
+  409 |                 pouring_plan.[01;31m[Ktrajectory_[m[K.joint_trajectory.points.back().time_from_start.sec +
+      |                              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:410:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct moveit::planning_interface::MoveGroupInterface::Plan[m[K’ has no member named ‘[01m[Ktrajectory_[m[K’; did you mean ‘[01m[Ktrajectory[m[K’?
+  410 |                 pouring_plan.[01;31m[Ktrajectory_[m[K.joint_trajectory.points.back().time_from_start.nanosec * 1e-9);
+      |                              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:422:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct moveit::planning_interface::MoveGroupInterface::Plan[m[K’ has no member named ‘[01m[Ktrajectory_[m[K’; did you mean ‘[01m[Ktrajectory[m[K’?
+  422 |         display_traj.trajectory.push_back(pouring_plan.[01;31m[Ktrajectory_[m[K);
+      |                                                        [01;31m[K^~~~~~~~~~~[m[K
+      |                                                        [32m[Ktrajectory[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:324:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  324 |                         [01;35m[Kdouble step = 0.01[m[K)
+      |                         [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:[m[K In member function ‘[01m[Kint ReachabilityIKNode::[01;32m[KtestReachability[m[K(const geometry_msgs::msg::PoseStamped&, const std::string&)[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:533:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kall_orientations_reachable[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  533 |         bool [01;35m[Kall_orientations_reachable[m[K = true;
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Reach.dir/build.make:76: CMakeFiles/Reach.dir/src/test_reach.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/Reach.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,64 @@
+[ 33%] Built target MoveitHelper
+[ 50%] [32mBuilding CXX object CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o[0m
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/include/SaveYaml.hpp:3[m[K,
+                 from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[ 66%] [32m[1mLinking CXX static library libSaveYaml.a[0m
+[ 66%] Built target SaveYaml
+[ 83%] [32mBuilding CXX object CMakeFiles/pick_place_server.dir/src/pick_place_server.cpp.o[0m
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/include/SaveYaml.hpp:3[m[K,
+                 from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:6[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/include/MoveitHelper.hpp:8[m[K,
+                 from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:7[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/include/MoveitHelper.hpp:11[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.h:48:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   48 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:[m[K In member function ‘[01m[Kbool PickPlaceServer::[01;32m[KexecutePickAndPlace[m[K(const std::string&, const geometry_msgs::msg::Pose&)[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:132:33:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kvoid SaveYaml::[01;32m[KsavePlanToYAML[m[K(const moveit::planning_interface::MoveGroupInterface::Plan&, const geometry_msgs::msg::PoseStamped&, const std::string&, int&, const std::string&)[m[K’
+  132 |         [01;31m[KSaveYaml::savePlanToYAML(plan, pre_approach_pose_stamped, "approach", plan_counter_, plans_output_file_,0.0)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/include/SaveYaml.hpp:6:10:[m[K [01;36m[Knote: [m[Kdeclared here
+    6 |     void [01;36m[KsavePlanToYAML[m[K(const moveit::planning_interface::MoveGroupInterface::Plan& plan,
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:150:33:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kvoid SaveYaml::[01;32m[KsavePlanToYAML[m[K(const moveit::planning_interface::MoveGroupInterface::Plan&, const geometry_msgs::msg::PoseStamped&, const std::string&, int&, const std::string&)[m[K’
+  150 |         [01;31m[KSaveYaml::savePlanToYAML(cartesian_plan, grasp_pose_stamped, "progress", plan_counter_, plans_output_file_,0.0)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/include/SaveYaml.hpp:6:10:[m[K [01;36m[Knote: [m[Kdeclared here
+    6 |     void [01;36m[KsavePlanToYAML[m[K(const moveit::planning_interface::MoveGroupInterface::Plan& plan,
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:193:33:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kvoid SaveYaml::[01;32m[KsavePlanToYAML[m[K(const moveit::planning_interface::MoveGroupInterface::Plan&, const geometry_msgs::msg::PoseStamped&, const std::string&, int&, const std::string&)[m[K’
+  193 |         [01;31m[KSaveYaml::savePlanToYAML(cartesian_plan, retract_pose_stamped, "retract", plan_counter_, plans_output_file_,1.0)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/include/SaveYaml.hpp:6:10:[m[K [01;36m[Knote: [m[Kdeclared here
+    6 |     void [01;36m[KsavePlanToYAML[m[K(const moveit::planning_interface::MoveGroupInterface::Plan& plan,
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:219:33:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kvoid SaveYaml::[01;32m[KsavePlanToYAML[m[K(const moveit::planning_interface::MoveGroupInterface::Plan&, const geometry_msgs::msg::PoseStamped&, const std::string&, int&, const std::string&)[m[K’
+  219 |         [01;31m[KSaveYaml::savePlanToYAML(plan, lift_pose_stamped, "lift", plan_counter_, plans_output_file_,1.0)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/include/SaveYaml.hpp:6:10:[m[K [01;36m[Knote: [m[Kdeclared here
+    6 |     void [01;36m[KsavePlanToYAML[m[K(const moveit::planning_interface::MoveGroupInterface::Plan& plan,
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:244:33:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kvoid SaveYaml::[01;32m[KsavePlanToYAML[m[K(const moveit::planning_interface::MoveGroupInterface::Plan&, const geometry_msgs::msg::PoseStamped&, const std::string&, int&, const std::string&)[m[K’
+  244 |         [01;31m[KSaveYaml::savePlanToYAML(pouring_plan, pouring_pose_stamped, "pouring", plan_counter_, plans_output_file_,1.0)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/include/SaveYaml.hpp:6:10:[m[K [01;36m[Knote: [m[Kdeclared here
+    6 |     void [01;36m[KsavePlanToYAML[m[K(const moveit::planning_interface::MoveGroupInterface::Plan& plan,
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:116:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kapproach_dist[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  116 |         double [01;35m[Kapproach_dist[m[K = this->get_parameter("approach_distance").as_double();
+      |                [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:117:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klift_dist[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  117 |         double [01;35m[Klift_dist[m[K = this->get_parameter("lift_distance").as_double();
+      |                [01;35m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pick_place_server.dir/build.make:76: CMakeFiles/pick_place_server.dir/src/pick_place_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/pick_place_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -4,6 +4,7 @@
 /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Congelatore.stl
 /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/piatto_noCoperchio.stl
 /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Rastrelliera.stl
+/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Roboqbo_semplificato.stl
 /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Bilancia.stl
 /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Monitor.stl
 /home/nicola/Desktop/Progetto_Sapore/install/build_scene_package/share/build_scene_package/meshes/Deimpilatore_piatti.stl

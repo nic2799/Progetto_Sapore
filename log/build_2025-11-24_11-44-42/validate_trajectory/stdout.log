@@ -1,0 +1,26 @@
+[ 50%] Built target validate_trajectory_node
+[ 66%] Built target Valid_trajectory_click
+[100%] Built target execute_yaml_trajectories_node
+-- Install configuration: ""
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/lib/validate_trajectory/validate_trajectory_node
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/lib/validate_trajectory/Valid_trajectory_click
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/lib/validate_trajectory/execute_yaml_trajectories_node
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/launch
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/launch/validate_click.launch.py
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/launch/validate_with_moveit.launch.py
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/launch/validate_trajectory.launch.py
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/ament_index/resource_index/package_run_dependencies/validate_trajectory
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/ament_index/resource_index/parent_prefix_path/validate_trajectory
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/path.sh
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/path.dsv
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.bash
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.sh
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.zsh
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.dsv
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/package.dsv
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/ament_index/resource_index/packages/validate_trajectory
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/cmake/validate_trajectoryConfig.cmake
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/cmake/validate_trajectoryConfig-version.cmake
+-- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/package.xml

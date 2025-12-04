@@ -19,21 +19,14 @@ def generate_launch_description():
     # Nodo Reachability per la pedana
     reachability_node_tavolo = Node(
         package="nodes",
-        executable="test_reach",
+        executable="Raggiungibilita",
         name="reachability_tavolo", 
         output="screen",
         parameters=[
             robot_description,
             moveit_config.robot_description_semantic,
             moveit_config.robot_description_kinematics,
-            {
-                "group_name": "right_",
-                "xmin": -1.05, "xmax": -0.78,
-                "ymin": -2.90, "ymax": -1.30,
-                "zmin": 0.85,  "zmax": 1.0,
-                "roll": 1.57, "pitch": 1.57, "yaw": 0.0,
-                "step": 0.1,
-            },
+          
         ],
     )
 

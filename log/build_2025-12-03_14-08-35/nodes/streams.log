@@ -1,0 +1,13 @@
+[0.047s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8
+[0.178s] [ 16%] Built target interactive_reach
+[0.203s] [ 33%] Built target Raggiungibilita
+[0.242s] [ 50%] Built target Reac_marker
+[0.242s] [ 58%] [32mBuilding CXX object CMakeFiles/check_collision.dir/src/check_start_state_collision.cpp.o[0m
+[0.243s] [ 75%] Built target test_reach
+[0.250s] [ 91%] Built target Reach
+[0.287s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/check_start_state_collision.cpp: No such file or directory
+[0.288s] compilation terminated.
+[0.292s] gmake[2]: *** [CMakeFiles/check_collision.dir/build.make:76: CMakeFiles/check_collision.dir/src/check_start_state_collision.cpp.o] Error 1
+[0.292s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/check_collision.dir/all] Error 2
+[0.292s] gmake: *** [Makefile:146: all] Error 2
+[0.306s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/nodes' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/nodes -- -j8 -l8

@@ -1,0 +1,31 @@
+[ 33%] Built target MoveitHelper
+[ 50%] [32mBuilding CXX object CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o[0m
+In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/include/SaveYaml.hpp:3[m[K,
+                 from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K savePlanToYAML[m[K(const moveit::planning_interface::MoveGroupInterface::Plan&, const geometry_msgs::msg::PoseStamped&, const std::string&, int&, const std::string&)[m[K’:
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:18:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kexists[m[K’ is not a member of ‘[01m[Kstd::filesystem[m[K’; did you mean ‘[01m[Krcpputils::fs::exists[m[K’?
+   18 |     if (std::filesystem::[01;31m[Kexists[m[K(plans_output_file_)) {
+      |                          [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logger.hpp:26[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp:42[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_model/joint_model_group.hpp:42[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_model/robot_model.hpp:45[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:40[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:41[m[K,
+                 from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:52[m[K:
+[01m[K/opt/ros/jazzy/include/rcpputils/rcpputils/filesystem_helper.hpp:260:23:[m[K [01;36m[Knote: [m[K‘[01m[Krcpputils::fs::exists[m[K’ declared here
+  260 | RCPPUTILS_PUBLIC bool [01;36m[Kexists[m[K(const path & path_to_check);
+      |                       [01;36m[K^~~~~~[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:27:31:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[KYAML::Node&[m[K’ to an rvalue of type ‘[01m[KYAML::Node[m[K’
+   27 |     auto& plans = root["plans"[01;31m[K][m[K;
+      |                               [01;31m[K^[m[K
+[01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:60:46:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[KYAML::Node&[m[K’ to an rvalue of type ‘[01m[KYAML::Node[m[K’
+   60 |     auto& trajs = current_plan["trajectories"[01;31m[K][m[K;
+      |                                              [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/SaveYaml.dir/build.make:76: CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/SaveYaml.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -6,6 +6,8 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
+        "${workspaceFolder}/src/robot_skills/include",
+
         "/opt/ros/jazzy/include/**",
         "/usr/include/**"
       ],

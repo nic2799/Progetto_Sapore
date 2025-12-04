@@ -1,0 +1,218 @@
+[0.000000] (-) TimerEvent: {}
+[0.000303] (-) JobUnselected: {'identifier': 'build_scene_package'}
+[0.000591] (-) JobUnselected: {'identifier': 'iiwa_config_moveit_config'}
+[0.000951] (-) JobUnselected: {'identifier': 'iiwa_description'}
+[0.001001] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.001100] (-) JobUnselected: {'identifier': 'nodes'}
+[0.001132] (-) JobUnselected: {'identifier': 'robot_skill'}
+[0.001168] (-) JobUnselected: {'identifier': 'validate_trajectory'}
+[0.001193] (robot_skills) JobQueued: {'identifier': 'robot_skills', 'dependencies': OrderedDict()}
+[0.001220] (robot_skills) JobStarted: {'identifier': 'robot_skills'}
+[0.009386] (robot_skills) JobProgress: {'identifier': 'robot_skills', 'progress': 'cmake'}
+[0.012768] (robot_skills) JobProgress: {'identifier': 'robot_skills', 'progress': 'build'}
+[0.012898] (robot_skills) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nicola/Desktop/Progetto_Sapore/build/robot_skills', '--', '-j8', '-l8'], 'cwd': '/home/nicola/Desktop/Progetto_Sapore/build/robot_skills', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicola', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nicola', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/nicola/.nvm/versions/node/v20.19.5/bin', 'NVM_INC': '/home/nicola/.nvm/versions/node/v20.19.5/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2020', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=0f27bb4a157d4df6689c49e0692171cc', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/nicola/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nicola/Desktop/Progetto_Sapore/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nicola', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nicola', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nicola/.nvm/versions/node/v20.19.5/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/nicola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nicola/.local/bin:/home/nicola/.local/bin:/home/nicola/RoboDK/bin:/usr/local/MATLAB/R2024b/bin', 'SESSION_MANAGER': 'local/randezvous:@/tmp/.ICE-unix/2020,unix/randezvous:/tmp/.ICE-unix/2020', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/628e2d6b_fb11_49dd_b347_5f37af52bd2d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QEOYG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.122', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory:/home/nicola/Desktop/Progetto_Sapore/install/robot_skills:/home/nicola/Desktop/Progetto_Sapore/install/robot_skill:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nicola/Desktop/Progetto_Sapore/build/robot_skills', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=0f27bb4a157d4df6689c49e0692171cc', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory:/home/nicola/Desktop/Progetto_Sapore/install/robot_skills:/home/nicola/Desktop/Progetto_Sapore/install/robot_skill:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099861] (-) TimerEvent: {}
+[0.148267] (robot_skills) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pick_place_server.dir/src/pick_place_server.cpp.o\x1b[0m\n'}
+[0.199964] (-) TimerEvent: {}
+[0.300464] (-) TimerEvent: {}
+[0.400847] (-) TimerEvent: {}
+[0.501127] (-) TimerEvent: {}
+[0.601487] (-) TimerEvent: {}
+[0.701834] (-) TimerEvent: {}
+[0.802209] (-) TimerEvent: {}
+[0.902947] (-) TimerEvent: {}
+[1.003936] (-) TimerEvent: {}
+[1.104423] (-) TimerEvent: {}
+[1.204826] (-) TimerEvent: {}
+[1.305329] (-) TimerEvent: {}
+[1.405769] (-) TimerEvent: {}
+[1.506160] (-) TimerEvent: {}
+[1.606479] (-) TimerEvent: {}
+[1.706810] (-) TimerEvent: {}
+[1.807112] (-) TimerEvent: {}
+[1.907492] (-) TimerEvent: {}
+[2.008225] (-) TimerEvent: {}
+[2.108591] (-) TimerEvent: {}
+[2.208967] (-) TimerEvent: {}
+[2.309366] (-) TimerEvent: {}
+[2.409769] (-) TimerEvent: {}
+[2.510179] (-) TimerEvent: {}
+[2.610528] (-) TimerEvent: {}
+[2.710835] (-) TimerEvent: {}
+[2.811117] (-) TimerEvent: {}
+[2.911520] (-) TimerEvent: {}
+[3.012048] (-) TimerEvent: {}
+[3.112348] (-) TimerEvent: {}
+[3.212654] (-) TimerEvent: {}
+[3.312959] (-) TimerEvent: {}
+[3.413348] (-) TimerEvent: {}
+[3.513669] (-) TimerEvent: {}
+[3.613980] (-) TimerEvent: {}
+[3.714287] (-) TimerEvent: {}
+[3.814574] (-) TimerEvent: {}
+[3.914846] (-) TimerEvent: {}
+[3.920574] (robot_skills) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:2\x1b[m\x1b[K:\n'}
+[3.920862] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.921007] (robot_skills) StderrLine: {'line': b'   51 | a message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[3.921144] (robot_skills) StderrLine: {'line': b'      |                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.921265] (robot_skills) StderrLine: {'line': b'\n'}
+[4.014942] (-) TimerEvent: {}
+[4.115272] (-) TimerEvent: {}
+[4.215684] (-) TimerEvent: {}
+[4.315958] (-) TimerEvent: {}
+[4.416273] (-) TimerEvent: {}
+[4.516585] (-) TimerEvent: {}
+[4.616884] (-) TimerEvent: {}
+[4.717162] (-) TimerEvent: {}
+[4.817472] (-) TimerEvent: {}
+[4.917802] (-) TimerEvent: {}
+[5.018136] (-) TimerEvent: {}
+[5.118431] (-) TimerEvent: {}
+[5.218708] (-) TimerEvent: {}
+[5.318969] (-) TimerEvent: {}
+[5.419292] (-) TimerEvent: {}
+[5.519660] (-) TimerEvent: {}
+[5.619957] (-) TimerEvent: {}
+[5.720262] (-) TimerEvent: {}
+[5.820591] (-) TimerEvent: {}
+[5.920899] (-) TimerEvent: {}
+[6.021231] (-) TimerEvent: {}
+[6.121607] (-) TimerEvent: {}
+[6.221943] (-) TimerEvent: {}
+[6.322331] (-) TimerEvent: {}
+[6.346523] (robot_skills) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:3\x1b[m\x1b[K:\n'}
+[6.346777] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.346920] (robot_skills) StderrLine: {'line': b'   50 | a message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[6.347056] (robot_skills) StderrLine: {'line': b'      |                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.347173] (robot_skills) StderrLine: {'line': b'\n'}
+[6.422451] (-) TimerEvent: {}
+[6.522783] (-) TimerEvent: {}
+[6.574211] (robot_skills) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:16\x1b[m\x1b[K:\n'}
+[6.574494] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.h:48:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.574646] (robot_skills) StderrLine: {'line': b'   48 | a message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[6.574775] (robot_skills) StderrLine: {'line': b'      |                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.574902] (robot_skills) StderrLine: {'line': b'\n'}
+[6.622896] (-) TimerEvent: {}
+[6.623106] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:385:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99 in parameter declaration only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++20\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-fconcepts\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.623268] (robot_skills) StderrLine: {'line': b'  385 |          double final_z_rotation_rad = 120.0 * M_PI / 180.0,\x1b[01;35m\x1b[Kauto\x1b[m\x1b[K plan1 = moveit::planning_interface::MoveGroupInterface::Plan())\n'}
+[6.623360] (robot_skills) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.623442] (robot_skills) StderrLine: {'line': b'\n'}
+[6.651774] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PickPlaceServer::\x1b[01;32m\x1b[Kinit\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.652082] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:60:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kattempts\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.652226] (robot_skills) StderrLine: {'line': b'   60 |         int \x1b[01;35m\x1b[Kattempts\x1b[m\x1b[K = 0;\n'}
+[6.652357] (robot_skills) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.652502] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:61:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kmax_attempts\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.652632] (robot_skills) StderrLine: {'line': b'   61 |         const int \x1b[01;35m\x1b[Kmax_attempts\x1b[m\x1b[K = 30;  // 30 secondi max\n'}
+[6.652751] (robot_skills) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.679247] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool PickPlaceServer::\x1b[01;32m\x1b[KexecutePickAndPlace\x1b[m\x1b[K(const std::string&, const geometry_msgs::msg::Pose&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.679540] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:547:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdouble moveit::planning_interface::MoveGroupInterface::\x1b[01;32m\x1b[KcomputeCartesianPath\x1b[m\x1b[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Drop jump_threshold [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.679735] (robot_skills) StderrLine: {'line': b'  547 |     double fraction = \x1b[01;35m\x1b[Kmove_group_->computeCartesianPath(waypoints, eef_step, jump_threshold, trajectory)\x1b[m\x1b[K;\n'}
+[6.679884] (robot_skills) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.680043] (robot_skills) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:52\x1b[m\x1b[K:\n'}
+[6.680184] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.680320] (robot_skills) StderrLine: {'line': b'  765 |   \x1b[01;36m\x1b[KcomputeCartesianPath\x1b[m\x1b[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,\n'}
+[6.680457] (robot_skills) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.682175] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:592:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdouble moveit::planning_interface::MoveGroupInterface::\x1b[01;32m\x1b[KcomputeCartesianPath\x1b[m\x1b[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Drop jump_threshold [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.682343] (robot_skills) StderrLine: {'line': b'  592 |     fraction = \x1b[01;35m\x1b[Kmove_group_->computeCartesianPath(waypoints, eef_step, jump_threshold, trajectory)\x1b[m\x1b[K;\n'}
+[6.682453] (robot_skills) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.682558] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.682664] (robot_skills) StderrLine: {'line': b'  765 |   \x1b[01;36m\x1b[KcomputeCartesianPath\x1b[m\x1b[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,\n'}
+[6.682770] (robot_skills) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.685783] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:697:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[Kauto roll\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.685951] (robot_skills) StderrLine: {'line': b'  697 |     auto \x1b[01;31m\x1b[Kroll\x1b[m\x1b[K = M_PI/2;      // Rotazione attorno asse X (radianti)\n'}
+[6.686058] (robot_skills) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.686142] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:622:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Kdouble roll\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.686217] (robot_skills) StderrLine: {'line': b'  622 |     double \x1b[01;36m\x1b[Kroll\x1b[m\x1b[K = M_PI/2;      // Rotazione attorno asse X (radianti)\n'}
+[6.686287] (robot_skills) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.686355] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:698:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[Kauto pitch\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.686425] (robot_skills) StderrLine: {'line': b'  698 |     auto \x1b[01;31m\x1b[Kpitch\x1b[m\x1b[K = M_PI/2;     // Rotazione attorno asse Y (radianti)\n'}
+[6.686496] (robot_skills) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.686566] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:623:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Kdouble pitch\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.686664] (robot_skills) StderrLine: {'line': b'  623 |     double \x1b[01;36m\x1b[Kpitch\x1b[m\x1b[K = M_PI/2;     // Rotazione attorno asse Y (radianti)\n'}
+[6.686735] (robot_skills) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.686802] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:699:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[Kauto yaw\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.686876] (robot_skills) StderrLine: {'line': b'  699 |     auto \x1b[01;31m\x1b[Kyaw\x1b[m\x1b[K = 0;         // Rotazione attorno asse Z\n'}
+[6.686945] (robot_skills) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.687011] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:624:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Kdouble yaw\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.687089] (robot_skills) StderrLine: {'line': b'  624 |     double \x1b[01;36m\x1b[Kyaw\x1b[m\x1b[K = -M_PI/2;          // Rotazione attorno asse Z (radianti)\n'}
+[6.687166] (robot_skills) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.687231] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:700:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Ktf2::Quaternion quat_tf2\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.687295] (robot_skills) StderrLine: {'line': b'  700 |     tf2::Quaternion \x1b[01;31m\x1b[Kquat_tf2\x1b[m\x1b[K;\n'}
+[6.687357] (robot_skills) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.687419] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:627:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf2::Quaternion quat_tf2\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[6.687499] (robot_skills) StderrLine: {'line': b'  627 |     tf2::Quaternion \x1b[01;36m\x1b[Kquat_tf2\x1b[m\x1b[K;\n'}
+[6.687562] (robot_skills) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.688393] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:507:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kapproach_dist\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.688549] (robot_skills) StderrLine: {'line': b'  507 |     double \x1b[01;35m\x1b[Kapproach_dist\x1b[m\x1b[K = this->get_parameter("approach_distance").as_double();\n'}
+[6.688636] (robot_skills) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.688714] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:508:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klift_dist\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.688809] (robot_skills) StderrLine: {'line': b'  508 |     double \x1b[01;35m\x1b[Klift_dist\x1b[m\x1b[K = this->get_parameter("lift_distance").as_double();\n'}
+[6.688904] (robot_skills) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.723041] (-) TimerEvent: {}
+[6.824145] (-) TimerEvent: {}
+[6.924586] (-) TimerEvent: {}
+[7.024891] (-) TimerEvent: {}
+[7.100473] (robot_skills) StderrLine: {'line': b'/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kbool PickPlaceServer::\x1b[01;32m\x1b[KtestPlannerPouring\x1b[m\x1b[K(const geometry_msgs::msg::Pose&, const std::string&, double, auto:45) \x1b[35m\x1b[K[with auto:45 = moveit::planning_interface::MoveGroupInterface::Plan; geometry_msgs::msg::Pose = geometry_msgs::msg::Pose_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.100798] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:684:46:\x1b[m\x1b[K   required from here\n'}
+[7.100962] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:383:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbase_pose\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.101127] (robot_skills) StderrLine: {'line': b'  383 | bool testPlannerPouring(\x1b[01;35m\x1b[Kconst geometry_msgs::msg::Pose &base_pose\x1b[m\x1b[K,\n'}
+[7.101267] (robot_skills) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.125055] (-) TimerEvent: {}
+[7.225392] (-) TimerEvent: {}
+[7.325702] (-) TimerEvent: {}
+[7.426029] (-) TimerEvent: {}
+[7.527111] (-) TimerEvent: {}
+[7.627471] (-) TimerEvent: {}
+[7.727761] (-) TimerEvent: {}
+[7.828129] (-) TimerEvent: {}
+[7.928500] (-) TimerEvent: {}
+[8.029007] (-) TimerEvent: {}
+[8.129382] (-) TimerEvent: {}
+[8.229744] (-) TimerEvent: {}
+[8.330088] (-) TimerEvent: {}
+[8.430353] (-) TimerEvent: {}
+[8.530613] (-) TimerEvent: {}
+[8.630905] (-) TimerEvent: {}
+[8.731244] (-) TimerEvent: {}
+[8.831695] (-) TimerEvent: {}
+[8.932146] (-) TimerEvent: {}
+[9.032564] (-) TimerEvent: {}
+[9.132927] (-) TimerEvent: {}
+[9.233251] (-) TimerEvent: {}
+[9.333546] (-) TimerEvent: {}
+[9.433839] (-) TimerEvent: {}
+[9.534183] (-) TimerEvent: {}
+[9.634551] (-) TimerEvent: {}
+[9.734950] (-) TimerEvent: {}
+[9.835246] (-) TimerEvent: {}
+[9.935510] (-) TimerEvent: {}
+[10.035890] (-) TimerEvent: {}
+[10.136302] (-) TimerEvent: {}
+[10.236668] (-) TimerEvent: {}
+[10.337007] (-) TimerEvent: {}
+[10.437330] (-) TimerEvent: {}
+[10.537642] (-) TimerEvent: {}
+[10.637955] (-) TimerEvent: {}
+[10.738357] (-) TimerEvent: {}
+[10.838755] (-) TimerEvent: {}
+[10.939109] (-) TimerEvent: {}
+[11.039416] (-) TimerEvent: {}
+[11.139797] (-) TimerEvent: {}
+[11.240501] (-) TimerEvent: {}
+[11.341506] (-) TimerEvent: {}
+[11.441882] (-) TimerEvent: {}
+[11.542608] (-) TimerEvent: {}
+[11.643048] (-) TimerEvent: {}
+[11.743521] (-) TimerEvent: {}
+[11.843899] (-) TimerEvent: {}
+[11.944189] (-) TimerEvent: {}
+[12.044552] (-) TimerEvent: {}
+[12.144836] (-) TimerEvent: {}
+[12.245239] (-) TimerEvent: {}
+[12.345552] (-) TimerEvent: {}
+[12.356949] (robot_skills) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pick_place_server.dir/build.make:76: CMakeFiles/pick_place_server.dir/src/pick_place_server.cpp.o] Error 1\n'}
+[12.357253] (robot_skills) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_place_server.dir/all] Error 2\n'}
+[12.357471] (robot_skills) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.360454] (robot_skills) CommandEnded: {'returncode': 2}
+[12.374961] (robot_skills) JobEnded: {'identifier': 'robot_skills', 'rc': 2}
+[12.386069] (-) EventReactorShutdown: {}

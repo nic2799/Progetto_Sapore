@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-52b735449225580cf760.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "reachability_package",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Reac_marker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Reac_marker-0226371abfec923843ec.json",
+					"name" : "Reac_marker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Reach::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Reach-7504a4c0d80310fc9137.json",
+					"name" : "Reach",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interactive_reach::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interactive_reach-ba52f8686dc1224a943f.json",
+					"name" : "interactive_reach",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "reachability_package_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-reachability_package_uninstall-751185a1b43d7cd80421.json",
+					"name" : "reachability_package_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-06fdf3e7af7cd298a8da.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nicola/Desktop/Progetto_Sapore/build/reachability_package",
+		"source" : "/home/nicola/Desktop/Progetto_Sapore/src/reachability_package"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

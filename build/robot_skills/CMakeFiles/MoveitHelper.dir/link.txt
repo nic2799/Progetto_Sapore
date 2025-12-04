@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMoveitHelper.a CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.o
+/usr/bin/ranlib libMoveitHelper.a

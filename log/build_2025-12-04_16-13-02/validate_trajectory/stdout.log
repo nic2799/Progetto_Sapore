@@ -1,0 +1,3 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/validate_trajectory_node.dir/src/validate_trajectory_node.cpp.o[0m
+[ 50%] Built target execute_yaml_trajectories_node
+[ 83%] Built target Valid_trajectory_click

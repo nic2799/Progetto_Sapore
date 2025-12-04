@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000374] (-) JobUnselected: {'identifier': 'build_scene_package'}
+[0.000411] (-) JobUnselected: {'identifier': 'iiwa_config_moveit_config'}
+[0.000433] (-) JobUnselected: {'identifier': 'iiwa_description'}
+[0.000448] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000465] (-) JobUnselected: {'identifier': 'nodes'}
+[0.000478] (-) JobUnselected: {'identifier': 'robot_skill'}
+[0.000490] (-) JobUnselected: {'identifier': 'validate_trajectory'}
+[0.000505] (robot_skills) JobQueued: {'identifier': 'robot_skills', 'dependencies': OrderedDict()}
+[0.000524] (robot_skills) JobStarted: {'identifier': 'robot_skills'}
+[0.009916] (robot_skills) JobProgress: {'identifier': 'robot_skills', 'progress': 'cmake'}
+[0.013352] (robot_skills) JobProgress: {'identifier': 'robot_skills', 'progress': 'build'}
+[0.013483] (robot_skills) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nicola/Desktop/Progetto_Sapore/build/robot_skills', '--', '-j8', '-l8'], 'cwd': '/home/nicola/Desktop/Progetto_Sapore/build/robot_skills', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicola', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nicola', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/nicola/.nvm/versions/node/v20.19.5/bin', 'NVM_INC': '/home/nicola/.nvm/versions/node/v20.19.5/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1892', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e4ac0b5f3c8c544a7c9f336669245c10', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/nicola/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nicola/Desktop/Progetto_Sapore/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nicola', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nicola', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nicola/.nvm/versions/node/v20.19.5/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/nicola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nicola/.local/bin:/home/nicola/.local/bin:/home/nicola/RoboDK/bin:/usr/local/MATLAB/R2024b/bin', 'SESSION_MANAGER': 'local/randezvous:@/tmp/.ICE-unix/1892,unix/randezvous:/tmp/.ICE-unix/1892', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9e6665e8_0450_4354_bd03_a5aadea3fc45', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G5OJG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory:/home/nicola/Desktop/Progetto_Sapore/install/robot_skills:/home/nicola/Desktop/Progetto_Sapore/install/robot_skill:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nicola/Desktop/Progetto_Sapore/build/robot_skills', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e4ac0b5f3c8c544a7c9f336669245c10', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nicola/Desktop/Progetto_Sapore/install/validate_trajectory:/home/nicola/Desktop/Progetto_Sapore/install/robot_skills:/home/nicola/Desktop/Progetto_Sapore/install/robot_skill:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099785] (-) TimerEvent: {}
+[0.134395] (robot_skills) StdoutLine: {'line': b'[ 33%] Built target MoveitHelper\n'}
+[0.157867] (robot_skills) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o\x1b[0m\n'}
+[0.199866] (-) TimerEvent: {}
+[0.300152] (-) TimerEvent: {}
+[0.400441] (-) TimerEvent: {}
+[0.500733] (-) TimerEvent: {}
+[0.601148] (-) TimerEvent: {}
+[0.701546] (-) TimerEvent: {}
+[0.801900] (-) TimerEvent: {}
+[0.902273] (-) TimerEvent: {}
+[1.002686] (-) TimerEvent: {}
+[1.054273] (robot_skills) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/include/SaveYaml.hpp:3\x1b[m\x1b[K,\n'}
+[1.054634] (robot_skills) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp:2\x1b[m\x1b[K:\n'}
+[1.054833] (robot_skills) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.054984] (robot_skills) StderrLine: {'line': b'   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[1.055118] (robot_skills) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.102800] (-) TimerEvent: {}
+[1.203150] (-) TimerEvent: {}
+[1.303515] (-) TimerEvent: {}
+[1.403916] (-) TimerEvent: {}
+[1.504277] (-) TimerEvent: {}
+[1.604586] (-) TimerEvent: {}
+[1.704880] (-) TimerEvent: {}
+[1.805170] (-) TimerEvent: {}
+[1.905453] (-) TimerEvent: {}
+[2.005771] (-) TimerEvent: {}
+[2.106233] (-) TimerEvent: {}
+[2.206532] (-) TimerEvent: {}
+[2.306875] (-) TimerEvent: {}
+[2.407151] (-) TimerEvent: {}
+[2.507432] (-) TimerEvent: {}
+[2.607868] (-) TimerEvent: {}
+[2.708208] (-) TimerEvent: {}
+[2.808693] (-) TimerEvent: {}
+[2.909091] (-) TimerEvent: {}
+[3.009580] (-) TimerEvent: {}
+[3.109961] (-) TimerEvent: {}
+[3.210280] (-) TimerEvent: {}
+[3.310630] (-) TimerEvent: {}
+[3.411031] (-) TimerEvent: {}
+[3.511403] (-) TimerEvent: {}
+[3.611797] (-) TimerEvent: {}
+[3.712129] (-) TimerEvent: {}
+[3.812507] (-) TimerEvent: {}
+[3.912944] (-) TimerEvent: {}
+[4.013338] (-) TimerEvent: {}
+[4.113811] (-) TimerEvent: {}
+[4.214192] (-) TimerEvent: {}
+[4.314595] (-) TimerEvent: {}
+[4.414969] (-) TimerEvent: {}
+[4.515321] (-) TimerEvent: {}
+[4.615679] (-) TimerEvent: {}
+[4.716034] (-) TimerEvent: {}
+[4.816399] (-) TimerEvent: {}
+[4.916770] (-) TimerEvent: {}
+[5.017166] (-) TimerEvent: {}
+[5.117573] (-) TimerEvent: {}
+[5.217877] (-) TimerEvent: {}
+[5.318179] (-) TimerEvent: {}
+[5.418454] (-) TimerEvent: {}
+[5.518700] (-) TimerEvent: {}
+[5.618993] (-) TimerEvent: {}
+[5.719349] (-) TimerEvent: {}
+[5.819818] (-) TimerEvent: {}
+[5.920216] (-) TimerEvent: {}
+[6.020532] (-) TimerEvent: {}
+[6.120864] (-) TimerEvent: {}
+[6.221201] (-) TimerEvent: {}
+[6.326853] (-) TimerEvent: {}
+[6.427252] (-) TimerEvent: {}
+[6.527533] (-) TimerEvent: {}
+[6.627815] (-) TimerEvent: {}
+[6.728073] (-) TimerEvent: {}
+[6.828376] (-) TimerEvent: {}
+[6.928699] (-) TimerEvent: {}
+[7.028971] (-) TimerEvent: {}
+[7.129563] (-) TimerEvent: {}
+[7.229798] (-) TimerEvent: {}
+[7.330208] (-) TimerEvent: {}
+[7.430673] (-) TimerEvent: {}
+[7.531001] (-) TimerEvent: {}
+[7.631358] (-) TimerEvent: {}
+[7.731675] (-) TimerEvent: {}
+[7.832001] (-) TimerEvent: {}
+[7.932482] (-) TimerEvent: {}
+[8.032951] (-) TimerEvent: {}
+[8.133263] (-) TimerEvent: {}
+[8.233551] (-) TimerEvent: {}
+[8.333822] (-) TimerEvent: {}
+[8.434040] (-) TimerEvent: {}
+[8.534339] (-) TimerEvent: {}
+[8.538657] (robot_skills) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX static library libSaveYaml.a\x1b[0m\n'}
+[8.595293] (robot_skills) StdoutLine: {'line': b'[ 66%] Built target SaveYaml\n'}
+[8.634486] (-) TimerEvent: {}
+[8.668293] (robot_skills) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable pick_place_server\x1b[0m\n'}
+[8.734666] (-) TimerEvent: {}
+[8.835121] (-) TimerEvent: {}
+[8.935453] (-) TimerEvent: {}
+[9.035757] (-) TimerEvent: {}
+[9.136029] (-) TimerEvent: {}
+[9.236329] (-) TimerEvent: {}
+[9.336631] (-) TimerEvent: {}
+[9.365315] (robot_skills) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/pick_place_server.dir/src/pick_place_server.cpp.o: in function `PickPlaceServer::executePickAndPlace(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, geometry_msgs::msg::Pose_<std::allocator<void> > const&)':\n"}
+[9.365616] (robot_skills) StderrLine: {'line': b"pick_place_server.cpp:(.text._ZN15PickPlaceServer19executePickAndPlaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN13geometry_msgs3msg5Pose_ISaIvEEE[_ZN15PickPlaceServer19executePickAndPlaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN13geometry_msgs3msg5Pose_ISaIvEEE]+0x4cf): undefined reference to `YAML::savePlanToYAML(moveit::planning_interface::MoveGroupInterface::Plan const&, geometry_msgs::msg::PoseStamped_<std::allocator<void> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[9.366790] (robot_skills) StderrLine: {'line': b"/usr/bin/ld: pick_place_server.cpp:(.text._ZN15PickPlaceServer19executePickAndPlaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN13geometry_msgs3msg5Pose_ISaIvEEE[_ZN15PickPlaceServer19executePickAndPlaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN13geometry_msgs3msg5Pose_ISaIvEEE]+0x87d): undefined reference to `YAML::savePlanToYAML(moveit::planning_interface::MoveGroupInterface::Plan const&, geometry_msgs::msg::PoseStamped_<std::allocator<void> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[9.367095] (robot_skills) StderrLine: {'line': b"/usr/bin/ld: pick_place_server.cpp:(.text._ZN15PickPlaceServer19executePickAndPlaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN13geometry_msgs3msg5Pose_ISaIvEEE[_ZN15PickPlaceServer19executePickAndPlaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN13geometry_msgs3msg5Pose_ISaIvEEE]+0xc30): undefined reference to `YAML::savePlanToYAML(moveit::planning_interface::MoveGroupInterface::Plan const&, geometry_msgs::msg::PoseStamped_<std::allocator<void> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[9.367251] (robot_skills) StderrLine: {'line': b"/usr/bin/ld: pick_place_server.cpp:(.text._ZN15PickPlaceServer19executePickAndPlaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN13geometry_msgs3msg5Pose_ISaIvEEE[_ZN15PickPlaceServer19executePickAndPlaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN13geometry_msgs3msg5Pose_ISaIvEEE]+0x1074): undefined reference to `YAML::savePlanToYAML(moveit::planning_interface::MoveGroupInterface::Plan const&, geometry_msgs::msg::PoseStamped_<std::allocator<void> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[9.367407] (robot_skills) StderrLine: {'line': b"/usr/bin/ld: pick_place_server.cpp:(.text._ZN15PickPlaceServer19executePickAndPlaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN13geometry_msgs3msg5Pose_ISaIvEEE[_ZN15PickPlaceServer19executePickAndPlaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN13geometry_msgs3msg5Pose_ISaIvEEE]+0x1321): undefined reference to `YAML::savePlanToYAML(moveit::planning_interface::MoveGroupInterface::Plan const&, geometry_msgs::msg::PoseStamped_<std::allocator<void> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[9.436731] (-) TimerEvent: {}
+[9.439032] (robot_skills) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[9.440704] (robot_skills) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pick_place_server.dir/build.make:369: pick_place_server] Error 1\n'}
+[9.441067] (robot_skills) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/pick_place_server.dir/all] Error 2\n'}
+[9.441240] (robot_skills) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.443248] (robot_skills) CommandEnded: {'returncode': 2}
+[9.453542] (robot_skills) JobEnded: {'identifier': 'robot_skills', 'rc': 2}
+[9.464347] (-) EventReactorShutdown: {}

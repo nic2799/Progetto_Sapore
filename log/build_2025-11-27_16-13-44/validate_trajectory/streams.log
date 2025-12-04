@@ -1,0 +1,58 @@
+[0.038s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory -- -j8 -l8
+[0.221s] [ 33%] Built target Valid_trajectory_click
+[0.262s] [ 50%] [32mBuilding CXX object CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o[0m
+[0.321s] [ 83%] Built target validate_trajectory_node
+[3.544s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:425:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[3.544s]   425 | }
+[3.544s]       |  [01;31m[K^[m[K
+[3.544s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:26:57:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[3.544s]    26 | class ExecuteYamlTrajectoriesNode : public rclcpp::Node [01;36m[K{[m[K
+[3.544s]       |                                                         [01;36m[K^[m[K
+[3.552s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:[m[K In constructor ‘[01m[KExecuteYamlTrajectoriesNode::[01;32m[KExecuteYamlTrajectoriesNode[m[K()[m[K’:
+[3.552s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[3.553s]    35 |         [01;31m[Kmarker_pub_[m[K = this->create_publisher<visualization_msgs::msg::MarkerArray>("/visualization_marker_array", 10);
+[3.553s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.649s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:69:76:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.650s]    69 |                                  std::function<void()> callback_on_finish) [01;31m[K{[m[K
+[3.650s]       |                                                                            [01;31m[K^[m[K
+[3.650s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:84:90:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.650s]    84 |                                                std::function<void()> callback_on_finish) [01;31m[K{[m[K
+[3.650s]       |                                                                                          [01;31m[K^[m[K
+[3.651s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:109:82:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.652s]   109 |                                        std::function<void()> callback_on_finish) [01;31m[K{[m[K
+[3.652s]       |                                                                                  [01;31m[K^[m[K
+[3.652s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:143:68:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.652s]   143 |                          std::function<void()> callback_on_finish) [01;31m[K{[m[K
+[3.652s]       |                                                                    [01;31m[K^[m[K
+[3.652s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:164:103:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.652s]   164 |             bool loadTrajectoriesFromYAML(const std::string& yaml_file, std::vector<PlanInfo>& plans) [01;31m[K{[m[K
+[3.652s]       |                                                                                                       [01;31m[K^[m[K
+[3.652s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:218:45:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.652s]   218 |             void publishTrajectoryMarkers() [01;31m[K{[m[K
+[3.652s]       |                                             [01;31m[K^[m[K
+[3.652s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:255:74:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.653s]   255 |                                                 const std::string& side) [01;31m[K{[m[K
+[3.654s]       |                                                                          [01;31m[K^[m[K
+[3.654s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:268:88:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.654s]   268 |                                                               const std::string& side) [01;31m[K{[m[K
+[3.654s]       |                                                                                        [01;31m[K^[m[K
+[3.654s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:294:95:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.655s]   294 |     bool loadTrajectoriesFromYAML(const std::string& yaml_file, std::vector<PlanInfo>& plans) [01;31m[K{[m[K
+[3.655s]       |                                                                                               [01;31m[K^[m[K
+[3.655s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:425:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[3.655s]   425 | }
+[3.655s]       |  [01;31m[K^[m[K
+[3.656s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:34:76:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[3.656s]    34 |     ExecuteYamlTrajectoriesNode() : Node("execute_yaml_trajectories_node") [01;36m[K{[m[K
+[3.656s]       |                                                                            [01;36m[K^[m[K
+[3.656s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:57:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_started_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.656s]    57 |             bool [01;35m[Kleft_started_[m[K = false;
+[3.656s]       |                  [01;35m[K^~~~~~~~~~~~~[m[K
+[3.656s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:[m[K At global scope:
+[3.656s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:425:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[3.656s]   425 | }
+[3.657s]       |  [01;31m[K^[m[K
+[4.895s] gmake[2]: *** [CMakeFiles/execute_yaml_trajectories_node.dir/build.make:76: CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o] Error 1
+[4.895s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/execute_yaml_trajectories_node.dir/all] Error 2
+[4.895s] gmake: *** [Makefile:146: all] Error 2
+[4.897s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory -- -j8 -l8

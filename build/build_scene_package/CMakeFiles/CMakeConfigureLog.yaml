@@ -569,3 +569,265 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:682 (check_library_exists)"
+      - "/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/rviz_ogre_vendor-extras.cmake:122 (find_package)"
+      - "/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/rviz_ogre_vendorConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/rviz_common/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/rviz_common/cmake/rviz_commonConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/moveit_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:27 (find_package)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
+    directories:
+      source: "/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-5Kiwr6"
+      binary: "/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-5Kiwr6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/eigen3_cmake_module/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-5Kiwr6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8bbee/fast
+        gmake[1]: Entering directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-5Kiwr6'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8bbee.dir/build.make CMakeFiles/cmTC_8bbee.dir/build
+        gmake[2]: Entering directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-5Kiwr6'
+        Building C object CMakeFiles/cmTC_8bbee.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_8bbee.dir/CheckFunctionExists.c.o -c /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-5Kiwr6/CheckFunctionExists.c
+        Linking C executable cmTC_8bbee
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bbee.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_8bbee.dir/CheckFunctionExists.c.o -o cmTC_8bbee  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+        gmake[2]: Leaving directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-5Kiwr6'
+        gmake[1]: Leaving directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-5Kiwr6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:697 (check_function_exists)"
+      - "/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/rviz_ogre_vendor-extras.cmake:122 (find_package)"
+      - "/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/rviz_ogre_vendorConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/rviz_common/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/rviz_common/cmake/rviz_commonConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/moveit_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:27 (find_package)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-bmjDC8"
+      binary: "/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-bmjDC8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/eigen3_cmake_module/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-bmjDC8'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7aa29/fast
+        gmake[1]: Entering directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-bmjDC8'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7aa29.dir/build.make CMakeFiles/cmTC_7aa29.dir/build
+        gmake[2]: Entering directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-bmjDC8'
+        Building C object CMakeFiles/cmTC_7aa29.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_7aa29.dir/CheckFunctionExists.c.o -c /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-bmjDC8/CheckFunctionExists.c
+        Linking C executable cmTC_7aa29
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7aa29.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_7aa29.dir/CheckFunctionExists.c.o -o cmTC_7aa29 
+        gmake[2]: Leaving directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-bmjDC8'
+        gmake[1]: Leaving directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-bmjDC8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:711 (check_function_exists)"
+      - "/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/rviz_ogre_vendor-extras.cmake:122 (find_package)"
+      - "/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/rviz_ogre_vendorConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/rviz_common/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/rviz_common/cmake/rviz_commonConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/moveit_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:27 (find_package)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-cF2ZNt"
+      binary: "/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-cF2ZNt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/eigen3_cmake_module/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-cF2ZNt'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_34ff1/fast
+        gmake[1]: Entering directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-cF2ZNt'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_34ff1.dir/build.make CMakeFiles/cmTC_34ff1.dir/build
+        gmake[2]: Entering directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-cF2ZNt'
+        Building C object CMakeFiles/cmTC_34ff1.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_34ff1.dir/CheckFunctionExists.c.o -c /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-cF2ZNt/CheckFunctionExists.c
+        Linking C executable cmTC_34ff1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34ff1.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_34ff1.dir/CheckFunctionExists.c.o -o cmTC_34ff1 
+        gmake[2]: Leaving directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-cF2ZNt'
+        gmake[1]: Leaving directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-cF2ZNt'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:720 (check_function_exists)"
+      - "/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/rviz_ogre_vendor-extras.cmake:122 (find_package)"
+      - "/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/rviz_ogre_vendorConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/rviz_common/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/rviz_common/cmake/rviz_commonConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/moveit_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:27 (find_package)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-GdLBWZ"
+      binary: "/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-GdLBWZ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/eigen3_cmake_module/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-GdLBWZ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_09a8e/fast
+        gmake[1]: Entering directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-GdLBWZ'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_09a8e.dir/build.make CMakeFiles/cmTC_09a8e.dir/build
+        gmake[2]: Entering directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-GdLBWZ'
+        Building C object CMakeFiles/cmTC_09a8e.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_09a8e.dir/CheckFunctionExists.c.o -c /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-GdLBWZ/CheckFunctionExists.c
+        Linking C executable cmTC_09a8e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09a8e.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_09a8e.dir/CheckFunctionExists.c.o -o cmTC_09a8e 
+        gmake[2]: Leaving directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-GdLBWZ'
+        gmake[1]: Leaving directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-GdLBWZ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:729 (check_function_exists)"
+      - "/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/rviz_ogre_vendor-extras.cmake:122 (find_package)"
+      - "/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/rviz_ogre_vendorConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/rviz_common/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/rviz_common/cmake/rviz_commonConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/moveit_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:27 (find_package)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-9RM2Pd"
+      binary: "/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-9RM2Pd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/eigen3_cmake_module/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-9RM2Pd'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_301b3/fast
+        gmake[1]: Entering directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-9RM2Pd'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_301b3.dir/build.make CMakeFiles/cmTC_301b3.dir/build
+        gmake[2]: Entering directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-9RM2Pd'
+        Building C object CMakeFiles/cmTC_301b3.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_301b3.dir/CheckFunctionExists.c.o -c /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-9RM2Pd/CheckFunctionExists.c
+        Linking C executable cmTC_301b3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_301b3.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_301b3.dir/CheckFunctionExists.c.o -o cmTC_301b3 
+        gmake[2]: Leaving directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-9RM2Pd'
+        gmake[1]: Leaving directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-9RM2Pd'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:739 (check_library_exists)"
+      - "/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/rviz_ogre_vendor-extras.cmake:122 (find_package)"
+      - "/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/rviz_ogre_vendorConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/rviz_common/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/rviz_common/cmake/rviz_commonConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/moveit_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig.cmake:41 (include)"
+      - "CMakeLists.txt:27 (find_package)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-e6ZO0F"
+      binary: "/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-e6ZO0F"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/jazzy/share/tinyxml2_vendor/cmake/Modules;/opt/ros/jazzy/share/eigen3_cmake_module/cmake/Modules;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-e6ZO0F'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b64c5/fast
+        gmake[1]: Entering directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-e6ZO0F'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b64c5.dir/build.make CMakeFiles/cmTC_b64c5.dir/build
+        gmake[2]: Entering directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-e6ZO0F'
+        Building C object CMakeFiles/cmTC_b64c5.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_b64c5.dir/CheckFunctionExists.c.o -c /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-e6ZO0F/CheckFunctionExists.c
+        Linking C executable cmTC_b64c5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b64c5.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_b64c5.dir/CheckFunctionExists.c.o -o cmTC_b64c5  -lICE 
+        gmake[2]: Leaving directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-e6ZO0F'
+        gmake[1]: Leaving directory '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/CMakeScratch/TryCompile-e6ZO0F'
+        
+      exitCode: 0
+...

@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.000203] (-) JobUnselected: {'identifier': 'build_scene_package'}
+[0.000355] (-) JobUnselected: {'identifier': 'iiwa_config_moveit_config'}
+[0.000370] (-) JobUnselected: {'identifier': 'iiwa_description'}
+[0.000380] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000391] (nodes) JobQueued: {'identifier': 'nodes', 'dependencies': OrderedDict({'interfaces': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces'})}
+[0.000407] (nodes) JobStarted: {'identifier': 'nodes'}
+[0.009930] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'cmake'}
+[0.010578] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'build'}
+[0.011128] (nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nicola/Desktop/Progetto_Sapore/build/nodes', '--', '-j8', '-l8'], 'cwd': '/home/nicola/Desktop/Progetto_Sapore/build/nodes', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicola', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nicola', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/nicola/.nvm/versions/node/v20.19.5/bin', 'NVM_INC': '/home/nicola/.nvm/versions/node/v20.19.5/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1915', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=59a457452699351b2ea8c10f69036031', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/nicola/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nicola/Desktop/Progetto_Sapore/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nicola', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nicola', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nicola/.nvm/versions/node/v20.19.5/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/nicola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nicola/.local/bin:/home/nicola/.local/bin:/home/nicola/RoboDK/bin:/usr/local/MATLAB/R2024b/bin', 'SESSION_MANAGER': 'local/randezvous:@/tmp/.ICE-unix/1915,unix/randezvous:/tmp/.ICE-unix/1915', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2a996179_bab6_434b_b5ec_68460e0bcd9c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C8ROF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nicola/Desktop/Progetto_Sapore/build/nodes', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=59a457452699351b2ea8c10f69036031', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.075872] (nodes) StdoutLine: {'line': b'[ 20%] Built target Raggiungibilita\n'}
+[0.077400] (nodes) StdoutLine: {'line': b'[ 40%] Built target interactive_reach\n'}
+[0.083765] (nodes) StdoutLine: {'line': b'[ 60%] Built target Reach\n'}
+[0.084080] (nodes) StdoutLine: {'line': b'[ 80%] Built target test_reach\n'}
+[0.099828] (-) TimerEvent: {}
+[0.110185] (nodes) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o\x1b[0m\n'}
+[0.199947] (-) TimerEvent: {}
+[0.300245] (-) TimerEvent: {}
+[0.400512] (-) TimerEvent: {}
+[0.500840] (-) TimerEvent: {}
+[0.601154] (-) TimerEvent: {}
+[0.701542] (-) TimerEvent: {}
+[0.801865] (-) TimerEvent: {}
+[0.902144] (-) TimerEvent: {}
+[1.002434] (-) TimerEvent: {}
+[1.102756] (-) TimerEvent: {}
+[1.203046] (-) TimerEvent: {}
+[1.303396] (-) TimerEvent: {}
+[1.403748] (-) TimerEvent: {}
+[1.504087] (-) TimerEvent: {}
+[1.604406] (-) TimerEvent: {}
+[1.704664] (-) TimerEvent: {}
+[1.804956] (-) TimerEvent: {}
+[1.905268] (-) TimerEvent: {}
+[2.005584] (-) TimerEvent: {}
+[2.106010] (-) TimerEvent: {}
+[2.206347] (-) TimerEvent: {}
+[2.306694] (-) TimerEvent: {}
+[2.407034] (-) TimerEvent: {}
+[2.507362] (-) TimerEvent: {}
+[2.607618] (-) TimerEvent: {}
+[2.707924] (-) TimerEvent: {}
+[2.808225] (-) TimerEvent: {}
+[2.908519] (-) TimerEvent: {}
+[3.008786] (-) TimerEvent: {}
+[3.109054] (-) TimerEvent: {}
+[3.209285] (-) TimerEvent: {}
+[3.309535] (-) TimerEvent: {}
+[3.409793] (-) TimerEvent: {}
+[3.450324] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:9\x1b[m\x1b[K:\n'}
+[3.450539] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.450608] (nodes) StderrLine: {'line': b'   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[3.450667] (nodes) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.509938] (-) TimerEvent: {}
+[3.610346] (-) TimerEvent: {}
+[3.710672] (-) TimerEvent: {}
+[3.810974] (-) TimerEvent: {}
+[3.911308] (-) TimerEvent: {}
+[4.011576] (-) TimerEvent: {}
+[4.111816] (-) TimerEvent: {}
+[4.212081] (-) TimerEvent: {}
+[4.312402] (-) TimerEvent: {}
+[4.412727] (-) TimerEvent: {}
+[4.512990] (-) TimerEvent: {}
+[4.613285] (-) TimerEvent: {}
+[4.713637] (-) TimerEvent: {}
+[4.813984] (-) TimerEvent: {}
+[4.914705] (-) TimerEvent: {}
+[5.015136] (-) TimerEvent: {}
+[5.115465] (-) TimerEvent: {}
+[5.215805] (-) TimerEvent: {}
+[5.316126] (-) TimerEvent: {}
+[5.416451] (-) TimerEvent: {}
+[5.516775] (-) TimerEvent: {}
+[5.617117] (-) TimerEvent: {}
+[5.717517] (-) TimerEvent: {}
+[5.817964] (-) TimerEvent: {}
+[5.918344] (-) TimerEvent: {}
+[5.984599] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:146:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDisplayRobotState\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmoveit_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.984854] (nodes) StderrLine: {'line': b'  146 |     rclcpp::Publisher<moveit_msgs::msg::\x1b[01;31m\x1b[KDisplayRobotState\x1b[m\x1b[K>::SharedPtr display_state_pub_;\n'}
+[5.984954] (nodes) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.985038] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:146:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.985127] (nodes) StderrLine: {'line': b'  146 |     rclcpp::Publisher<moveit_msgs::msg::DisplayRobotState\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr display_state_pub_;\n'}
+[5.985218] (nodes) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.985304] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:146:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[5.985393] (nodes) StderrLine: {'line': b'  146 |     rclcpp::Publisher<moveit_msgs::msg::DisplayRobotState>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K display_state_pub_;\n'}
+[5.985473] (nodes) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.985539] (nodes) StderrLine: {'line': b'      |                                                                      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[5.994771] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:146:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdisplay_state_pub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.995009] (nodes) StderrLine: {'line': b'  146 |     rclcpp::Publisher<moveit_msgs::msg::DisplayRobotState>::SharedPtr \x1b[01;31m\x1b[Kdisplay_state_pub_\x1b[m\x1b[K;\n'}
+[5.995116] (nodes) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.018454] (-) TimerEvent: {}
+[6.029893] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KReachabilityIKNode::\x1b[01;32m\x1b[KReachabilityIKNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.030135] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:67:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdisplay_state_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.030248] (nodes) StderrLine: {'line': b'   67 |         \x1b[01;31m\x1b[Kdisplay_state_pub_\x1b[m\x1b[K = this->create_publisher<moveit_msgs::msg::DisplayRobotState>("/display_robot_state", 10);\n'}
+[6.030351] (nodes) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.031711] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:67:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDisplayRobotState\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmoveit_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.031890] (nodes) StderrLine: {'line': b'   67 |         display_state_pub_ = this->create_publisher<moveit_msgs::msg::\x1b[01;31m\x1b[KDisplayRobotState\x1b[m\x1b[K>("/display_robot_state", 10);\n'}
+[6.031973] (nodes) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.032100] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:67:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KReachabilityIKNode::create_publisher<<expression error> >(const char [21], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.032192] (nodes) StderrLine: {'line': b'   67 |         display_state_pub_ = \x1b[01;31m\x1b[Kthis->create_publisher<moveit_msgs::msg::DisplayRobotState>("/display_robot_state", 10)\x1b[m\x1b[K;\n'}
+[6.032281] (nodes) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.032370] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663\x1b[m\x1b[K,\n'}
+[6.032469] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.032556] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.032651] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[6.032740] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:1\x1b[m\x1b[K:\n'}
+[6.032833] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:73:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::\x1b[01;32m\x1b[Kcreate_publisher\x1b[m\x1b[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.032927] (nodes) StderrLine: {'line': b'   73 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_publisher(\n'}
+[6.033015] (nodes) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.033111] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:73:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.033200] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:67:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.033294] (nodes) StderrLine: {'line': b'   67 |         display_state_pub_ = \x1b[01;31m\x1b[Kthis->create_publisher<moveit_msgs::msg::DisplayRobotState>("/display_robot_state", 10)\x1b[m\x1b[K;\n'}
+[6.033385] (nodes) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.035815] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ReachabilityIKNode::\x1b[01;32m\x1b[KspinLoop\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.036032] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:92:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.036143] (nodes) StderrLine: {'line': b'   92 |                 testReachability(\x1b[01;31m\x1b[Klast_pose_\x1b[m\x1b[K, group_);\n'}
+[6.036223] (nodes) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.036295] (nodes) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[6.036377] (nodes) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[Kgeometry_msgs::msg::PoseStamped {aka geometry_msgs::msg::PoseStamped_<std::allocator<void> >}\x1b[m\x1b[K\n'}
+[6.036458] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:183:81:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid ReachabilityIKNode::\x1b[01;32m\x1b[KtestReachability\x1b[m\x1b[K(const std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.036541] (nodes) StderrLine: {'line': b'  183 |       void testReachability(\x1b[01;36m\x1b[Kconst std::vector<geometry_msgs::msg::PoseStamped> &grid_points\x1b[m\x1b[K, const std::string &group_name)\n'}
+[6.036631] (nodes) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.055495] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ReachabilityIKNode::\x1b[01;32m\x1b[KtestReachability\x1b[m\x1b[K(const std::vector<geometry_msgs::msg::PoseStamped_<std::allocator<void> >, std::allocator<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.055723] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:209:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgroup\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgroup_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.055855] (nodes) StderrLine: {'line': b'  209 |             req->ik_request.ik_link_name = \x1b[01;31m\x1b[Kgroup\x1b[m\x1b[K + "tcp";//left_tcp,right_tcp(group \xc3\xa8 left_ o right_)\n'}
+[6.055947] (nodes) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.056030] (nodes) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[Kgroup_\x1b[m\x1b[K\n'}
+[6.064977] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:332:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDisplayRobotState\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmoveit_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.065223] (nodes) StderrLine: {'line': b'  332 |                 moveit_msgs::msg::\x1b[01;31m\x1b[KDisplayRobotState\x1b[m\x1b[K display_msg;\n'}
+[6.065322] (nodes) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.077618] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:333:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdisplay_msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.077931] (nodes) StderrLine: {'line': b'  333 |                 \x1b[01;31m\x1b[Kdisplay_msg\x1b[m\x1b[K.state.joint_state = candidate_js; // Usa i joint_state che hai trovato\n'}
+[6.078053] (nodes) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.101874] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:365:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdisplay_state_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.102102] (nodes) StderrLine: {'line': b'  365 |                 \x1b[01;31m\x1b[Kdisplay_state_pub_\x1b[m\x1b[K->publish(display_msg);\n'}
+[6.102212] (nodes) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.118578] (-) TimerEvent: {}
+[6.218923] (-) TimerEvent: {}
+[6.319247] (-) TimerEvent: {}
+[6.419595] (-) TimerEvent: {}
+[6.519979] (-) TimerEvent: {}
+[6.620398] (-) TimerEvent: {}
+[6.720990] (-) TimerEvent: {}
+[6.821336] (-) TimerEvent: {}
+[6.921670] (-) TimerEvent: {}
+[7.021987] (-) TimerEvent: {}
+[7.122224] (-) TimerEvent: {}
+[7.222494] (-) TimerEvent: {}
+[7.322879] (-) TimerEvent: {}
+[7.423271] (-) TimerEvent: {}
+[7.526959] (-) TimerEvent: {}
+[7.627269] (-) TimerEvent: {}
+[7.727562] (-) TimerEvent: {}
+[7.827861] (-) TimerEvent: {}
+[7.928196] (-) TimerEvent: {}
+[8.028465] (-) TimerEvent: {}
+[8.128786] (-) TimerEvent: {}
+[8.229268] (-) TimerEvent: {}
+[8.329504] (-) TimerEvent: {}
+[8.429746] (-) TimerEvent: {}
+[8.530002] (-) TimerEvent: {}
+[8.630345] (-) TimerEvent: {}
+[8.730626] (-) TimerEvent: {}
+[8.830896] (-) TimerEvent: {}
+[8.931202] (-) TimerEvent: {}
+[9.031493] (-) TimerEvent: {}
+[9.131760] (-) TimerEvent: {}
+[9.231996] (-) TimerEvent: {}
+[9.332270] (-) TimerEvent: {}
+[9.432549] (-) TimerEvent: {}
+[9.532845] (-) TimerEvent: {}
+[9.633167] (-) TimerEvent: {}
+[9.733454] (-) TimerEvent: {}
+[9.833759] (-) TimerEvent: {}
+[9.934060] (-) TimerEvent: {}
+[10.034343] (-) TimerEvent: {}
+[10.134657] (-) TimerEvent: {}
+[10.235038] (-) TimerEvent: {}
+[10.335378] (-) TimerEvent: {}
+[10.435739] (-) TimerEvent: {}
+[10.536144] (-) TimerEvent: {}
+[10.636423] (-) TimerEvent: {}
+[10.736687] (-) TimerEvent: {}
+[10.837035] (-) TimerEvent: {}
+[10.937478] (-) TimerEvent: {}
+[11.037966] (-) TimerEvent: {}
+[11.120213] (nodes) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/Reac_marker.dir/build.make:76: CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o] Error 1\n'}
+[11.120590] (nodes) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/Reac_marker.dir/all] Error 2\n'}
+[11.121015] (nodes) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.124085] (nodes) CommandEnded: {'returncode': 2}
+[11.138070] (-) TimerEvent: {}
+[11.138388] (nodes) JobEnded: {'identifier': 'nodes', 'rc': 2}
+[11.148990] (-) EventReactorShutdown: {}

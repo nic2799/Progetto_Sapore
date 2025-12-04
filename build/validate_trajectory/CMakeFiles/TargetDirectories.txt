@@ -1,0 +1,11 @@
+/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles/uninstall.dir
+/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles/validate_trajectory_uninstall.dir
+/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles/execute_yaml_trajectories_node.dir
+/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles/Valid_trajectory_click.dir
+/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles/test.dir
+/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles/edit_cache.dir
+/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles/rebuild_cache.dir
+/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles/list_install_components.dir
+/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles/install.dir
+/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles/install/local.dir
+/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles/install/strip.dir

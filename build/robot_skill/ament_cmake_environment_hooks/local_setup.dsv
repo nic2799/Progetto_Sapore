@@ -1,0 +1,2 @@
+source;share/robot_skill/environment/ament_prefix_path.sh
+source;share/robot_skill/environment/path.sh

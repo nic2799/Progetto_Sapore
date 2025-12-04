@@ -24,7 +24,7 @@
   <!-- Global robot translation: change these to move the whole robot in the world -->
   <xacro:property name="robot_x" value="-0.90" />
   <xacro:property name="robot_y" value="-0.43" />
-  <xacro:property name="robot_z" value="0.462" />
+  <xacro:property name="robot_z" value="0.489" />
 
   <!-- Materials -->
   <material name="torso_color">

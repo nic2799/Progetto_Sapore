@@ -1,0 +1,97 @@
+[0.017s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/robot_skills': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/robot_skills -- -j8 -l8
+[0.138s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_place_server.dir/src/pick_place_server.cpp.o[0m
+[3.614s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:2[m[K:
+[3.614s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[3.615s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[3.615s]       |                                                                             [01;36m[K^[m[K
+[5.772s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:3[m[K:
+[5.772s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[5.772s]    50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[5.772s]       |                                                                             [01;36m[K^[m[K
+[5.989s] In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:16[m[K:
+[5.990s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.h:48:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[5.990s]    48 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[5.990s]       |                                                                             [01;36m[K^[m[K
+[6.035s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:385:76:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[6.035s]   385 |                         double final_z_rotation_rad = 120.0 * M_PI / 180.0,[01;35m[Kauto[m[K plan1)
+[6.035s]       |                                                                            [01;35m[K^~~~[m[K
+[6.036s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:385:81:[m[K [01;31m[Kerror: [m[Kdefault argument missing for parameter 4 of ‘[01m[Kbool PickPlaceServer::[01;32m[KtestPlannerPouring[m[K(const geometry_msgs::msg::Pose&, const std::string&, double, auto:45)[m[K’
+[6.036s]   385 |                         double final_z_rotation_rad = 120.0 * M_PI / 180.0,[01;31m[Kauto plan1[m[K)
+[6.036s]       |                                                                            [01;31m[K~~~~~^~~~~[m[K
+[6.036s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:385:32:[m[K [01;36m[Knote: [m[K...following parameter 3 which has a default argument
+[6.036s]   385 |                         [01;36m[Kdouble final_z_rotation_rad = 120.0 * M_PI / 180.0[m[K,auto plan1)
+[6.036s]       |                         [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.058s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:[m[K In member function ‘[01m[Kvoid PickPlaceServer::[01;32m[Kinit[m[K()[m[K’:
+[6.058s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:60:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kattempts[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.058s]    60 |         int [01;35m[Kattempts[m[K = 0;
+[6.058s]       |             [01;35m[K^~~~~~~~[m[K
+[6.058s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:61:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_attempts[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.058s]    61 |         const int [01;35m[Kmax_attempts[m[K = 30;  // 30 secondi max
+[6.058s]       |                   [01;35m[K^~~~~~~~~~~~[m[K
+[6.079s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:[m[K In member function ‘[01m[Kbool PickPlaceServer::[01;32m[KexecutePickAndPlace[m[K(const std::string&, const geometry_msgs::msg::Pose&)[m[K’:
+[6.079s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:547:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.079s]   547 |     double fraction = [01;35m[Kmove_group_->computeCartesianPath(waypoints, eef_step, jump_threshold, trajectory)[m[K;
+[6.079s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.079s] In file included from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:52[m[K:
+[6.079s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.079s]   765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+[6.079s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.082s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:592:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble moveit::planning_interface::MoveGroupInterface::[01;32m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose_<std::allocator<void> > >&, double, double, moveit_msgs::msg::RobotTrajectory&, bool, moveit_msgs::msg::MoveItErrorCodes*)[m[K’ is deprecated: Drop jump_threshold [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.082s]   592 |     fraction = [01;35m[Kmove_group_->computeCartesianPath(waypoints, eef_step, jump_threshold, trajectory)[m[K;
+[6.082s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.083s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:765:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.083s]   765 |   [01;36m[KcomputeCartesianPath[m[K(const std::vector<geometry_msgs::msg::Pose>& waypoints, double eef_step,
+[6.083s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.088s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:507:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kapproach_dist[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.088s]   507 |     double [01;35m[Kapproach_dist[m[K = this->get_parameter("approach_distance").as_double();
+[6.088s]       |            [01;35m[K^~~~~~~~~~~~~[m[K
+[6.088s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:508:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klift_dist[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.088s]   508 |     double [01;35m[Klift_dist[m[K = this->get_parameter("lift_distance").as_double();
+[6.088s]       |            [01;35m[K^~~~~~~~~[m[K
+[6.443s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.443s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[6.443s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[6.443s]                  from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:1[m[K:
+[6.443s] /home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp: In instantiation of ‘[01m[Kbool PickPlaceServer::[01;32m[KtestPlannerPouring[m[K(const geometry_msgs::msg::Pose&, const std::string&, double, auto:45) [35m[K[with auto:45 = moveit::planning_interface::MoveGroupInterface::Plan; geometry_msgs::msg::Pose = geometry_msgs::msg::Pose_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K[m[K’:
+[6.443s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:685:46:[m[K   required from here
+[6.443s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:424:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kconst trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’})
+[6.443s]   424 |                     [01;31m[Klast_point[[m[Ki],
+[6.443s]       |                     [01;31m[K~~~~~~~~~~^[m[K
+[6.444s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:425:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kconst trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’})
+[6.444s]   425 |                     [01;31m[Klast_point[[m[Ki] * 180.0 / M_PI);
+[6.444s]       |                     [01;31m[K~~~~~~~~~~^[m[K
+[6.444s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:429:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::core::RobotState::setVariablePositions(const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&, const trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >&)[m[K’
+[6.444s]   429 |     [01;31m[Kstart_state.setVariablePositions(joint_names, last_point)[m[K;
+[6.444s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.444s] In file included from [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:41[m[K:
+[6.444s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:162:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::[01;32m[KsetVariablePositions[m[K(const double*)[m[K’
+[6.444s]   162 |   void [01;36m[KsetVariablePositions[m[K(const double* position);
+[6.444s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.444s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:162:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[6.445s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:167:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::[01;32m[KsetVariablePositions[m[K(const std::vector<double, std::allocator<double> >&)[m[K’
+[6.445s]   167 |   void [01;36m[KsetVariablePositions[m[K(const std::vector<double>& position)
+[6.445s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.445s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:167:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[6.445s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:175:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::[01;32m[KsetVariablePositions[m[K(const std::map<std::__cxx11::basic_string<char>, double>&)[m[K’
+[6.445s]   175 |   void [01;36m[KsetVariablePositions[m[K(const std::map<std::string, double>& variable_map);
+[6.445s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.445s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:175:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[6.445s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:179:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::[01;32m[KsetVariablePositions[m[K(const std::map<std::__cxx11::basic_string<char>, double>&, std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&)[m[K’
+[6.445s]   179 |   void [01;36m[KsetVariablePositions[m[K(const std::map<std::string, double>& variable_map,
+[6.445s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.445s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:179:66:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >[m[K’ to ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, double>&[m[K’
+[6.445s]   179 |   void setVariablePositions([01;36m[Kconst std::map<std::string, double>& variable_map[m[K,
+[6.446s]       |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[6.446s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:184:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid moveit::core::RobotState::[01;32m[KsetVariablePositions[m[K(const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&, const std::vector<double, std::allocator<double> >&)[m[K’
+[6.446s]   184 |   void [01;36m[KsetVariablePositions[m[K(const std::vector<std::string>& variable_names,
+[6.446s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.446s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.hpp:185:56:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >[m[K’ to ‘[01m[Kconst std::vector<double, std::allocator<double> >&[m[K’
+[6.446s]   185 |                             [01;36m[Kconst std::vector<double>& variable_position[m[K);
+[6.446s]       |                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[6.446s] [01m[K/home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/pick_place_server.cpp:383:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbase_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.446s]   383 | bool testPlannerPouring([01;35m[Kconst geometry_msgs::msg::Pose &base_pose[m[K,
+[6.446s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[10.929s] gmake[2]: *** [CMakeFiles/pick_place_server.dir/build.make:76: CMakeFiles/pick_place_server.dir/src/pick_place_server.cpp.o] Error 1
+[10.929s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pick_place_server.dir/all] Error 2
+[10.929s] gmake: *** [Makefile:146: all] Error 2
+[10.931s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/robot_skills' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/robot_skills -- -j8 -l8

@@ -1,12 +1,8 @@
-/home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/test_reach
-/home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/test_reach
 /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/Reach
-/home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/Raggiungibilita
 /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/interactive_reach
 /home/nicola/Desktop/Progetto_Sapore/install/nodes/lib/nodes/Reac_marker
 /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/launch/grid_points.launch.py
-/home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/launch/grid_points_second.launch.py
-/home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/launch/launch.py
+/home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/launch/interactive_marker.launch.py
 /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/ament_index/resource_index/package_run_dependencies/nodes
 /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/ament_index/resource_index/parent_prefix_path/nodes
 /home/nicola/Desktop/Progetto_Sapore/install/nodes/share/nodes/environment/ament_prefix_path.sh

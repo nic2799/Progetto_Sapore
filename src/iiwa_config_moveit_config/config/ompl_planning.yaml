@@ -15,6 +15,18 @@ response_adapters:
   - default_planning_response_adapters/AddTimeOptimalParameterization
   - default_planning_response_adapters/ValidateSolution
   - default_planning_response_adapters/DisplayMotionPath
+
+
+
+display_invalid_plans: true
+publish_intermediate_states: true
+
+
+ompl:
+  publish_intermediate_states: true
+  display_invalid_plans: true
+
+
 planner_configs:
   APSConfigDefault:
     type: geometric::AnytimePathShortening
@@ -54,7 +66,9 @@ planner_configs:
     goal_bias: 0.05  # When close to goal select goal, with this probability? default: 0.05
   RRTConnectkConfigDefault:
     type: geometric::RRTConnect
-    range: 0.0  # Max motion added to tree. ==> maxDistance_ default: 0.0, if 0.0, set on setup()
+    range: 0.1
+    goal_bias: 0.1
+    max_nearest_neighbors: 100 # Max motion added to tree. ==> maxDistance_ default: 0.0, if 0.0, set on setup()
   RRTstarkConfigDefault:
     type: geometric::RRTstar
     range: 0.0  # Max motion added to tree. ==> maxDistance_ default: 0.0, if 0.0, set on setup()
@@ -73,7 +87,7 @@ planner_configs:
     k_constant: 0.0  # value used to normalize expresssion. default: 0.0 set in setup()
   PRMkConfigDefault:
     type: geometric::PRM
-    max_nearest_neighbors: 10  # use k nearest neighbors. default: 10
+    max_nearest_neighbors: 20  # use k nearest neighbors. default: 10
   PRMstarkConfigDefault:
     type: geometric::PRMstar
   FMTkConfigDefault:
@@ -203,33 +217,7 @@ right_arm:
     - SPARStwokConfigDefault
     - TrajOptDefault
 
-both_arms:
-  planner_configs:
-    - APSConfigDefault
-    - SBLkConfigDefault
-    - ESTkConfigDefault
-    - LBKPIECEkConfigDefault
-    - BKPIECEkConfigDefault
-    - KPIECEkConfigDefault
-    - RRTkConfigDefault
-    - RRTConnectkConfigDefault
-    - RRTstarkConfigDefault
-    - TRRTkConfigDefault
-    - PRMkConfigDefault
-    - PRMstarkConfigDefault
-    - FMTkConfigDefault
-    - BFMTkConfigDefault
-    - PDSTkConfigDefault
-    - STRIDEkConfigDefault
-    - BiTRRTkConfigDefault
-    - LBTRRTkConfigDefault
-    - BiESTkConfigDefault
-    - ProjESTkConfigDefault
-    - LazyPRMkConfigDefault
-    - LazyPRMstarkConfigDefault
-    - SPARSkConfigDefault
-    - SPARStwokConfigDefault
-    - TrajOptDefault
+
 
 left_hand:
   planner_configs:

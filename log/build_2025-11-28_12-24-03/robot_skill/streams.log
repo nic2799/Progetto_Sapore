@@ -1,0 +1,20 @@
+[0.924s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/robot_skill': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/robot_skill -- -j8 -l8
+[0.984s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/robot_skill' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/robot_skill -- -j8 -l8
+[0.985s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/robot_skill': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/robot_skill
+[1.036s] -- Install configuration: ""
+[1.036s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skill/share/ament_index/resource_index/package_run_dependencies/robot_skill
+[1.036s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skill/share/ament_index/resource_index/parent_prefix_path/robot_skill
+[1.036s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skill/share/robot_skill/environment/ament_prefix_path.sh
+[1.036s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skill/share/robot_skill/environment/ament_prefix_path.dsv
+[1.036s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skill/share/robot_skill/environment/path.sh
+[1.036s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skill/share/robot_skill/environment/path.dsv
+[1.036s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skill/share/robot_skill/local_setup.bash
+[1.036s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skill/share/robot_skill/local_setup.sh
+[1.036s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skill/share/robot_skill/local_setup.zsh
+[1.036s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skill/share/robot_skill/local_setup.dsv
+[1.037s] -- Installing: /home/nicola/Desktop/Progetto_Sapore/install/robot_skill/share/robot_skill/package.dsv
+[1.037s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skill/share/ament_index/resource_index/packages/robot_skill
+[1.037s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skill/share/robot_skill/cmake/robot_skillConfig.cmake
+[1.037s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skill/share/robot_skill/cmake/robot_skillConfig-version.cmake
+[1.037s] -- Up-to-date: /home/nicola/Desktop/Progetto_Sapore/install/robot_skill/share/robot_skill/package.xml
+[1.044s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/robot_skill' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/Progetto_Sapore/build/robot_skill

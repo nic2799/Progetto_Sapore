@@ -10,12 +10,8 @@
       
       <joint name="left_hand_to_finger_left">
         <command_interface name="position"/>
-        <state_interface name="position">
-          <param name="initial_value" value="0.0"/>
-        </state_interface>
-        <state_interface name="velocity">
-          <param name="initial_value" value="0.0"/>
-        </state_interface>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
       </joint>
 
       <joint name="left_hand_to_finger_right">
@@ -31,12 +27,8 @@
       
       <joint name="right_hand_to_finger_left">
         <command_interface name="position"/>
-        <state_interface name="position">
-          <param name="initial_value" value="0.0"/>
-        </state_interface>
-        <state_interface name="velocity">
-          <param name="initial_value" value="0.0"/>
-        </state_interface>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
       </joint>
 
       <joint name="right_hand_to_finger_right">

@@ -1,0 +1,17 @@
+[0.036s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/interfaces -- -j8 -l8
+[0.251s] [  2%] Built target interfaces__rosidl_generator_type_description
+[0.263s] [  2%] Built target ament_cmake_python_copy_interfaces
+[0.567s] [ 17%] Built target interfaces__rosidl_generator_c
+[0.567s] [ 20%] Built target interfaces__cpp
+[0.678s] [ 29%] Built target interfaces__rosidl_typesupport_cpp
+[0.678s] [ 38%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[0.725s] [ 47%] Built target interfaces__rosidl_typesupport_c
+[0.726s] [ 55%] Built target interfaces__rosidl_typesupport_introspection_c
+[0.762s] [ 64%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[0.765s] [ 73%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[0.946s] [ 73%] Built target interfaces
+[1.033s] [ 76%] Built target interfaces__py
+[1.230s] [ 82%] Built target interfaces__rosidl_generator_py
+[1.332s] [ 88%] Built target interfaces_s__rosidl_typesupport_fastrtps_c
+[1.351s] [ 94%] Built target interfaces_s__rosidl_typesupport_c
+[1.450s] [100%] Built target interfaces_s__rosidl_typesupport_introspection_c

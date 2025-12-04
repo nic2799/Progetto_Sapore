@@ -1,0 +1,34 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/Reach.dir/src/test_reach.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/interactive_reach.dir/src/interactive_marker.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable interactive_reach[0m
+[ 66%] Built target interactive_reach
+[ 83%] [32m[1mLinking CXX executable Reach[0m
+[ 83%] Built target Reach
+[100%] [32m[1mLinking CXX executable Reac_marker[0m
+[100%] Built target Reac_marker
+-- Install configuration: ""
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/lib/reachability_package/Reach
+-- Set non-toolchain portion of runtime path of "/home/nicola/Desktop/Progetto_Sapore/install/reachability_package/lib/reachability_package/Reach" to ""
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/lib/reachability_package/interactive_reach
+-- Set non-toolchain portion of runtime path of "/home/nicola/Desktop/Progetto_Sapore/install/reachability_package/lib/reachability_package/interactive_reach" to ""
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/lib/reachability_package/Reac_marker
+-- Set non-toolchain portion of runtime path of "/home/nicola/Desktop/Progetto_Sapore/install/reachability_package/lib/reachability_package/Reac_marker" to ""
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/share/reachability_package/launch
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/share/reachability_package/launch/grid_points.launch.py
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/share/reachability_package/launch/interactive_marker.launch.py
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/share/ament_index/resource_index/package_run_dependencies/reachability_package
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/share/ament_index/resource_index/parent_prefix_path/reachability_package
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/share/reachability_package/environment/ament_prefix_path.sh
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/share/reachability_package/environment/ament_prefix_path.dsv
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/share/reachability_package/environment/path.sh
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/share/reachability_package/environment/path.dsv
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/share/reachability_package/local_setup.bash
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/share/reachability_package/local_setup.sh
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/share/reachability_package/local_setup.zsh
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/share/reachability_package/local_setup.dsv
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/share/reachability_package/package.dsv
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/share/ament_index/resource_index/packages/reachability_package
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/share/reachability_package/cmake/reachability_packageConfig.cmake
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/share/reachability_package/cmake/reachability_packageConfig-version.cmake
+-- Installing: /home/nicola/Desktop/Progetto_Sapore/install/reachability_package/share/reachability_package/package.xml

@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000217] (-) JobUnselected: {'identifier': 'build_scene_package'}
+[0.000401] (-) JobUnselected: {'identifier': 'iiwa_config_moveit_config'}
+[0.000495] (-) JobUnselected: {'identifier': 'iiwa_description'}
+[0.000608] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000730] (nodes) JobQueued: {'identifier': 'nodes', 'dependencies': OrderedDict({'interfaces': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces'})}
+[0.000756] (nodes) JobStarted: {'identifier': 'nodes'}
+[0.008584] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'cmake'}
+[0.009862] (nodes) JobProgress: {'identifier': 'nodes', 'progress': 'build'}
+[0.009974] (nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nicola/Desktop/Progetto_Sapore/build/nodes', '--', '-j8', '-l8'], 'cwd': '/home/nicola/Desktop/Progetto_Sapore/build/nodes', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicola', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nicola', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/nicola/.nvm/versions/node/v20.19.5/bin', 'NVM_INC': '/home/nicola/.nvm/versions/node/v20.19.5/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2025', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b7d0d26b6ba238c6e26dcd0f69085501', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/nicola/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nicola/Desktop/Progetto_Sapore/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nicola', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nicola', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/nicola/.nvm/versions/node/v20.19.5/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/nicola/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nicola/.local/bin:/home/nicola/.local/bin:/home/nicola/RoboDK/bin:/usr/local/MATLAB/R2024b/bin', 'SESSION_MANAGER': 'local/randezvous:@/tmp/.ICE-unix/2025,unix/randezvous:/tmp/.ICE-unix/2025', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0e7ffbc9_94e6_44e0_a58f_a4a51fd13cdf', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KS75E3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.124', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nicola/Desktop/Progetto_Sapore/build/nodes', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b7d0d26b6ba238c6e26dcd0f69085501', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/nicola/Desktop/Progetto_Sapore/install/interfaces:/home/nicola/Desktop/Progetto_Sapore/install/nodes:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_config_moveit_config:/home/nicola/Desktop/Progetto_Sapore/install/iiwa_description:/home/nicola/Desktop/Progetto_Sapore/install/build_scene_package:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.066420] (nodes) StdoutLine: {'line': b'[ 20%] Built target Raggiungibilita\n'}
+[0.067506] (nodes) StdoutLine: {'line': b'[ 40%] Built target interactive_reach\n'}
+[0.078730] (nodes) StdoutLine: {'line': b'[ 80%] Built target test_reach\n'}
+[0.078971] (nodes) StdoutLine: {'line': b'[ 80%] Built target Reach\n'}
+[0.098419] (nodes) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o\x1b[0m\n'}
+[0.099856] (-) TimerEvent: {}
+[0.200106] (-) TimerEvent: {}
+[0.300371] (-) TimerEvent: {}
+[0.400698] (-) TimerEvent: {}
+[0.501020] (-) TimerEvent: {}
+[0.601295] (-) TimerEvent: {}
+[0.701657] (-) TimerEvent: {}
+[0.801901] (-) TimerEvent: {}
+[0.902156] (-) TimerEvent: {}
+[1.002473] (-) TimerEvent: {}
+[1.102791] (-) TimerEvent: {}
+[1.203103] (-) TimerEvent: {}
+[1.303370] (-) TimerEvent: {}
+[1.403602] (-) TimerEvent: {}
+[1.503855] (-) TimerEvent: {}
+[1.604173] (-) TimerEvent: {}
+[1.704492] (-) TimerEvent: {}
+[1.804791] (-) TimerEvent: {}
+[1.905103] (-) TimerEvent: {}
+[2.005372] (-) TimerEvent: {}
+[2.105626] (-) TimerEvent: {}
+[2.205891] (-) TimerEvent: {}
+[2.306164] (-) TimerEvent: {}
+[2.406564] (-) TimerEvent: {}
+[2.506823] (-) TimerEvent: {}
+[2.607099] (-) TimerEvent: {}
+[2.707372] (-) TimerEvent: {}
+[2.807651] (-) TimerEvent: {}
+[2.907921] (-) TimerEvent: {}
+[3.008184] (-) TimerEvent: {}
+[3.085347] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:9\x1b[m\x1b[K:\n'}
+[3.085523] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: .h header is obsolete. Please use the .hpp header instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.085581] (nodes) StderrLine: {'line': b'   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[3.085633] (nodes) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.108301] (-) TimerEvent: {}
+[3.208555] (-) TimerEvent: {}
+[3.308856] (-) TimerEvent: {}
+[3.409111] (-) TimerEvent: {}
+[3.509368] (-) TimerEvent: {}
+[3.609616] (-) TimerEvent: {}
+[3.709928] (-) TimerEvent: {}
+[3.810166] (-) TimerEvent: {}
+[3.910404] (-) TimerEvent: {}
+[4.010626] (-) TimerEvent: {}
+[4.110887] (-) TimerEvent: {}
+[4.211208] (-) TimerEvent: {}
+[4.311439] (-) TimerEvent: {}
+[4.411781] (-) TimerEvent: {}
+[4.512046] (-) TimerEvent: {}
+[4.612314] (-) TimerEvent: {}
+[4.712553] (-) TimerEvent: {}
+[4.812875] (-) TimerEvent: {}
+[4.913123] (-) TimerEvent: {}
+[5.013432] (-) TimerEvent: {}
+[5.021147] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ReachabilityIKNode::\x1b[01;32m\x1b[KtestReachability\x1b[m\x1b[K(const geometry_msgs::msg::PoseStamped&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.021380] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/Reachability_interactive.cpp:220:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Ktf2::Matrix3x3::Matrix3x3(geometry_msgs::msg::Quaternion_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.021476] (nodes) StderrLine: {'line': b'  220 |             auto rpy_target = tf2::Matrix3x3(orientation_target\x1b[01;31m\x1b[K)\x1b[m\x1b[K.getRPY(roll, pitch, yaw);\n'}
+[5.021562] (nodes) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.021643] (nodes) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/tf2/tf2/LinearMath/Transform.hpp:21\x1b[m\x1b[K,\n'}
+[5.021725] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/tf2/tf2/buffer_core.hpp:47\x1b[m\x1b[K,\n'}
+[5.021804] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/tf2_ros/tf2_ros/async_buffer_interface.h:39\x1b[m\x1b[K,\n'}
+[5.021882] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/tf2_ros/tf2_ros/buffer.h:42\x1b[m\x1b[K,\n'}
+[5.021960] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.hpp:40\x1b[m\x1b[K,\n'}
+[5.022040] (nodes) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:51\x1b[m\x1b[K:\n'}
+[5.022119] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp:66:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2::Matrix3x3::\x1b[01;32m\x1b[KMatrix3x3\x1b[m\x1b[K(const tf2::Matrix3x3&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.022199] (nodes) StderrLine: {'line': b'   66 |         TF2SIMD_FORCE_INLINE \x1b[01;36m\x1b[KMatrix3x3\x1b[m\x1b[K (const Matrix3x3& other)\n'}
+[5.022279] (nodes) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.022377] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp:66:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst tf2::Matrix3x3&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.022458] (nodes) StderrLine: {'line': b'   66 |         TF2SIMD_FORCE_INLINE Matrix3x3 (\x1b[01;36m\x1b[Kconst Matrix3x3& other\x1b[m\x1b[K)\n'}
+[5.022536] (nodes) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[5.022616] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp:57:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2::Matrix3x3::\x1b[01;32m\x1b[KMatrix3x3\x1b[m\x1b[K(const tf2Scalar&, const tf2Scalar&, const tf2Scalar&, const tf2Scalar&, const tf2Scalar&, const tf2Scalar&, const tf2Scalar&, const tf2Scalar&, const tf2Scalar&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.022704] (nodes) StderrLine: {'line': b'   57 |         \x1b[01;36m\x1b[KMatrix3x3\x1b[m\x1b[K(const tf2Scalar& xx, const tf2Scalar& xy, const tf2Scalar& xz,\n'}
+[5.022784] (nodes) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.022863] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp:57:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 9 arguments, 1 provided\n'}
+[5.022941] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp:47:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2::Matrix3x3::\x1b[01;32m\x1b[KMatrix3x3\x1b[m\x1b[K(const tf2::Quaternion&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.023021] (nodes) StderrLine: {'line': b'   47 |         explicit \x1b[01;36m\x1b[KMatrix3x3\x1b[m\x1b[K(const Quaternion& q) { setRotation(q); }\n'}
+[5.023099] (nodes) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.023178] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp:47:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst tf2::Quaternion&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.023263] (nodes) StderrLine: {'line': b'   47 |         explicit Matrix3x3(\x1b[01;36m\x1b[Kconst Quaternion& q\x1b[m\x1b[K) { setRotation(q); }\n'}
+[5.023347] (nodes) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[5.023431] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp:41:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2::Matrix3x3::\x1b[01;32m\x1b[KMatrix3x3\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.023510] (nodes) StderrLine: {'line': b'   41 |         \x1b[01;36m\x1b[KMatrix3x3\x1b[m\x1b[K () {}\n'}
+[5.023588] (nodes) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.023665] (nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/tf2/tf2/LinearMath/Matrix3x3.hpp:41:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[5.113534] (-) TimerEvent: {}
+[5.213900] (-) TimerEvent: {}
+[5.314265] (-) TimerEvent: {}
+[5.414652] (-) TimerEvent: {}
+[5.514984] (-) TimerEvent: {}
+[5.615373] (-) TimerEvent: {}
+[5.715636] (-) TimerEvent: {}
+[5.815987] (-) TimerEvent: {}
+[5.916393] (-) TimerEvent: {}
+[6.016747] (-) TimerEvent: {}
+[6.117006] (-) TimerEvent: {}
+[6.217325] (-) TimerEvent: {}
+[6.317594] (-) TimerEvent: {}
+[6.417913] (-) TimerEvent: {}
+[6.518164] (-) TimerEvent: {}
+[6.618517] (-) TimerEvent: {}
+[6.718815] (-) TimerEvent: {}
+[6.819139] (-) TimerEvent: {}
+[6.919375] (-) TimerEvent: {}
+[7.019695] (-) TimerEvent: {}
+[7.119949] (-) TimerEvent: {}
+[7.220260] (-) TimerEvent: {}
+[7.320514] (-) TimerEvent: {}
+[7.420834] (-) TimerEvent: {}
+[7.521083] (-) TimerEvent: {}
+[7.621339] (-) TimerEvent: {}
+[7.721633] (-) TimerEvent: {}
+[7.821977] (-) TimerEvent: {}
+[7.922341] (-) TimerEvent: {}
+[8.022683] (-) TimerEvent: {}
+[8.123049] (-) TimerEvent: {}
+[8.223394] (-) TimerEvent: {}
+[8.323736] (-) TimerEvent: {}
+[8.424077] (-) TimerEvent: {}
+[8.524442] (-) TimerEvent: {}
+[8.607774] (nodes) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/Reac_marker.dir/build.make:76: CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o] Error 1\n'}
+[8.607992] (nodes) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/Reac_marker.dir/all] Error 2\n'}
+[8.608101] (nodes) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.609659] (nodes) CommandEnded: {'returncode': 2}
+[8.616282] (nodes) JobEnded: {'identifier': 'nodes', 'rc': 2}
+[8.624536] (-) TimerEvent: {}
+[8.626699] (-) EventReactorShutdown: {}

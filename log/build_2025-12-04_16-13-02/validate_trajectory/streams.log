@@ -1,0 +1,10 @@
+[0.027s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory -- -j8 -l8
+[0.136s] [ 16%] [32mBuilding CXX object CMakeFiles/validate_trajectory_node.dir/src/validate_trajectory_node.cpp.o[0m
+[0.139s] [ 50%] Built target execute_yaml_trajectories_node
+[0.140s] [ 83%] Built target Valid_trajectory_click
+[0.140s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/validate_trajectory_node.cpp: No such file or directory
+[0.141s] compilation terminated.
+[0.142s] gmake[2]: *** [CMakeFiles/validate_trajectory_node.dir/build.make:76: CMakeFiles/validate_trajectory_node.dir/src/validate_trajectory_node.cpp.o] Error 1
+[0.143s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/validate_trajectory_node.dir/all] Error 2
+[0.144s] gmake: *** [Makefile:146: all] Error 2
+[0.155s] Invoked command in '/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory -- -j8 -l8

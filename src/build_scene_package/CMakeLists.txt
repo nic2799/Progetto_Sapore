@@ -17,13 +17,8 @@ find_package(tf2 REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(geometric_shapes REQUIRED)
-#include <geometric_shapes/shape_operations.h>
-#include <shape_msgs/msg/mesh.hpp>
-find_package(shape_msgs REQUIRED)
-find_package(ament_index_cpp REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
-find_package(yaml-cpp REQUIRED)
-find_package(ament_index_cpp REQUIRED)
+find_package(visualization_msgs REQUIRED)
 
 
 
@@ -74,13 +69,18 @@ ament_target_dependencies(build_scene_mesh
   ament_index_cpp
 )
 
-# Install build_scene_mesh
+target_link_libraries(build_scene_mesh ${YAML_CPP_LIBRARIES})
+
+# 🎨 Add executable per visual mesh publisher
+
+
+
+
+# Install all executables
 install(TARGETS
   build_scene_mesh
   DESTINATION lib/${PROJECT_NAME}
 )
-
-target_link_libraries(build_scene_mesh ${YAML_CPP_LIBRARIES})
 
 # Install configuration files
 install(DIRECTORY
