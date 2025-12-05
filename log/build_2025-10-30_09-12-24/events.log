@@ -1,7 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000166] (-) JobUnselected: {'identifier': 'build_scene_package'}
-[0.000190] (-) JobUnselected: {'identifier': 'iiwa_config_moveit_config'}
-[0.000204] (-) JobUnselected: {'identifier': 'iiwa_description'}
-[0.000214] (-) JobUnselected: {'identifier': 'interfaces'}
-[0.000224] (-) JobUnselected: {'identifier': 'nodes'}
-[0.000621] (-) EventReactorShutdown: {}

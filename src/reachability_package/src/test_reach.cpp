@@ -431,7 +431,7 @@ public:
     RCLCPP_INFO(this->get_logger(), "  A7 target finale: %.3f rad (%.1f°)", 
                 joint_positions[joint_a7_index], joint_positions[joint_a7_index] * 180.0 / M_PI);
 
-    //  Imposta SOLO target sui giunti (non setPoseTarget!)
+    //  Imposta SOLO target sui giunti 
     move_group_->setJointValueTarget(joint_positions);
 
 
@@ -710,7 +710,6 @@ int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
     auto node = std::make_shared<ReachabilityIKNode>();
-        // Callback chiamato alla chiusura del nodo
   
     node->resetMarkers();
     

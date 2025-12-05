@@ -1,4 +1,0 @@
-[ 25%] [32mBuilding CXX object CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o[0m
-[ 50%] [32m[1mLinking CXX static library libSaveYaml.a[0m
-[ 50%] Built target SaveYaml
-[ 75%] [32mBuilding CXX object CMakeFiles/pick_place_server.dir/src/pick_place_server.cpp.o[0m

@@ -1,0 +1,28 @@
+[ 33%] Built target interactive_reach
+[ 66%] Built target Reac_marker
+[ 83%] [32mBuilding CXX object CMakeFiles/Reach.dir/src/test_reach.cpp.o[0m
+[100%] [32m[1mLinking CXX executable Reach[0m
+[100%] Built target Reach
+-- Install configuration: ""
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/lib/reachability_package/Reach
+-- Set non-toolchain portion of runtime path of "/home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/lib/reachability_package/Reach" to ""
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/lib/reachability_package/interactive_reach
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/lib/reachability_package/Reac_marker
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/launch
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/launch/interactive_marker.launch.py
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/launch/grid_points.launch.py
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/ament_index/resource_index/package_run_dependencies/reachability_package
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/ament_index/resource_index/parent_prefix_path/reachability_package
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/environment/path.sh
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/environment/path.dsv
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/local_setup.bash
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/local_setup.sh
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/local_setup.zsh
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/local_setup.dsv
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/package.dsv
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/ament_index/resource_index/packages/reachability_package
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/cmake/reachability_packageConfig.cmake
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/cmake/reachability_packageConfig-version.cmake
+-- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/package.xml

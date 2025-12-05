@@ -1,0 +1,28 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable execute_yaml_trajectories_node[0m
+[ 75%] Built target execute_yaml_trajectories_node
+[100%] [32m[1mLinking CXX executable Valid_trajectory_click[0m
+[100%] Built target Valid_trajectory_click
+-- Install configuration: ""
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/lib/validate_trajectory/Valid_trajectory_click
+-- Set non-toolchain portion of runtime path of "/home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/lib/validate_trajectory/Valid_trajectory_click" to ""
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/lib/validate_trajectory/execute_yaml_trajectories_node
+-- Set non-toolchain portion of runtime path of "/home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/lib/validate_trajectory/execute_yaml_trajectories_node" to ""
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/launch
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/launch/validate_click.launch.py
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/ament_index/resource_index/package_run_dependencies/validate_trajectory
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/ament_index/resource_index/parent_prefix_path/validate_trajectory
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/ament_prefix_path.sh
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/ament_prefix_path.dsv
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/path.sh
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/path.dsv
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.bash
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.sh
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.zsh
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.dsv
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/package.dsv
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/ament_index/resource_index/packages/validate_trajectory
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/cmake/validate_trajectoryConfig.cmake
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/cmake/validate_trajectoryConfig-version.cmake
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/package.xml

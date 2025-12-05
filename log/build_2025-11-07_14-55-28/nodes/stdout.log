@@ -1,6 +1,0 @@
-[ 16%] Built target interactive_reach
-[ 33%] Built target Raggiungibilita
-[ 50%] Built target check_collision
-[ 58%] [32mBuilding CXX object CMakeFiles/Reach.dir/src/test_reach.cpp.o[0m
-[ 75%] Built target test_reach
-[ 91%] Built target Reac_marker

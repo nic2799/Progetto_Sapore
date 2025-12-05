@@ -1,0 +1,90 @@
+[0.019s] Invoking command in '/home/nicola/Desktop/New Folder/Progetto_Sapore/build/reachability_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/New Folder/Progetto_Sapore/build/reachability_package -- -j12 -l12
+[0.103s] [ 33%] Built target interactive_reach
+[0.120s] [ 66%] Built target Reac_marker
+[0.122s] [ 83%] [32mBuilding CXX object CMakeFiles/Reach.dir/src/test_reach.cpp.o[0m
+[3.730s] In file included from [01m[K/home/nicola/Desktop/New Folder/Progetto_Sapore/src/reachability_package/src/test_reach.cpp:9[m[K:
+[3.730s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[3.730s]    50 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[3.731s]       |                                                                       [01;36m[K^[m[K
+[3.731s] 
+[13.500s] In file included from [01m[K/home/nicola/Desktop/New Folder/Progetto_Sapore/src/reachability_package/src/test_reach.cpp:10[m[K:
+[13.500s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[13.500s]    50 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[13.500s]       |                                                                       [01;36m[K^[m[K
+[13.500s] 
+[13.501s] In file included from [01m[K/home/nicola/Desktop/New Folder/Progetto_Sapore/src/reachability_package/src/test_reach.cpp:11[m[K:
+[13.501s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/robot_model_loader/robot_model_loader.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[13.501s]    50 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[13.501s]       |                                                                       [01;36m[K^[m[K
+[13.501s] 
+[13.501s] In file included from [01m[K/home/nicola/Desktop/New Folder/Progetto_Sapore/src/reachability_package/src/test_reach.cpp:12[m[K:
+[13.502s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[13.502s]    51 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[13.502s]       |                                                                       [01;36m[K^[m[K
+[13.502s] 
+[13.502s] In file included from [01m[K/home/nicola/Desktop/New Folder/Progetto_Sapore/src/reachability_package/src/test_reach.cpp:13[m[K:
+[13.502s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/collision_detection/collision_common.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[13.503s]    50 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[13.503s]       |                                                                       [01;36m[K^[m[K
+[13.503s] 
+[13.505s] In file included from [01m[K/home/nicola/Desktop/New Folder/Progetto_Sapore/src/reachability_package/src/test_reach.cpp:15[m[K:
+[13.505s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[13.505s]    51 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[13.505s]       |                                                                       [01;36m[K^[m[K
+[13.505s] 
+[13.760s] In file included from [01m[K/home/nicola/Desktop/New Folder/Progetto_Sapore/src/reachability_package/src/test_reach.cpp:23[m[K:
+[13.760s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/conversions.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[13.761s]    50 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[13.761s]       |                                                                       [01;36m[K^[m[K
+[13.761s] 
+[13.761s] In file included from [01m[K/home/nicola/Desktop/New Folder/Progetto_Sapore/src/reachability_package/src/test_reach.cpp:24[m[K:
+[13.761s] [01m[K/opt/ros/jazzy/include/moveit_core/moveit/utils/moveit_error_code.h:48:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[13.762s]    48 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[13.762s]       |                                                                       [01;36m[K^[m[K
+[13.762s] 
+[13.918s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[13.918s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[13.918s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[13.919s]                  from [01m[K/home/nicola/Desktop/New Folder/Progetto_Sapore/src/reachability_package/src/test_reach.cpp:1[m[K:
+[13.919s] [01m[K/home/nicola/Desktop/New Folder/Progetto_Sapore/src/reachability_package/src/test_reach.cpp:[m[K In member function ‘[01m[Kvoid ReachabilityIKNode::[01;32m[Kstart[m[K()[m[K’:
+[13.919s] [01m[K/home/nicola/Desktop/New Folder/Progetto_Sapore/src/reachability_package/src/test_reach.cpp:121:37:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[13.919s]   121 |     RCLCPP_INFO(this->get_logger(), [01;35m[K""[m[K);
+[13.919s]       |                                     [01;35m[K^~[m[K
+[13.919s] [01m[K/home/nicola/Desktop/New Folder/Progetto_Sapore/src/reachability_package/src/test_reach.cpp:124:37:[m[K [01;35m[Kwarning: [m[Kzero-length gnu_printf format string [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-zero-length-Wformat-zero-length]8;;[m[K]
+[13.919s]   124 |     RCLCPP_INFO(this->get_logger(), [01;35m[K""[m[K);
+[13.920s]       |                                     [01;35m[K^~[m[K
+[13.922s] [01m[K/home/nicola/Desktop/New Folder/Progetto_Sapore/src/reachability_package/src/test_reach.cpp:165:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktrovato[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[13.923s]   165 |             bool [01;35m[Ktrovato[m[K = false;
+[13.923s]       |                  [01;35m[K^~~~~~~[m[K
+[13.951s] [01m[K/home/nicola/Desktop/New Folder/Progetto_Sapore/src/reachability_package/src/test_reach.cpp:[m[K In member function ‘[01m[Kint ReachabilityIKNode::[01;32m[KtestReachability[m[K(const geometry_msgs::msg::PoseStamped&, const std::string&)[m[K’:
+[13.951s] [01m[K/home/nicola/Desktop/New Folder/Progetto_Sapore/src/reachability_package/src/test_reach.cpp:579:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kall_orientations_reachable[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.951s]   579 |         bool [01;35m[Kall_orientations_reachable[m[K = true;
+[13.951s]       |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.434s] [100%] [32m[1mLinking CXX executable Reach[0m
+[21.055s] [100%] Built target Reach
+[21.068s] Invoked command in '/home/nicola/Desktop/New Folder/Progetto_Sapore/build/reachability_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/New Folder/Progetto_Sapore/build/reachability_package -- -j12 -l12
+[21.069s] Invoking command in '/home/nicola/Desktop/New Folder/Progetto_Sapore/build/reachability_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/New Folder/Progetto_Sapore/build/reachability_package
+[21.078s] -- Install configuration: ""
+[21.078s] -- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/lib/reachability_package/Reach
+[21.083s] -- Set non-toolchain portion of runtime path of "/home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/lib/reachability_package/Reach" to ""
+[21.083s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/lib/reachability_package/interactive_reach
+[21.084s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/lib/reachability_package/Reac_marker
+[21.084s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/launch
+[21.084s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/launch/interactive_marker.launch.py
+[21.085s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/launch/grid_points.launch.py
+[21.085s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/ament_index/resource_index/package_run_dependencies/reachability_package
+[21.085s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/ament_index/resource_index/parent_prefix_path/reachability_package
+[21.085s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/environment/ament_prefix_path.sh
+[21.085s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/environment/ament_prefix_path.dsv
+[21.086s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/environment/path.sh
+[21.086s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/environment/path.dsv
+[21.086s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/local_setup.bash
+[21.086s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/local_setup.sh
+[21.086s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/local_setup.zsh
+[21.086s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/local_setup.dsv
+[21.086s] -- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/package.dsv
+[21.087s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/ament_index/resource_index/packages/reachability_package
+[21.087s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/cmake/reachability_packageConfig.cmake
+[21.087s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/cmake/reachability_packageConfig-version.cmake
+[21.088s] -- Up-to-date: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package/share/reachability_package/package.xml
+[21.088s] Invoked command in '/home/nicola/Desktop/New Folder/Progetto_Sapore/build/reachability_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nicola/Desktop/New Folder/Progetto_Sapore/build/reachability_package

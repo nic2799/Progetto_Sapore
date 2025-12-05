@@ -1,3 +1,0 @@
-[ 33%] Built target Valid_trajectory_click
-[ 66%] Built target validate_trajectory_node
-[ 83%] [32mBuilding CXX object CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o[0m

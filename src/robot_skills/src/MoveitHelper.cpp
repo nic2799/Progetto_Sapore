@@ -32,7 +32,7 @@ void MoveItHelper::clearPoseTargets() {
 }
 
 MoveItHelper::MoveItHelper(rclcpp::Node::SharedPtr node, const std::string& planning_group_name)
-    : node_(node), planning_group_name_(planning_group_name) {
+  : node_(node), planning_group_name_(planning_group_name) {
     move_group_ = std::make_shared<moveit::planning_interface::MoveGroupInterface>(node_, planning_group_name_);
     planning_scene_interface_ = std::make_shared<moveit::planning_interface::PlanningSceneInterface>();
 }
@@ -115,13 +115,13 @@ moveit::core::MoveItErrorCode MoveItHelper::planWithFallback(
         move_group_->setGoalTolerance(0.02);
         bool success = (move_group_->plan(plan) == moveit::core::MoveItErrorCode::SUCCESS);
         if (success) {
-            RCLCPP_INFO(node_->get_logger(), "✅ Planning '%s' riuscito con %s", phase_name.c_str(), planner.c_str());
+            RCLCPP_INFO(node_->get_logger(), " Planning '%s' riuscito con %s", phase_name.c_str(), planner.c_str());
             return moveit::core::MoveItErrorCode::SUCCESS;
         } else {
-            RCLCPP_WARN(node_->get_logger(), "⚠️  Planning '%s' fallito con %s, provo planner alternativo...", phase_name.c_str(), planner.c_str());
+            RCLCPP_WARN(node_->get_logger(), "  Planning '%s' fallito con %s, provo planner alternativo...", phase_name.c_str(), planner.c_str());
         }
     }
-    RCLCPP_ERROR(node_->get_logger(), "❌ Planning '%s' fallito con tutti i planner", phase_name.c_str());
+    RCLCPP_ERROR(node_->get_logger(), " Planning '%s' fallito con tutti i planner", phase_name.c_str());
     return moveit::core::MoveItErrorCode::FAILURE;
 }
 
@@ -199,10 +199,10 @@ bool MoveItHelper::planToNamedTarget(const std::string& target_name,
     bool success = (move_group_->plan(plan) == moveit::core::MoveItErrorCode::SUCCESS);
     
     if (success) {
-        RCLCPP_INFO(node_->get_logger(), "✅ Planning target '%s' riuscito per gruppo %s", 
+        RCLCPP_INFO(node_->get_logger(), " Planning target '%s' riuscito per gruppo %s", 
                     target_name.c_str(), planning_group_name_.c_str());
     } else {
-        RCLCPP_WARN(node_->get_logger(), "❌ Planning target '%s' fallito per gruppo %s", 
+        RCLCPP_WARN(node_->get_logger(), " Planning target '%s' fallito per gruppo %s", 
                     target_name.c_str(), planning_group_name_.c_str());
     }
     return success;

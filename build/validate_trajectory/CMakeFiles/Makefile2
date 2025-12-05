@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory
+CMAKE_SOURCE_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory
+CMAKE_BINARY_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/Valid_trajectory_click.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/validate_trajectory_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles" --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles" 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles" 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -111,14 +111,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/validate_trajectory_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/validate_trajectory_uninstall.dir/build.make CMakeFiles/validate_trajectory_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/validate_trajectory_uninstall.dir/build.make CMakeFiles/validate_trajectory_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles --progress-num= "Built target validate_trajectory_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles" --progress-num= "Built target validate_trajectory_uninstall"
 .PHONY : CMakeFiles/validate_trajectory_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/validate_trajectory_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles" 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/validate_trajectory_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles" 0
 .PHONY : CMakeFiles/validate_trajectory_uninstall.dir/rule
 
 # Convenience name for target.
@@ -137,14 +137,14 @@ CMakeFiles/validate_trajectory_uninstall.dir/clean:
 CMakeFiles/execute_yaml_trajectories_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/execute_yaml_trajectories_node.dir/build.make CMakeFiles/execute_yaml_trajectories_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/execute_yaml_trajectories_node.dir/build.make CMakeFiles/execute_yaml_trajectories_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles --progress-num=3,4 "Built target execute_yaml_trajectories_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles" --progress-num=3,4 "Built target execute_yaml_trajectories_node"
 .PHONY : CMakeFiles/execute_yaml_trajectories_node.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/execute_yaml_trajectories_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/execute_yaml_trajectories_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles" 0
 .PHONY : CMakeFiles/execute_yaml_trajectories_node.dir/rule
 
 # Convenience name for target.
@@ -163,14 +163,14 @@ CMakeFiles/execute_yaml_trajectories_node.dir/clean:
 CMakeFiles/Valid_trajectory_click.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Valid_trajectory_click.dir/build.make CMakeFiles/Valid_trajectory_click.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Valid_trajectory_click.dir/build.make CMakeFiles/Valid_trajectory_click.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles --progress-num=1,2 "Built target Valid_trajectory_click"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles" --progress-num=1,2 "Built target Valid_trajectory_click"
 .PHONY : CMakeFiles/Valid_trajectory_click.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Valid_trajectory_click.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Valid_trajectory_click.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles" 0
 .PHONY : CMakeFiles/Valid_trajectory_click.dir/rule
 
 # Convenience name for target.

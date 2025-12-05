@@ -1,0 +1,50 @@
+[0.014s] Invoking command in '/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills -DCMAKE_INSTALL_PREFIX=/home/nicola/Desktop/New Folder/Progetto_Sapore/install/robot_skills
+[0.076s] -- The C compiler identification is GNU 13.3.0
+[0.498s] -- The CXX compiler identification is GNU 13.3.0
+[0.515s] -- Detecting C compiler ABI info
+[0.603s] -- Detecting C compiler ABI info - done
+[0.612s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.612s] -- Detecting C compile features
+[0.613s] -- Detecting C compile features - done
+[0.622s] -- Detecting CXX compiler ABI info
+[0.723s] -- Detecting CXX compiler ABI info - done
+[0.732s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.733s] -- Detecting CXX compile features
+[0.733s] -- Detecting CXX compile features - done
+[0.739s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.869s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.979s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.025s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.039s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.056s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.074s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.153s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.156s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.242s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.262s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.285s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.359s] -- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[1.477s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[1.773s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.833s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.846s] -- Found rclcpp_lifecycle: 28.1.11 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.883s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[1.948s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.948s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.113s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[2.165s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[2.193s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[2.242s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.341s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.341s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills/include>;/home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills/include
+[2.341s] -- Configured cppcheck exclude dirs and/or files: 
+[2.342s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.342s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.343s] -- Added test 'lint_cmake' to check CMake code style
+[2.343s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.344s] -- Added test 'uncrustify' to check C / C++ code style
+[2.344s] -- Configured uncrustify additional arguments: 
+[2.345s] -- Added test 'xmllint' to check XML markup files
+[2.346s] -- Configuring done (2.3s)
+[2.396s] -- Generating done (0.0s)
+[2.404s] -- Build files have been written to: /home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills

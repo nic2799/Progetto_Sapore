@@ -1,4 +1,0 @@
-[0.045s] Invoking command in '/home/nicola/Desktop/Progetto_Sapore/build/build_scene_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package -- -j8 -l8
-[0.217s] [ 33%] Built target visual_mesh_publisher
-[0.218s] [ 66%] Built target build_scene_simple
-[0.218s] [100%] Built target build_scene_mesh

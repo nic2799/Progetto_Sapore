@@ -10,7 +10,6 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(sensor_msgs REQUIRED)
-find_package(interfaces REQUIRED)
 find_package(geometry_msgs REQUIRED)#per obs forse inutili anche quelli di seguito
 find_package(visualization_msgs REQUIRED)#per obs
 find_package(tf2_ros REQUIRED)#per obs

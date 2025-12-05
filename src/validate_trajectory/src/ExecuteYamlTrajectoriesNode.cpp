@@ -75,7 +75,7 @@ public:
 
         // Carica YAML
         bool left_ok = loadTrajectoriesFromYAML("PickPouringLeft.yaml", left_plans_);
-        bool right_ok = loadTrajectoriesFromYAML("PickPouring.yaml", right_plans_);
+        bool right_ok = loadTrajectoriesFromYAML("PickPouringRight.yaml", right_plans_);
         
         if (!left_ok && !right_ok) {
             RCLCPP_ERROR(this->get_logger(), "Fallimento caricamento YAML.");

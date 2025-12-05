@@ -1,6 +1,0 @@
-float64[] qf
-float64 tf
----
-bool success
----
-float64[] q_now

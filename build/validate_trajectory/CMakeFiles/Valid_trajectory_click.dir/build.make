@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory
+CMAKE_SOURCE_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory
+CMAKE_BINARY_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Valid_trajectory_click.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/Valid_trajectory_click.dir/progress.make
 include CMakeFiles/Valid_trajectory_click.dir/flags.make
 
 CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.o: CMakeFiles/Valid_trajectory_click.dir/flags.make
-CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.o: /home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/Valid_trajectory_click.cpp
+CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.o: /home/nicola/Desktop/New\ Folder/Progetto_Sapore/src/validate_trajectory/src/Valid_trajectory_click.cpp
 CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.o: CMakeFiles/Valid_trajectory_click.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.o -MF CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.o.d -o CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.o -c /home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/Valid_trajectory_click.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.o -MF CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.o.d -o CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.o -c "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory/src/Valid_trajectory_click.cpp"
 
 CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/Valid_trajectory_click.cpp > CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory/src/Valid_trajectory_click.cpp" > CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.i
 
 CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/Valid_trajectory_click.cpp -o CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory/src/Valid_trajectory_click.cpp" -o CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.s
 
 # Object files for target Valid_trajectory_click
 Valid_trajectory_click_OBJECTS = \
@@ -364,7 +364,7 @@ Valid_trajectory_click: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 Valid_trajectory_click: /opt/ros/jazzy/lib/librcutils.so
 Valid_trajectory_click: /usr/lib/x86_64-linux-gnu/libcrypto.so
 Valid_trajectory_click: CMakeFiles/Valid_trajectory_click.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Valid_trajectory_click"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Valid_trajectory_click"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Valid_trajectory_click.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -376,6 +376,6 @@ CMakeFiles/Valid_trajectory_click.dir/clean:
 .PHONY : CMakeFiles/Valid_trajectory_click.dir/clean
 
 CMakeFiles/Valid_trajectory_click.dir/depend:
-	cd /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory /home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles/Valid_trajectory_click.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory" "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles/Valid_trajectory_click.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/Valid_trajectory_click.dir/depend
 

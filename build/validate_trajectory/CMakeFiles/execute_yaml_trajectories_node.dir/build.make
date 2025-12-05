@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory
+CMAKE_SOURCE_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory
+CMAKE_BINARY_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/execute_yaml_trajectories_node.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/execute_yaml_trajectories_node.dir/progress.make
 include CMakeFiles/execute_yaml_trajectories_node.dir/flags.make
 
 CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o: CMakeFiles/execute_yaml_trajectories_node.dir/flags.make
-CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o: /home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp
+CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o: /home/nicola/Desktop/New\ Folder/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp
 CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o: CMakeFiles/execute_yaml_trajectories_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o -MF CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o.d -o CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o -c /home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o -MF CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o.d -o CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o -c "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp"
 
 CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp > CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp" > CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.i
 
 CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp -o CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp" -o CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.s
 
 # Object files for target execute_yaml_trajectories_node
 execute_yaml_trajectories_node_OBJECTS = \
@@ -372,7 +372,7 @@ execute_yaml_trajectories_node: /opt/ros/jazzy/lib/librcpputils.so
 execute_yaml_trajectories_node: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 execute_yaml_trajectories_node: /opt/ros/jazzy/lib/librcutils.so
 execute_yaml_trajectories_node: CMakeFiles/execute_yaml_trajectories_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable execute_yaml_trajectories_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable execute_yaml_trajectories_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/execute_yaml_trajectories_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -384,6 +384,6 @@ CMakeFiles/execute_yaml_trajectories_node.dir/clean:
 .PHONY : CMakeFiles/execute_yaml_trajectories_node.dir/clean
 
 CMakeFiles/execute_yaml_trajectories_node.dir/depend:
-	cd /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory /home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles/execute_yaml_trajectories_node.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory" "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles/execute_yaml_trajectories_node.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/execute_yaml_trajectories_node.dir/depend
 

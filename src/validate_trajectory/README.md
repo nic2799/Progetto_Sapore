@@ -40,7 +40,7 @@ Add->By display typp
 
 
 ## ExecuteYamlTrajectories.cpp
-Questo nodo consente di eseguire movimenti del manipolatore in modalità offline, ovvero dopo aver pianificato le traiettorie nel package robot_skills e averle salvate nei file PickPouring.yaml (per il braccio destro) e PickPouringLeft.yaml (per il braccio sinistro).
+Questo nodo consente di eseguire movimenti del manipolatore in modalità offline, ovvero dopo aver pianificato le traiettorie nel package robot_skills e averle salvate nei file PickPouringRight.yaml (per il braccio destro) e PickPouringLeft.yaml (per il braccio sinistro).
 
 Il nodo carica la traiettoria desiderata e la esegue tramite l’azione follow_joint_trajectory.
 

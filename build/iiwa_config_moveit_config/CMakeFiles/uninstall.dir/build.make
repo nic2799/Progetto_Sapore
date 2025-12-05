@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/Desktop/Progetto_Sapore/src/iiwa_config_moveit_config
+CMAKE_SOURCE_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/iiwa_config_moveit_config"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/iiwa_config_moveit_config
+CMAKE_BINARY_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/iiwa_config_moveit_config"
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/nicola/Desktop/Progetto_Sapore/build/iiwa_config_moveit_config && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/Desktop/Progetto_Sapore/src/iiwa_config_moveit_config /home/nicola/Desktop/Progetto_Sapore/src/iiwa_config_moveit_config /home/nicola/Desktop/Progetto_Sapore/build/iiwa_config_moveit_config /home/nicola/Desktop/Progetto_Sapore/build/iiwa_config_moveit_config /home/nicola/Desktop/Progetto_Sapore/build/iiwa_config_moveit_config/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/iiwa_config_moveit_config" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/iiwa_config_moveit_config" "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/iiwa_config_moveit_config" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/iiwa_config_moveit_config" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/iiwa_config_moveit_config" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/iiwa_config_moveit_config/CMakeFiles/uninstall.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

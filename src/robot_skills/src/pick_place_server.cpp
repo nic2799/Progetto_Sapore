@@ -41,7 +41,7 @@ public:
     }
 
 private:
-    int plan_counter_ = 6;
+    int plan_counter_ = 6;//ID del plan da salvare
     std::string plans_output_file_;
     std::string hand;
     std::string base_frame_; 
@@ -100,7 +100,7 @@ private:
         moveit_helper_->executePlan(plan);
         
         geometry_msgs::msg::PoseStamped log_pose;
-        log_pose.header.frame_id = base_frame_; // Uso frame corretto
+        log_pose.header.frame_id = base_frame_; 
         log_pose.header.stamp = this->now();
         log_pose.pose = pre_approach_pose;
         SaveYaml::savePlanToYAML(plan, log_pose, "approach", plan_counter_, plans_output_file_, 0.0);
@@ -112,7 +112,7 @@ private:
         
         moveit_msgs::msg::RobotTrajectory trajectory;
         double fraction = moveit_helper_->computeCartesianPath({grasp_pose}, trajectory);
-        if (fraction < 0.20) return false;
+        if (fraction < 0.60) return false;
         
         moveit::planning_interface::MoveGroupInterface::Plan cartesian_plan;
         cartesian_plan.trajectory = trajectory;
@@ -134,7 +134,7 @@ private:
         geometry_msgs::msg::Pose retract_pose = grasp_pose;
         retract_pose.position.x -= 0.15;
         fraction = moveit_helper_->computeCartesianPath({retract_pose}, trajectory);
-        if (fraction < 0.20) { moveit_helper_->detachObject(object_id); return false; }
+        if (fraction < 0.60) { moveit_helper_->detachObject(object_id); return false; }
         
         cartesian_plan.trajectory = trajectory;
         moveit_helper_->executePlan(cartesian_plan);
@@ -223,6 +223,13 @@ private:
 
         log_pose.pose = PlacePose;
         SaveYaml::savePlanToYAML(place_plan, log_pose, "place", plan_counter_, plans_output_file_, 0.0);
+
+        // Apri mano
+        moveit::planning_interface::MoveGroupInterface::Plan hand_open_plan;
+        if (hand_helper_->planToNamedTarget("aperta", hand_open_plan)) {
+            hand_helper_->executePlan(hand_open_plan);
+        }
+        moveit_helper_->detachObject(object_id);
 
         RCLCPP_INFO(this->get_logger(), " Pick&Place completato!");
         return true;

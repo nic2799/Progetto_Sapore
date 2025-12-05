@@ -1,6 +1,0 @@
-/usr/bin/ld: CMakeFiles/Reac_marker.dir/src/Reachability_interactive.cpp.o: in function `ReachabilityIKNode::testReachability(geometry_msgs::msg::PoseStamped_<std::allocator<void> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
-Reachability_interactive.cpp:(.text._ZN18ReachabilityIKNode16testReachabilityERKN13geometry_msgs3msg12PoseStamped_ISaIvEEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN18ReachabilityIKNode16testReachabilityERKN13geometry_msgs3msg12PoseStamped_ISaIvEEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x11c1): undefined reference to `void tf2::fromMsg<geometry_msgs::msg::Quaternion_<std::allocator<void> >, tf2::Quaternion>(geometry_msgs::msg::Quaternion_<std::allocator<void> > const&, tf2::Quaternion&)'
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/Reac_marker.dir/build.make:376: Reac_marker] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/Reac_marker.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

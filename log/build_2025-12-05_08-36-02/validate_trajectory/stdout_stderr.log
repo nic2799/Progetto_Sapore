@@ -1,0 +1,40 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Valid_trajectory_click.dir/src/Valid_trajectory_click.cpp.o[0m
+In file included from [01m[K/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory/src/Valid_trajectory_click.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory/src/Valid_trajectory_click.cpp:3[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/robot_state.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory/src/Valid_trajectory_click.cpp:4[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/robot_state/conversions.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[ 75%] [32m[1mLinking CXX executable execute_yaml_trajectories_node[0m
+[ 75%] Built target execute_yaml_trajectories_node
+[100%] [32m[1mLinking CXX executable Valid_trajectory_click[0m
+[100%] Built target Valid_trajectory_click
+-- Install configuration: ""
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/lib/validate_trajectory/Valid_trajectory_click
+-- Set non-toolchain portion of runtime path of "/home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/lib/validate_trajectory/Valid_trajectory_click" to ""
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/lib/validate_trajectory/execute_yaml_trajectories_node
+-- Set non-toolchain portion of runtime path of "/home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/lib/validate_trajectory/execute_yaml_trajectories_node" to ""
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/launch
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/launch/validate_click.launch.py
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/ament_index/resource_index/package_run_dependencies/validate_trajectory
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/ament_index/resource_index/parent_prefix_path/validate_trajectory
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/ament_prefix_path.sh
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/ament_prefix_path.dsv
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/path.sh
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/environment/path.dsv
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.bash
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.sh
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.zsh
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/local_setup.dsv
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/package.dsv
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/ament_index/resource_index/packages/validate_trajectory
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/cmake/validate_trajectoryConfig.cmake
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/cmake/validate_trajectoryConfig-version.cmake
+-- Installing: /home/nicola/Desktop/New Folder/Progetto_Sapore/install/validate_trajectory/share/validate_trajectory/package.xml

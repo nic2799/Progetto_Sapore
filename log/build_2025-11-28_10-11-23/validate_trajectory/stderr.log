@@ -1,8 +1,0 @@
-[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:[m[K In member function ‘[01m[Kbool ExecuteYamlTrajectoriesNode::[01;32m[KloadTrajectoriesFromYAML[m[K(const std::string&, std::vector<PlanInfo>&)[m[K’:
-[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:213:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kyaml_file[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-  213 |     bool loadTrajectoriesFromYAML([01;35m[Kconst std::string& yaml_file[m[K, std::vector<PlanInfo>& plans) {
-      |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
-[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:213:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kplans[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-  213 | sFromYAML(const std::string& yaml_file, [01;35m[Kstd::vector<PlanInfo>& plans[m[K) {
-      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
-

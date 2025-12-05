@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/Desktop/Progetto_Sapore/src/robot_skills
+CMAKE_SOURCE_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/robot_skills
+CMAKE_BINARY_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills"
 
 # Utility rule file for robot_skills_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/robot_skills_uninstall.dir/compiler_depend.make
 include CMakeFiles/robot_skills_uninstall.dir/progress.make
 
 CMakeFiles/robot_skills_uninstall:
-	/usr/bin/cmake -P /home/nicola/Desktop/Progetto_Sapore/build/robot_skills/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/nicola/Desktop/New\ Folder/Progetto_Sapore/build/robot_skills/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 robot_skills_uninstall: CMakeFiles/robot_skills_uninstall
 robot_skills_uninstall: CMakeFiles/robot_skills_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/robot_skills_uninstall.dir/clean:
 .PHONY : CMakeFiles/robot_skills_uninstall.dir/clean
 
 CMakeFiles/robot_skills_uninstall.dir/depend:
-	cd /home/nicola/Desktop/Progetto_Sapore/build/robot_skills && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/Desktop/Progetto_Sapore/src/robot_skills /home/nicola/Desktop/Progetto_Sapore/src/robot_skills /home/nicola/Desktop/Progetto_Sapore/build/robot_skills /home/nicola/Desktop/Progetto_Sapore/build/robot_skills /home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles/robot_skills_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills" "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles/robot_skills_uninstall.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/robot_skills_uninstall.dir/depend
 

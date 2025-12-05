@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/Desktop/Progetto_Sapore/src/robot_skills
+CMAKE_SOURCE_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/robot_skills
+CMAKE_BINARY_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -87,14 +87,14 @@ clean: CMakeFiles/pick_place_server.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/robot_skills_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -113,14 +113,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/robot_skills_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_skills_uninstall.dir/build.make CMakeFiles/robot_skills_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_skills_uninstall.dir/build.make CMakeFiles/robot_skills_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles --progress-num= "Built target robot_skills_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" --progress-num= "Built target robot_skills_uninstall"
 .PHONY : CMakeFiles/robot_skills_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/robot_skills_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/robot_skills_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" 0
 .PHONY : CMakeFiles/robot_skills_uninstall.dir/rule
 
 # Convenience name for target.
@@ -139,14 +139,14 @@ CMakeFiles/robot_skills_uninstall.dir/clean:
 CMakeFiles/SaveYaml.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SaveYaml.dir/build.make CMakeFiles/SaveYaml.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SaveYaml.dir/build.make CMakeFiles/SaveYaml.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles --progress-num=3,4 "Built target SaveYaml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" --progress-num=3,4 "Built target SaveYaml"
 .PHONY : CMakeFiles/SaveYaml.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SaveYaml.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SaveYaml.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" 0
 .PHONY : CMakeFiles/SaveYaml.dir/rule
 
 # Convenience name for target.
@@ -165,14 +165,14 @@ CMakeFiles/SaveYaml.dir/clean:
 CMakeFiles/MoveitHelper.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoveitHelper.dir/build.make CMakeFiles/MoveitHelper.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MoveitHelper.dir/build.make CMakeFiles/MoveitHelper.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles --progress-num=1,2 "Built target MoveitHelper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" --progress-num=1,2 "Built target MoveitHelper"
 .PHONY : CMakeFiles/MoveitHelper.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MoveitHelper.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MoveitHelper.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" 0
 .PHONY : CMakeFiles/MoveitHelper.dir/rule
 
 # Convenience name for target.
@@ -192,14 +192,14 @@ CMakeFiles/pick_place_server.dir/all: CMakeFiles/SaveYaml.dir/all
 CMakeFiles/pick_place_server.dir/all: CMakeFiles/MoveitHelper.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place_server.dir/build.make CMakeFiles/pick_place_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pick_place_server.dir/build.make CMakeFiles/pick_place_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles --progress-num=5,6 "Built target pick_place_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" --progress-num=5,6 "Built target pick_place_server"
 .PHONY : CMakeFiles/pick_place_server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pick_place_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pick_place_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" 0
 .PHONY : CMakeFiles/pick_place_server.dir/rule
 
 # Convenience name for target.

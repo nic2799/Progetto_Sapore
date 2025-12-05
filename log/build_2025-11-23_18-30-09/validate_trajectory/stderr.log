@@ -1,7 +1,0 @@
-[01m[K/home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory/src/ExecuteYamlTrajectoriesNode.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kcontrol_msgs/action/follow_joint_trajectory.hpp: No such file or directory
-    7 | #include [01;31m[K<control_msgs/action/follow_joint_trajectory.hpp>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/execute_yaml_trajectories_node.dir/build.make:76: CMakeFiles/execute_yaml_trajectories_node.dir/src/ExecuteYamlTrajectoriesNode.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/execute_yaml_trajectories_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

@@ -1,4 +1,0 @@
-In file included from [01m[K/home/nicola/Desktop/Progetto_Sapore/src/nodes/src/test_reach.cpp:9[m[K:
-[01m[K/opt/ros/jazzy/include/moveit_ros_planning/moveit/planning_scene_monitor/planning_scene_monitor.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
-   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
-      |                                                                             [01;36m[K^[m[K

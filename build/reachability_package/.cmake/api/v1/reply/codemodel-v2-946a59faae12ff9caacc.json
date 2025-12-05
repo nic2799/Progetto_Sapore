@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b0f16c11c646a4282c1f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "reachability_package",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Reac_marker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Reac_marker-a0c0a2ef7d513f3342cf.json",
+					"name" : "Reac_marker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Reach::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Reach-d0597e648548095da9d6.json",
+					"name" : "Reach",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interactive_reach::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interactive_reach-771dd80aa4026595961a.json",
+					"name" : "interactive_reach",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "reachability_package_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-reachability_package_uninstall-a09df637334f49357b30.json",
+					"name" : "reachability_package_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-06fdf3e7af7cd298a8da.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/reachability_package",
+		"source" : "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/reachability_package"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

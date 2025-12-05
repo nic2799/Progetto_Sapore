@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/Desktop/Progetto_Sapore/src/robot_skills
+CMAKE_SOURCE_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/robot_skills
+CMAKE_BINARY_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SaveYaml.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/SaveYaml.dir/progress.make
 include CMakeFiles/SaveYaml.dir/flags.make
 
 CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o: CMakeFiles/SaveYaml.dir/flags.make
-CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o: /home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp
+CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o: /home/nicola/Desktop/New\ Folder/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp
 CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o: CMakeFiles/SaveYaml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o -MF CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o.d -o CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o -c /home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o -MF CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o.d -o CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o -c "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp"
 
 CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp > CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp" > CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.i
 
 CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp -o CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills/src/SaveYaml.cpp" -o CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.s
 
 # Object files for target SaveYaml
 SaveYaml_OBJECTS = \
@@ -93,7 +93,7 @@ SaveYaml_EXTERNAL_OBJECTS =
 libSaveYaml.a: CMakeFiles/SaveYaml.dir/src/SaveYaml.cpp.o
 libSaveYaml.a: CMakeFiles/SaveYaml.dir/build.make
 libSaveYaml.a: CMakeFiles/SaveYaml.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libSaveYaml.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libSaveYaml.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/SaveYaml.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SaveYaml.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/SaveYaml.dir/clean:
 .PHONY : CMakeFiles/SaveYaml.dir/clean
 
 CMakeFiles/SaveYaml.dir/depend:
-	cd /home/nicola/Desktop/Progetto_Sapore/build/robot_skills && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/Desktop/Progetto_Sapore/src/robot_skills /home/nicola/Desktop/Progetto_Sapore/src/robot_skills /home/nicola/Desktop/Progetto_Sapore/build/robot_skills /home/nicola/Desktop/Progetto_Sapore/build/robot_skills /home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles/SaveYaml.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills" "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles/SaveYaml.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/SaveYaml.dir/depend
 

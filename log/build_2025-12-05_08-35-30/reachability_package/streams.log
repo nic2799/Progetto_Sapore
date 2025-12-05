@@ -1,0 +1,46 @@
+[0.014s] Invoking command in '/home/nicola/Desktop/New Folder/Progetto_Sapore/build/reachability_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nicola/Desktop/New Folder/Progetto_Sapore/src/reachability_package -DCMAKE_INSTALL_PREFIX=/home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package
+[0.080s] -- The C compiler identification is GNU 13.3.0
+[0.501s] -- The CXX compiler identification is GNU 13.3.0
+[0.518s] -- Detecting C compiler ABI info
+[0.606s] -- Detecting C compiler ABI info - done
+[0.614s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.615s] -- Detecting C compile features
+[0.615s] -- Detecting C compile features - done
+[0.625s] -- Detecting CXX compiler ABI info
+[0.725s] -- Detecting CXX compiler ABI info - done
+[0.734s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.734s] -- Detecting CXX compile features
+[0.734s] -- Detecting CXX compile features - done
+[0.742s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.871s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.981s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.027s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.042s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.058s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.076s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.155s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.158s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.245s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.264s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.287s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.361s] -- Found rclcpp_action: 28.1.11 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.408s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.477s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[1.478s]   By not providing "Findinterfaces.cmake" in CMAKE_MODULE_PATH this project
+[1.478s]   has asked CMake to find a package configuration file provided by
+[1.478s]   "interfaces", but CMake did not find one.
+[1.478s] 
+[1.478s]   Could not find a package configuration file provided by "interfaces" with
+[1.478s]   any of the following names:
+[1.478s] 
+[1.478s]     interfacesConfig.cmake
+[1.478s]     interfaces-config.cmake
+[1.478s] 
+[1.478s]   Add the installation prefix of "interfaces" to CMAKE_PREFIX_PATH or set
+[1.478s]   "interfaces_DIR" to a directory containing one of the above files.  If
+[1.478s]   "interfaces" provides a separate development package or SDK, be sure it has
+[1.478s]   been installed.
+[1.478s] 
+[1.479s] [0m
+[1.479s] -- Configuring incomplete, errors occurred!
+[1.486s] Invoked command in '/home/nicola/Desktop/New Folder/Progetto_Sapore/build/reachability_package' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nicola/Desktop/New Folder/Progetto_Sapore/src/reachability_package -DCMAKE_INSTALL_PREFIX=/home/nicola/Desktop/New Folder/Progetto_Sapore/install/reachability_package

@@ -21,7 +21,7 @@ void savePlanToYAML(const moveit::planning_interface::MoveGroupInterface::Plan& 
         try {
             root = YAML::LoadFile(plans_output_file_);
         } catch (const YAML::ParserException& e) {
-            std::cerr << "Errore parsing YAML: " << e.what() << ". Creo nuovo root." << std::endl;
+            std::cerr << "Errore parsing YAML:  Creo nuovo root." << std::endl;
             root = YAML::Node(); 
         }
     }
@@ -61,9 +61,7 @@ void savePlanToYAML(const moveit::planning_interface::MoveGroupInterface::Plan& 
         current_plan["trajectories"] = YAML::Node(YAML::NodeType::Sequence);
     }
 
-    // ==========================================
     // 3. COSTRUZIONE DEL NUOVO NODO TRAIETTORIA
-    // ==========================================
     YAML::Node new_traj;
     new_traj["name"] = plan_name;
     const auto& traj = plan.trajectory.joint_trajectory;
@@ -90,9 +88,7 @@ void savePlanToYAML(const moveit::planning_interface::MoveGroupInterface::Plan& 
         new_traj["points"].push_back(wp);
     }
 
-    // ==========================================
     // 4. SOVRASCRITTURA O AGGIUNTA (FIX)
-    // ==========================================
     YAML::Node trajectories = current_plan["trajectories"];
     bool overwritten = false;
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/Desktop/Progetto_Sapore/src/build_scene_package
+CMAKE_SOURCE_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/build_scene_package"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package
+CMAKE_BINARY_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/build_scene_package"
 
 # Utility rule file for build_scene_package_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/build_scene_package_uninstall.dir/compiler_depend.make
 include CMakeFiles/build_scene_package_uninstall.dir/progress.make
 
 CMakeFiles/build_scene_package_uninstall:
-	/usr/bin/cmake -P /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/nicola/Desktop/New\ Folder/Progetto_Sapore/build/build_scene_package/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 build_scene_package_uninstall: CMakeFiles/build_scene_package_uninstall
 build_scene_package_uninstall: CMakeFiles/build_scene_package_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/build_scene_package_uninstall.dir/clean:
 .PHONY : CMakeFiles/build_scene_package_uninstall.dir/clean
 
 CMakeFiles/build_scene_package_uninstall.dir/depend:
-	cd /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/Desktop/Progetto_Sapore/src/build_scene_package /home/nicola/Desktop/Progetto_Sapore/src/build_scene_package /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package /home/nicola/Desktop/Progetto_Sapore/build/build_scene_package/CMakeFiles/build_scene_package_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/build_scene_package" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/build_scene_package" "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/build_scene_package" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/build_scene_package" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/build_scene_package" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/build_scene_package/CMakeFiles/build_scene_package_uninstall.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/build_scene_package_uninstall.dir/depend
 

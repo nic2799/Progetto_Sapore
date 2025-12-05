@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/Desktop/Progetto_Sapore/src/robot_skills
+CMAKE_SOURCE_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/robot_skills
+CMAKE_BINARY_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MoveitHelper.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/MoveitHelper.dir/progress.make
 include CMakeFiles/MoveitHelper.dir/flags.make
 
 CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.o: CMakeFiles/MoveitHelper.dir/flags.make
-CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.o: /home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/MoveitHelper.cpp
+CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.o: /home/nicola/Desktop/New\ Folder/Progetto_Sapore/src/robot_skills/src/MoveitHelper.cpp
 CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.o: CMakeFiles/MoveitHelper.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.o -MF CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.o.d -o CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.o -c /home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/MoveitHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.o -MF CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.o.d -o CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.o -c "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills/src/MoveitHelper.cpp"
 
 CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/MoveitHelper.cpp > CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills/src/MoveitHelper.cpp" > CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.i
 
 CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nicola/Desktop/Progetto_Sapore/src/robot_skills/src/MoveitHelper.cpp -o CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills/src/MoveitHelper.cpp" -o CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.s
 
 # Object files for target MoveitHelper
 MoveitHelper_OBJECTS = \
@@ -93,7 +93,7 @@ MoveitHelper_EXTERNAL_OBJECTS =
 libMoveitHelper.a: CMakeFiles/MoveitHelper.dir/src/MoveitHelper.cpp.o
 libMoveitHelper.a: CMakeFiles/MoveitHelper.dir/build.make
 libMoveitHelper.a: CMakeFiles/MoveitHelper.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libMoveitHelper.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libMoveitHelper.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/MoveitHelper.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MoveitHelper.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/MoveitHelper.dir/clean:
 .PHONY : CMakeFiles/MoveitHelper.dir/clean
 
 CMakeFiles/MoveitHelper.dir/depend:
-	cd /home/nicola/Desktop/Progetto_Sapore/build/robot_skills && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/Desktop/Progetto_Sapore/src/robot_skills /home/nicola/Desktop/Progetto_Sapore/src/robot_skills /home/nicola/Desktop/Progetto_Sapore/build/robot_skills /home/nicola/Desktop/Progetto_Sapore/build/robot_skills /home/nicola/Desktop/Progetto_Sapore/build/robot_skills/CMakeFiles/MoveitHelper.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills" "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/robot_skills" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/robot_skills/CMakeFiles/MoveitHelper.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/MoveitHelper.dir/depend
 

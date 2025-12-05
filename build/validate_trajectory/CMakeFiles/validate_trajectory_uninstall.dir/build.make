@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory
+CMAKE_SOURCE_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory
+CMAKE_BINARY_DIR = "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory"
 
 # Utility rule file for validate_trajectory_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/validate_trajectory_uninstall.dir/compiler_depend.make
 include CMakeFiles/validate_trajectory_uninstall.dir/progress.make
 
 CMakeFiles/validate_trajectory_uninstall:
-	/usr/bin/cmake -P /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/nicola/Desktop/New\ Folder/Progetto_Sapore/build/validate_trajectory/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 validate_trajectory_uninstall: CMakeFiles/validate_trajectory_uninstall
 validate_trajectory_uninstall: CMakeFiles/validate_trajectory_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/validate_trajectory_uninstall.dir/clean:
 .PHONY : CMakeFiles/validate_trajectory_uninstall.dir/clean
 
 CMakeFiles/validate_trajectory_uninstall.dir/depend:
-	cd /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory /home/nicola/Desktop/Progetto_Sapore/src/validate_trajectory /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory /home/nicola/Desktop/Progetto_Sapore/build/validate_trajectory/CMakeFiles/validate_trajectory_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory" "/home/nicola/Desktop/New Folder/Progetto_Sapore/src/validate_trajectory" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory" "/home/nicola/Desktop/New Folder/Progetto_Sapore/build/validate_trajectory/CMakeFiles/validate_trajectory_uninstall.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/validate_trajectory_uninstall.dir/depend
 
